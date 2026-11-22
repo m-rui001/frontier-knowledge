@@ -1,0 +1,11 @@
+TITLE: Definition of the IEA Wind 22-Megawatt Offshore Reference Wind Turbine
+VENUE: OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information) (2024)
+TYPE: article
+CITED: 237
+AUTHORS: Frederik Zahle, Thanasis Barlas, Kenneth Loenbaek, Pietro Bortolotti, Daniel Zalkind, Wang, Lu, Casper J. J. Labuschagne, Latha Sethuraman
+URL: https://doi.org/10.11581/dtu.00000317
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+This technical report describes the design of a new 22 Megawatt reference wind turbine (RWT). The turbine model was designed collaboratively by two teams at the Denmark Technical University and at the National Renewable Energy Laboratory within the International Energy Agency (IEA) Wind Technology Commercialization Programme (TCP) Task 55 on Reference Wind Turbines and Farms. RWTs serve an important purpose in the wind energy community, since they provide openly available data for models representative of current wind turbine technology, which can be used by practitioners for a variety of modeling purposes, ranging from aerodynamic, structural, and aeroelastic turbine modeling to wind farm flow modeling, across a range of fidelities. The IEA 22 RWT aims to model machines with projected installation in the 2025-2030 time frame. The turbine has a rotor diameter of 284 meters and a hub height of 170 meters. It is a class 1-B machine with a rotor specific power nearing 350 W m-2 and it is mounted on either a fixed-bottom offshore foundation or a semi-submersible floating platform.

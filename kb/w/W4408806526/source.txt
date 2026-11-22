@@ -1,0 +1,11 @@
+TITLE: PROBAST+AI: an updated quality, risk of bias, and applicability assessment tool for prediction models using regression or artificial intelligence methods
+VENUE: BMJ (2025)
+TYPE: article
+CITED: 1749
+AUTHORS: Karel G.M. Moons, Johanna AAG Damen, Tabea Kaul, Lotty Hooft, Constanza L. Andaur Navarro, Paula Dhiman, Andrew L. Beam, Ben VAN CALSTER
+URL: https://doi.org/10.1136/bmj-2024-082505
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+The Prediction model Risk Of Bias ASsessment Tool (PROBAST) is used to assess the quality, risk of bias, and applicability of prediction models or algorithms and of prediction model/algorithm studies. Since PROBAST’s introduction in 2019, much progress has been made in the methodology for prediction modelling and in the use of artificial intelligence, including machine learning, techniques. An update to PROBAST-2019 is thus needed. This article describes the development of PROBAST+AI. PROBAST+AI consists of two distinctive parts: model development and model evaluation. For model development, PROBAST+AI users assess quality and applicability using 16 targeted signalling questions. For model evaluation, PROBAST+AI users assess the risk of bias and applicability using 18 targeted signalling questions. Both parts contain four domains: participants and data sources, predictors, outcome, and analysis. Applicability of the prediction model is rated for the participants and data sources, predictors, and outcome domains. PROBAST+AI may replace the original PROBAST tool and allows all key stakeholders (eg, model developers, AI companies, researchers, editors, reviewers, healthcare professionals, guideline developers, and policy organisations) to examine the quality, risk of bias, and applicability of any type of prediction model in the healthcare sector, irrespective of whether regression modelling or AI techniques are used.
