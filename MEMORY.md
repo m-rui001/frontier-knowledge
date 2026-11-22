@@ -261,3 +261,14 @@
 - `W4401535000` 工程备注：①正文里的 ASCII 双引号在 YaHei 下渲染成直引号，按奇偶交替换成 “ ”（本次 62 个）后必须**只作用于 `)[` 之后**，直接全文件替换会把 `#digest(...)` 参数区的引号一起改坏；②`smell.py` 会判掉「真正的闸门」「这件事」「这套东西」，改成「卡得最紧」「负结果不进文献」即可，长破折号 9 处与三连排比 22 次不必强改；③`ratio` 留空待 `tools/ratios.py` 回填（本轮未跑）；**未改 `tools/make_index.py` 的 ORDER（BRIEF 明确「只改自己那一个文件」），INDEX.md 暂不含本篇**；④扩写时先写到 4400 左右再整句回删到 4200 以下，本轮 4409→4272→4226→4204→4194，**四轮全是删「形容词+重复主语」才动得下来**；⑤`pdftoppm -r 55` 渲四张图逐页目视，确认 `#ping` 灰底块完整落在第 4 页、无内容被提前关掉（MEMORY 里 W4401238279 那条教训）。
 
 - `W4401213616` Combating Misinformation in the Age of LLMs（AI Magazine 2024，Chen & Shu，伊利诺伊理工，被引 449，正文 9 页 / 含文献 35 页 / 656 条参考文献）：4003 汉字（正文口径，不含标题栏），4 页（末页约三成，`#ping` 整块在第 4 页）。**目录里原本只有 `source.txt`，从零写；册内首篇「错误信息治理」方向，也是首篇综述体裁。** 全文路子：Wiley 落地页只有 5 KB 壳子，改走 **arXiv `2311.05656` 的 HTML 版**（`curl -sL https://arxiv.org/html/2311.05656v1`，635 KB，剥 script/style 后 278 KB 纯文本留在 `/tmp/full1.txt`，Sections 1–5 与图注全在页内，References 占八成篇幅）。**综述的写法与实验论文不同**：「怎么做的」讲作者的两问框架与三/七/四/五的分类法，「数字与对照」先明说「没有样本、没有基线、没有消融」，然后只给两类数——规模（656 refs / 35 页 / 449 被引）与案例（2023-04 NewsGuard 在 7 种语言里识别 49 个 LLM 驱动新闻站、日产量数百篇标题党；科大讯飞因聊天机器人假消息股价大跌，引 SCMP）。全文唯一硬数字只有 NewsGuard 那 49/7 两个。外部数字按「非本文结论」标注：Weber-Wulff 等 2023 测 14 款 AI 文本检测工具，最高 Turnitin 76%、最低 Content at Scale 33%；OpenAI 2023-07 下线自家分类器；Sadasivan 等的递归改写。**写作要点：这篇的价值在结构而不在结论**——检测七节、干预半节、归因一段（作者明说「还没有任何工作把 LLM 用于错误信息归因」），这个热度分布本身就是诊断；逆火效应被当定论用（Lewandowsky 2012 / Swire-Thompson 2020 / DeVerna 2023 三处，而这条线本身在争论），必须写进「哪里会崩」；全篇无一处讨论平台降流动机，也无一处置化生成成本，这是它最大的空洞，正好留给点评。
+
+## 推送仓库（GitHub）
+
+远程：`https://github.com/m-rui001/frontier-knowledge`（public，MIT）。
+
+- **必须走本机代理**：`git -c http.proxy=http://127.0.0.1:7897 push origin HEAD:master`。git 全局配置里本来就写着这个代理，但我前几次用 `-c http.proxy=` 把它清掉走直连，先成功过五次，之后开始报 `Connection was reset` 与 `Failed to connect ... port 443`，连试五轮全败；换回代理一次就通。
+- 判定是否真的推上去：`git ls-remote origin master` 与本地 `git rev-parse HEAD` 比对，不要只看 `git push` 的返回（有一次输出 `Everything up-to-date` 但远端其实落后一个 commit）。
+- 网络抖动时按单个 commit 推：`git push origin <sha>:master`，比整包推更容易成功。
+- `.gitignore` 排除：`*.pdf`、`corpus/`、`meta/usable.json`、`kb/w/*/full.*`、`kb/w/*/*.html|xml`、`kb/preview/`、`kb/_*.png`、`.pi/`、`.tmpchk/`。
+- 坑：抓取脚本会在目录里生成名为 `nul` 的文件，Windows 保留名，`git add -A` 会直接 fatal（`short read while indexing nul`），`del \?\...
+ul` 也删不掉。已在 `.gitignore` 里写一行 `nul` 绕开。
