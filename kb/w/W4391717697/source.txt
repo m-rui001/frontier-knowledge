@@ -1,0 +1,11 @@
+TITLE: The Allen Ancient DNA Resource (AADR) a curated compendium of ancient human genomes
+VENUE: Scientific Data (2024)
+TYPE: data-paper
+CITED: 516
+AUTHORS: Swapan Mallick, Adam Micco, Matthew Mah, Harald Ringbauer, Iosif Lazaridis, Íñigo Olalde, Nick J. Patterson, David Reich
+URL: https://doi.org/10.1038/s41597-024-03031-7
+PAGES: 1
+
+ABSTRACT:
+============================================================
+More than two hundred papers have reported genome-wide data from ancient humans. While the raw data for the vast majority are fully publicly available testifying to the commitment of the paleogenomics community to open data, formats for both raw data and meta-data differ. There is thus a need for uniform curation and a centralized, version-controlled compendium that researchers can download, analyze, and reference. Since 2019, we have been maintaining the Allen Ancient DNA Resource (AADR), which aims to provide an up-to-date, curated version of the world's published ancient human DNA data, represented at more than a million single nucleotide polymorphisms (SNPs) at which almost all ancient individuals have been assayed. The AADR has gone through six public releases at the time of writing and review of this manuscript, and crossed the threshold of >10,000 individuals with published genome-wide ancient DNA data at the end of 2022. This note is intended as a citable descriptor of the AADR.
