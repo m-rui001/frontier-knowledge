@@ -1,0 +1,11 @@
+TITLE: Continuous operation of a coherent 3,000-qubit system
+VENUE: Nature (2025)
+TYPE: article
+CITED: 208
+AUTHORS: N.-C. Chiu, Elias C. Trapp, Jinen Guo, M. H. Abobeih, Luke M. Stewart, Simon Hollerith, P. Stroganov, Marcin Kalinowski
+URL: https://doi.org/10.1038/s41586-025-09596-6
+PAGES: 6
+
+ABSTRACT:
+============================================================
+Neutral atoms are a promising platform for quantum science, enabling advances in areas ranging from quantum simulations 1−3 and computation 4−10 to metrology, atomic clocks 11−13 and quantum networking 14−16 . While atom losses typically limit these systems to a pulsed mode, continuous operation 17−22 could significantly enhance cycle rates, remove bottlenecks in metrology 23 , and enable deep-circuit quantum evolution through quantum error correction 24,25 . Here we demonstrate an experimental architecture for high-rate reloading and continuous operation of a large-scale atom array system while realizing coherent storage and manipulation of quantum information. Our approach utilizes a series of two optical lattice conveyor belts to transport atom reservoirs into the science region, where atoms are repeatedly extracted into optical tweezers without affecting the coherence of qubits stored nearby. Using a reloading rate of 300,000 atoms in tweezers per second, we create over 30,000 initialized qubits per second, which we leverage to assemble and maintain an array of over 3,000 atoms for more than two hours. Furthermore, we demonstrate persistent refilling of the array with atomic qubits in either a spin-polarized or a coherent superposition state while preserving the quantum state of stored qubits. Our results pave the way for realization of large-scale continuously operated atomic clocks, sensors, and fault-tolerant quantum computers.
