@@ -1,0 +1,11 @@
+TITLE: Monetary Policy and Heterogeneity: An Analytical Framework
+VENUE: The Review of Economic Studies (2024)
+TYPE: article
+CITED: 252
+AUTHORS: Florin Ovidiu Bilbiie
+URL: https://doi.org/10.1093/restud/rdae066
+PAGES: 39
+
+ABSTRACT:
+============================================================
+THANK is a tractable heterogeneous-agent New-Keynesian model that captures analytically core micro-heterogeneity channels of quantitative-HANK: cyclical inequality and risk; self-insurance, precautionary saving, and realistic intertemporal marginal propensities to consume. I use it to elucidate key transmission mechanisms and dynamic properties of HANK models. Countercyclical inequality yields aggregate-demand amplification and makes determinacy with Taylor rules more stringent; but solving the forward guidance puzzle requires procyclical inequality: a Catch-22. Solutions include combining inequality with a distinct risk channel, with compensating cyclicalities; I provide evidence that disposable income inequality was procyclical in the last two, Great and COVID recessions, while risk is countercyclical. Alternative policy rules also solve the Catch-22, e.g. price-level-targeting or, in the model version with liquidity, setting nominal public debt. Optimal policy with heterogeneity features a novel inequality-stabilization motive generating higher inflation volatility—but is unaffected by risk, insofar as the target efficient equilibrium entails no inequality.

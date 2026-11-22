@@ -1,0 +1,11 @@
+TITLE: Plasma MTBR-tau243 biomarker identifies tau tangle pathology in Alzheimer’s disease
+VENUE: Nature Medicine (2025)
+TYPE: article
+CITED: 182
+AUTHORS: Kanta Horie, Gemma Salvadó, Rama K. Koppisetti, Shorena Janelidze, Nicolas R. Barthélemy, Yingxin He, Chihiro Sato, Brian Andrew Gordon
+URL: https://doi.org/10.1038/s41591-025-03617-7
+PAGES: 10
+
+ABSTRACT:
+============================================================
+Insoluble tau aggregates within neurofibrillary tangles are a defining neuropathological feature of Alzheimer’s disease (AD) and closely correlate with clinical symptoms. Although tau pathology can be assessed using tau positron emission tomography, a more accessible biomarker is needed for diagnosis, prognosis and tracking treatment effects. Here we present a new plasma tau species, the endogenously cleaved, microtubule-binding region containing residue 243 (eMTBR-tau243), which specifically reflects tau tangle pathology. Across the AD spectrum in three different cohorts (n = 108, 55 and 739), plasma eMTBR-tau243 levels were significantly elevated at the mild cognitive impairment stage and increased further in dementia. Plasma eMTBR-tau243 showed strong associations with tau positron emission tomography binding (β = 0.72, R2 = 0.56) and cognitive performance (β = 0.60, R2 = 0.40), outperforming other plasma tau (%p-tau217 and %p-tau205) biomarkers. These results suggest that plasma eMTBR-tau243 may be useful for estimating the tauopathy load in AD, thereby improving the diagnostic evaluation of AD in clinical practice and monitoring the efficacy of tau-targeted therapies in clinical trials. Plasma eMTBR-tau243 is a specific biomarker of tau tangles in Alzheimer’s disease and enables the detecting and tracking of Alzheimer’s clinical impairment.

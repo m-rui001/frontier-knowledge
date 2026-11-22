@@ -1,0 +1,11 @@
+TITLE: When Tariffs Disrupt Global Supply Chains
+VENUE: American Economic Review (2024)
+TYPE: article
+CITED: 255
+AUTHORS: Gene M. Grossman, Elhanan Helpman, Stephen J. Redding
+URL: https://doi.org/10.1257/aer.20211519
+PAGES: 42
+
+ABSTRACT:
+============================================================
+We study unanticipated tariffs in a setting with firm-to-firm supply relationships. Firms conduct costly searches and negotiate with potential suppliers that pass a reservation level of match productivity. Global supply chains form in anticipation of free trade. Then, the home government surprises with an input tariff. This can lead to renegotiation with initial suppliers or search for replacements. Calibrating the model’s parameters to match initial import shares and the estimated responses to the US tariffs imposed on China, we find an overall welfare loss of 0.12 percent of GDP, with substantial contributions from changes in input sourcing and search costs. (JEL D72, F13, F14, L14, O19, P33)

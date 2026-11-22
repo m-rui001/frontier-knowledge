@@ -1,0 +1,11 @@
+TITLE: Atlas of the plasma proteome in health and disease in 53,026 adults
+VENUE: Cell (2024)
+TYPE: article
+CITED: 390
+AUTHORS: Yue‐Ting Deng, Jia You, Yu He, Yi Zhang, Haiyun Li, Xinrui Wu, Ji-Yun Cheng, Yu Amanda Guo
+URL: https://doi.org/10.1016/j.cell.2024.10.045
+PAGES: 19
+
+ABSTRACT:
+============================================================
+Large-scale proteomics studies can refine our understanding of health and disease and enable precision medicine. Here, we provide a detailed atlas of 2,920 plasma proteins linking to diseases (406 prevalent and 660 incident) and 986 health-related traits in 53,026 individuals (median follow-up: 14.8 years) from the UK Biobank, representing the most comprehensive proteome profiles to date. This atlas revealed 168,100 protein-disease associations and 554,488 protein-trait associations. Over 650 proteins were shared among at least 50 diseases, and over 1,000 showed sex and age heterogeneity. Furthermore, proteins demonstrated promising potential in disease discrimination (area under the curve [AUC] > 0.80 in 183 diseases). Finally, integrating protein quantitative trait locus data determined 474 causal proteins, providing 37 drug-repurposing opportunities and 26 promising targets with favorable safety profiles. These results provide an open-access comprehensive proteome-phenome resource (https://proteome-phenome-atlas.com/) to help elucidate the biological mechanisms of diseases and accelerate the development of disease biomarkers, prediction models, and therapeutic targets.
