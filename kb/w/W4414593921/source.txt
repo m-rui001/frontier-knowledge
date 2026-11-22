@@ -1,0 +1,11 @@
+TITLE: COSMOS-Web: The Overabundance and Physical Nature of “Little Red Dots”—Implications for Early Galaxy and SMBH Assembly
+VENUE: The Astrophysical Journal (2025)
+TYPE: article
+CITED: 406
+AUTHORS: Hollis B. Akins, Caitlin M. Casey, Erini Lambrides, Natalie Allen, I.T Andika, Malte Brinch, Jaclyn B. Champagne, Olivia R. Cooper
+URL: https://doi.org/10.3847/1538-4357/ade984
+PAGES: 1
+
+ABSTRACT:
+============================================================
+JWST has revealed a population of compact and extremely red galaxies at z ≳ 4, which likely host active galactic nuclei (AGNs). We present a sample of 434 “little red dots” (LRDs), selected from the 0.54 deg 2 COSMOS-Web survey. We fit galaxy and AGN spectral energy distribution models to derive redshifts and physical properties; the sample spans z ∼ 5–9 after removing brown dwarf contaminants. As a thought experiment, we consider two extreme physical scenarios: either LRDs are all AGNs, and their continuum emission is dominated by the accretion disk, or they are all compact star-forming galaxies, and their continuum is dominated by stars. If LRDs are AGN-dominated, our sample exhibits bolometric luminosities ∼10 45−47 erg s −1 , spanning the gap between JWST AGNs in the literature and bright, rare quasars. We derive a bolometric luminosity function (LF) ∼ 100 times the (UV-selected) quasar LF, implying a nonevolving black hole accretion density of ∼10 −4 M ⊙ yr −1 Mpc −3 from z ∼ 2–9. By contrast, if LRDs are dominated by star formation, we derive stellar masses ∼10 8.5−10 M ⊙ . MIRI/F770W is key to deriving accurate stellar masses; without it, we derive a mass function inconsistent with Λ cold dark matter. The median stellar mass profile is broadly consistent with the maximal surface densities seen in the nearby Universe, though the most massive objects exceed this limit, requiring substantial AGN contribution to the continuum. Nevertheless, stacking all available X-ray, mid-IR, far-IR/submillimeter, and radio data yields nondetections. Whether dominated by dusty AGNs or compact star-formation, the high masses/luminosities and remarkable abundance of LRDs implies a dominant mode of early galaxy/SMBH growth.

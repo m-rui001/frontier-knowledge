@@ -1,0 +1,11 @@
+TITLE: A foundation model for atomistic materials chemistry
+VENUE: The Journal of Chemical Physics (2025)
+TYPE: article
+CITED: 1320
+AUTHORS: Ilyes Batatia, Philipp Benner, Yuan Chiang, A. M. Elena, Dávid Péter Kovács, Janosh Riebesell, Xavier R. Advincula, Mark Asta
+URL: https://doi.org/10.1063/5.0297006
+PAGES: unknown
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+Atomistic simulations of matter, especially those that leverage first-principles (ab initio) electronic structure theory, provide a microscopic view of the world, underpinning much of our understanding of chemistry and materials science. Over the last decade or so, machine-learned force fields have transformed atomistic modeling by enabling simulations of ab initio quality over unprecedented time and length scales. However, early machine-learning (ML) force fields have largely been limited by (i) the substantial computational and human effort required to develop and validate potentials for each particular system of interest and (ii) a general lack of transferability from one chemical system to the next. Here, we show that it is possible to create a general-purpose atomistic ML model, trained on a public dataset of moderate size, that is capable of running stable molecular dynamics for a wide range of molecules and materials. We demonstrate the power of the MACE-MP-0 model-and its qualitative and at times quantitative accuracy-on a diverse set of problems in the physical sciences, including properties of solids, liquids, gases, chemical reactions, interfaces, and even the dynamics of a small protein. The model can be applied out of the box as a starting or "foundation" model for any atomistic system of interest and, when desired, can be fine-tuned on just a handful of application-specific data points to reach ab initio accuracy. Establishing that a stable force-field model can cover almost all materials changes atomistic modeling in a fundamental way: experienced users obtain reliable results much faster, and beginners face a lower barrier to entry. Foundation models thus represent a step toward democratizing the revolution in atomic-scale modeling that has been brought about by ML force fields.

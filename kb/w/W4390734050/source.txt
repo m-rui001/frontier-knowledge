@@ -1,0 +1,11 @@
+TITLE: Two thousand years of garden urbanism in the Upper Amazon
+VENUE: Science (2024)
+TYPE: article
+CITED: 121
+AUTHORS: Stéphen Rostain, Antoine Dorison, Geoffroy de Saulieu, Heiko Prümers, Jean‐Luc Le Pennec, Fernando Mejía Mejía, Ana Maritza Freire, Jaime Jiménez
+URL: https://doi.org/10.1126/science.adi6317
+PAGES: 7
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+A dense system of pre-Hispanic urban centers has been found in the Upano Valley of Amazonian Ecuador, in the eastern foothills of the Andes. Fieldwork and light detection and ranging (LIDAR) analysis have revealed an anthropized landscape with clusters of monumental platforms, plazas, and streets following a specific pattern intertwined with extensive agricultural drainages and terraces as well as wide straight roads running over great distances. Archaeological excavations date the occupation from around 500 BCE to between 300 and 600 CE. The most notable landscape feature is the complex road system extending over tens of kilometers, connecting the different urban centers, thus creating a regional-scale network. Such extensive early development in the Upper Amazon is comparable to similar Maya urban systems recently highlighted in Mexico and Guatemala.

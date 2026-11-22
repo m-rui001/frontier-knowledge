@@ -1,0 +1,11 @@
+TITLE: Global spatially explicit yield gap time trends reveal regions at risk of future crop yield stagnation
+VENUE: Nature Food (2024)
+TYPE: article
+CITED: 172
+AUTHORS: James Gerber, Deepak K. Ray, David Makowski, Ethan E. Butler, Nathaniel D. Mueller, Paul C West, Justin A. Johnson, Stephen Polasky
+URL: https://doi.org/10.1038/s43016-023-00913-8
+PAGES: 11
+
+ABSTRACT:
+============================================================
+Yield gaps, here defined as the difference between actual and attainable yields, provide a framework for assessing opportunities to increase agricultural productivity. Previous global assessments, centred on a single year, were unable to identify temporal variation. Here we provide a spatially and temporally comprehensive analysis of yield gaps for ten major crops from 1975 to 2010. Yield gaps have widened steadily over most areas for the eight annual crops and remained static for sugar cane and oil palm. We developed a three-category typology to differentiate regions of 'steady growth' in actual and attainable yields, 'stalled floor' where yield is stagnated and 'ceiling pressure' where yield gaps are closing. Over 60% of maize area is experiencing 'steady growth', in contrast to ∼12% for rice. Rice and wheat have 84% and 56% of area, respectively, experiencing 'ceiling pressure'. We show that 'ceiling pressure' correlates with subsequent yield stagnation, signalling risks for multiple countries currently realizing gains from yield growth.

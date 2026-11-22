@@ -1,0 +1,11 @@
+TITLE: Ultrahigh–surface area covalent organic frameworks for methane adsorption
+VENUE: Science (2024)
+TYPE: article
+CITED: 283
+AUTHORS: Ying Yin, Ya Zhang, Xu Zhou, Bo Gui, Wentao Jiang, Wentao Jiang, Yue-Biao Zhang, Junliang Sun
+URL: https://doi.org/10.1126/science.adr0936
+PAGES: 4
+
+ABSTRACT:
+============================================================
+Developing porous materials with ultrahigh surface areas for gas storage (for example, methane) is attractive but challenging. Here, we report two isostructural three-dimensional covalent organic frameworks (COFs) with a rare self-catenated alb -3,6- Ccc 2 topology and a pore size of 1.1 nanometer. Notably, these imine-linked microporous COFs show both high gravimetric Brunauer–Emmett–Teller (BET) surface areas (~4400 square meters per gram) and volumetric BET surface areas (~1900 square meters per cubic centimeter). Moreover, their volumetric methane uptake reaches up to 264 cubic centimeter (standard temperature and pressure) per cubic centimeter [cm 3 (STP) cm −3 ] at 100 bar and 298 kelvin, and they exhibit the highest volumetric working capacity of 237 cm 3 (STP) cm −3 at 5 to 100 bar and 298 kelvin among all reported porous crystalline materials.

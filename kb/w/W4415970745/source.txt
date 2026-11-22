@@ -1,0 +1,11 @@
+TITLE: Homogenized chlorine distribution for >27% power conversion efficiency in perovskite solar cells
+VENUE: Science (2025)
+TYPE: article
+CITED: 580
+AUTHORS: Zhuang Xiong, Qian Zhang, Kai Cai, Haitao Zhou, Qi Song, Zhaoyang Han, Shuaiqing Kang, Yaowen Li
+URL: https://doi.org/10.1126/science.adw8780
+PAGES: 5
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+The spatial heterogeneity of halogen distribution in perovskite thin films represents a critical factor currently limiting both the power conversion efficiency and stability of solar cells. We identified pronounced through-film inhomogeneity in chlorine distribution in formamidinium lead iodide films, with the generally used additive methylammonium chloride. We demonstrated that incorporating alkali metal oxalates could effectively homogenize the chlorine distribution. These compounds underwent thermal dissociation, releasing alkali metal cations that selectively bound chloride ions, which considerably suppressed surface defects and eliminated interfacial barriers. A certified steady-state power conversion efficiency (PCE) of 27.2% (device area and measured mask area: 0.108 square cm and 0.074 square cm, respectively) in perovskite solar cells was achieved, and devices retained 86.3% of their initial PCE after 1529 hours of continuous maximum power point tracking (MPPT) under 1 Sun condition. Moreover, the unpassivated device maintained 82.8% of its original PCE under MPPT at 85°C aging under 1 Sun illumination after 1000 hours.

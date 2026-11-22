@@ -1,0 +1,11 @@
+TITLE: The green hydrogen ambition and implementation gap
+VENUE: Nature Energy (2025)
+TYPE: article
+CITED: 645
+AUTHORS: Adrian Odenweller, Falko Ueckerdt
+URL: https://doi.org/10.1038/s41560-024-01684-7
+PAGES: 14
+
+ABSTRACT:
+============================================================
+Green hydrogen is critical for decarbonizing hard-to-electrify sectors, but it faces high costs and investment risks. Here we define and quantify the green hydrogen ambition and implementation gap, showing that meeting hydrogen expectations will remain challenging despite surging announcements of projects and subsidies. Tracking 190 projects over 3 years, we identify a wide 2023 implementation gap with only 7% of global capacity announcements finished on schedule. In contrast, the 2030 ambition gap towards 1.5 °C scenarios has been gradually closing as the announced project pipeline has nearly tripled to 422 GW within 3 years. However, we estimate that, without carbon pricing, realizing all these projects would require global subsidies of US$1.3 trillion (US$0.8–2.6 trillion range), far exceeding announced subsidies. Given past and future implementation gaps, policymakers must prepare for prolonged green hydrogen scarcity. Policy support needs to secure hydrogen investments, but should focus on applications where hydrogen is indispensable.

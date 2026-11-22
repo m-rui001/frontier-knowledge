@@ -1,0 +1,11 @@
+TITLE: A global overview of marine heatwaves in a changing climate
+VENUE: Communications Earth & Environment (2024)
+TYPE: article
+CITED: 222
+AUTHORS: Antonietta M. Capotondi, Regina R. Rodrigues, Alex Sen Gupta, Jessica A. Benthuysen, Clara Deser, Thomas Lukas Frölicher, Nicole Suzanne Lovenduski, Dillon J. Amaya
+URL: https://doi.org/10.1038/s43247-024-01806-9
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Marine heatwaves have profoundly impacted marine ecosystems over large areas of the world oceans, calling for improved understanding of their dynamics and predictability. Here, we critically review the recent substantial advances in this active area of research, including the exploration of the three-dimensional structure and evolution of these extremes, their drivers, their connection with other extremes in the ocean and over land, future projections, and assessment of their predictability and current prediction skill. To make progress on predicting and projecting marine heatwaves and their impacts, a more complete mechanistic understanding of these extremes over the full ocean depth and at the relevant spatial and temporal scales is needed, together with models that can realistically capture the leading mechanisms at those scales. Sustained observing systems, as well as measuring platforms that can be rapidly deployed, are essential to achieve comprehensive event characterizations while also chronicling the evolving nature of these extremes and their impacts in our changing climate.

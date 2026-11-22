@@ -1,0 +1,11 @@
+TITLE: Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions
+VENUE: ACM Transactions on Software Engineering and Methodology (2026)
+TYPE: article
+CITED: 1013
+AUTHORS: Xinyi Hou, Yanjie Zhao, Shenao Wang, Haoyu Wang
+URL: https://doi.org/10.1145/3796519
+PAGES: 37
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+The Model Context Protocol (MCP) is an emerging open standard that defines a unified, bi-directional communication and dynamic discovery protocol between AI models and external tools or resources, aiming to enhance interoperability and reduce fragmentation across diverse systems. This paper conducts a systematic study of MCP from both architectural and security perspectives. We first define the full lifecycle of an MCP server, comprising four phases (creation, deployment, operation, and maintenance), further decomposed into 16 key activities that capture its functional evolution. Building on this lifecycle analysis, we construct a comprehensive threat taxonomy that categorizes security and privacy risks across four major attacker types: malicious developers, external attackers, malicious users, and security flaws, encompassing 16 distinct threat scenarios. To validate these risks, we develop and analyze real-world case studies that demonstrate concrete attack surfaces and vulnerability manifestations within MCP implementations. Based on these findings, the paper proposes a set of fine-grained, actionable security safeguards tailored to each lifecycle phase and threat category, offering practical guidance for secure MCP adoption. We also analyze the current MCP landscape, covering industry adoption, integration patterns, and supporting tools, to identify its technological strengths as well as existing limitations that constrain broader deployment. Finally, we outline future research and development directions aimed at strengthening MCP’s standardization, trust boundaries, and sustainable growth within the evolving ecosystem of tool-augmented AI systems. All collected data and implementation examples are publicly available at https://github.com/security-pride/MCP_Landscape .

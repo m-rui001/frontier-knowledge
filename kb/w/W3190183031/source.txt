@@ -1,0 +1,11 @@
+TITLE: Reducing linear Hadwiger’s conjecture to coloring small graphs
+VENUE: Journal of the American Mathematical Society (2024)
+TYPE: article
+CITED: 81
+AUTHORS: Michelle Delcourt, Luke Postle
+URL: https://doi.org/10.1090/jams/1047
+PAGES: 27
+
+ABSTRACT:
+============================================================
+In 1943, Hadwiger conjectured that every graph with no K t K_t minor is ( t − 1 ) (t-1) -colorable for every t ≥ 1 t\ge 1 . In the 1980s, Kostochka and Thomason independently proved that every graph with no K t K_t minor has average degree O ( t log ⁡ t ) O(t\sqrt {\log t}) and hence is O ( t log ⁡ t ) O(t\sqrt {\log t}) -colorable. Recently, Norin, Song and the second author showed that every graph with no K t K_t minor is O ( t ( log ⁡ t ) β ) O(t(\log t)^{\beta }) -colorable for every β > 1 / 4 \beta > 1/4 , making the first improvement on the order of magnitude of the O ( t log ⁡ t ) O(t\sqrt {\log t}) bound. The first main result of this paper is that every graph with no

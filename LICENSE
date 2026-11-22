@@ -1,0 +1,30 @@
+MIT License
+
+Copyright (c) 2026 m-rui001
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+关于内容的额外说明（不算在 MIT 条款里的部分）：
+
+1. 仓库里的中文笔记（kb/w/*/summary.typ）由本项目撰写，按上面的 MIT 条款授权。
+2. 每篇目录里的 source.txt 只包含论文的标题、作者、DOI 与摘要，用于溯源，版权归原作者与出版方。
+3. 抓取到的论文全文（full.txt 等）不随仓库分发，被 .gitignore 排除。
+4. 书目元数据来自 OpenAlex（CC0）与 arXiv（按其 API 使用条款）。

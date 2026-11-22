@@ -1,0 +1,11 @@
+TITLE: Eldan's stochastic localization and the KLS conjecture: Isoperimetry, concentration and mixing
+VENUE: Annals of Mathematics (2024)
+TYPE: article
+CITED: 81
+AUTHORS: Yin Tat Lee, Santosh Vempala
+URL: https://doi.org/10.4007/annals.2024.199.3.2
+PAGES: 50
+
+ABSTRACT:
+============================================================
+We analyze the Poincaré and Log-Sobolev constants of logconcave densities in $\mathbb{R}^n$. For the Poincaré constant, we give an improved estimate of $O(\sqrt{n})$ for any isotropic logconcave density. For the Log-Sobolev constant, we prove a bound of $\Omega(1/D)$, where $D$ is the diameter of the support of the density, and show that this is asymptotically the best possible bound, resolving a question posed by Frieze and Kannan in 1997. These bounds have several interesting consequences. Improved bounds on the thin-shell and Cheeger/KLS constants are immediate. The ball walk to sample an isotropic logconcave density in $\mathbb{R}^n$ converges in $O^\ast(n^{2.5})$ steps from a warm start, and the speedy version of the ball walk, studied by Kannan, Lovász and Simonovits mixes in $O^\ast(n^2D)$ proper steps from any start, also a tight bound. As another consequence, we obtain a unified and improved large deviation inequality for the concentration of any $L$-Lipshitz function over an isotropic logconcave density (studied by many), generalizing bounds of Paouris and Guedon-E. Milman. Our proof technique is a development of stochastic localization, first introduced by Eldan.

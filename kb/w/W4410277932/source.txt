@@ -1,0 +1,11 @@
+TITLE: Tirzepatide as Compared with Semaglutide for the Treatment of Obesity
+VENUE: New England Journal of Medicine (2025)
+TYPE: article
+CITED: 806
+AUTHORS: Louis J. Aronne, Deborah Bade Horn, Carel Wynand le Roux, Wayne Ho, Beverly L. Falcón, Elisa Gomez Valderas, Sagar Das, Clare J. Lee
+URL: https://doi.org/10.1056/nejmoa2416394
+PAGES: 11
+
+ABSTRACT:
+============================================================
+BACKGROUND: Tirzepatide and semaglutide are highly effective medications for obesity management. The efficacy and safety of tirzepatide as compared with semaglutide in adults with obesity but without type 2 diabetes is unknown. METHODS: In this phase 3b, open-label, controlled trial, adult participants with obesity but without type 2 diabetes were randomly assigned in a 1:1 ratio to receive the maximum tolerated dose of tirzepatide (10 mg or 15 mg) or the maximum tolerated dose of semaglutide (1.7 mg or 2.4 mg) subcutaneously once weekly for 72 weeks. The primary end point was the percent change in weight from baseline to week 72. Key secondary end points included weight reductions of at least 10%, 15%, 20%, and 25% and a change in waist circumference from baseline to week 72. RESULTS: A total of 751 participants underwent randomization. The least-squares mean percent change in weight at week 72 was -20.2% (95% confidence interval [CI], -21.4 to -19.1) with tirzepatide and -13.7% (95% CI, -14.9 to -12.6) with semaglutide (P<0.001). The least-squares mean change in waist circumference was -18.4 cm (95% CI, -19.6 to -17.2) with tirzepatide and -13.0 cm (95% CI, -14.3 to -11.7) with semaglutide (P<0.001). Participants in the tirzepatide group were more likely than those in the semaglutide group to have weight reductions of at least 10%, 15%, 20%, and 25%. The most common adverse events in both treatment groups were gastrointestinal, and most were mild to moderate in severity and occurred primarily during dose escalation. CONCLUSIONS: Among participants with obesity but without diabetes, treatment with tirzepatide was superior to treatment with semaglutide with respect to reduction in body weight and waist circumference at week 72. (Funded by Eli Lilly; SURMOUNT-5 ClinicalTrials.gov number, NCT05822830.).

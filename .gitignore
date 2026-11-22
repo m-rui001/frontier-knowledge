@@ -1,0 +1,37 @@
+# 编译产物
+*.pdf
+
+# 抓下来的全文（版权归原作者，不随仓库分发）
+kb/w/*/full.txt
+kb/w/*/full.pdf
+kb/w/*/preprint.pdf
+kb/w/*/suppl.txt
+kb/w/*/suppl.pdf
+kb/w/*/tbl*.txt
+kb/w/*/arxiv_v1.txt
+kb/w/*/plos.txt
+kb/w/*/tmp/
+
+# 原始抓取数据（37MB，可用 tools/ 里的脚本重新拉）
+corpus/
+meta/usable.json
+
+# 预览与临时目录
+kb/preview/
+kb/_*.png
+kb/_*.typ
+tools/__pycache__/
+.pi/
+.tmpchk/
+.tmp*/
+
+# 报告草稿
+kb/w/*/REVISE-report.md
+# 抓取过程中的中间格式（HTML/XML 正文，版权同全文）
+kb/w/*/*.html
+kb/w/*/*.xml
+kb/w/*/*.htm
+
+# 其他临时抓取目录
+tmp/
+nul

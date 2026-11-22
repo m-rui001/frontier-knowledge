@@ -1,0 +1,83 @@
+Correction: CRISPR-GPT for agentic automation of gene-editing experiments | Nature Biomedical Engineering
+    Skip to main content
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+            the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+            Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+            and JavaScript.
+Advertisement
+                                View all journals
+                                Saved research
+Search
+    Account
+    Log in
+                                        Content
+                                        Explore content
+                                        About the journal
+                                            Publish with us
+                                        Sign up for alerts
+                                            RSS feed
+nature
+nature biomedical engineering
+publisher corrections
+                                    article
+                            Publisher Correction: CRISPR-GPT for agentic automation of gene-editing experiments
+                Download PDF
+                Download PDF
+Publisher Correction
+            Open access
+Published: 08 December 2025
+Publisher Correction: CRISPR-GPT for agentic automation of gene-editing experiments
+Yuanhao Qu 
+            ORCID: orcid.org/0000-0002-7574-259X1 na1, 
+Kaixuan Huang2 na1, 
+Ming Yin2, 
+Kanghong Zhan3, 
+Dyllan Liu4, 
+Di Yin1, 
+Henry C. Cousins5,6, 
+William A. Johnson1, 
+Xiaotong Wang1, 
+Mihir Shah 
+            ORCID: orcid.org/0000-0003-0854-23845, 
+Russ B. Altman 
+            ORCID: orcid.org/0000-0003-3859-29054,7, 
+Denny Zhou8, 
+Mengdi Wang 
+            ORCID: orcid.org/0000-0002-2101-95072 & 
+…
+Le Cong 
+            ORCID: orcid.org/0000-0003-4725-87141 Show authors
+                            Nature Biomedical Engineering
+                            volume 10, page 405 (2026) Cite this article
+                    Save article
+                View saved research
+4531 Accesses
+3 Citations
+Metrics details
+The Original Article  was published on 30 July 2025
+Correction to: Nature Biomedical Engineering https://doi.org/10.1038/s41551-025-01463-z, published online 30 July 2025.
+In the version of the article initially published, in Fig. 4b and d, the light blue and light purple colours were switched in the keys and have now been corrected as seen in Fig. 1 below. In the Fig. 4f key, "GPT-4o" was light blue and has been corrected to light purple and "CRISPR-GPT" was light purple and has been corrected to green. These errors has been corrected in the HTML and PDF versions of the article.
+Fig. 1
+Full size image
+Original and corrected Fig. 4b, d, f.
+Explore related subjects
+        Discover the latest articles and news in related subjects.
+                        CRISPR-Cas systems
+                        Computational biology and bioinformatics
+                        Computational science
+                        Genome Editing Techniques in Plant and Animal Systems
+Author information
+Author notes
+These authors contributed equally: Yuanhao Qu, Kaixuan Huang.
+Authors and Affiliations
+Department of Pathology, Department of Genetics, Cancer Biology Program, Stanford University School of Medicine, Stanford, CA, USA
+Yuanhao Qu, Di Yin, William A. Johnson, Xiaotong Wang & Le Cong
+Center for Statistics and Machine Learning, Department of Electrical and Computer Engineering, Princeton University, Princeton, NJ, USA
+Kaixuan Huang, Ming Yin & Mengdi Wang
+Department of Computing, Data Science, and Society, University of California, Berkeley, Berkeley, CA, USA
+Kanghong Zhan
+Department of Computer Science, University of California, Berkeley, Berkeley, CA, USA
+Dyllan Liu & Russ B. Altman
+Department of Medicine, Stanford University School of Medicine, Stanford, CA, USA
+Henry C. Cousins & Mihir Shah
+Medical Scientist Training Program, Stanford University

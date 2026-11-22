@@ -1,0 +1,11 @@
+TITLE: Global emergence of unprecedented lifetime exposure to climate extremes
+VENUE: Nature (2025)
+TYPE: article
+CITED: 225
+AUTHORS: Luke Grant, Inne Vanderkelen, Lukas Gudmundsson, Erich Markus Fischer, Sonia Isabelle Seneviratne, Wim Thiery
+URL: https://doi.org/10.1038/s41586-025-08907-1
+PAGES: 6
+
+ABSTRACT:
+============================================================
+. Yet, how this translates into unprecedented cumulative extreme event exposure in a person's lifetime remains unclear. Here we use climate models, impact models and demographic data to project the number of people experiencing cumulative lifetime exposure to climate extremes above the 99.99th percentile of exposure expected in a pre-industrial climate. We project that the birth cohort fraction facing this unprecedented lifetime exposure to heatwaves, crop failures, river floods, droughts, wildfires and tropical cyclones will at least double from 1960 to 2020 under current mitigation policies aligned with a global warming pathway reaching 2.7 °C above pre-industrial temperatures by 2100. Under a 1.5 °C pathway, 52% of people born in 2020 will experience unprecedented lifetime exposure to heatwaves. If global warming reaches 3.5 °C by 2100, this fraction rises to 92% for heatwaves, 29% for crop failures and 14% for river floods. The chance of facing unprecedented lifetime exposure to heatwaves is substantially larger among population groups characterized by high socioeconomic vulnerabilities. Our results call for deep and sustained greenhouse gas emissions reductions to lower the burden of climate change on current young generations.

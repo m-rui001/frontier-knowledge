@@ -1,0 +1,11 @@
+TITLE: Effective model and pairing tendency in the bilayer Ni-based superconductor La 3 Ni 2 O 7
+VENUE: Physical review. B./Physical review. B (2025)
+TYPE: article
+CITED: 217
+AUTHORS: Yuhao Gu, Congcong Le, Zhesen Yang, Xianxin Wu, Jiangping Hu
+URL: https://doi.org/10.1103/physrevb.111.174506
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Since the discovery of cuprates, the origin of high-${T}_{c}$ superconductivity has been an outstanding puzzle. Recently, high-${T}_{c}$ superconductivity was observed in a bilayer nickelate ${\mathrm{La}}_{3}{\mathrm{Ni}}_{2}{\mathrm{O}}_{7}$ under pressure, whose structure hosts the apical oxygen between two layers, distinct from multilayer cuprates. Motivated by this discovery, we investigate its electronic structure using first-principles calculations and superconducting instabilities from both weak-coupling and strong-coupling perspective. Based on the first-principles band structures, we construct a bilayer two-orbital model on a square lattice, consisting of ${d}_{{x}^{2}\ensuremath{-}{y}^{2}}$ and ${d}_{{z}^{2}}$ orbitals, which accurately captures the low-energy electronic properties. Within this model, we study pairing instability using both functional renormalization group approach and multiorbital $t\text{\ensuremath{-}}J$ model. An ${s}_{\ifmmode\pm\else\textpm\fi{}}$-wave pairing with sign-reversal gaps on different Fermi surfaces is revealed, reminiscent of iron-based superconductors. The Ni-${d}_{{z}^{2}}$ orbital and its associated interlayer and intralayer exchange couplings are found to be crucial for the high-${T}_{c}$ superconductivity. Our study provides valuable insights into the unique nature of electronic structure and superconductivity in ${\mathrm{La}}_{3}{\mathrm{Ni}}_{2}{\mathrm{O}}_{7}$ and contributes to the understanding of unconventional superconductivity.

@@ -1,0 +1,11 @@
+TITLE: Commonality and variation in mental representations of music revealed by a cross-cultural comparison of rhythm priors in 15 countries
+VENUE: Nature Human Behaviour (2024)
+TYPE: article
+CITED: 170
+AUTHORS: Nori Jacoby, Rainer Polak, Jessica Adrienne Grahn, Daniel J. Cameron, Kyung Myun Lee, Ricardo Godoy, Eduardo A. Undurraga, Tomás Huanca
+URL: https://doi.org/10.1038/s41562-023-01800-9
+PAGES: 32
+
+ABSTRACT:
+============================================================
+Music is present in every known society but varies from place to place. What, if anything, is universal to music cognition? We measured a signature of mental representations of rhythm in 39 participant groups in 15 countries, spanning urban societies and Indigenous populations. Listeners reproduced random 'seed' rhythms; their reproductions were fed back as the stimulus (as in the game of 'telephone'), such that their biases (the prior) could be estimated from the distribution of reproductions. Every tested group showed a sparse prior with peaks at integer-ratio rhythms. However, the importance of different integer ratios varied across groups, often reflecting local musical practices. Our results suggest a common feature of music cognition: discrete rhythm 'categories' at small-integer ratios. These discrete representations plausibly stabilize musical systems in the face of cultural transmission but interact with culture-specific traditions to yield the diversity that is evident when mental representations are probed across many cultures.

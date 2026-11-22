@@ -1,0 +1,11 @@
+TITLE: Probabilistic weather forecasting with machine learning
+VENUE: Nature (2024)
+TYPE: article
+CITED: 1440
+AUTHORS: Ilan Price, Álvaro Sánchez‐González, Ferran Alet, Tom R. Andersson, Andrew El-Kadi, Dominic A. Masters, Timo Ewalds, Jacklynn Stott
+URL: https://doi.org/10.1038/s41586-024-08252-9
+PAGES: 7
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+Weather forecasts are fundamentally uncertain, so predicting the range of probable weather scenarios is crucial for important decisions, from warning the public about hazardous weather to planning renewable energy use. Traditionally, weather forecasts have been based on numerical weather prediction (NWP) 1 , which relies on physics-based simulations of the atmosphere. Recent advances in machine learning (ML)-based weather prediction (MLWP) have produced ML-based models with less forecast error than single NWP simulations 2,3 . However, these advances have focused primarily on single, deterministic forecasts that fail to represent uncertainty and estimate risk. Overall, MLWP has remained less accurate and reliable than state-of-the-art NWP ensemble forecasts. Here we introduce GenCast, a probabilistic weather model with greater skill and speed than the top operational medium-range weather forecast in the world, ENS, the ensemble forecast of the European Centre for Medium-Range Weather Forecasts 4 . GenCast is an ML weather prediction method, trained on decades of reanalysis data. GenCast generates an ensemble of stochastic 15-day global forecasts, at 12-h steps and 0.25° latitude–longitude resolution, for more than 80 surface and atmospheric variables, in 8 min. It has greater skill than ENS on 97.2% of 1,320 targets we evaluated and better predicts extreme weather, tropical cyclone tracks and wind power production. This work helps open the next chapter in operational weather forecasting, in which crucial weather-dependent decisions are made more accurately and efficiently.

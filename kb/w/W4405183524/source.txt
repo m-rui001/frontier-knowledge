@@ -1,0 +1,11 @@
+TITLE: Quantum error correction below the surface code threshold
+VENUE: Nature (2024)
+TYPE: article
+CITED: 2076
+AUTHORS: Google Quantum AI and Collaborators, Rajeev Acharya, Dmitry A. Abanin, Laleh Aghababaie Beni, I. L. Aleǐner, Trond I. Andersen, M. Ansmann, Frank Arute
+URL: https://doi.org/10.1038/s41586-024-08449-y
+PAGES: 7
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+Quantum error correction [1, 2, 3, 4] provides a path to reach practical quantum computing by combining multiple physical qubits into a logical qubit, where the logical error rate is suppressed exponentially as more qubits are added. However, this exponential suppression only occurs if the physical error rate is below a critical threshold. Here, we present two below-threshold surface code memories on our newest generation of superconducting processors, Willow: a distance-7 code, and a distance-5 code integrated with a real-time decoder. The logical error rate of our larger quantum memory is suppressed by a factor of $$\varLambda \mathrm{=2.14}\pm 0.02$$ when increasing the code distance by two, culminating in a 101-qubit distance-7 code with 0.143% ± 0.003% error per cycle of error correction. This logical memory is also beyond break-even, exceeding its best physical qubit’s lifetime by a factor of $$2.4\pm 0.3$$ . Our system maintains below-threshold performance when decoding in real time, achieving an average decoder latency of 63 μs at distance-5 up to a million cycles, with a cycle time of 1.1 μs. We also run repetition codes up to distance-29 and find that logical performance is limited by rare correlated error events occurring approximately once every hour, or $$3$$ $$\times $$ $${10}^{9}$$ cycles. Our results present device performance that, if scaled, could realize the operational requirements of large scale fault-tolerant quantum algorithms.

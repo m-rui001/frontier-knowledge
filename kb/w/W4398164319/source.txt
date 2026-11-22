@@ -1,0 +1,11 @@
+TITLE: Physics-informed neural network for lithium-ion battery degradation stable modeling and prognosis
+VENUE: Nature Communications (2024)
+TYPE: article
+CITED: 1225
+AUTHORS: Fujin Wang, Zhi Zhai, Zhibin Zhao, Yi Di, Xuefeng Chen
+URL: https://doi.org/10.1038/s41467-024-48779-z
+PAGES: 1
+
+ABSTRACT:
+============================================================
+Accurate state-of-health (SOH) estimation is critical for reliable and safe operation of lithium-ion batteries. However, reliable and stable battery SOH estimation remains challenging due to diverse battery types and operating conditions. In this paper, we propose a physics-informed neural network (PINN) for accurate and stable estimation of battery SOH. Specifically, we model the attributes that affect the battery degradation from the perspective of empirical degradation and state space equations, and utilize neural networks to capture battery degradation dynamics. A general feature extraction method is designed to extract statistical features from a short period of data before the battery is fully charged, enabling our method applicable to different battery types and charge/discharge protocols. Additionally, we generate a comprehensive dataset consisting of 55 lithium-nickel-cobalt-manganese-oxide (NCM) batteries. Combined with three other datasets from different manufacturers, we use a total of 387 batteries with 310,705 samples to validate our method. The mean absolute percentage error (MAPE) is 0.87%. Our proposed PINN has demonstrated remarkable performance in regular experiments, small sample experiments, and transfer experiments when compared to alternative neural networks. This study highlights the promise of physics-informed machine learning for battery degradation modeling and SOH estimation.

@@ -1,0 +1,11 @@
+TITLE: Sequence modeling and design from molecular to genome scale with Evo
+VENUE: Science (2024)
+TYPE: article
+CITED: 889
+AUTHORS: Eric Nguyen, Michael Poli, Matthew G. Durrant, Brian Kang, Dhruva Katrekar, David B. Li, Liam J. Bartie, Armin W. Thomas
+URL: https://doi.org/10.1126/science.ado9336
+PAGES: unknown
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+The genome is a sequence that encodes the DNA, RNA, and proteins that orchestrate an organism’s function. We present Evo, a long-context genomic foundation model with a frontier architecture trained on millions of prokaryotic and phage genomes, and report scaling laws on DNA to complement observations in language and vision. Evo generalizes across DNA, RNA, and proteins, enabling zero-shot function prediction competitive with domain-specific language models and the generation of functional CRISPR-Cas and transposon systems, representing the first examples of protein-RNA and protein-DNA codesign with a language model. Evo also learns how small mutations affect whole-organism fitness and generates megabase-scale sequences with plausible genomic architecture. These prediction and generation capabilities span molecular to genomic scales of complexity, advancing our understanding and control of biology.

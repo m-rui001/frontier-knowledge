@@ -1,0 +1,11 @@
+TITLE: Tantalum-stabilized ruthenium oxide electrocatalysts for industrial water electrolysis
+VENUE: Science (2025)
+TYPE: article
+CITED: 560
+AUTHORS: Jiahao Zhang, Xianbiao Fu, Soonho Kwon, Kaifeng Chen, Xiaozhi Liu, Jin Yang, Haoran Sun, Yanchang Wang
+URL: https://doi.org/10.1126/science.ado9938
+PAGES: 8
+
+ABSTRACT:
+============================================================
+The iridium oxide (IrO 2 ) catalyst for the oxygen evolution reaction used industrially (in proton exchange membrane water electrolyzers) is scarce and costly. Although ruthenium oxide (RuO 2 ) is a promising alternative, its poor stability has hindered practical application. We used well-defined extended surface models to identify that RuO 2 undergoes structure-dependent corrosion that causes Ru dissolution. Tantalum (Ta) doping effectively stabilized RuO 2 against such corrosion and enhanced the intrinsic activity of RuO 2 . In an industrial demonstration, Ta-RuO 2 electrocatalyst exhibited stability near that of IrO 2 and had a performance decay rate of ~14 microvolts per hour in a 2800-hour test. At current densities of 1 ampere per square centimeter, it had an overpotential 330 millivolts less than that of IrO 2 .

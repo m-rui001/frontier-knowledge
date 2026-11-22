@@ -1,0 +1,11 @@
+TITLE: Global trends in antibiotic consumption during 2016–2023 and future projections through 2030
+VENUE: Proceedings of the National Academy of Sciences (2024)
+TYPE: article
+CITED: 563
+AUTHORS: Eili Y. Klein, Isabella Impalli, Suprena Poleon, Philippe Denoël, Mariateresa Cipriano, Thomas P. Van Boeckel, Simone Pecetta, David E. Bloom
+URL: https://doi.org/10.1073/pnas.2411919121
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Antibiotic resistance is a global public health threat. Many factors contribute to this issue, with human antibiotic consumption being significant among them. Analyzing trends and patterns in consumption can aid in developing policies to mitigate the burden of antimicrobial resistance and global disparities in access to antibiotics. Using pharmaceutical sales data licensed from IQVIA, we estimate national-level trends in antibiotic consumption in 67 countries during 2016-2023 and analyze the effects of economic growth and the COVID-19 pandemic. Finally, we estimate global human consumption and project growth through 2030 assuming current trends. We find that estimated antibiotic consumption in reported countries increased 16.3% from 29.5 to 34.3 billion defined daily doses (DDDs) from 2016 to 2023, reflecting a 10.6% increase in the consumption rate from 13.7 to 15.2 DDDs per 1,000 inhabitants per day. Increases were most pronounced in upper-middle- and lower-middle-income countries. While the COVID-19 pandemic significantly reduced consumption globally, this was most pronounced in high-income countries, and in these countries, reductions in antibiotic use in 2020 were sharper, and lasted longer, than in other countries. By 2030, we project that, without reductions in rapidly developing nations, such as investments to improve infrastructure, particularly water and sanitation, along with improved access to vaccination, global antibiotic consumption will increase by 52.3% from an estimated 49.3 billion in 2023 to 75.1 billion DDDs.

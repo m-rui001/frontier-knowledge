@@ -1,0 +1,5046 @@
+{
+ "Physics and Astronomy": {
+  "n": 826,
+  "cited_median": 192.5,
+  "cited_mean": 203.6,
+  "oa_frac": 0.954,
+  "types": {
+   "article": 704,
+   "preprint": 58,
+   "review": 25,
+   "conference-paper": 14,
+   "book": 7,
+   "dataset": 5
+  },
+  "top_cited": [
+   {
+    "t": "Review of Particle Physics",
+    "c": 6586,
+    "y": 2024,
+    "id": "W4401211033",
+    "v": "Physical review. D/Physical review. D."
+   },
+   {
+    "t": "A comprehensive electron wavefunction analysis toolbox for chemists, Multiwfn",
+    "c": 5945,
+    "y": 2024,
+    "id": "W4401916766",
+    "v": "The Journal of Chemical Physics"
+   },
+   {
+    "t": "DESI 2024 VI: cosmological constraints from the measurements of baryon acoustic oscillations",
+    "c": 2632,
+    "y": 2025,
+    "id": "W4394029306",
+    "v": "Journal of Cosmology and Astroparticle Physics"
+   },
+   {
+    "t": "DESI DR2 results. II. Measurements of baryon acoustic oscillations and cosmological constraints",
+    "c": 2288,
+    "y": 2025,
+    "id": "W4410636511",
+    "v": "Physical review. D/Physical review. D."
+   },
+   {
+    "t": "Analyzing Social Networks",
+    "c": 2056,
+    "y": 2024,
+    "id": "W2111649090",
+    "v": "SAGE Publications Ltd eBooks"
+   },
+   {
+    "t": "Software Update: The ORCA Program System—Version 6.0",
+    "c": 1866,
+    "y": 2025,
+    "id": "W4409901056",
+    "v": "Wiley Interdisciplinary Reviews Computational Molecular Science"
+   },
+   {
+    "t": "Physics-Informed Neural Operator for Learning Partial Differential Equations",
+    "c": 1388,
+    "y": 2024,
+    "id": "W4392004327",
+    "v": "ACM / IMS Journal of Data Science"
+   },
+   {
+    "t": "Euclid: I. Overview of the Euclid mission",
+    "c": 1370,
+    "y": 2025,
+    "id": "W4398795509",
+    "v": "Astronomy and Astrophysics"
+   },
+   {
+    "t": "Introductory Quantum Optics",
+    "c": 1244,
+    "y": 2023,
+    "id": "W4389703832",
+    "v": "Cambridge University Press eBooks"
+   },
+   {
+    "t": "GWTC-2.1: Deep extended catalog of compact binary coalescences observed by LIGO and Virgo during the first half of the third observing run",
+    "c": 1212,
+    "y": 2024,
+    "id": "W4390605189",
+    "v": "Physical review. D/Physical review. D."
+   },
+   {
+    "t": "Altermagnetic lifting of Kramers spin degeneracy",
+    "c": 1168,
+    "y": 2024,
+    "id": "W4391809119",
+    "v": "Nature"
+   },
+   {
+    "t": "Little Red Dots: An Abundant Population of Faint Active Galactic Nuclei at z ∼ 5 Revealed by the EIGER and FRESCO JWST Surveys",
+    "c": 1036,
+    "y": 2024,
+    "id": "W4392553965",
+    "v": "The Astrophysical Journal"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "Review of Particle Physics",
+    "c": 6586,
+    "y": 2024,
+    "id": "W4401211033",
+    "v": "Physical review. D/Physical review. D.",
+    "s": 2853.5
+   },
+   {
+    "t": "A comprehensive electron wavefunction analysis toolbox for chemists, Multiwfn",
+    "c": 5945,
+    "y": 2024,
+    "id": "W4401916766",
+    "v": "The Journal of Chemical Physics",
+    "s": 2657.8
+   },
+   {
+    "t": "DESI DR2 results. II. Measurements of baryon acoustic oscillations and cosmological constraints",
+    "c": 2288,
+    "y": 2025,
+    "id": "W4410636511",
+    "v": "Physical review. D/Physical review. D.",
+    "s": 2028.4
+   },
+   {
+    "t": "Entanglement as Topology: Hopf Linking as the Geometric Origin of Quantum Correlation",
+    "c": 931,
+    "y": 2026,
+    "id": "W3101004335",
+    "v": null,
+    "s": 2000.3
+   },
+   {
+    "t": "DESI 2024 VI: cosmological constraints from the measurements of baryon acoustic oscillations",
+    "c": 2632,
+    "y": 2025,
+    "id": "W4394029306",
+    "v": "Journal of Cosmology and Astroparticle Physics",
+    "s": 1458.8
+   },
+   {
+    "t": "A gas-enshrouded and gas-reddened black hole at cosmic dawn",
+    "c": 363,
+    "y": 2026,
+    "id": "W7202266592",
+    "v": "Nature",
+    "s": 1299.9
+   },
+   {
+    "t": "Data Release 1 of the Dark Energy Spectroscopic Instrument",
+    "c": 753,
+    "y": 2026,
+    "id": "W7154057906",
+    "v": "The Astronomical Journal",
+    "s": 1233.3
+   },
+   {
+    "t": "Software Update: The ORCA Program System—Version 6.0",
+    "c": 1866,
+    "y": 2025,
+    "id": "W4409901056",
+    "v": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+    "s": 1080.1
+   }
+  ]
+ },
+ "Pharmacology, Toxicology and Pharmaceutics": {
+  "n": 806,
+  "cited_median": 84.0,
+  "cited_mean": 99.5,
+  "oa_frac": 0.916,
+  "types": {
+   "article": 434,
+   "review": 229,
+   "preprint": 56,
+   "dataset": 47,
+   "book-chapter": 13,
+   "conference-paper": 11
+  },
+  "top_cited": [
+   {
+    "t": "ProTox 3.0: a webserver for the prediction of toxicity of chemicals",
+    "c": 2088,
+    "y": 2024,
+    "id": "W4395010444",
+    "v": "Nucleic Acids Research"
+   },
+   {
+    "t": "ADMETlab 3.0: an updated comprehensive online ADMET prediction platform enhanced with broader coverage, improved performance, API functionality and decision support",
+    "c": 1565,
+    "y": 2024,
+    "id": "W4393936599",
+    "v": "Nucleic Acids Research"
+   },
+   {
+    "t": "Boltz-2: Towards Accurate and Efficient Binding Affinity Prediction",
+    "c": 1350,
+    "y": 2025,
+    "id": "W4411463597",
+    "v": "bioRxiv (Cold Spring Harbor Laboratory)"
+   },
+   {
+    "t": "An Update on the Nitrogen Heterocycle Compositions and Properties of U.S. FDA-Approved Pharmaceuticals (2013–2023)",
+    "c": 1263,
+    "y": 2024,
+    "id": "W4400581728",
+    "v": "Journal of Medicinal Chemistry"
+   },
+   {
+    "t": "Accelerating scientific discovery with Co-Scientist",
+    "c": 1194,
+    "y": 2026,
+    "id": "W4416043407",
+    "v": "Nature"
+   },
+   {
+    "t": "Chemprop: A Machine Learning Package for Chemical Property Prediction",
+    "c": 890,
+    "y": 2023,
+    "id": "W4390221451",
+    "v": "Journal of Chemical Information and Modeling"
+   },
+   {
+    "t": "Network pharmacology: towards the artificial intelligence-based precision traditional Chinese medicine",
+    "c": 827,
+    "y": 2023,
+    "id": "W4390711247",
+    "v": "Briefings in Bioinformatics"
+   },
+   {
+    "t": "Chai-1: Decoding the molecular interactions of life",
+    "c": 802,
+    "y": 2024,
+    "id": "W4403324307",
+    "v": "bioRxiv (Cold Spring Harbor Laboratory)"
+   },
+   {
+    "t": "SwissDock 2024: major enhancements for small-molecule docking with Attracting Cavities and AutoDock Vina",
+    "c": 724,
+    "y": 2024,
+    "id": "W4396519787",
+    "v": "Nucleic Acids Research"
+   },
+   {
+    "t": "Artificial Intelligence (AI) Applications in Drug Discovery and Drug Delivery: Revolutionizing Personalized Medicine",
+    "c": 705,
+    "y": 2024,
+    "id": "W4403402994",
+    "v": "Pharmaceutics"
+   },
+   {
+    "t": "PoseBusters: AI-based docking methods fail to generate physically valid poses or generalise to novel sequences",
+    "c": 676,
+    "y": 2024,
+    "id": "W4389696354",
+    "v": "Chemical Science"
+   },
+   {
+    "t": "Structure-based drug design with equivariant diffusion models",
+    "c": 673,
+    "y": 2024,
+    "id": "W4405194591",
+    "v": "Nature Computational Science"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "Accelerating scientific discovery with Co-Scientist",
+    "c": 1194,
+    "y": 2026,
+    "id": "W4416043407",
+    "v": "Nature",
+    "s": 2332.1
+   },
+   {
+    "t": "Boltz-2: Towards Accurate and Efficient Binding Affinity Prediction",
+    "c": 1350,
+    "y": 2025,
+    "id": "W4411463597",
+    "v": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "s": 944.6
+   },
+   {
+    "t": "A multi-agent system for automating scientific discovery",
+    "c": 471,
+    "y": 2026,
+    "id": "W7161734976",
+    "v": "Nature",
+    "s": 920.0
+   },
+   {
+    "t": "ProTox 3.0: a webserver for the prediction of toxicity of chemicals",
+    "c": 2088,
+    "y": 2024,
+    "id": "W4395010444",
+    "v": "Nucleic Acids Research",
+    "s": 807.9
+   },
+   {
+    "t": "ADMETlab 3.0: an updated comprehensive online ADMET prediction platform enhanced with broader coverage, improved performance, API functionality and decision support",
+    "c": 1565,
+    "y": 2024,
+    "id": "W4393936599",
+    "v": "Nucleic Acids Research",
+    "s": 594.2
+   },
+   {
+    "t": "An Update on the Nitrogen Heterocycle Compositions and Properties of U.S. FDA-Approved Pharmaceuticals (2013–2023)",
+    "c": 1263,
+    "y": 2024,
+    "id": "W4400581728",
+    "v": "Journal of Medicinal Chemistry",
+    "s": 534.5
+   },
+   {
+    "t": "Chai-1: Decoding the molecular interactions of life",
+    "c": 802,
+    "y": 2024,
+    "id": "W4403324307",
+    "v": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "s": 379.4
+   },
+   {
+    "t": "Ginger supplementation and metabolic health: an umbrella review of meta-analyses of randomized trials",
+    "c": 183,
+    "y": 2026,
+    "id": "W7162246058",
+    "v": "Diabetology & Metabolic Syndrome",
+    "s": 367.3
+   }
+  ]
+ },
+ "Decision Sciences": {
+  "n": 777,
+  "cited_median": 122,
+  "cited_mean": 161.7,
+  "oa_frac": 0.861,
+  "types": {
+   "article": 535,
+   "review": 82,
+   "conference-paper": 43,
+   "preprint": 42,
+   "software": 22,
+   "dataset": 18
+  },
+  "top_cited": [
+   {
+    "t": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods",
+    "c": 7495,
+    "y": 2024,
+    "id": "W4394857110",
+    "v": "BMJ"
+   },
+   {
+    "t": "Common Method Bias: It's Bad, It's Complex, It's Widespread, and It's Not Easy to Fix",
+    "c": 2611,
+    "y": 2023,
+    "id": "W4389121120",
+    "v": "Annual Review of Organizational Psychology and Organizational Behavior"
+   },
+   {
+    "t": "CONSORT 2025 statement: updated guideline for reporting randomised trials",
+    "c": 2265,
+    "y": 2025,
+    "id": "W4409483458",
+    "v": "BMJ"
+   },
+   {
+    "t": "The EMBL-EBI Job Dispatcher sequence analysis tools framework in 2024",
+    "c": 2066,
+    "y": 2024,
+    "id": "W4394694796",
+    "v": "Nucleic Acids Research"
+   },
+   {
+    "t": "PROBAST+AI: an updated quality, risk of bias, and applicability assessment tool for prediction models using regression or artificial intelligence methods",
+    "c": 1749,
+    "y": 2025,
+    "id": "W4408806526",
+    "v": "BMJ"
+   },
+   {
+    "t": "E-Commerce Promotional Products Selection Using SWARA and TOPSIS",
+    "c": 1549,
+    "y": 2024,
+    "id": "W4398182172",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "Revolutionizing Supply Chain Management: Real-time Data Processing and Concurrency",
+    "c": 1327,
+    "y": 2024,
+    "id": "W4396831394",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "A tool to assess risk of bias in non-randomized follow-up studies of exposure effects (ROBINS-E)",
+    "c": 1249,
+    "y": 2024,
+    "id": "W4393132304",
+    "v": "Environment International"
+   },
+   {
+    "t": "The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update",
+    "c": 1226,
+    "y": 2024,
+    "id": "W4398182689",
+    "v": "Nucleic Acids Research"
+   },
+   {
+    "t": "The revised JBI critical appraisal tool for the assessment of risk of bias for quasi-experimental studies",
+    "c": 1211,
+    "y": 2024,
+    "id": "W4391354425",
+    "v": "JBI Evidence Synthesis"
+   },
+   {
+    "t": "Discrete Event System Simulation",
+    "c": 1043,
+    "y": 2024,
+    "id": "W4392562160",
+    "v": "BENTHAM SCIENCE PUBLISHERS eBooks"
+   },
+   {
+    "t": "Optimization of Raw Material Inventory using Always Better Control (ABC) Analysis and Economic Order Quantity (EOQ) Method Approach in the Warehouse of a Bolt Manufacturing Factory in Indonesia",
+    "c": 967,
+    "y": 2024,
+    "id": "W4400896559",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods",
+    "c": 7495,
+    "y": 2024,
+    "id": "W4394857110",
+    "v": "BMJ",
+    "s": 2881.6
+   },
+   {
+    "t": "CONSORT 2025 statement: updated guideline for reporting randomised trials",
+    "c": 2265,
+    "y": 2025,
+    "id": "W4409483458",
+    "v": "BMJ",
+    "s": 1409.4
+   },
+   {
+    "t": "PROBAST+AI: an updated quality, risk of bias, and applicability assessment tool for prediction models using regression or artificial intelligence methods",
+    "c": 1749,
+    "y": 2025,
+    "id": "W4408806526",
+    "v": "BMJ",
+    "s": 1050.7
+   },
+   {
+    "t": "Common Method Bias: It's Bad, It's Complex, It's Widespread, and It's Not Easy to Fix",
+    "c": 2611,
+    "y": 2023,
+    "id": "W4389121120",
+    "v": "Annual Review of Organizational Psychology and Organizational Behavior",
+    "s": 875.7
+   },
+   {
+    "t": "The EMBL-EBI Job Dispatcher sequence analysis tools framework in 2024",
+    "c": 2066,
+    "y": 2024,
+    "id": "W4394694796",
+    "v": "Nucleic Acids Research",
+    "s": 789.3
+   },
+   {
+    "t": "Revised Strengthening the Reporting of Cohort, Cross-Sectional and Case-Control Studies in Surgery (STROCSS) Guideline: An Update for the Age of Artificial Intelligence",
+    "c": 943,
+    "y": 2025,
+    "id": "W4410594005",
+    "v": "Premier journal of science.",
+    "s": 642.6
+   },
+   {
+    "t": "E-Commerce Promotional Products Selection Using SWARA and TOPSIS",
+    "c": 1549,
+    "y": 2024,
+    "id": "W4398182172",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)",
+    "s": 618.3
+   },
+   {
+    "t": "Revolutionizing Supply Chain Management: Real-time Data Processing and Concurrency",
+    "c": 1327,
+    "y": 2024,
+    "id": "W4396831394",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)",
+    "s": 524.0
+   }
+  ]
+ },
+ "Psychology": {
+  "n": 776,
+  "cited_median": 134.0,
+  "cited_mean": 194.0,
+  "oa_frac": 0.857,
+  "types": {
+   "article": 451,
+   "review": 149,
+   "conference-paper": 40,
+   "book-chapter": 38,
+   "preprint": 31,
+   "book": 25
+  },
+  "top_cited": [
+   {
+    "t": "Childhood and Society",
+    "c": 13077,
+    "y": 2026,
+    "id": "W1945524409",
+    "v": "Zenodo (CERN European Organization for Nuclear Research)"
+   },
+   {
+    "t": "ФАКТОРЫ ПСИХОЛОГИЧЕСКОГО БЛАГОПОЛУЧИЯ ЛЮДЕЙ ПОЖИЛОГО ВОЗРАСТА",
+    "c": 8204,
+    "y": 2026,
+    "id": "W3124068636",
+    "v": "Международный научно-исследовательский журнал"
+   },
+   {
+    "t": "Cognition and Categorization",
+    "c": 2877,
+    "y": 2024,
+    "id": "W2026973491",
+    "v": "Routledge eBooks"
+   },
+   {
+    "t": "Jokes and their Relation to the Unconscious 1905",
+    "c": 2858,
+    "y": 2024,
+    "id": "W1637437975",
+    "v": null
+   },
+   {
+    "t": "Handbook of Research Methods in Social and Personality Psychology",
+    "c": 2139,
+    "y": 2024,
+    "id": "W2744594409",
+    "v": "Cambridge University Press eBooks"
+   },
+   {
+    "t": "Procedures for Identifying Infants as Disorganized/Disoriented During the Ainsworth Strange Situation",
+    "c": 1984,
+    "y": 2026,
+    "id": "W2763578340",
+    "v": "Routledge eBooks"
+   },
+   {
+    "t": "The Past, Present, and Future of the Cognitive Theory of Multimedia Learning",
+    "c": 1879,
+    "y": 2024,
+    "id": "W4390954073",
+    "v": "Educational Psychology Review"
+   },
+   {
+    "t": "Comparing network structures on three aspects: A permutation test.",
+    "c": 1796,
+    "y": 2023,
+    "id": "W4225598392",
+    "v": "Psychological Methods"
+   },
+   {
+    "t": "Generative AI enhances individual creativity but reduces the collective diversity of novel content",
+    "c": 1793,
+    "y": 2024,
+    "id": "W4400578758",
+    "v": "Science Advances"
+   },
+   {
+    "t": "Metacognition, Executive Control, Self-Regulation, and Other More Mysterious Mechanisms",
+    "c": 1636,
+    "y": 2026,
+    "id": "W2287252573",
+    "v": "Routledge eBooks"
+   },
+   {
+    "t": "Persuasion and Healing",
+    "c": 1508,
+    "y": 2024,
+    "id": "W2999441350",
+    "v": "Johns Hopkins University Press eBooks"
+   },
+   {
+    "t": "Educational Psychology: Theory and Practice",
+    "c": 1348,
+    "y": 2025,
+    "id": "W2044653300",
+    "v": null
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "ФАКТОРЫ ПСИХОЛОГИЧЕСКОГО БЛАГОПОЛУЧИЯ ЛЮДЕЙ ПОЖИЛОГО ВОЗРАСТА",
+    "c": 8204,
+    "y": 2026,
+    "id": "W3124068636",
+    "v": "Международный научно-исследовательский журнал",
+    "s": 30891.9
+   },
+   {
+    "t": "Childhood and Society",
+    "c": 13077,
+    "y": 2026,
+    "id": "W1945524409",
+    "v": "Zenodo (CERN European Organization for Nuclear Research)",
+    "s": 16818.2
+   },
+   {
+    "t": "Procedures for Identifying Infants as Disorganized/Disoriented During the Ainsworth Strange Situation",
+    "c": 1984,
+    "y": 2026,
+    "id": "W2763578340",
+    "v": "Routledge eBooks",
+    "s": 7936.0
+   },
+   {
+    "t": "Metacognition, Executive Control, Self-Regulation, and Other More Mysterious Mechanisms",
+    "c": 1636,
+    "y": 2026,
+    "id": "W2287252573",
+    "v": "Routledge eBooks",
+    "s": 2886.7
+   },
+   {
+    "t": "Educational Psychology: Theory and Practice",
+    "c": 1348,
+    "y": 2025,
+    "id": "W2044653300",
+    "v": null,
+    "s": 1461.0
+   },
+   {
+    "t": "Handbook of Research Methods in Social and Personality Psychology",
+    "c": 2139,
+    "y": 2024,
+    "id": "W2744594409",
+    "v": "Cambridge University Press eBooks",
+    "s": 1100.4
+   },
+   {
+    "t": "Cognition and Categorization",
+    "c": 2877,
+    "y": 2024,
+    "id": "W2026973491",
+    "v": "Routledge eBooks",
+    "s": 1050.8
+   },
+   {
+    "t": "Jokes and their Relation to the Unconscious 1905",
+    "c": 2858,
+    "y": 2024,
+    "id": "W1637437975",
+    "v": null,
+    "s": 988.5
+   }
+  ]
+ },
+ "Computer Science": {
+  "n": 775,
+  "cited_median": 834,
+  "cited_mean": 1222.1,
+  "oa_frac": 0.964,
+  "types": {
+   "conference-paper": 299,
+   "article": 270,
+   "preprint": 154,
+   "review": 10,
+   "book-chapter": 10,
+   "software": 10
+  },
+  "top_cited": [
+   {
+    "t": "The Llama 3 Herd of Models",
+    "c": 29897,
+    "y": 2024,
+    "id": "W4401306886",
+    "v": "arXiv (Cornell University)"
+   },
+   {
+    "t": "Qwen3 Technical Report",
+    "c": 20066,
+    "y": 2025,
+    "id": "W4414939355",
+    "v": "arXiv (Cornell University)"
+   },
+   {
+    "t": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+    "c": 19182,
+    "y": 2025,
+    "id": "W4414281281",
+    "v": "Nature"
+   },
+   {
+    "t": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+    "c": 12757,
+    "y": 2024,
+    "id": "W4391631327",
+    "v": "arXiv (Cornell University)"
+   },
+   {
+    "t": "Gemini: A Family of Highly Capable Multimodal Models",
+    "c": 12554,
+    "y": 2023,
+    "id": "W4390041933",
+    "v": "arXiv (Cornell University)"
+   },
+   {
+    "t": "Qwen2.5 Technical Report",
+    "c": 12120,
+    "y": 2024,
+    "id": "W4405655184",
+    "v": "arXiv (Cornell University)"
+   },
+   {
+    "t": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+    "c": 12046,
+    "y": 2023,
+    "id": "W4389326242",
+    "v": "arXiv (Cornell University)"
+   },
+   {
+    "t": "DINOv2: Learning Robust Visual Features without Supervision",
+    "c": 11749,
+    "y": 2024,
+    "id": "W4366208220",
+    "v": "Transactions on machine learning research"
+   },
+   {
+    "t": "GPT-4o System Card",
+    "c": 11475,
+    "y": 2024,
+    "id": "W4404330874",
+    "v": "arXiv (Cornell University)"
+   },
+   {
+    "t": "Qwen2.5-VL Technical Report",
+    "c": 10565,
+    "y": 2025,
+    "id": "W4407794264",
+    "v": "arXiv (Cornell University)"
+   },
+   {
+    "t": "DeepSeek-V3 Technical Report",
+    "c": 9783,
+    "y": 2024,
+    "id": "W4405903187",
+    "v": "arXiv (Cornell University)"
+   },
+   {
+    "t": "A Survey of Large Language Models",
+    "c": 8830,
+    "y": 2026,
+    "id": "W4362515116",
+    "v": "Frontiers of Computer Science"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "A Survey of Large Language Models",
+    "c": 8830,
+    "y": 2026,
+    "id": "W4362515116",
+    "v": "Frontiers of Computer Science",
+    "s": 16371.4
+   },
+   {
+    "t": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+    "c": 19182,
+    "y": 2025,
+    "id": "W4414281281",
+    "v": "Nature",
+    "s": 16255.7
+   },
+   {
+    "t": "Qwen3 Technical Report",
+    "c": 20066,
+    "y": 2025,
+    "id": "W4414939355",
+    "v": "arXiv (Cornell University)",
+    "s": 13158.2
+   },
+   {
+    "t": "The Llama 3 Herd of Models",
+    "c": 29897,
+    "y": 2024,
+    "id": "W4401306886",
+    "v": "arXiv (Cornell University)",
+    "s": 12938.2
+   },
+   {
+    "t": "Qwen2.5 Technical Report",
+    "c": 12120,
+    "y": 2024,
+    "id": "W4405655184",
+    "v": "arXiv (Cornell University)",
+    "s": 6297.1
+   },
+   {
+    "t": "Qwen2.5-VL Technical Report",
+    "c": 10565,
+    "y": 2025,
+    "id": "W4407794264",
+    "v": "arXiv (Cornell University)",
+    "s": 6020.1
+   },
+   {
+    "t": "Qwen3-VL Technical Report",
+    "c": 5915,
+    "y": 2025,
+    "id": "W4416780398",
+    "v": "arXiv (Cornell University)",
+    "s": 5984.6
+   },
+   {
+    "t": "GPT-4o System Card",
+    "c": 11475,
+    "y": 2024,
+    "id": "W4404330874",
+    "v": "arXiv (Cornell University)",
+    "s": 5529.3
+   }
+  ]
+ },
+ "Mathematics": {
+  "n": 768,
+  "cited_median": 79.5,
+  "cited_mean": 123.3,
+  "oa_frac": 0.902,
+  "types": {
+   "article": 448,
+   "preprint": 163,
+   "review": 36,
+   "book": 27,
+   "report": 27,
+   "software": 18
+  },
+  "top_cited": [
+   {
+    "t": "Fractional Differential Equations",
+    "c": 20452,
+    "y": 2025,
+    "id": "W2787959293",
+    "v": "MDPI eBooks"
+   },
+   {
+    "t": "Conformal field theory",
+    "c": 2207,
+    "y": 2024,
+    "id": "W1520510487",
+    "v": "Physics Subject Headings (PhySH)"
+   },
+   {
+    "t": "Logs with Zeros? Some Problems and Solutions",
+    "c": 1456,
+    "y": 2023,
+    "id": "W4389773814",
+    "v": "The Quarterly Journal of Economics"
+   },
+   {
+    "t": "How to choose a sampling technique and determine sample size for research: A simplified guide for researchers",
+    "c": 1357,
+    "y": 2024,
+    "id": "W4402878321",
+    "v": "Oral Oncology Reports"
+   },
+   {
+    "t": "Field Experiments: Design, Analysis, and Interpretation",
+    "c": 1330,
+    "y": 2024,
+    "id": "W430011393",
+    "v": null
+   },
+   {
+    "t": "Evaluation of clinical prediction models (part 1): from development to external validation",
+    "c": 1140,
+    "y": 2024,
+    "id": "W4390674087",
+    "v": "BMJ"
+   },
+   {
+    "t": "Double/debiased machine learning for treatment and structural parameters",
+    "c": 977,
+    "y": 2026,
+    "id": "W2622003161",
+    "v": null
+   },
+   {
+    "t": "Two-way fixed effects, the two-way mundlak regression, and difference-in-differences estimators",
+    "c": 851,
+    "y": 2025,
+    "id": "W4413754779",
+    "v": "Empirical Economics"
+   },
+   {
+    "t": "How to Interpret Statistical Models Using marginaleffects for R and Python",
+    "c": 786,
+    "y": 2024,
+    "id": "W4404880964",
+    "v": "Journal of Statistical Software"
+   },
+   {
+    "t": "Developing clinical prediction models: a step-by-step guide",
+    "c": 778,
+    "y": 2024,
+    "id": "W4402199506",
+    "v": "BMJ"
+   },
+   {
+    "t": "Parsimoniously Fitting Large Multivariate Random Effects in glmmTMB",
+    "c": 700,
+    "y": 2025,
+    "id": "W4409376239",
+    "v": "Journal of Statistical Software"
+   },
+   {
+    "t": "Population and housing census",
+    "c": 666,
+    "y": 2024,
+    "id": "W4404817908",
+    "v": "Routledge eBooks"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "Fractional Differential Equations",
+    "c": 20452,
+    "y": 2025,
+    "id": "W2787959293",
+    "v": "MDPI eBooks",
+    "s": 15595.2
+   },
+   {
+    "t": "Double/debiased machine learning for treatment and structural parameters",
+    "c": 977,
+    "y": 2026,
+    "id": "W2622003161",
+    "v": null,
+    "s": 1393.9
+   },
+   {
+    "t": "Mean-Field Limit of Non-exchangeable Multi-agent Systems Over Hypergraphs with Unbounded Rank",
+    "c": 283,
+    "y": 2026,
+    "id": "W4390836139",
+    "v": "Journal of Nonlinear Science",
+    "s": 1132.0
+   },
+   {
+    "t": "Crinkly curves, Markov partitions and dimension",
+    "c": 253,
+    "y": 2026,
+    "id": "W1520661390",
+    "v": "Warwick Research Archive Portal (University of Warwick)",
+    "s": 1012.0
+   },
+   {
+    "t": "PPI++: Efficient prediction-powered inference",
+    "c": 238,
+    "y": 2026,
+    "id": "W4388327685",
+    "v": "The Annals of Applied Statistics",
+    "s": 952.0
+   },
+   {
+    "t": "Conformal field theory",
+    "c": 2207,
+    "y": 2024,
+    "id": "W1520510487",
+    "v": "Physics Subject Headings (PhySH)",
+    "s": 940.6
+   },
+   {
+    "t": "Exploring Equivalence Testing with the Updated TOSTER R Package",
+    "c": 182,
+    "y": 2026,
+    "id": "W4309379710",
+    "v": "PsyArXiv (OSF Preprints)",
+    "s": 728.0
+   },
+   {
+    "t": "Two-way fixed effects, the two-way mundlak regression, and difference-in-differences estimators",
+    "c": 851,
+    "y": 2025,
+    "id": "W4413754779",
+    "v": "Empirical Economics",
+    "s": 687.7
+   }
+  ]
+ },
+ "Environmental Science": {
+  "n": 760,
+  "cited_median": 195.0,
+  "cited_mean": 193.9,
+  "oa_frac": 0.949,
+  "types": {
+   "article": 390,
+   "dataset": 128,
+   "review": 116,
+   "conference-paper": 78,
+   "book": 17,
+   "book-chapter": 13
+  },
+  "top_cited": [
+   {
+    "t": "Climate Change 2022: Impacts, Adaptation and Vulnerability",
+    "c": 2701,
+    "y": 2025,
+    "id": "W2916743836",
+    "v": "Climate Change and Law Collection"
+   },
+   {
+    "t": "Global Carbon Budget 2023",
+    "c": 2062,
+    "y": 2023,
+    "id": "W4389195056",
+    "v": "Earth system science data"
+   },
+   {
+    "t": "Test No. 236: Fish Embryo Acute Toxicity (FET) Test",
+    "c": 1945,
+    "y": 2025,
+    "id": "W4248636029",
+    "v": "OECD guidelines for the testing of chemicals. Section 2: Effects on biotic systems"
+   },
+   {
+    "t": "Twenty years of microplastic pollution research—what have we learned?",
+    "c": 1779,
+    "y": 2024,
+    "id": "W4402625926",
+    "v": "Science"
+   },
+   {
+    "t": "The world of plastic waste: A review",
+    "c": 1590,
+    "y": 2024,
+    "id": "W4391289318",
+    "v": "Cleaner Materials"
+   },
+   {
+    "t": "Microplastics and Nanoplastics in Atheromas and Cardiovascular Events",
+    "c": 1462,
+    "y": 2024,
+    "id": "W4392520497",
+    "v": "New England Journal of Medicine"
+   },
+   {
+    "t": "Heavy metals: toxicity and human health effects",
+    "c": 1390,
+    "y": 2024,
+    "id": "W4404557668",
+    "v": "Archives of Toxicology"
+   },
+   {
+    "t": "Global Carbon Budget 2024",
+    "c": 1357,
+    "y": 2025,
+    "id": "W4408460092",
+    "v": "Earth system science data"
+   },
+   {
+    "t": "Bioaccumulation of microplastics in decedent human brains",
+    "c": 1277,
+    "y": 2025,
+    "id": "W4407087473",
+    "v": "Nature Medicine"
+   },
+   {
+    "t": "Global soil pollution by toxic metals threatens agriculture and human health",
+    "c": 1216,
+    "y": 2025,
+    "id": "W4409530112",
+    "v": "Science"
+   },
+   {
+    "t": "Mineral commodity summaries 2024",
+    "c": 1159,
+    "y": 2024,
+    "id": "W4391386256",
+    "v": null
+   },
+   {
+    "t": "Metabolism of Polycyclic Aromatic Hydrocarbons in the Aquatic Environment",
+    "c": 1115,
+    "y": 2024,
+    "id": "W1539911878",
+    "v": "CRC Press eBooks"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "Climate Change 2022: Impacts, Adaptation and Vulnerability",
+    "c": 2701,
+    "y": 2025,
+    "id": "W2916743836",
+    "v": "Climate Change and Law Collection",
+    "s": 2360.1
+   },
+   {
+    "t": "Test No. 236: Fish Embryo Acute Toxicity (FET) Test",
+    "c": 1945,
+    "y": 2025,
+    "id": "W4248636029",
+    "v": "OECD guidelines for the testing of chemicals. Section 2: Effects on biotic systems",
+    "s": 1379.4
+   },
+   {
+    "t": "Twenty years of microplastic pollution research—what have we learned?",
+    "c": 1779,
+    "y": 2024,
+    "id": "W4402625926",
+    "v": "Science",
+    "s": 818.4
+   },
+   {
+    "t": "Global Carbon Budget 2024",
+    "c": 1357,
+    "y": 2025,
+    "id": "W4408460092",
+    "v": "Earth system science data",
+    "s": 802.0
+   },
+   {
+    "t": "Ecotoxicology of Metals in Invertebrates",
+    "c": 702,
+    "y": 2025,
+    "id": "W2014325952",
+    "v": "CRC Press eBooks",
+    "s": 767.7
+   },
+   {
+    "t": "Test No 201 Alga Growth Inhibition Test",
+    "c": 299,
+    "y": 2026,
+    "id": "W4240054883",
+    "v": "OECD guidelines for the testing of chemicals. Section 2: Effects on biotic systems",
+    "s": 763.7
+   },
+   {
+    "t": "Global soil pollution by toxic metals threatens agriculture and human health",
+    "c": 1216,
+    "y": 2025,
+    "id": "W4409530112",
+    "v": "Science",
+    "s": 760.5
+   },
+   {
+    "t": "Bioaccumulation of microplastics in decedent human brains",
+    "c": 1277,
+    "y": 2025,
+    "id": "W4407087473",
+    "v": "Nature Medicine",
+    "s": 709.9
+   }
+  ]
+ },
+ "Medicine": {
+  "n": 735,
+  "cited_median": 440,
+  "cited_mean": 568.7,
+  "oa_frac": 0.909,
+  "types": {
+   "article": 480,
+   "review": 182,
+   "conference-paper": 22,
+   "dataset": 14,
+   "preprint": 12,
+   "book": 7
+  },
+  "top_cited": [
+   {
+    "t": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+    "c": 44496,
+    "y": 2024,
+    "id": "W4393935425",
+    "v": "CA A Cancer Journal for Clinicians"
+   },
+   {
+    "t": "Cancer statistics, 2024",
+    "c": 14988,
+    "y": 2024,
+    "id": "W4390946922",
+    "v": "CA A Cancer Journal for Clinicians"
+   },
+   {
+    "t": "Cancer statistics, 2025",
+    "c": 7475,
+    "y": 2025,
+    "id": "W4406431707",
+    "v": "CA A Cancer Journal for Clinicians"
+   },
+   {
+    "t": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+    "c": 6377,
+    "y": 2024,
+    "id": "W4394894573",
+    "v": "The Lancet"
+   },
+   {
+    "t": "Global burden of bacterial antimicrobial resistance 1990–2021: a systematic analysis with forecasts to 2050",
+    "c": 5564,
+    "y": 2024,
+    "id": "W4402557213",
+    "v": "The Lancet"
+   },
+   {
+    "t": "2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+    "c": 4095,
+    "y": 2024,
+    "id": "W4402049769",
+    "v": "European Heart Journal"
+   },
+   {
+    "t": "Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+    "c": 3766,
+    "y": 2024,
+    "id": "W4396946025",
+    "v": "The Lancet"
+   },
+   {
+    "t": "Worldwide trends in underweight and obesity from 1990 to 2022: a pooled analysis of 3663 population-representative studies with 222 million children, adolescents, and adults",
+    "c": 3574,
+    "y": 2024,
+    "id": "W4392304105",
+    "v": "The Lancet"
+   },
+   {
+    "t": "Cancer incidence and mortality in China, 2022",
+    "c": 3559,
+    "y": 2024,
+    "id": "W4391671392",
+    "v": "Journal of the National Cancer Center"
+   },
+   {
+    "t": "2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines",
+    "c": 3544,
+    "y": 2023,
+    "id": "W4389166035",
+    "v": "Circulation"
+   },
+   {
+    "t": "2024 Alzheimer's disease facts and figures",
+    "c": 3377,
+    "y": 2024,
+    "id": "W4396560090",
+    "v": "Alzheimer s & Dementia"
+   },
+   {
+    "t": "Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup",
+    "c": 3360,
+    "y": 2024,
+    "id": "W4400089962",
+    "v": "Alzheimer s & Dementia"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+    "c": 44496,
+    "y": 2024,
+    "id": "W4393935425",
+    "v": "CA A Cancer Journal for Clinicians",
+    "s": 16894.1
+   },
+   {
+    "t": "Cancer statistics, 2024",
+    "c": 14988,
+    "y": 2024,
+    "id": "W4390946922",
+    "v": "CA A Cancer Journal for Clinicians",
+    "s": 5184.1
+   },
+   {
+    "t": "Cancer statistics, 2025",
+    "c": 7475,
+    "y": 2025,
+    "id": "W4406431707",
+    "v": "CA A Cancer Journal for Clinicians",
+    "s": 3956.9
+   },
+   {
+    "t": "Interleukin-6 in acute exercise and training: what is the biological relevance?",
+    "c": 1088,
+    "y": 2026,
+    "id": "W1443802491",
+    "v": "Exercise immunology review",
+    "s": 3056.9
+   },
+   {
+    "t": "Global burden of bacterial antimicrobial resistance 1990–2021: a systematic analysis with forecasts to 2050",
+    "c": 5564,
+    "y": 2024,
+    "id": "W4402557213",
+    "v": "The Lancet",
+    "s": 2502.8
+   },
+   {
+    "t": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+    "c": 6377,
+    "y": 2024,
+    "id": "W4394894573",
+    "v": "The Lancet",
+    "s": 2454.4
+   },
+   {
+    "t": "Leucocytes, cytokines and satellite cells: what role do they play in muscle damage and regeneration following eccentric exercise?",
+    "c": 788,
+    "y": 2026,
+    "id": "W1524557218",
+    "v": "Exercise immunology review",
+    "s": 2214.0
+   },
+   {
+    "t": "2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+    "c": 4095,
+    "y": 2024,
+    "id": "W4402049769",
+    "v": "European Heart Journal",
+    "s": 1837.5
+   }
+  ]
+ },
+ "Neuroscience": {
+  "n": 735,
+  "cited_median": 126,
+  "cited_mean": 128.0,
+  "oa_frac": 0.928,
+  "types": {
+   "article": 377,
+   "review": 219,
+   "preprint": 78,
+   "conference-paper": 16,
+   "book-chapter": 11,
+   "dataset": 10
+  },
+  "top_cited": [
+   {
+    "t": "Principles of Biological Autonomy",
+    "c": 1922,
+    "y": 2025,
+    "id": "W2118038107",
+    "v": "The MIT Press eBooks"
+   },
+   {
+    "t": "Recent advances in Alzheimer’s disease: mechanisms, clinical trials and new drug development strategies",
+    "c": 1518,
+    "y": 2024,
+    "id": "W4401806028",
+    "v": "Signal Transduction and Targeted Therapy"
+   },
+   {
+    "t": "Prevalence and Early Identification of Autism Spectrum Disorder Among Children Aged 4 and 8 Years — Autism and Developmental Disabilities Monitoring Network, 16 Sites, United States, 2022",
+    "c": 1377,
+    "y": 2025,
+    "id": "W4409458169",
+    "v": "MMWR Surveillance Summaries"
+   },
+   {
+    "t": "Alzheimer's disease drug development pipeline: 2024",
+    "c": 889,
+    "y": 2024,
+    "id": "W4395085030",
+    "v": "Alzheimer s & Dementia Translational Research & Clinical Interventions"
+   },
+   {
+    "t": "Neuronal wiring diagram of an adult brain",
+    "c": 873,
+    "y": 2024,
+    "id": "W4403062911",
+    "v": "Nature"
+   },
+   {
+    "t": "Spoken Language Processing",
+    "c": 791,
+    "y": 2024,
+    "id": "W88864901",
+    "v": "Cambridge University Press eBooks"
+   },
+   {
+    "t": "The Role of Cortisol in Chronic Stress, Neurodegenerative Diseases, and Psychological Disorders",
+    "c": 785,
+    "y": 2023,
+    "id": "W4389143877",
+    "v": "Cells"
+   },
+   {
+    "t": "Spike sorting with Kilosort4",
+    "c": 729,
+    "y": 2024,
+    "id": "W4394577481",
+    "v": "Nature Methods"
+   },
+   {
+    "t": "APOE4/4 is linked to damaging lipid droplets in Alzheimer’s disease microglia",
+    "c": 679,
+    "y": 2024,
+    "id": "W4392762752",
+    "v": "Nature"
+   },
+   {
+    "t": "The role of neuroinflammation in neurodegenerative diseases: current understanding and future therapeutic targets",
+    "c": 664,
+    "y": 2024,
+    "id": "W4394757778",
+    "v": "Frontiers in Aging Neuroscience"
+   },
+   {
+    "t": "Attention and performance",
+    "c": 635,
+    "y": 2024,
+    "id": "W4403658645",
+    "v": "Routledge eBooks"
+   },
+   {
+    "t": "Whole-brain annotation and multi-connectome cell typing of Drosophila",
+    "c": 631,
+    "y": 2024,
+    "id": "W4403062913",
+    "v": "Nature"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "Principles of Biological Autonomy",
+    "c": 1922,
+    "y": 2025,
+    "id": "W2118038107",
+    "v": "The MIT Press eBooks",
+    "s": 1258.1
+   },
+   {
+    "t": "Prevalence and Early Identification of Autism Spectrum Disorder Among Children Aged 4 and 8 Years — Autism and Developmental Disabilities Monitoring Network, 16 Sites, United States, 2022",
+    "c": 1377,
+    "y": 2025,
+    "id": "W4409458169",
+    "v": "MMWR Surveillance Summaries",
+    "s": 861.2
+   },
+   {
+    "t": "Recent advances in Alzheimer’s disease: mechanisms, clinical trials and new drug development strategies",
+    "c": 1518,
+    "y": 2024,
+    "id": "W4401806028",
+    "v": "Signal Transduction and Targeted Therapy",
+    "s": 675.3
+   },
+   {
+    "t": "Sexual dimorphism in the complete Drosophila male central nervous system connectome",
+    "c": 144,
+    "y": 2026,
+    "id": "W7207807810",
+    "v": "Cell",
+    "s": 576.0
+   },
+   {
+    "t": "Insulin Regulates AKT/GSK-3β Signalling, Tau Phosphorylation, and Redox Homeostasis in SH-SY5Y Neuroblastoma Cells",
+    "c": 180,
+    "y": 2026,
+    "id": "W7165674356",
+    "v": "International Journal of Molecular Sciences",
+    "s": 421.4
+   },
+   {
+    "t": "Funciones ejecutivas: nociones del desarrollo desde una perspectiva neuropsicológica",
+    "c": 168,
+    "y": 2026,
+    "id": "W2126803895",
+    "v": "Acción Psicológica",
+    "s": 420.3
+   },
+   {
+    "t": "Neuronal wiring diagram of an adult brain",
+    "c": 873,
+    "y": 2024,
+    "id": "W4403062911",
+    "v": "Nature",
+    "s": 408.3
+   },
+   {
+    "t": "Chronic Stress and Autoimmunity: The Role of HPA Axis and Cortisol Dysregulation",
+    "c": 384,
+    "y": 2025,
+    "id": "W4415369846",
+    "v": "International Journal of Molecular Sciences",
+    "s": 347.2
+   }
+  ]
+ },
+ "Immunology and Microbiology": {
+  "n": 714,
+  "cited_median": 111.5,
+  "cited_mean": 116.7,
+  "oa_frac": 0.944,
+  "types": {
+   "article": 393,
+   "review": 227,
+   "preprint": 44,
+   "conference-paper": 16,
+   "dataset": 16,
+   "book": 6
+  },
+  "top_cited": [
+   {
+    "t": "Knowledge of Intestinal Parasitic Infection and Anemia among Pregnant Women Attending Antenatal Clinic in Ogun State",
+    "c": 1546,
+    "y": 2024,
+    "id": "W4399652560",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "antiSMASH 8.0: extended gene cluster detection capabilities and analyses of chemistry, enzymology, and regulation",
+    "c": 904,
+    "y": 2025,
+    "id": "W4409781688",
+    "v": "Nucleic Acids Research"
+   },
+   {
+    "t": "Targeting M2-like tumor-associated macrophages is a potential therapeutic approach to overcome antitumor drug resistance",
+    "c": 726,
+    "y": 2024,
+    "id": "W4391723488",
+    "v": "npj Precision Oncology"
+   },
+   {
+    "t": "Host-Parasite Interaction in Flax Rust—Its Genetics and Other Implications",
+    "c": 724,
+    "y": 2025,
+    "id": "W2796030758",
+    "v": "Phytopathology"
+   },
+   {
+    "t": "Macrophage polarization: an important role in inflammatory diseases",
+    "c": 721,
+    "y": 2024,
+    "id": "W4394681497",
+    "v": "Frontiers in Immunology"
+   },
+   {
+    "t": "Therapeutic cancer vaccines: advancements, challenges and prospects",
+    "c": 717,
+    "y": 2023,
+    "id": "W4389639889",
+    "v": "Signal Transduction and Targeted Therapy"
+   },
+   {
+    "t": "Neutrophil extracellular traps in homeostasis and disease",
+    "c": 686,
+    "y": 2024,
+    "id": "W4402630519",
+    "v": "Signal Transduction and Targeted Therapy"
+   },
+   {
+    "t": "Test No. 407: Repeated Dose 28-day Oral Toxicity Study in Rodents",
+    "c": 653,
+    "y": 2025,
+    "id": "W4234473255",
+    "v": "OECD guidelines for the testing of chemicals. Section 4: Health effects"
+   },
+   {
+    "t": "Inflammation in atherosclerosis: pathophysiology and mechanisms",
+    "c": 609,
+    "y": 2024,
+    "id": "W4404242781",
+    "v": "Cell Death and Disease"
+   },
+   {
+    "t": "Personalized bacteriophage therapy outcomes for 100 consecutive cases: a multicentre, multinational, retrospective observational study",
+    "c": 590,
+    "y": 2024,
+    "id": "W4399323029",
+    "v": "Nature Microbiology"
+   },
+   {
+    "t": "Targeting cytokine and chemokine signaling pathways for cancer therapy",
+    "c": 587,
+    "y": 2024,
+    "id": "W4400867712",
+    "v": "Signal Transduction and Targeted Therapy"
+   },
+   {
+    "t": "Methods for screening and evaluation of antimicrobial activity: A review of protocols, advantages, and limitations",
+    "c": 580,
+    "y": 2024,
+    "id": "W4395009167",
+    "v": "European Journal of Microbiology and Immunology"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "Knowledge of Intestinal Parasitic Infection and Anemia among Pregnant Women Attending Antenatal Clinic in Ogun State",
+    "c": 1546,
+    "y": 2024,
+    "id": "W4399652560",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)",
+    "s": 632.3
+   },
+   {
+    "t": "Macrophage PIM1 Drives Atherosclerosis by Enhancing Foam Cell Formation Via CD36",
+    "c": 180,
+    "y": 2026,
+    "id": "W7196930168",
+    "v": "Arteriosclerosis Thrombosis and Vascular Biology",
+    "s": 608.8
+   },
+   {
+    "t": "antiSMASH 8.0: extended gene cluster detection capabilities and analyses of chemistry, enzymology, and regulation",
+    "c": 904,
+    "y": 2025,
+    "id": "W4409781688",
+    "v": "Nucleic Acids Research",
+    "s": 573.2
+   },
+   {
+    "t": "Host-Parasite Interaction in Flax Rust—Its Genetics and Other Implications",
+    "c": 724,
+    "y": 2025,
+    "id": "W2796030758",
+    "v": "Phytopathology",
+    "s": 553.2
+   },
+   {
+    "t": "Test No. 407: Repeated Dose 28-day Oral Toxicity Study in Rodents",
+    "c": 653,
+    "y": 2025,
+    "id": "W4234473255",
+    "v": "OECD guidelines for the testing of chemicals. Section 4: Health effects",
+    "s": 463.1
+   },
+   {
+    "t": "Atomically accurate de novo design of antibodies with RFdiffusion",
+    "c": 459,
+    "y": 2025,
+    "id": "W4415929062",
+    "v": "Nature",
+    "s": 438.9
+   },
+   {
+    "t": "Generative design of bacteriophages with genome language models",
+    "c": 121,
+    "y": 2026,
+    "id": "W7197051316",
+    "v": "Science",
+    "s": 409.2
+   },
+   {
+    "t": "Dual roles and therapeutic targeting of tumor-associated macrophages in tumor microenvironments",
+    "c": 479,
+    "y": 2025,
+    "id": "W4413505911",
+    "v": "Signal Transduction and Targeted Therapy",
+    "s": 385.4
+   }
+  ]
+ },
+ "Engineering": {
+  "n": 702,
+  "cited_median": 298.5,
+  "cited_mean": 294.1,
+  "oa_frac": 0.785,
+  "types": {
+   "article": 368,
+   "conference-paper": 145,
+   "review": 83,
+   "preprint": 46,
+   "book-chapter": 29,
+   "book": 14
+  },
+  "top_cited": [
+   {
+    "t": "OpenVLA: An Open-Source Vision-Language-Action Model",
+    "c": 4285,
+    "y": 2024,
+    "id": "W4399695759",
+    "v": "arXiv (Cornell University)"
+   },
+   {
+    "t": "π₀: A Vision-Language-Action Flow Model for General Robot Control",
+    "c": 3755,
+    "y": 2025,
+    "id": "W4414079054",
+    "v": "Robotics: Science and Systems"
+   },
+   {
+    "t": "Fundamentals of Soil Behavior",
+    "c": 3103,
+    "y": 2025,
+    "id": "W1693096119",
+    "v": "Wiley eBooks"
+   },
+   {
+    "t": "$π_{0.5}$: a Vision-Language-Action Model with Open-World Generalization",
+    "c": 2329,
+    "y": 2025,
+    "id": "W4414674749",
+    "v": "arXiv (Cornell University)"
+   },
+   {
+    "t": "Aircraft Design: A Conceptual Approach",
+    "c": 2272,
+    "y": 2024,
+    "id": "W1566179750",
+    "v": "American Institute of Aeronautics and Astronautics eBooks"
+   },
+   {
+    "t": "Theory of Elastic Stability: Analysis and Sensitivity",
+    "c": 2228,
+    "y": 2024,
+    "id": "W4403689548",
+    "v": "CRC Press eBooks"
+   },
+   {
+    "t": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+    "c": 1871,
+    "y": 2025,
+    "id": "W4414901575",
+    "v": "arXiv (Cornell University)"
+   },
+   {
+    "t": "Fault Detection Method based on Artificial Neural Network for 330kV Nigerian Transmission Line",
+    "c": 1769,
+    "y": 2024,
+    "id": "W4395669330",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models : Open X-Embodiment Collaboration 0",
+    "c": 1630,
+    "y": 2024,
+    "id": "W4401415287",
+    "v": "Proceedings - IEEE International Conference on Robotics and Automation/Proceedings"
+   },
+   {
+    "t": "Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands",
+    "c": 1488,
+    "y": 2024,
+    "id": "W4394728226",
+    "v": "Science"
+   },
+   {
+    "t": "Octo: An Open-Source Generalist Robot Policy",
+    "c": 1434,
+    "y": 2024,
+    "id": "W4398192846",
+    "v": "arXiv (Cornell University)"
+   },
+   {
+    "t": "Loss of Life Transformer Prediction Based on Stacking Ensemble Improved by Genetic Algorithm By IJISRT",
+    "c": 1321,
+    "y": 2024,
+    "id": "W4393183306",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "π₀: A Vision-Language-Action Flow Model for General Robot Control",
+    "c": 3755,
+    "y": 2025,
+    "id": "W4414079054",
+    "v": "Robotics: Science and Systems",
+    "s": 2642.6
+   },
+   {
+    "t": "Application of computers in fatigue analysis",
+    "c": 600,
+    "y": 2026,
+    "id": "W1556520835",
+    "v": "Warwick Research Archive Portal (University of Warwick)",
+    "s": 2400.0
+   },
+   {
+    "t": "Fundamentals of Soil Behavior",
+    "c": 3103,
+    "y": 2025,
+    "id": "W1693096119",
+    "v": "Wiley eBooks",
+    "s": 2179.6
+   },
+   {
+    "t": "OpenVLA: An Open-Source Vision-Language-Action Model",
+    "c": 4285,
+    "y": 2024,
+    "id": "W4399695759",
+    "v": "arXiv (Cornell University)",
+    "s": 1754.6
+   },
+   {
+    "t": "$π_{0.5}$: a Vision-Language-Action Model with Open-World Generalization",
+    "c": 2329,
+    "y": 2025,
+    "id": "W4414674749",
+    "v": "arXiv (Cornell University)",
+    "s": 1469.2
+   },
+   {
+    "t": "Rare-Earth-Doped Fiber Lasers and Amplifiers",
+    "c": 817,
+    "y": 2026,
+    "id": "W1511694100",
+    "v": "CRC Press eBooks",
+    "s": 1401.0
+   },
+   {
+    "t": "Causal World Modeling for Robot Control",
+    "c": 499,
+    "y": 2026,
+    "id": "W7126180855",
+    "v": "Robotics: Science and Systems",
+    "s": 1380.8
+   },
+   {
+    "t": "Advanced PID Control",
+    "c": 1122,
+    "y": 2026,
+    "id": "W2134282505",
+    "v": "Wiley eBooks",
+    "s": 1348.1
+   }
+  ]
+ },
+ "Agricultural and Biological Sciences": {
+  "n": 701,
+  "cited_median": 190,
+  "cited_mean": 194.8,
+  "oa_frac": 0.937,
+  "types": {
+   "article": 374,
+   "review": 207,
+   "conference-paper": 78,
+   "dataset": 24,
+   "book": 8,
+   "preprint": 4
+  },
+  "top_cited": [
+   {
+    "t": "Plant-Derived Natural Products: A Source for Drug Discovery and Development",
+    "c": 1566,
+    "y": 2024,
+    "id": "W4391994727",
+    "v": "Drugs and Drug Candidates"
+   },
+   {
+    "t": "Ethnobotanical Studies of Reputed Aphrodisiac Plants Used in Traditional Medicine in Haut-Katanga in DR of Congo",
+    "c": 1555,
+    "y": 2024,
+    "id": "W4399809023",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "The Influence of Ectotrophic Mycorrhizal Fungi on the Resistance of Pine Roots to Pathogenic Infections. I. Antagonism of Mycorrhizal Fungi to Root Pathogenic Fungi and Soil Bacteria",
+    "c": 1273,
+    "y": 2025,
+    "id": "W2246596825",
+    "v": "Phytopathology"
+   },
+   {
+    "t": "An Improved Grading System for Measuring Plant Diseases",
+    "c": 1002,
+    "y": 2025,
+    "id": "W3023060882",
+    "v": "Phytopathology"
+   },
+   {
+    "t": "The enduring world forest carbon sink",
+    "c": 975,
+    "y": 2024,
+    "id": "W4400730941",
+    "v": "Nature"
+   },
+   {
+    "t": "IoT Solutions in Agriculture: Enhancing Efficiency and Productivity",
+    "c": 968,
+    "y": 2024,
+    "id": "W4399900763",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "Using Machine Learning to Identify Diseases and Perform Sorting in Apple Fruit",
+    "c": 967,
+    "y": 2024,
+    "id": "W4400988476",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "Food Composition and Nutrition Tables: Die Zusammensetzung der Lebensmittel - Nährwert-Tabellen La composition des aliments - Tableaux des valeurs nutritives",
+    "c": 962,
+    "y": 2024,
+    "id": "W1508194135",
+    "v": null
+   },
+   {
+    "t": "Classifying Crop Leaf Diseases using Different Deep Learning Models with Transfer Learning",
+    "c": 961,
+    "y": 2024,
+    "id": "W4400217631",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "Advanced Modelling of Soil Organic Carbon Content in Coal Mining Areas Using Integrated Spectral Analysis: A Dengcao Coal Mine Case Study",
+    "c": 960,
+    "y": 2024,
+    "id": "W4399685394",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "Mechanisms and implications of bacterial–fungal competition for soil resources",
+    "c": 798,
+    "y": 2024,
+    "id": "W4396569691",
+    "v": "The ISME Journal"
+   },
+   {
+    "t": "Deep learning and computer vision in plant disease detection: a comprehensive review of techniques, models, and trends in precision agriculture",
+    "c": 788,
+    "y": 2025,
+    "id": "W4406488712",
+    "v": "Artificial Intelligence Review"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "The Influence of Ectotrophic Mycorrhizal Fungi on the Resistance of Pine Roots to Pathogenic Infections. I. Antagonism of Mycorrhizal Fungi to Root Pathogenic Fungi and Soil Bacteria",
+    "c": 1273,
+    "y": 2025,
+    "id": "W2246596825",
+    "v": "Phytopathology",
+    "s": 972.7
+   },
+   {
+    "t": "An Improved Grading System for Measuring Plant Diseases",
+    "c": 1002,
+    "y": 2025,
+    "id": "W3023060882",
+    "v": "Phytopathology",
+    "s": 765.6
+   },
+   {
+    "t": "Ethnobotanical Studies of Reputed Aphrodisiac Plants Used in Traditional Medicine in Haut-Katanga in DR of Congo",
+    "c": 1555,
+    "y": 2024,
+    "id": "W4399809023",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)",
+    "s": 641.0
+   },
+   {
+    "t": "Plant-Derived Natural Products: A Source for Drug Discovery and Development",
+    "c": 1566,
+    "y": 2024,
+    "id": "W4391994727",
+    "v": "Drugs and Drug Candidates",
+    "s": 568.0
+   },
+   {
+    "t": "Deep learning and computer vision in plant disease detection: a comprehensive review of techniques, models, and trends in precision agriculture",
+    "c": 788,
+    "y": 2025,
+    "id": "W4406488712",
+    "v": "Artificial Intelligence Review",
+    "s": 427.0
+   },
+   {
+    "t": "Using Machine Learning to Identify Diseases and Perform Sorting in Apple Fruit",
+    "c": 967,
+    "y": 2024,
+    "id": "W4400988476",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)",
+    "s": 415.5
+   },
+   {
+    "t": "The enduring world forest carbon sink",
+    "c": 975,
+    "y": 2024,
+    "id": "W4400730941",
+    "v": "Nature",
+    "s": 415.1
+   },
+   {
+    "t": "Antioxidant Defense System in Plants: Reactive Oxygen Species Production, Signaling, and Scavenging During Abiotic Stress-Induced Oxidative Damage",
+    "c": 631,
+    "y": 2025,
+    "id": "W4409920073",
+    "v": "Horticulturae",
+    "s": 402.9
+   }
+  ]
+ },
+ "Materials Science": {
+  "n": 693,
+  "cited_median": 228,
+  "cited_mean": 219.7,
+  "oa_frac": 0.746,
+  "types": {
+   "article": 432,
+   "review": 182,
+   "preprint": 44,
+   "dataset": 16,
+   "conference-paper": 8,
+   "book": 5
+  },
+  "top_cited": [
+   {
+    "t": "Autonomous chemical research with large language models",
+    "c": 2723,
+    "y": 2023,
+    "id": "W4389991792",
+    "v": "Nature"
+   },
+   {
+    "t": "Scaling deep learning for materials discovery",
+    "c": 2463,
+    "y": 2023,
+    "id": "W4389132751",
+    "v": "Nature"
+   },
+   {
+    "t": "Augmenting large language models with chemistry tools",
+    "c": 2417,
+    "y": 2024,
+    "id": "W4396723768",
+    "v": "Nature Machine Intelligence"
+   },
+   {
+    "t": "An autonomous laboratory for the accelerated synthesis of inorganic materials",
+    "c": 1642,
+    "y": 2023,
+    "id": "W4389132715",
+    "v": "Nature"
+   },
+   {
+    "t": "Polymeric Nanoparticles for Drug Delivery",
+    "c": 1365,
+    "y": 2024,
+    "id": "W4394857483",
+    "v": "Chemical Reviews"
+   },
+   {
+    "t": "A foundation model for atomistic materials chemistry",
+    "c": 1320,
+    "y": 2025,
+    "id": "W4416191329",
+    "v": "The Journal of Chemical Physics"
+   },
+   {
+    "t": "A generative model for inorganic materials design",
+    "c": 1221,
+    "y": 2025,
+    "id": "W4406472463",
+    "v": "Nature"
+   },
+   {
+    "t": "Self-Driving Laboratories for Chemistry and Materials Science",
+    "c": 1108,
+    "y": 2024,
+    "id": "W4401535000",
+    "v": "Chemical Reviews"
+   },
+   {
+    "t": "Application of Fourier Transform Infrared (FTIR) Spectroscopy in Characterization of Green Synthesized Nanoparticles",
+    "c": 1032,
+    "y": 2025,
+    "id": "W4407142491",
+    "v": "Molecules"
+   },
+   {
+    "t": "Synthesis of green nanoparticles for energy, biomedical, environmental, agricultural, and food applications: A review",
+    "c": 1000,
+    "y": 2024,
+    "id": "W4391052377",
+    "v": "Environmental Chemistry Letters"
+   },
+   {
+    "t": "OpenMM 8: Molecular Dynamics Simulation with Machine Learning Potentials",
+    "c": 877,
+    "y": 2023,
+    "id": "W4388870365",
+    "v": "The Journal of Physical Chemistry B"
+   },
+   {
+    "t": "Harnessing the potential of hydrogels for advanced therapeutic applications: current achievements and future directions",
+    "c": 850,
+    "y": 2024,
+    "id": "W4400174569",
+    "v": "Signal Transduction and Targeted Therapy"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "Synergistic Multicomponent Nucleopeptide-Based Hydrogels: Harnessing DNA-Base Pairing and Electrostatic Complementarities",
+    "c": 754,
+    "y": 2026,
+    "id": "W4394949314",
+    "v": "ACS Materials Au",
+    "s": 1649.1
+   },
+   {
+    "t": "A foundation model for atomistic materials chemistry",
+    "c": 1320,
+    "y": 2025,
+    "id": "W4416191329",
+    "v": "The Journal of Chemical Physics",
+    "s": 1289.1
+   },
+   {
+    "t": "Augmenting large language models with chemistry tools",
+    "c": 2417,
+    "y": 2024,
+    "id": "W4396723768",
+    "v": "Nature Machine Intelligence",
+    "s": 951.3
+   },
+   {
+    "t": "Autonomous chemical research with large language models",
+    "c": 2723,
+    "y": 2023,
+    "id": "W4389991792",
+    "v": "Nature",
+    "s": 931.3
+   },
+   {
+    "t": "Scaling deep learning for materials discovery",
+    "c": 2463,
+    "y": 2023,
+    "id": "W4389132751",
+    "v": "Nature",
+    "s": 826.1
+   },
+   {
+    "t": "Principles of Polymer Engineering",
+    "c": 585,
+    "y": 2026,
+    "id": "W1560254133",
+    "v": null,
+    "s": 674.0
+   },
+   {
+    "t": "A generative model for inorganic materials design",
+    "c": 1221,
+    "y": 2025,
+    "id": "W4406472463",
+    "v": "Nature",
+    "s": 660.7
+   },
+   {
+    "t": "Application of Fourier Transform Infrared (FTIR) Spectroscopy in Characterization of Green Synthesized Nanoparticles",
+    "c": 1032,
+    "y": 2025,
+    "id": "W4407142491",
+    "v": "Molecules",
+    "s": 574.6
+   }
+  ]
+ },
+ "Business, Management and Accounting": {
+  "n": 683,
+  "cited_median": 184,
+  "cited_mean": 190.7,
+  "oa_frac": 0.83,
+  "types": {
+   "article": 565,
+   "review": 50,
+   "book": 18,
+   "book-chapter": 15,
+   "conference-paper": 14,
+   "preprint": 7
+  },
+  "top_cited": [
+   {
+    "t": "Beyond Mobile Payments: Exploring the Evolution and Future of Fintech (BY IJISRT)",
+    "c": 1635,
+    "y": 2024,
+    "id": "W4395010520",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "Implementation of Total Productive Maintenance on Frame Welding Machine Maintenance Using the Overall Equipment Effectiveness (OEE) Method at PT Electronics Components Indonesia",
+    "c": 1550,
+    "y": 2024,
+    "id": "W4399896625",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "Analysis of Work Measurement Using a Stopwatch in a Motorcycle Workshop",
+    "c": 1546,
+    "y": 2024,
+    "id": "W4399808102",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "Research Methodology: Methods And Techniques",
+    "c": 1520,
+    "y": 2024,
+    "id": "W4394846027",
+    "v": null
+   },
+   {
+    "t": "Quality Control of Ceramic Wall Products Six Sigma Method with Dmaic Tools and Failure Mode and Effect Analysis (FMEA)",
+    "c": 1365,
+    "y": 2024,
+    "id": "W4400087626",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "The Essential Guide to Doing Your Research Project",
+    "c": 1308,
+    "y": 2025,
+    "id": "W1588735394",
+    "v": "SAGE Publications Ltd eBooks"
+   },
+   {
+    "t": "TEKNIK PENGUMPULAN DATA: OBSERVASI, WAWANCARA DAN KUESIONER",
+    "c": 1047,
+    "y": 2025,
+    "id": "W4406134051",
+    "v": "JISOSEPOL Jurnal Ilmu Sosial Ekonomi dan Politik"
+   },
+   {
+    "t": "The Impact of ESG (Environmental, Social, and Governance) Considerations on Corporate Mergers and Acquisitions: Strategies for Value Creation",
+    "c": 965,
+    "y": 2024,
+    "id": "W4401122848",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "AI-powered marketing: What, where, and how?",
+    "c": 963,
+    "y": 2024,
+    "id": "W4394605410",
+    "v": "International Journal of Information Management"
+   },
+   {
+    "t": "Analysis of Cylinder Comp Product Quality Control with Proposed Improvements at PT. Jakarta Automotive",
+    "c": 961,
+    "y": 2024,
+    "id": "W4400928626",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "The Government's Role in DMO-based Urban Tourism in Kayutangan area of Malang city",
+    "c": 960,
+    "y": 2024,
+    "id": "W4400588278",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "Quality Control to Reduce Appearance Defects at PT. Musical Instrument",
+    "c": 960,
+    "y": 2024,
+    "id": "W4400837307",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "The Essential Guide to Doing Your Research Project",
+    "c": 1308,
+    "y": 2025,
+    "id": "W1588735394",
+    "v": "SAGE Publications Ltd eBooks",
+    "s": 692.4
+   },
+   {
+    "t": "Implementation of Total Productive Maintenance on Frame Welding Machine Maintenance Using the Overall Equipment Effectiveness (OEE) Method at PT Electronics Components Indonesia",
+    "c": 1550,
+    "y": 2024,
+    "id": "W4399896625",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)",
+    "s": 640.4
+   },
+   {
+    "t": "Analysis of Work Measurement Using a Stopwatch in a Motorcycle Workshop",
+    "c": 1546,
+    "y": 2024,
+    "id": "W4399808102",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)",
+    "s": 637.3
+   },
+   {
+    "t": "Beyond Mobile Payments: Exploring the Evolution and Future of Fintech (BY IJISRT)",
+    "c": 1635,
+    "y": 2024,
+    "id": "W4395010520",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)",
+    "s": 632.6
+   },
+   {
+    "t": "How People Use ChatGPT",
+    "c": 772,
+    "y": 2025,
+    "id": "W4414192430",
+    "v": "National Bureau of Economic Research",
+    "s": 630.8
+   },
+   {
+    "t": "Research Methodology: Methods And Techniques",
+    "c": 1520,
+    "y": 2024,
+    "id": "W4394846027",
+    "v": null,
+    "s": 583.8
+   },
+   {
+    "t": "Quality Control of Ceramic Wall Products Six Sigma Method with Dmaic Tools and Failure Mode and Effect Analysis (FMEA)",
+    "c": 1365,
+    "y": 2024,
+    "id": "W4400087626",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)",
+    "s": 567.8
+   },
+   {
+    "t": "TEKNIK PENGUMPULAN DATA: OBSERVASI, WAWANCARA DAN KUESIONER",
+    "c": 1047,
+    "y": 2025,
+    "id": "W4406134051",
+    "v": "JISOSEPOL Jurnal Ilmu Sosial Ekonomi dan Politik",
+    "s": 557.5
+   }
+  ]
+ },
+ "Energy": {
+  "n": 676,
+  "cited_median": 197.0,
+  "cited_mean": 178.0,
+  "oa_frac": 0.712,
+  "types": {
+   "article": 518,
+   "review": 83,
+   "preprint": 20,
+   "dataset": 17,
+   "book-chapter": 13,
+   "conference-paper": 12
+  },
+  "top_cited": [
+   {
+    "t": "A review of hybrid renewable energy systems: Solar and wind-powered solutions: Challenges, opportunities, and policy implications",
+    "c": 1137,
+    "y": 2023,
+    "id": "W4388948709",
+    "v": "Results in Engineering"
+   },
+   {
+    "t": "Study on Photocatalytic Properties of TiO2 with Special Morphology by Using Natural Template",
+    "c": 1012,
+    "y": 2024,
+    "id": "W4399355330",
+    "v": "Cambridge Science Advance"
+   },
+   {
+    "t": "Tafel Slope Plot as a Tool to Analyze Electrocatalytic Reactions",
+    "c": 926,
+    "y": 2024,
+    "id": "W4393375459",
+    "v": "ACS Energy Letters"
+   },
+   {
+    "t": "Bifunctional Electrocatalysts for Overall and Hybrid Water Splitting",
+    "c": 909,
+    "y": 2024,
+    "id": "W4393071097",
+    "v": "Chemical Reviews"
+   },
+   {
+    "t": "Hydrogen as an alternative fuel: A comprehensive review of challenges and opportunities in production, storage, and transportation",
+    "c": 887,
+    "y": 2025,
+    "id": "W4406341213",
+    "v": "International Journal of Hydrogen Energy"
+   },
+   {
+    "t": "Comprehensive review of energy storage systems technologies, objectives, challenges, and future trends",
+    "c": 802,
+    "y": 2024,
+    "id": "W4400195334",
+    "v": "Energy Strategy Reviews"
+   },
+   {
+    "t": "Photocatalytic Dye Degradation from Textile Wastewater: A Review",
+    "c": 782,
+    "y": 2024,
+    "id": "W4396799358",
+    "v": "ACS Omega"
+   },
+   {
+    "t": "Interfacial Solar Evaporation: From Fundamental Research to Applications",
+    "c": 737,
+    "y": 2024,
+    "id": "W4392042978",
+    "v": "Advanced Materials"
+   },
+   {
+    "t": "Construction of 2D S‐Scheme Heterojunction Photocatalyst",
+    "c": 727,
+    "y": 2023,
+    "id": "W4388910781",
+    "v": "Advanced Materials"
+   },
+   {
+    "t": "Alkaline Water Electrolysis for Green Hydrogen Production",
+    "c": 674,
+    "y": 2024,
+    "id": "W4391693949",
+    "v": "Accounts of Chemical Research"
+   },
+   {
+    "t": "The green hydrogen ambition and implementation gap",
+    "c": 645,
+    "y": 2025,
+    "id": "W4406374649",
+    "v": "Nature Energy"
+   },
+   {
+    "t": "Hydrogen energy systems: Technologies, trends, and future prospects",
+    "c": 631,
+    "y": 2024,
+    "id": "W4399143104",
+    "v": "The Science of The Total Environment"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "Hydrogen as an alternative fuel: A comprehensive review of challenges and opportunities in production, storage, and transportation",
+    "c": 887,
+    "y": 2025,
+    "id": "W4406341213",
+    "v": "International Journal of Hydrogen Energy",
+    "s": 478.5
+   },
+   {
+    "t": "Study on Photocatalytic Properties of TiO2 with Special Morphology by Using Natural Template",
+    "c": 1012,
+    "y": 2024,
+    "id": "W4399355330",
+    "v": "Cambridge Science Advance",
+    "s": 410.2
+   },
+   {
+    "t": "A review of hybrid renewable energy systems: Solar and wind-powered solutions: Challenges, opportunities, and policy implications",
+    "c": 1137,
+    "y": 2023,
+    "id": "W4388948709",
+    "v": "Results in Engineering",
+    "s": 379.3
+   },
+   {
+    "t": "Tafel Slope Plot as a Tool to Analyze Electrocatalytic Reactions",
+    "c": 926,
+    "y": 2024,
+    "id": "W4393375459",
+    "v": "ACS Energy Letters",
+    "s": 350.5
+   },
+   {
+    "t": "The green hydrogen ambition and implementation gap",
+    "c": 645,
+    "y": 2025,
+    "id": "W4406374649",
+    "v": "Nature Energy",
+    "s": 348.0
+   },
+   {
+    "t": "Bifunctional Electrocatalysts for Overall and Hybrid Water Splitting",
+    "c": 909,
+    "y": 2024,
+    "id": "W4393071097",
+    "v": "Chemical Reviews",
+    "s": 340.5
+   },
+   {
+    "t": "Comprehensive review of energy storage systems technologies, objectives, challenges, and future trends",
+    "c": 802,
+    "y": 2024,
+    "id": "W4400195334",
+    "v": "Energy Strategy Reviews",
+    "s": 335.2
+   },
+   {
+    "t": "Photocatalytic Dye Degradation from Textile Wastewater: A Review",
+    "c": 782,
+    "y": 2024,
+    "id": "W4396799358",
+    "v": "ACS Omega",
+    "s": 308.5
+   }
+  ]
+ },
+ "Social Sciences": {
+  "n": 674,
+  "cited_median": 355.0,
+  "cited_mean": 481.0,
+  "oa_frac": 0.912,
+  "types": {
+   "article": 458,
+   "review": 75,
+   "book-chapter": 46,
+   "book": 43,
+   "conference-paper": 14,
+   "dissertation": 12
+  },
+  "top_cited": [
+   {
+    "t": "Two new Later Stone Age sites from the Final Pleistocene in the Falémé Valley, eastern Senegal",
+    "c": 24264,
+    "y": 2024,
+    "id": "W4392145873",
+    "v": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)"
+   },
+   {
+    "t": "8 Decolonizing Methodologies: Research and Indigenous Peoples",
+    "c": 9763,
+    "y": 2024,
+    "id": "W2029648951",
+    "v": "Multilingual Matters eBooks"
+   },
+   {
+    "t": "Education in the Era of Generative Artificial Intelligence (AI): Understanding the Potential Benefits of ChatGPT in Promoting Teaching and Learning",
+    "c": 4820,
+    "y": 2023,
+    "id": "W4389437528",
+    "v": "Journal of AI"
+   },
+   {
+    "t": "Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+    "c": 3709,
+    "y": 2024,
+    "id": "W4393858312",
+    "v": "The Lancet"
+   },
+   {
+    "t": "Interpreting Qualitative Data",
+    "c": 3697,
+    "y": 2024,
+    "id": "W1535110649",
+    "v": "SAGE Publications Ltd eBooks"
+   },
+   {
+    "t": "What Is Qualitative Research? An Overview and Guidelines",
+    "c": 3134,
+    "y": 2024,
+    "id": "W4401036688",
+    "v": "Australasian Marketing Journal (AMJ)"
+   },
+   {
+    "t": "The effects of over-reliance on AI dialogue systems on students' cognitive abilities: a systematic review",
+    "c": 2995,
+    "y": 2024,
+    "id": "W4399790131",
+    "v": "Smart Learning Environments"
+   },
+   {
+    "t": "The pillars of trustworthiness in qualitative research",
+    "c": 2826,
+    "y": 2024,
+    "id": "W4391490345",
+    "v": "Journal of Medicine Surgery and Public Health"
+   },
+   {
+    "t": "Strategi Belajar Mengajar",
+    "c": 2807,
+    "y": 2024,
+    "id": "W4402690901",
+    "v": "Dewantara Jurnal Pendidikan Sosial Humaniora"
+   },
+   {
+    "t": "AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking",
+    "c": 2572,
+    "y": 2025,
+    "id": "W4406026056",
+    "v": "Societies"
+   },
+   {
+    "t": "A survey on LLM-as-a-judge",
+    "c": 2178,
+    "y": 2026,
+    "id": "W7120088840",
+    "v": "The Innovation"
+   },
+   {
+    "t": "Artificial intelligence in education: A systematic literature review",
+    "c": 2153,
+    "y": 2024,
+    "id": "W4396766974",
+    "v": "Expert Systems with Applications"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "Two new Later Stone Age sites from the Final Pleistocene in the Falémé Valley, eastern Senegal",
+    "c": 24264,
+    "y": 2024,
+    "id": "W4392145873",
+    "v": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)",
+    "s": 9146.0
+   },
+   {
+    "t": "Relative Deprivation and Social Justice: A Study of Attitudes to Social Inequality in Twentieth-Century England",
+    "c": 1814,
+    "y": 2026,
+    "id": "W158548849",
+    "v": "Routledge eBooks",
+    "s": 7256.0
+   },
+   {
+    "t": "8 Decolonizing Methodologies: Research and Indigenous Peoples",
+    "c": 9763,
+    "y": 2024,
+    "id": "W2029648951",
+    "v": "Multilingual Matters eBooks",
+    "s": 3523.7
+   },
+   {
+    "t": "A survey on LLM-as-a-judge",
+    "c": 2178,
+    "y": 2026,
+    "id": "W7120088840",
+    "v": "The Innovation",
+    "s": 2517.5
+   },
+   {
+    "t": "Education in the Era of Generative Artificial Intelligence (AI): Understanding the Potential Benefits of ChatGPT in Promoting Teaching and Learning",
+    "c": 4820,
+    "y": 2023,
+    "id": "W4389437528",
+    "v": "Journal of AI",
+    "s": 1665.6
+   },
+   {
+    "t": "Deliberative Democracy or Agonistic Pluralism?",
+    "c": 1279,
+    "y": 2026,
+    "id": "W1968920975",
+    "v": "Routledge eBooks",
+    "s": 1459.9
+   },
+   {
+    "t": "Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+    "c": 3709,
+    "y": 2024,
+    "id": "W4393858312",
+    "v": "The Lancet",
+    "s": 1406.8
+   },
+   {
+    "t": "Borderlands/La Frontera",
+    "c": 2024,
+    "y": 2025,
+    "id": "W254608528",
+    "v": "Routledge eBooks",
+    "s": 1374.1
+   }
+  ]
+ },
+ "Biochemistry, Genetics and Molecular Biology": {
+  "n": 669,
+  "cited_median": 288,
+  "cited_mean": 363.5,
+  "oa_frac": 0.964,
+  "types": {
+   "article": 383,
+   "review": 212,
+   "preprint": 32,
+   "dataset": 14,
+   "software": 10,
+   "conference-paper": 7
+  },
+  "top_cited": [
+   {
+    "t": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+    "c": 19711,
+    "y": 2024,
+    "id": "W4396721167",
+    "v": "Nature"
+   },
+   {
+    "t": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+    "c": 5757,
+    "y": 2024,
+    "id": "W4391649568",
+    "v": "Journal of Extracellular Vesicles"
+   },
+   {
+    "t": "Interactive Tree of Life (iTOL) v6: recent updates to the phylogenetic tree display and annotation tool",
+    "c": 5440,
+    "y": 2024,
+    "id": "W4394785938",
+    "v": "Nucleic Acids Research"
+   },
+   {
+    "t": "UniProt: the Universal Protein Knowledgebase in 2025",
+    "c": 3606,
+    "y": 2024,
+    "id": "W4404458588",
+    "v": "Nucleic Acids Research"
+   },
+   {
+    "t": "KEGG: biological systems database as a model of the real world",
+    "c": 3403,
+    "y": 2024,
+    "id": "W4403479110",
+    "v": "Nucleic Acids Research"
+   },
+   {
+    "t": "MEGA12: Molecular Evolutionary Genetic Analysis Version 12 for Adaptive and Green Computing",
+    "c": 3283,
+    "y": 2024,
+    "id": "W4405670661",
+    "v": "Molecular Biology and Evolution"
+   },
+   {
+    "t": "MetaboAnalyst 6.0: towards a unified platform for metabolomics data processing, analysis and interpretation",
+    "c": 2709,
+    "y": 2024,
+    "id": "W4394578957",
+    "v": "Nucleic Acids Research"
+   },
+   {
+    "t": "NF-κB in biology and targeted therapy: new insights and translational implications",
+    "c": 2638,
+    "y": 2024,
+    "id": "W4392343318",
+    "v": "Signal Transduction and Targeted Therapy"
+   },
+   {
+    "t": "Extracellular vesicles as tools and targets in therapy for diseases",
+    "c": 1684,
+    "y": 2024,
+    "id": "W4392737580",
+    "v": "Signal Transduction and Targeted Therapy"
+   },
+   {
+    "t": "Mitochondrial dysfunction: mechanisms and advances in therapy",
+    "c": 1519,
+    "y": 2024,
+    "id": "W4396936983",
+    "v": "Signal Transduction and Targeted Therapy"
+   },
+   {
+    "t": "TGF-β signaling in health, disease and therapeutics",
+    "c": 1516,
+    "y": 2024,
+    "id": "W4394747404",
+    "v": "Signal Transduction and Targeted Therapy"
+   },
+   {
+    "t": "Exploring treatment options in cancer: tumor treatment strategies",
+    "c": 1500,
+    "y": 2024,
+    "id": "W4400748356",
+    "v": "Signal Transduction and Targeted Therapy"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+    "c": 19711,
+    "y": 2024,
+    "id": "W4396721167",
+    "v": "Nature",
+    "s": 7758.0
+   },
+   {
+    "t": "Interactive Tree of Life (iTOL) v6: recent updates to the phylogenetic tree display and annotation tool",
+    "c": 5440,
+    "y": 2024,
+    "id": "W4394785938",
+    "v": "Nucleic Acids Research",
+    "s": 2085.0
+   },
+   {
+    "t": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+    "c": 5757,
+    "y": 2024,
+    "id": "W4391649568",
+    "v": "Journal of Extracellular Vesicles",
+    "s": 2051.5
+   },
+   {
+    "t": "UniProt: the Universal Protein Knowledgebase in 2025",
+    "c": 3606,
+    "y": 2024,
+    "id": "W4404458588",
+    "v": "Nucleic Acids Research",
+    "s": 1794.4
+   },
+   {
+    "t": "MEGA12: Molecular Evolutionary Genetic Analysis Version 12 for Adaptive and Green Computing",
+    "c": 3283,
+    "y": 2024,
+    "id": "W4405670661",
+    "v": "Molecular Biology and Evolution",
+    "s": 1663.1
+   },
+   {
+    "t": "KEGG: biological systems database as a model of the real world",
+    "c": 3403,
+    "y": 2024,
+    "id": "W4403479110",
+    "v": "Nucleic Acids Research",
+    "s": 1622.6
+   },
+   {
+    "t": "IQ-TREE 3: phylogenomic inference software using complex evolutionary models",
+    "c": 703,
+    "y": 2026,
+    "id": "W4409216400",
+    "v": "Molecular Biology and Evolution",
+    "s": 1252.5
+   },
+   {
+    "t": "MetaboAnalyst 6.0: towards a unified platform for metabolomics data processing, analysis and interpretation",
+    "c": 2709,
+    "y": 2024,
+    "id": "W4394578957",
+    "v": "Nucleic Acids Research",
+    "s": 1032.8
+   }
+  ]
+ },
+ "Economics, Econometrics and Finance": {
+  "n": 630,
+  "cited_median": 128.5,
+  "cited_mean": 135.1,
+  "oa_frac": 0.813,
+  "types": {
+   "article": 419,
+   "report": 38,
+   "book": 38,
+   "preprint": 32,
+   "book-chapter": 25,
+   "dataset": 24
+  },
+  "top_cited": [
+   {
+    "t": "Generative AI at Work",
+    "c": 2534,
+    "y": 2025,
+    "id": "W4407142724",
+    "v": "The Quarterly Journal of Economics"
+   },
+   {
+    "t": "Competition and innovation: an inverted U relationship",
+    "c": 2166,
+    "y": 2026,
+    "id": "W3122980858",
+    "v": null
+   },
+   {
+    "t": "Nonmonetary Effects of the Financial Crisis in the Propagation of the Great Depression",
+    "c": 1750,
+    "y": 2024,
+    "id": "W3123285923",
+    "v": "Princeton University Press eBooks"
+   },
+   {
+    "t": "The Fourth Industrial Revolution: what it means, how to respond1",
+    "c": 1321,
+    "y": 2024,
+    "id": "W4400907212",
+    "v": "Edward Elgar Publishing eBooks"
+   },
+   {
+    "t": "Behavioral Game Theory",
+    "c": 1291,
+    "y": 2025,
+    "id": "W2745547123",
+    "v": "Cambridge University Press eBooks"
+   },
+   {
+    "t": "Research on the Impact of Geopolitical Instability on Russian Trade",
+    "c": 960,
+    "y": 2024,
+    "id": "W4401287805",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   },
+   {
+    "t": "The simple macroeconomics of AI",
+    "c": 763,
+    "y": 2024,
+    "id": "W4401405116",
+    "v": "Economic Policy"
+   },
+   {
+    "t": "Gen-AI: Artificial Intelligence and the Future of Work",
+    "c": 739,
+    "y": 2024,
+    "id": "W4390907087",
+    "v": "IMF staff discussion note"
+   },
+   {
+    "t": "OECD/INFE 2023 International Survey of Adult Financial Literacy",
+    "c": 733,
+    "y": 2023,
+    "id": "W4389765454",
+    "v": "OECD business and finance policy papers"
+   },
+   {
+    "t": "Maddison‐style estimates of the evolution of the world economy: A new 2023 update",
+    "c": 627,
+    "y": 2024,
+    "id": "W4393946461",
+    "v": "Journal of Economic Surveys"
+   },
+   {
+    "t": "Health at a Glance 2025: OECD Indicators",
+    "c": 605,
+    "y": 2025,
+    "id": "W4415285615",
+    "v": "Health at a glance"
+   },
+   {
+    "t": "Emissions Gap Report 2024: No more hot air … please! With a massive gap between rhetoric and reality, countries draft new climate commitments",
+    "c": 542,
+    "y": 2024,
+    "id": "W4403731429",
+    "v": "United Nations Environment Programme eBooks"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "Competition and innovation: an inverted U relationship",
+    "c": 2166,
+    "y": 2026,
+    "id": "W3122980858",
+    "v": null,
+    "s": 3090.4
+   },
+   {
+    "t": "A Century of Stock Market Liquidity and Trading Costs",
+    "c": 481,
+    "y": 2026,
+    "id": "W1825609847",
+    "v": "Financial Management",
+    "s": 1924.0
+   },
+   {
+    "t": "Generative AI at Work",
+    "c": 2534,
+    "y": 2025,
+    "id": "W4407142724",
+    "v": "The Quarterly Journal of Economics",
+    "s": 1410.9
+   },
+   {
+    "t": "Carbon Emissions and the Bank-Lending Channel",
+    "c": 249,
+    "y": 2026,
+    "id": "W3196334736",
+    "v": "Review of Financial Studies",
+    "s": 967.5
+   },
+   {
+    "t": "Behavioral Game Theory",
+    "c": 1291,
+    "y": 2025,
+    "id": "W2745547123",
+    "v": "Cambridge University Press eBooks",
+    "s": 698.6
+   },
+   {
+    "t": "Nonmonetary Effects of the Financial Crisis in the Propagation of the Great Depression",
+    "c": 1750,
+    "y": 2024,
+    "id": "W3123285923",
+    "v": "Princeton University Press eBooks",
+    "s": 609.9
+   },
+   {
+    "t": "Health at a Glance 2025: OECD Indicators",
+    "c": 605,
+    "y": 2025,
+    "id": "W4415285615",
+    "v": "Health at a glance",
+    "s": 590.8
+   },
+   {
+    "t": "The Fourth Industrial Revolution: what it means, how to respond1",
+    "c": 1321,
+    "y": 2024,
+    "id": "W4400907212",
+    "v": "Edward Elgar Publishing eBooks",
+    "s": 566.3
+   }
+  ]
+ },
+ "Arts and Humanities": {
+  "n": 618,
+  "cited_median": 97.0,
+  "cited_mean": 140.2,
+  "oa_frac": 0.744,
+  "types": {
+   "article": 339,
+   "book": 87,
+   "book-chapter": 77,
+   "review": 31,
+   "preprint": 30,
+   "conference-paper": 19
+  },
+  "top_cited": [
+   {
+    "t": "Art as Experience (1934)",
+    "c": 5210,
+    "y": 2026,
+    "id": "W2008942963",
+    "v": "State University of New York Press eBooks"
+   },
+   {
+    "t": "17 From Human Nature and Conduct (1922)",
+    "c": 2263,
+    "y": 2025,
+    "id": "W1599073694",
+    "v": "State University of New York Press eBooks"
+   },
+   {
+    "t": "Principles of Language Learning and Teaching: A Course in Second Language Acquisition",
+    "c": 2210,
+    "y": 2025,
+    "id": "W4408611869",
+    "v": "Routledge eBooks"
+   },
+   {
+    "t": "Ideology and Ideological State Apparatuses",
+    "c": 2029,
+    "y": 2024,
+    "id": "W117731346",
+    "v": "Routledge eBooks"
+   },
+   {
+    "t": "22nd AUTEX World Textile Conference: Selected peer-reviewed full text papers from the 22nd AUTEX World Textile Conference (AUTEX 2023)",
+    "c": 1998,
+    "y": 2024,
+    "id": "W4393311133",
+    "v": "Trans Tech Publications Ltd. eBooks"
+   },
+   {
+    "t": "Giving an Account of Oneself: Twentieth Anniversary Edition, with a new preface by the author",
+    "c": 1735,
+    "y": 2025,
+    "id": "W1994546180",
+    "v": "Fordham University Press eBooks"
+   },
+   {
+    "t": "Negation in English and other languages",
+    "c": 1641,
+    "y": 2025,
+    "id": "W1684349371",
+    "v": null
+   },
+   {
+    "t": "From The Emancipated Spectator",
+    "c": 1640,
+    "y": 2025,
+    "id": "W1604831933",
+    "v": "Routledge eBooks"
+   },
+   {
+    "t": "The school and society",
+    "c": 1496,
+    "y": 2024,
+    "id": "W1504190881",
+    "v": null
+   },
+   {
+    "t": "Enhancing academic writing skills and motivation: assessing the efficacy of ChatGPT in AI-assisted language learning for EFL students",
+    "c": 1457,
+    "y": 2023,
+    "id": "W4389793309",
+    "v": "Frontiers in Psychology"
+   },
+   {
+    "t": "Regularity in semantic change: A view from a sociocultural perspective",
+    "c": 1270,
+    "y": 2024,
+    "id": "W1973826788",
+    "v": "Cognitive linguistic studies in cultural contexts"
+   },
+   {
+    "t": "Sustainable Fashion: Exploring the Concept of Greenwashing and New Trends in the Fashion Industry",
+    "c": 973,
+    "y": 2024,
+    "id": "W4401226312",
+    "v": "International Journal of Innovative Science and Research Technology (IJISRT)"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "Art as Experience (1934)",
+    "c": 5210,
+    "y": 2026,
+    "id": "W2008942963",
+    "v": "State University of New York Press eBooks",
+    "s": 6041.1
+   },
+   {
+    "t": "Principles of Language Learning and Teaching: A Course in Second Language Acquisition",
+    "c": 2210,
+    "y": 2025,
+    "id": "W4408611869",
+    "v": "Routledge eBooks",
+    "s": 1316.8
+   },
+   {
+    "t": "17 From Human Nature and Conduct (1922)",
+    "c": 2263,
+    "y": 2025,
+    "id": "W1599073694",
+    "v": "State University of New York Press eBooks",
+    "s": 1303.7
+   },
+   {
+    "t": "Oral Literature in Africa",
+    "c": 649,
+    "y": 2026,
+    "id": "W4238795315",
+    "v": "Zenodo (CERN European Organization for Nuclear Research)",
+    "s": 1107.7
+   },
+   {
+    "t": "Autobiography of Charles Darwin, 1809–1882. With Original Omissions Restored",
+    "c": 252,
+    "y": 2026,
+    "id": "W1485658508",
+    "v": "Routledge eBooks",
+    "s": 1008.0
+   },
+   {
+    "t": "Giving an Account of Oneself: Twentieth Anniversary Edition, with a new preface by the author",
+    "c": 1735,
+    "y": 2025,
+    "id": "W1994546180",
+    "v": "Fordham University Press eBooks",
+    "s": 955.8
+   },
+   {
+    "t": "Ideology and Ideological State Apparatuses",
+    "c": 2029,
+    "y": 2024,
+    "id": "W117731346",
+    "v": "Routledge eBooks",
+    "s": 947.7
+   },
+   {
+    "t": "From The Emancipated Spectator",
+    "c": 1640,
+    "y": 2025,
+    "id": "W1604831933",
+    "v": "Routledge eBooks",
+    "s": 894.0
+   }
+  ]
+ },
+ "Earth and Planetary Sciences": {
+  "n": 543,
+  "cited_median": 89,
+  "cited_mean": 113.4,
+  "oa_frac": 0.915,
+  "types": {
+   "article": 429,
+   "review": 36,
+   "preprint": 21,
+   "dataset": 15,
+   "book": 12,
+   "conference-paper": 10
+  },
+  "top_cited": [
+   {
+    "t": "Probabilistic weather forecasting with machine learning",
+    "c": 1440,
+    "y": 2024,
+    "id": "W4405031167",
+    "v": "Nature"
+   },
+   {
+    "t": "phytools 2.0: an updated R ecosystem for phylogenetic comparative methods (and other things)",
+    "c": 1325,
+    "y": 2024,
+    "id": "W4390608966",
+    "v": "PeerJ"
+   },
+   {
+    "t": "Composition of pre-Carboniferous siliciclastic rocks in Tasmania",
+    "c": 1183,
+    "y": 2025,
+    "id": "W4407003932",
+    "v": "Australian Journal of Earth Sciences"
+   },
+   {
+    "t": "The Chemistry of Clay-Organic Reactions",
+    "c": 1090,
+    "y": 2024,
+    "id": "W1484272304",
+    "v": "CRC Press eBooks"
+   },
+   {
+    "t": "Neural general circulation models for weather and climate",
+    "c": 1061,
+    "y": 2024,
+    "id": "W4400880443",
+    "v": "Nature"
+   },
+   {
+    "t": "Rapid groundwater decline and some cases of recovery in aquifers globally",
+    "c": 954,
+    "y": 2024,
+    "id": "W4391160682",
+    "v": "Nature"
+   },
+   {
+    "t": "A foundation model for the Earth system",
+    "c": 888,
+    "y": 2025,
+    "id": "W4410551352",
+    "v": "Nature"
+   },
+   {
+    "t": "Glaciers and Climate Change",
+    "c": 657,
+    "y": 2026,
+    "id": "W1550686843",
+    "v": "CRC Press eBooks"
+   },
+   {
+    "t": "The changing nature of groundwater in the global water cycle",
+    "c": 618,
+    "y": 2024,
+    "id": "W4392282891",
+    "v": "Science"
+   },
+   {
+    "t": "WeatherBench 2: A Benchmark for the Next Generation of Data‐Driven Global Weather Models",
+    "c": 613,
+    "y": 2024,
+    "id": "W4399779937",
+    "v": "Journal of Advances in Modeling Earth Systems"
+   },
+   {
+    "t": "AIFS -- ECMWF's data-driven forecasting system",
+    "c": 516,
+    "y": 2024,
+    "id": "W4399401448",
+    "v": "arXiv (Cornell University)"
+   },
+   {
+    "t": "The Surface Water and Ocean Topography Mission: A Breakthrough in Radar Remote Sensing of the Ocean and Land Surface Water",
+    "c": 497,
+    "y": 2024,
+    "id": "W4391999527",
+    "v": "Geophysical Research Letters"
+   }
+  ],
+  "top_momentum": [
+   {
+    "t": "Glaciers and Climate Change",
+    "c": 657,
+    "y": 2026,
+    "id": "W1550686843",
+    "v": "CRC Press eBooks",
+    "s": 805.3
+   },
+   {
+    "t": "Probabilistic weather forecasting with machine learning",
+    "c": 1440,
+    "y": 2024,
+    "id": "W4405031167",
+    "v": "Nature",
+    "s": 732.5
+   },
+   {
+    "t": "Composition of pre-Carboniferous siliciclastic rocks in Tasmania",
+    "c": 1183,
+    "y": 2025,
+    "id": "W4407003932",
+    "v": "Australian Journal of Earth Sciences",
+    "s": 627.1
+   },
+   {
+    "t": "A foundation model for the Earth system",
+    "c": 888,
+    "y": 2025,
+    "id": "W4410551352",
+    "v": "Nature",
+    "s": 589.7
+   },
+   {
+    "t": "phytools 2.0: an updated R ecosystem for phylogenetic comparative methods (and other things)",
+    "c": 1325,
+    "y": 2024,
+    "id": "W4390608966",
+    "v": "PeerJ",
+    "s": 460.0
+   },
+   {
+    "t": "Neural general circulation models for weather and climate",
+    "c": 1061,
+    "y": 2024,
+    "id": "W4400880443",
+    "v": "Nature",
+    "s": 454.3
+   },
+   {
+    "t": "Mesozoic and Tertiary Geology of Southern Africa: A Global Approach to Geology",
+    "c": 329,
+    "y": 2026,
+    "id": "W581060099",
+    "v": "CRC Press eBooks",
+    "s": 426.1
+   },
+   {
+    "t": "The Chemistry of Clay-Organic Reactions",
+    "c": 1090,
+    "y": 2024,
+    "id": "W1484272304",
+    "v": "CRC Press eBooks",
+    "s": 413.8
+   }
+  ]
+ },
+ "_global_top": [
+  {
+   "t": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+   "c": 44496,
+   "y": 2024,
+   "id": "W4393935425",
+   "f": "Medicine",
+   "v": "CA A Cancer Journal for Clinicians"
+  },
+  {
+   "t": "The Llama 3 Herd of Models",
+   "c": 29897,
+   "y": 2024,
+   "id": "W4401306886",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "Two new Later Stone Age sites from the Final Pleistocene in the Falémé Valley, eastern Senegal",
+   "c": 24264,
+   "y": 2024,
+   "id": "W4392145873",
+   "f": "Social Sciences",
+   "v": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)"
+  },
+  {
+   "t": "Fractional Differential Equations",
+   "c": 20452,
+   "y": 2025,
+   "id": "W2787959293",
+   "f": "Mathematics",
+   "v": "MDPI eBooks"
+  },
+  {
+   "t": "Qwen3 Technical Report",
+   "c": 20066,
+   "y": 2025,
+   "id": "W4414939355",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+   "c": 19711,
+   "y": 2024,
+   "id": "W4396721167",
+   "f": "Biochemistry, Genetics and Molecular Biology",
+   "v": "Nature"
+  },
+  {
+   "t": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+   "c": 19182,
+   "y": 2025,
+   "id": "W4414281281",
+   "f": "Computer Science",
+   "v": "Nature"
+  },
+  {
+   "t": "Cancer statistics, 2024",
+   "c": 14988,
+   "y": 2024,
+   "id": "W4390946922",
+   "f": "Medicine",
+   "v": "CA A Cancer Journal for Clinicians"
+  },
+  {
+   "t": "Childhood and Society",
+   "c": 13077,
+   "y": 2026,
+   "id": "W1945524409",
+   "f": "Psychology",
+   "v": "Zenodo (CERN European Organization for Nuclear Research)"
+  },
+  {
+   "t": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+   "c": 12757,
+   "y": 2024,
+   "id": "W4391631327",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "Gemini: A Family of Highly Capable Multimodal Models",
+   "c": 12554,
+   "y": 2023,
+   "id": "W4390041933",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "Qwen2.5 Technical Report",
+   "c": 12120,
+   "y": 2024,
+   "id": "W4405655184",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+   "c": 12046,
+   "y": 2023,
+   "id": "W4389326242",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "DINOv2: Learning Robust Visual Features without Supervision",
+   "c": 11749,
+   "y": 2024,
+   "id": "W4366208220",
+   "f": "Computer Science",
+   "v": "Transactions on machine learning research"
+  },
+  {
+   "t": "GPT-4o System Card",
+   "c": 11475,
+   "y": 2024,
+   "id": "W4404330874",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "Qwen2.5-VL Technical Report",
+   "c": 10565,
+   "y": 2025,
+   "id": "W4407794264",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "DeepSeek-V3 Technical Report",
+   "c": 9783,
+   "y": 2024,
+   "id": "W4405903187",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "8 Decolonizing Methodologies: Research and Indigenous Peoples",
+   "c": 9763,
+   "y": 2024,
+   "id": "W2029648951",
+   "f": "Social Sciences",
+   "v": "Multilingual Matters eBooks"
+  },
+  {
+   "t": "A Survey of Large Language Models",
+   "c": 8830,
+   "y": 2026,
+   "id": "W4362515116",
+   "f": "Computer Science",
+   "v": "Frontiers of Computer Science"
+  },
+  {
+   "t": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+   "c": 8793,
+   "y": 2023,
+   "id": "W4389984066",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "YOLOv10: Real-Time End-to-End Object Detection",
+   "c": 8349,
+   "y": 2024,
+   "id": "W4415795831",
+   "f": "Computer Science",
+   "v": "neural information processing systems"
+  },
+  {
+   "t": "ФАКТОРЫ ПСИХОЛОГИЧЕСКОГО БЛАГОПОЛУЧИЯ ЛЮДЕЙ ПОЖИЛОГО ВОЗРАСТА",
+   "c": 8204,
+   "y": 2026,
+   "id": "W3124068636",
+   "f": "Psychology",
+   "v": "Международный научно-исследовательский журнал"
+  },
+  {
+   "t": "DETRs Beat YOLOs on Real-time Object Detection",
+   "c": 8191,
+   "y": 2024,
+   "id": "W4402754006",
+   "f": "Computer Science",
+   "v": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings"
+  },
+  {
+   "t": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods",
+   "c": 7495,
+   "y": 2024,
+   "id": "W4394857110",
+   "f": "Decision Sciences",
+   "v": "BMJ"
+  },
+  {
+   "t": "Cancer statistics, 2025",
+   "c": 7475,
+   "y": 2025,
+   "id": "W4406431707",
+   "f": "Medicine",
+   "v": "CA A Cancer Journal for Clinicians"
+  },
+  {
+   "t": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+   "c": 7265,
+   "y": 2025,
+   "id": "W4404534210",
+   "f": "Computer Science",
+   "v": "ACM Transactions on Information Systems"
+  },
+  {
+   "t": "Lost in the Middle: How Language Models Use Long Contexts",
+   "c": 6981,
+   "y": 2024,
+   "id": "W4391876619",
+   "f": "Computer Science",
+   "v": "Transactions of the Association for Computational Linguistics"
+  },
+  {
+   "t": "Improved Baselines with Visual Instruction Tuning",
+   "c": 6711,
+   "y": 2024,
+   "id": "W4402727764",
+   "f": "Computer Science",
+   "v": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings"
+  },
+  {
+   "t": "Review of Particle Physics",
+   "c": 6586,
+   "y": 2024,
+   "id": "W4401211033",
+   "f": "Physics and Astronomy",
+   "v": "Physical review. D/Physical review. D."
+  },
+  {
+   "t": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+   "c": 6377,
+   "y": 2024,
+   "id": "W4394894573",
+   "f": "Medicine",
+   "v": "The Lancet"
+  },
+  {
+   "t": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+   "c": 6245,
+   "y": 2024,
+   "id": "W4403853618",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "A Survey on Evaluation of Large Language Models",
+   "c": 6231,
+   "y": 2024,
+   "id": "W4391136507",
+   "f": "Computer Science",
+   "v": "ACM Transactions on Intelligent Systems and Technology"
+  },
+  {
+   "t": "A comprehensive electron wavefunction analysis toolbox for chemists, Multiwfn",
+   "c": 5945,
+   "y": 2024,
+   "id": "W4401916766",
+   "f": "Physics and Astronomy",
+   "v": "The Journal of Chemical Physics"
+  },
+  {
+   "t": "Qwen3-VL Technical Report",
+   "c": 5915,
+   "y": 2025,
+   "id": "W4416780398",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "SAM 2: Segment Anything in Images and Videos",
+   "c": 5789,
+   "y": 2025,
+   "id": "W4401307635",
+   "f": "Computer Science",
+   "v": "International Conference on Learning Representations"
+  },
+  {
+   "t": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+   "c": 5757,
+   "y": 2024,
+   "id": "W4391649568",
+   "f": "Biochemistry, Genetics and Molecular Biology",
+   "v": "Journal of Extracellular Vesicles"
+  },
+  {
+   "t": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
+   "c": 5735,
+   "y": 2024,
+   "id": "W4392538976",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "YOLOv11: An Overview of the Key Architectural Enhancements",
+   "c": 5649,
+   "y": 2024,
+   "id": "W4404303854",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+   "c": 5596,
+   "y": 2024,
+   "id": "W4392679398",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "Global burden of bacterial antimicrobial resistance 1990–2021: a systematic analysis with forecasts to 2050",
+   "c": 5564,
+   "y": 2024,
+   "id": "W4402557213",
+   "f": "Medicine",
+   "v": "The Lancet"
+  },
+  {
+   "t": "Qwen2 Technical Report",
+   "c": 5521,
+   "y": 2024,
+   "id": "W4401660192",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "A survey on large language model based autonomous agents",
+   "c": 5505,
+   "y": 2024,
+   "id": "W4393065402",
+   "f": "Computer Science",
+   "v": "Frontiers of Computer Science"
+  },
+  {
+   "t": "Interactive Tree of Life (iTOL) v6: recent updates to the phylogenetic tree display and annotation tool",
+   "c": 5440,
+   "y": 2024,
+   "id": "W4394785938",
+   "f": "Biochemistry, Genetics and Molecular Biology",
+   "v": "Nucleic Acids Research"
+  },
+  {
+   "t": "Art as Experience (1934)",
+   "c": 5210,
+   "y": 2026,
+   "id": "W2008942963",
+   "f": "Arts and Humanities",
+   "v": "State University of New York Press eBooks"
+  },
+  {
+   "t": "MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models",
+   "c": 4890,
+   "y": 2024,
+   "id": "W4366850747",
+   "f": "Computer Science",
+   "v": "International Conference on Learning Representations"
+  },
+  {
+   "t": "Mixtral of Experts",
+   "c": 4862,
+   "y": 2024,
+   "id": "W4390723197",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "Education in the Era of Generative Artificial Intelligence (AI): Understanding the Potential Benefits of ChatGPT in Promoting Teaching and Learning",
+   "c": 4820,
+   "y": 2023,
+   "id": "W4389437528",
+   "f": "Social Sciences",
+   "v": "Journal of AI"
+  },
+  {
+   "t": "Segment anything in medical images",
+   "c": 4765,
+   "y": 2024,
+   "id": "W4391109864",
+   "f": "Computer Science",
+   "v": "Nature Communications"
+  },
+  {
+   "t": "VMamba: Visual State Space Model",
+   "c": 4738,
+   "y": 2024,
+   "id": "W4415796023",
+   "f": "Computer Science",
+   "v": "neural information processing systems"
+  },
+  {
+   "t": "KAN: Kolmogorov-Arnold Networks",
+   "c": 4602,
+   "y": 2025,
+   "id": "W4396821501",
+   "f": "Computer Science",
+   "v": "International Conference on Learning Representations"
+  },
+  {
+   "t": "YOLOv12: Attention-Centric Real-Time Object Detectors",
+   "c": 4498,
+   "y": 2025,
+   "id": "W4407759488",
+   "f": "Computer Science",
+   "v": "neural information processing systems"
+  },
+  {
+   "t": "SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis",
+   "c": 4333,
+   "y": 2024,
+   "id": "W4383472654",
+   "f": "Computer Science",
+   "v": "International Conference on Learning Representations"
+  },
+  {
+   "t": "OpenAI o1 System Card",
+   "c": 4313,
+   "y": 2024,
+   "id": "W4405766390",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "OpenVLA: An Open-Source Vision-Language-Action Model",
+   "c": 4285,
+   "y": 2024,
+   "id": "W4399695759",
+   "f": "Engineering",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model",
+   "c": 4276,
+   "y": 2024,
+   "id": "W4391013663",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+   "c": 4095,
+   "y": 2024,
+   "id": "W4402049769",
+   "f": "Medicine",
+   "v": "European Heart Journal"
+  },
+  {
+   "t": "Intern VL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks",
+   "c": 3989,
+   "y": 2024,
+   "id": "W4402713111",
+   "f": "Computer Science",
+   "v": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings"
+  },
+  {
+   "t": "Gemma 2: Improving Open Language Models at a Practical Size",
+   "c": 3955,
+   "y": 2024,
+   "id": "W4401306979",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "Gemma: Open Models Based on Gemini Research and Technology",
+   "c": 3858,
+   "y": 2024,
+   "id": "W4392822465",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "Wan: Open and Advanced Large-Scale Video Generative Models",
+   "c": 3781,
+   "y": 2025,
+   "id": "W4409092337",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+   "c": 3766,
+   "y": 2024,
+   "id": "W4396946025",
+   "f": "Medicine",
+   "v": "The Lancet"
+  },
+  {
+   "t": "π₀: A Vision-Language-Action Flow Model for General Robot Control",
+   "c": 3755,
+   "y": 2025,
+   "id": "W4414079054",
+   "f": "Engineering",
+   "v": "Robotics: Science and Systems"
+  },
+  {
+   "t": "Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+   "c": 3709,
+   "y": 2024,
+   "id": "W4393858312",
+   "f": "Social Sciences",
+   "v": "The Lancet"
+  },
+  {
+   "t": "Interpreting Qualitative Data",
+   "c": 3697,
+   "y": 2024,
+   "id": "W1535110649",
+   "f": "Social Sciences",
+   "v": "SAGE Publications Ltd eBooks"
+  },
+  {
+   "t": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+   "c": 3672,
+   "y": 2024,
+   "id": "W4395686609",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+   "c": 3606,
+   "y": 2025,
+   "id": "W7196953391",
+   "f": "Computer Science",
+   "v": "neural information processing systems"
+  },
+  {
+   "t": "UniProt: the Universal Protein Knowledgebase in 2025",
+   "c": 3606,
+   "y": 2024,
+   "id": "W4404458588",
+   "f": "Biochemistry, Genetics and Molecular Biology",
+   "v": "Nucleic Acids Research"
+  },
+  {
+   "t": "Worldwide trends in underweight and obesity from 1990 to 2022: a pooled analysis of 3663 population-representative studies with 222 million children, adolescents, and adults",
+   "c": 3574,
+   "y": 2024,
+   "id": "W4392304105",
+   "f": "Medicine",
+   "v": "The Lancet"
+  },
+  {
+   "t": "Cancer incidence and mortality in China, 2022",
+   "c": 3559,
+   "y": 2024,
+   "id": "W4391671392",
+   "f": "Medicine",
+   "v": "Journal of the National Cancer Center"
+  },
+  {
+   "t": "2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines",
+   "c": 3544,
+   "y": 2023,
+   "id": "W4389166035",
+   "f": "Medicine",
+   "v": "Circulation"
+  },
+  {
+   "t": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+   "c": 3477,
+   "y": 2024,
+   "id": "W4378505261",
+   "f": "Computer Science",
+   "v": "Transactions on machine learning research"
+  },
+  {
+   "t": "Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+   "c": 3468,
+   "y": 2023,
+   "id": "W4388886073",
+   "f": "Computer Science",
+   "v": "ACM Workshop on Artificial Intelligence and Security (AISec)"
+  },
+  {
+   "t": "LLaVA-OneVision: Easy Visual Task Transfer",
+   "c": 3446,
+   "y": 2025,
+   "id": "W4403370767",
+   "f": "Computer Science",
+   "v": "Transactions on machine learning research"
+  },
+  {
+   "t": "KEGG: biological systems database as a model of the real world",
+   "c": 3403,
+   "y": 2024,
+   "id": "W4403479110",
+   "f": "Biochemistry, Genetics and Molecular Biology",
+   "v": "Nucleic Acids Research"
+  },
+  {
+   "t": "2024 Alzheimer's disease facts and figures",
+   "c": 3377,
+   "y": 2024,
+   "id": "W4396560090",
+   "f": "Medicine",
+   "v": "Alzheimer s & Dementia"
+  },
+  {
+   "t": "Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone",
+   "c": 3373,
+   "y": 2024,
+   "id": "W4395474395",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)"
+  },
+  {
+   "t": "Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup",
+   "c": 3360,
+   "y": 2024,
+   "id": "W4400089962",
+   "f": "Medicine",
+   "v": "Alzheimer s & Dementia"
+  },
+  {
+   "t": "2024 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association",
+   "c": 3353,
+   "y": 2024,
+   "id": "W4391169031",
+   "f": "Medicine",
+   "v": "Circulation"
+  },
+  {
+   "t": "A Comprehensive Overview of Large Language Models",
+   "c": 3331,
+   "y": 2025,
+   "id": "W4411403346",
+   "f": "Computer Science",
+   "v": "ACM Transactions on Intelligent Systems and Technology"
+  },
+  {
+   "t": "A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT",
+   "c": 3289,
+   "y": 2024,
+   "id": "W7155906632",
+   "f": "Computer Science",
+   "v": "Conference on Pattern Languages of Programs"
+  }
+ ],
+ "_global_momentum": [
+  {
+   "t": "ФАКТОРЫ ПСИХОЛОГИЧЕСКОГО БЛАГОПОЛУЧИЯ ЛЮДЕЙ ПОЖИЛОГО ВОЗРАСТА",
+   "c": 8204,
+   "y": 2026,
+   "id": "W3124068636",
+   "f": "Psychology",
+   "v": "Международный научно-исследовательский журнал",
+   "s": 30891.9
+  },
+  {
+   "t": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+   "c": 44496,
+   "y": 2024,
+   "id": "W4393935425",
+   "f": "Medicine",
+   "v": "CA A Cancer Journal for Clinicians",
+   "s": 16894.1
+  },
+  {
+   "t": "Childhood and Society",
+   "c": 13077,
+   "y": 2026,
+   "id": "W1945524409",
+   "f": "Psychology",
+   "v": "Zenodo (CERN European Organization for Nuclear Research)",
+   "s": 16818.2
+  },
+  {
+   "t": "A Survey of Large Language Models",
+   "c": 8830,
+   "y": 2026,
+   "id": "W4362515116",
+   "f": "Computer Science",
+   "v": "Frontiers of Computer Science",
+   "s": 16371.4
+  },
+  {
+   "t": "DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning",
+   "c": 19182,
+   "y": 2025,
+   "id": "W4414281281",
+   "f": "Computer Science",
+   "v": "Nature",
+   "s": 16255.7
+  },
+  {
+   "t": "Fractional Differential Equations",
+   "c": 20452,
+   "y": 2025,
+   "id": "W2787959293",
+   "f": "Mathematics",
+   "v": "MDPI eBooks",
+   "s": 15595.2
+  },
+  {
+   "t": "Qwen3 Technical Report",
+   "c": 20066,
+   "y": 2025,
+   "id": "W4414939355",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 13158.2
+  },
+  {
+   "t": "The Llama 3 Herd of Models",
+   "c": 29897,
+   "y": 2024,
+   "id": "W4401306886",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 12938.2
+  },
+  {
+   "t": "Two new Later Stone Age sites from the Final Pleistocene in the Falémé Valley, eastern Senegal",
+   "c": 24264,
+   "y": 2024,
+   "id": "W4392145873",
+   "f": "Social Sciences",
+   "v": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)",
+   "s": 9146.0
+  },
+  {
+   "t": "Procedures for Identifying Infants as Disorganized/Disoriented During the Ainsworth Strange Situation",
+   "c": 1984,
+   "y": 2026,
+   "id": "W2763578340",
+   "f": "Psychology",
+   "v": "Routledge eBooks",
+   "s": 7936.0
+  },
+  {
+   "t": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+   "c": 19711,
+   "y": 2024,
+   "id": "W4396721167",
+   "f": "Biochemistry, Genetics and Molecular Biology",
+   "v": "Nature",
+   "s": 7758.0
+  },
+  {
+   "t": "Relative Deprivation and Social Justice: A Study of Attitudes to Social Inequality in Twentieth-Century England",
+   "c": 1814,
+   "y": 2026,
+   "id": "W158548849",
+   "f": "Social Sciences",
+   "v": "Routledge eBooks",
+   "s": 7256.0
+  },
+  {
+   "t": "Qwen2.5 Technical Report",
+   "c": 12120,
+   "y": 2024,
+   "id": "W4405655184",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 6297.1
+  },
+  {
+   "t": "Art as Experience (1934)",
+   "c": 5210,
+   "y": 2026,
+   "id": "W2008942963",
+   "f": "Arts and Humanities",
+   "v": "State University of New York Press eBooks",
+   "s": 6041.1
+  },
+  {
+   "t": "Qwen2.5-VL Technical Report",
+   "c": 10565,
+   "y": 2025,
+   "id": "W4407794264",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 6020.1
+  },
+  {
+   "t": "Qwen3-VL Technical Report",
+   "c": 5915,
+   "y": 2025,
+   "id": "W4416780398",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 5984.6
+  },
+  {
+   "t": "GPT-4o System Card",
+   "c": 11475,
+   "y": 2024,
+   "id": "W4404330874",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 5529.3
+  },
+  {
+   "t": "Cancer statistics, 2024",
+   "c": 14988,
+   "y": 2024,
+   "id": "W4390946922",
+   "f": "Medicine",
+   "v": "CA A Cancer Journal for Clinicians",
+   "s": 5184.1
+  },
+  {
+   "t": "DeepSeek-V3 Technical Report",
+   "c": 9783,
+   "y": 2024,
+   "id": "W4405903187",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 5141.4
+  },
+  {
+   "t": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+   "c": 12757,
+   "y": 2024,
+   "id": "W4391631327",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 4563.7
+  },
+  {
+   "t": "Gemini: A Family of Highly Capable Multimodal Models",
+   "c": 12554,
+   "y": 2023,
+   "id": "W4390041933",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 4289.4
+  },
+  {
+   "t": "An open vision-language model for diverse medical applications",
+   "c": 1051,
+   "y": 2026,
+   "id": "W4414687708",
+   "f": "Computer Science",
+   "v": "Nature Medicine",
+   "s": 4204.0
+  },
+  {
+   "t": "DINOv2: Learning Robust Visual Features without Supervision",
+   "c": 11749,
+   "y": 2024,
+   "id": "W4366208220",
+   "f": "Computer Science",
+   "v": "Transactions on machine learning research",
+   "s": 4063.8
+  },
+  {
+   "t": "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions",
+   "c": 1013,
+   "y": 2026,
+   "id": "W7129030749",
+   "f": "Computer Science",
+   "v": "ACM Transactions on Software Engineering and Methodology",
+   "s": 4052.0
+  },
+  {
+   "t": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+   "c": 12046,
+   "y": 2023,
+   "id": "W4389326242",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 4047.7
+  },
+  {
+   "t": "A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions",
+   "c": 7265,
+   "y": 2025,
+   "id": "W4404534210",
+   "f": "Computer Science",
+   "v": "ACM Transactions on Information Systems",
+   "s": 3978.3
+  },
+  {
+   "t": "Cancer statistics, 2025",
+   "c": 7475,
+   "y": 2025,
+   "id": "W4406431707",
+   "f": "Medicine",
+   "v": "CA A Cancer Journal for Clinicians",
+   "s": 3956.9
+  },
+  {
+   "t": "SAM 2: Segment Anything in Images and Videos",
+   "c": 5789,
+   "y": 2025,
+   "id": "W4401307635",
+   "f": "Computer Science",
+   "v": "International Conference on Learning Representations",
+   "s": 3709.5
+  },
+  {
+   "t": "8 Decolonizing Methodologies: Research and Indigenous Peoples",
+   "c": 9763,
+   "y": 2024,
+   "id": "W2029648951",
+   "f": "Social Sciences",
+   "v": "Multilingual Matters eBooks",
+   "s": 3523.7
+  },
+  {
+   "t": "DETRs Beat YOLOs on Real-time Object Detection",
+   "c": 8191,
+   "y": 2024,
+   "id": "W4402754006",
+   "f": "Computer Science",
+   "v": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+   "s": 3365.3
+  },
+  {
+   "t": "OpenAI GPT-5 System Card",
+   "c": 2959,
+   "y": 2026,
+   "id": "W7119523234",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 3325.5
+  },
+  {
+   "t": "Competition and innovation: an inverted U relationship",
+   "c": 2166,
+   "y": 2026,
+   "id": "W3122980858",
+   "f": "Economics, Econometrics and Finance",
+   "v": null,
+   "s": 3090.4
+  },
+  {
+   "t": "Interleukin-6 in acute exercise and training: what is the biological relevance?",
+   "c": 1088,
+   "y": 2026,
+   "id": "W1443802491",
+   "f": "Medicine",
+   "v": "Exercise immunology review",
+   "s": 3056.9
+  },
+  {
+   "t": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+   "c": 8793,
+   "y": 2023,
+   "id": "W4389984066",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 3001.5
+  },
+  {
+   "t": "KAN: Kolmogorov-Arnold Networks",
+   "c": 4602,
+   "y": 2025,
+   "id": "W4396821501",
+   "f": "Computer Science",
+   "v": "International Conference on Learning Representations",
+   "s": 2948.9
+  },
+  {
+   "t": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+   "c": 1668,
+   "y": 2026,
+   "id": "W7165385035",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 2901.1
+  },
+  {
+   "t": "YOLOv10: Real-Time End-to-End Object Detection",
+   "c": 8349,
+   "y": 2024,
+   "id": "W4415795831",
+   "f": "Computer Science",
+   "v": "neural information processing systems",
+   "s": 2887.8
+  },
+  {
+   "t": "Metacognition, Executive Control, Self-Regulation, and Other More Mysterious Mechanisms",
+   "c": 1636,
+   "y": 2026,
+   "id": "W2287252573",
+   "f": "Psychology",
+   "v": "Routledge eBooks",
+   "s": 2886.7
+  },
+  {
+   "t": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods",
+   "c": 7495,
+   "y": 2024,
+   "id": "W4394857110",
+   "f": "Decision Sciences",
+   "v": "BMJ",
+   "s": 2881.6
+  },
+  {
+   "t": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+   "c": 6245,
+   "y": 2024,
+   "id": "W4403853618",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 2869.2
+  },
+  {
+   "t": "Review of Particle Physics",
+   "c": 6586,
+   "y": 2024,
+   "id": "W4401211033",
+   "f": "Physics and Astronomy",
+   "v": "Physical review. D/Physical review. D.",
+   "s": 2853.5
+  },
+  {
+   "t": "Improved Baselines with Visual Instruction Tuning",
+   "c": 6711,
+   "y": 2024,
+   "id": "W4402727764",
+   "f": "Computer Science",
+   "v": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+   "s": 2757.2
+  },
+  {
+   "t": "YOLOv11: An Overview of the Key Architectural Enhancements",
+   "c": 5649,
+   "y": 2024,
+   "id": "W4404303854",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 2714.9
+  },
+  {
+   "t": "SAM 3: Segment Anything with Concepts",
+   "c": 1587,
+   "y": 2026,
+   "id": "W4417095222",
+   "f": "Computer Science",
+   "v": "International Conference on Learning Representations",
+   "s": 2683.6
+  },
+  {
+   "t": "A comprehensive electron wavefunction analysis toolbox for chemists, Multiwfn",
+   "c": 5945,
+   "y": 2024,
+   "id": "W4401916766",
+   "f": "Physics and Astronomy",
+   "v": "The Journal of Chemical Physics",
+   "s": 2657.8
+  },
+  {
+   "t": "π₀: A Vision-Language-Action Flow Model for General Robot Control",
+   "c": 3755,
+   "y": 2025,
+   "id": "W4414079054",
+   "f": "Engineering",
+   "v": "Robotics: Science and Systems",
+   "s": 2642.6
+  },
+  {
+   "t": "A Comprehensive Overview of Large Language Models",
+   "c": 3331,
+   "y": 2025,
+   "id": "W4411403346",
+   "f": "Computer Science",
+   "v": "ACM Transactions on Intelligent Systems and Technology",
+   "s": 2639.1
+  },
+  {
+   "t": "Gemma 4 Technical Report",
+   "c": 1017,
+   "y": 2026,
+   "id": "W7167604932",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 2597.6
+  },
+  {
+   "t": "Lost in the Middle: How Language Models Use Long Contexts",
+   "c": 6981,
+   "y": 2024,
+   "id": "W4391876619",
+   "f": "Computer Science",
+   "v": "Transactions of the Association for Computational Linguistics",
+   "s": 2542.2
+  },
+  {
+   "t": "A survey on LLM-as-a-judge",
+   "c": 2178,
+   "y": 2026,
+   "id": "W7120088840",
+   "f": "Social Sciences",
+   "v": "The Innovation",
+   "s": 2517.5
+  },
+  {
+   "t": "Global burden of bacterial antimicrobial resistance 1990–2021: a systematic analysis with forecasts to 2050",
+   "c": 5564,
+   "y": 2024,
+   "id": "W4402557213",
+   "f": "Medicine",
+   "v": "The Lancet",
+   "s": 2502.8
+  },
+  {
+   "t": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+   "c": 6377,
+   "y": 2024,
+   "id": "W4394894573",
+   "f": "Medicine",
+   "v": "The Lancet",
+   "s": 2454.4
+  },
+  {
+   "t": "Application of computers in fatigue analysis",
+   "c": 600,
+   "y": 2026,
+   "id": "W1556520835",
+   "f": "Engineering",
+   "v": "Warwick Research Archive Portal (University of Warwick)",
+   "s": 2400.0
+  },
+  {
+   "t": "YOLOv12: Attention-Centric Real-Time Object Detectors",
+   "c": 4498,
+   "y": 2025,
+   "id": "W4407759488",
+   "f": "Computer Science",
+   "v": "neural information processing systems",
+   "s": 2381.0
+  },
+  {
+   "t": "Climate Change 2022: Impacts, Adaptation and Vulnerability",
+   "c": 2701,
+   "y": 2025,
+   "id": "W2916743836",
+   "f": "Environmental Science",
+   "v": "Climate Change and Law Collection",
+   "s": 2360.1
+  },
+  {
+   "t": "A Survey on Evaluation of Large Language Models",
+   "c": 6231,
+   "y": 2024,
+   "id": "W4391136507",
+   "f": "Computer Science",
+   "v": "ACM Transactions on Intelligent Systems and Technology",
+   "s": 2351.1
+  },
+  {
+   "t": "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality",
+   "c": 1709,
+   "y": 2026,
+   "id": "W7135096569",
+   "f": "Computer Science",
+   "v": "Organization Science",
+   "s": 2346.7
+  },
+  {
+   "t": "Qwen2 Technical Report",
+   "c": 5521,
+   "y": 2024,
+   "id": "W4401660192",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 2344.8
+  },
+  {
+   "t": "🧜Siren’s Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+   "c": 2283,
+   "y": 2025,
+   "id": "W4412158322",
+   "f": "Computer Science",
+   "v": "Computational Linguistics",
+   "s": 2342.3
+  },
+  {
+   "t": "Accelerating scientific discovery with Co-Scientist",
+   "c": 1194,
+   "y": 2026,
+   "id": "W4416043407",
+   "f": "Pharmacology, Toxicology and Pharmaceutics",
+   "v": "Nature",
+   "s": 2332.1
+  },
+  {
+   "t": "Wan: Open and Advanced Large-Scale Video Generative Models",
+   "c": 3781,
+   "y": 2025,
+   "id": "W4409092337",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 2278.9
+  },
+  {
+   "t": "OpenAI o1 System Card",
+   "c": 4313,
+   "y": 2024,
+   "id": "W4405766390",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 2247.3
+  },
+  {
+   "t": "Leucocytes, cytokines and satellite cells: what role do they play in muscle damage and regeneration following eccentric exercise?",
+   "c": 788,
+   "y": 2026,
+   "id": "W1524557218",
+   "f": "Medicine",
+   "v": "Exercise immunology review",
+   "s": 2214.0
+  },
+  {
+   "t": "Fundamentals of Soil Behavior",
+   "c": 3103,
+   "y": 2025,
+   "id": "W1693096119",
+   "f": "Engineering",
+   "v": "Wiley eBooks",
+   "s": 2179.6
+  },
+  {
+   "t": "The Faiss Library",
+   "c": 2362,
+   "y": 2025,
+   "id": "W4415124086",
+   "f": "Computer Science",
+   "v": "IEEE Transactions on Big Data",
+   "s": 2130.2
+  },
+  {
+   "t": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
+   "c": 5735,
+   "y": 2024,
+   "id": "W4392538976",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 2111.6
+  },
+  {
+   "t": "Transparency in the Reporting of Artificial Intelligence – The TITAN Guideline",
+   "c": 3082,
+   "y": 2025,
+   "id": "W4410594697",
+   "f": "Computer Science",
+   "v": "Premier journal of science.",
+   "s": 2100.2
+  },
+  {
+   "t": "Interactive Tree of Life (iTOL) v6: recent updates to the phylogenetic tree display and annotation tool",
+   "c": 5440,
+   "y": 2024,
+   "id": "W4394785938",
+   "f": "Biochemistry, Genetics and Molecular Biology",
+   "v": "Nucleic Acids Research",
+   "s": 2085.0
+  },
+  {
+   "t": "TimeLLM: Time Series Forecasting by Reprogramming Large Language Models",
+   "c": 1071,
+   "y": 2026,
+   "id": "W4387355843",
+   "f": "Computer Science",
+   "v": "CRC Press eBooks",
+   "s": 2080.8
+  },
+  {
+   "t": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+   "c": 5596,
+   "y": 2024,
+   "id": "W4392679398",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 2066.7
+  },
+  {
+   "t": "A survey on large language model based autonomous agents",
+   "c": 5505,
+   "y": 2024,
+   "id": "W4393065402",
+   "f": "Computer Science",
+   "v": "Frontiers of Computer Science",
+   "s": 2062.3
+  },
+  {
+   "t": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+   "c": 5757,
+   "y": 2024,
+   "id": "W4391649568",
+   "f": "Biochemistry, Genetics and Molecular Biology",
+   "v": "Journal of Extracellular Vesicles",
+   "s": 2051.5
+  },
+  {
+   "t": "DESI DR2 results. II. Measurements of baryon acoustic oscillations and cosmological constraints",
+   "c": 2288,
+   "y": 2025,
+   "id": "W4410636511",
+   "f": "Physics and Astronomy",
+   "v": "Physical review. D/Physical review. D.",
+   "s": 2028.4
+  },
+  {
+   "t": "Entanglement as Topology: Hopf Linking as the Geometric Origin of Quantum Correlation",
+   "c": 931,
+   "y": 2026,
+   "id": "W3101004335",
+   "f": "Physics and Astronomy",
+   "v": null,
+   "s": 2000.3
+  },
+  {
+   "t": "MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models",
+   "c": 4890,
+   "y": 2024,
+   "id": "W4366850747",
+   "f": "Computer Science",
+   "v": "International Conference on Learning Representations",
+   "s": 1973.6
+  },
+  {
+   "t": "A Century of Stock Market Liquidity and Trading Costs",
+   "c": 481,
+   "y": 2026,
+   "id": "W1825609847",
+   "f": "Economics, Econometrics and Finance",
+   "v": "Financial Management",
+   "s": 1924.0
+  },
+  {
+   "t": "LLaVA-OneVision: Easy Visual Task Transfer",
+   "c": 3446,
+   "y": 2025,
+   "id": "W4403370767",
+   "f": "Computer Science",
+   "v": "Transactions on machine learning research",
+   "s": 1909.9
+  },
+  {
+   "t": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+   "c": 3606,
+   "y": 2025,
+   "id": "W7196953391",
+   "f": "Computer Science",
+   "v": "neural information processing systems",
+   "s": 1908.8
+  },
+  {
+   "t": "DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models",
+   "c": 1836,
+   "y": 2025,
+   "id": "W4417006854",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 1889.0
+  },
+  {
+   "t": "2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+   "c": 4095,
+   "y": 2024,
+   "id": "W4402049769",
+   "f": "Medicine",
+   "v": "European Heart Journal",
+   "s": 1837.5
+  },
+  {
+   "t": "A Survey on Large Language Models for Code Generation",
+   "c": 1521,
+   "y": 2026,
+   "id": "W7125135101",
+   "f": "Computer Science",
+   "v": "ACM Transactions on Software Engineering and Methodology",
+   "s": 1821.5
+  },
+  {
+   "t": "Characterization of inflammatory responses to eccentric exercise in humans",
+   "c": 648,
+   "y": 2026,
+   "id": "W1607217555",
+   "f": "Medicine",
+   "v": "Exercise immunology review",
+   "s": 1820.6
+  },
+  {
+   "t": "VGGT: Visual Geometry Grounded Transformer",
+   "c": 2627,
+   "y": 2025,
+   "id": "W4413146238",
+   "f": "Computer Science",
+   "v": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+   "s": 1810.4
+  },
+  {
+   "t": "UniProt: the Universal Protein Knowledgebase in 2025",
+   "c": 3606,
+   "y": 2024,
+   "id": "W4404458588",
+   "f": "Biochemistry, Genetics and Molecular Biology",
+   "v": "Nucleic Acids Research",
+   "s": 1794.4
+  },
+  {
+   "t": "OpenVLA: An Open-Source Vision-Language-Action Model",
+   "c": 4285,
+   "y": 2024,
+   "id": "W4399695759",
+   "f": "Engineering",
+   "v": "arXiv (Cornell University)",
+   "s": 1754.6
+  },
+  {
+   "t": "SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis",
+   "c": 4333,
+   "y": 2024,
+   "id": "W4383472654",
+   "f": "Computer Science",
+   "v": "International Conference on Learning Representations",
+   "s": 1748.8
+  },
+  {
+   "t": "The Llama 3 herd of models",
+   "c": 1578,
+   "y": 2025,
+   "id": "W7115097999",
+   "f": "Computer Science",
+   "v": "HAL",
+   "s": 1741.3
+  },
+  {
+   "t": "HybridFlow: A Flexible and Efficient RLHF Framework",
+   "c": 2852,
+   "y": 2025,
+   "id": "W4403883066",
+   "f": "Computer Science",
+   "v": "European Conference on Computer Systems",
+   "s": 1730.4
+  },
+  {
+   "t": "Gemma 2: Improving Open Language Models at a Practical Size",
+   "c": 3955,
+   "y": 2024,
+   "id": "W4401306979",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 1711.6
+  },
+  {
+   "t": "Cancer statistics, 2026",
+   "c": 1514,
+   "y": 2026,
+   "id": "W7123452202",
+   "f": "Medicine",
+   "v": "CA A Cancer Journal for Clinicians",
+   "s": 1701.5
+  },
+  {
+   "t": "Mixtral of Experts",
+   "c": 4862,
+   "y": 2024,
+   "id": "W4390723197",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 1692.9
+  },
+  {
+   "t": "Toward expert-level medical question answering with large language models",
+   "c": 3146,
+   "y": 2025,
+   "id": "W4406152279",
+   "f": "Medicine",
+   "v": "Nature Medicine",
+   "s": 1682.4
+  },
+  {
+   "t": "Segment anything in medical images",
+   "c": 4765,
+   "y": 2024,
+   "id": "W4391109864",
+   "f": "Computer Science",
+   "v": "Nature Communications",
+   "s": 1681.6
+  },
+  {
+   "t": "Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models",
+   "c": 2442,
+   "y": 2025,
+   "id": "W4417252869",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 1667.2
+  },
+  {
+   "t": "Education in the Era of Generative Artificial Intelligence (AI): Understanding the Potential Benefits of ChatGPT in Promoting Teaching and Learning",
+   "c": 4820,
+   "y": 2023,
+   "id": "W4389437528",
+   "f": "Social Sciences",
+   "v": "Journal of AI",
+   "s": 1665.6
+  },
+  {
+   "t": "MEGA12: Molecular Evolutionary Genetic Analysis Version 12 for Adaptive and Green Computing",
+   "c": 3283,
+   "y": 2024,
+   "id": "W4405670661",
+   "f": "Biochemistry, Genetics and Molecular Biology",
+   "v": "Molecular Biology and Evolution",
+   "s": 1663.1
+  },
+  {
+   "t": "Synergistic Multicomponent Nucleopeptide-Based Hydrogels: Harnessing DNA-Base Pairing and Electrostatic Complementarities",
+   "c": 754,
+   "y": 2026,
+   "id": "W4394949314",
+   "f": "Materials Science",
+   "v": "ACS Materials Au",
+   "s": 1649.1
+  },
+  {
+   "t": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+   "c": 2573,
+   "y": 2025,
+   "id": "W4406492615",
+   "f": "Computer Science",
+   "v": "International Conference on Learning Representations",
+   "s": 1648.8
+  },
+  {
+   "t": "Intern VL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks",
+   "c": 3989,
+   "y": 2024,
+   "id": "W4402713111",
+   "f": "Computer Science",
+   "v": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+   "s": 1638.9
+  },
+  {
+   "t": "VMamba: Visual State Space Model",
+   "c": 4738,
+   "y": 2024,
+   "id": "W4415796023",
+   "f": "Computer Science",
+   "v": "neural information processing systems",
+   "s": 1638.8
+  },
+  {
+   "t": "Instruction Tuning for Large Language Models: A Survey",
+   "c": 1423,
+   "y": 2026,
+   "id": "W4416296080",
+   "f": "Computer Science",
+   "v": "ACM Computing Surveys",
+   "s": 1634.4
+  },
+  {
+   "t": "KEGG: biological systems database as a model of the real world",
+   "c": 3403,
+   "y": 2024,
+   "id": "W4403479110",
+   "f": "Biochemistry, Genetics and Molecular Biology",
+   "v": "Nucleic Acids Research",
+   "s": 1622.6
+  },
+  {
+   "t": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+   "c": 2507,
+   "y": 2025,
+   "id": "W4416053382",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 1559.9
+  },
+  {
+   "t": "Mastering diverse control tasks through world models",
+   "c": 2548,
+   "y": 2025,
+   "id": "W4409147637",
+   "f": "Computer Science",
+   "v": "Nature",
+   "s": 1553.7
+  },
+  {
+   "t": "Exercise training inhibits inflammation in adipose tissue via both suppression of macrophage infiltration and acceleration of phenotypic switching from M1 to M2 macrophages in high-fat-diet-induced obese mice",
+   "c": 545,
+   "y": 2026,
+   "id": "W2261207720",
+   "f": "Medicine",
+   "v": "Exercise immunology review",
+   "s": 1531.2
+  },
+  {
+   "t": "Depth Anything 3: Recovering the Visual Space from Any Views",
+   "c": 892,
+   "y": 2026,
+   "id": "W7105740705",
+   "f": "Computer Science",
+   "v": "International Conference on Learning Representations",
+   "s": 1508.3
+  },
+  {
+   "t": "Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model",
+   "c": 4276,
+   "y": 2024,
+   "id": "W4391013663",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 1501.7
+  },
+  {
+   "t": "Global burden and strength of evidence for 88 risk factors in 204 countries and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+   "c": 3766,
+   "y": 2024,
+   "id": "W4396946025",
+   "f": "Medicine",
+   "v": "The Lancet",
+   "s": 1471.2
+  },
+  {
+   "t": "$π_{0.5}$: a Vision-Language-Action Model with Open-World Generalization",
+   "c": 2329,
+   "y": 2025,
+   "id": "W4414674749",
+   "f": "Engineering",
+   "v": "arXiv (Cornell University)",
+   "s": 1469.2
+  },
+  {
+   "t": "Educational Psychology: Theory and Practice",
+   "c": 1348,
+   "y": 2025,
+   "id": "W2044653300",
+   "f": "Psychology",
+   "v": null,
+   "s": 1461.0
+  },
+  {
+   "t": "Can exercise affect immune function to increase susceptibility to infection?",
+   "c": 520,
+   "y": 2026,
+   "id": "W3009088635",
+   "f": "Medicine",
+   "v": "Exercise immunology review",
+   "s": 1461.0
+  },
+  {
+   "t": "Deliberative Democracy or Agonistic Pluralism?",
+   "c": 1279,
+   "y": 2026,
+   "id": "W1968920975",
+   "f": "Social Sciences",
+   "v": "Routledge eBooks",
+   "s": 1459.9
+  },
+  {
+   "t": "DESI 2024 VI: cosmological constraints from the measurements of baryon acoustic oscillations",
+   "c": 2632,
+   "y": 2025,
+   "id": "W4394029306",
+   "f": "Physics and Astronomy",
+   "v": "Journal of Cosmology and Astroparticle Physics",
+   "s": 1458.8
+  },
+  {
+   "t": "Gemma: Open Models Based on Gemini Research and Technology",
+   "c": 3858,
+   "y": 2024,
+   "id": "W4392822465",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 1432.0
+  },
+  {
+   "t": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+   "c": 3672,
+   "y": 2024,
+   "id": "W4395686609",
+   "f": "Computer Science",
+   "v": "arXiv (Cornell University)",
+   "s": 1423.8
+  },
+  {
+   "t": "Revised Surgical CAse REport (SCARE) Guideline: An Update for the Age of Artificial Intelligence",
+   "c": 2082,
+   "y": 2025,
+   "id": "W4410611457",
+   "f": "Medicine",
+   "v": "Premier journal of science.",
+   "s": 1421.4
+  },
+  {
+   "t": "Generative AI at Work",
+   "c": 2534,
+   "y": 2025,
+   "id": "W4407142724",
+   "f": "Economics, Econometrics and Finance",
+   "v": "The Quarterly Journal of Economics",
+   "s": 1410.9
+  },
+  {
+   "t": "A benchmark of expert-level academic questions to assess AI capabilities",
+   "c": 1151,
+   "y": 2026,
+   "id": "W4406840771",
+   "f": "Computer Science",
+   "v": "Nature",
+   "s": 1410.7
+  },
+  {
+   "t": "CONSORT 2025 statement: updated guideline for reporting randomised trials",
+   "c": 2265,
+   "y": 2025,
+   "id": "W4409483458",
+   "f": "Decision Sciences",
+   "v": "BMJ",
+   "s": 1409.4
+  },
+  {
+   "t": "Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+   "c": 3709,
+   "y": 2024,
+   "id": "W4393858312",
+   "f": "Social Sciences",
+   "v": "The Lancet",
+   "s": 1406.8
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+TITLE: Sexual dimorphism in the complete Drosophila male central nervous system connectome
+VENUE: Cell (2026)
+TYPE: article
+CITED: 144
+AUTHORS: Stuart Berg, Isabella R. Beckett, Marta Costa, Philipp Schlegel, Michał Januszewski, Elizabeth C. Marin, Aljoscha Nern, Stephan Preibisch
+URL: https://doi.org/10.1016/j.cell.2026.08.015
+PAGES: unknown
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+Sex differences in behavior exist across all animals, typically under strong genetic regulation. In Drosophila, fruitless/doublesex transcription factors identify dimorphic neurons, but their organization into functional circuits remains unclear. We present the connectome of the entire Drosophila male central nervous system. This contains 166,700 neurons spanning the brain and nerve cord, fully proofread and annotated, including fruitless/doublesex expression and 11,710 neuron types. We provide the first comprehensive comparison between male and female brain connectomes to synaptic resolution, finding 8,069 isomorphic, 138 dimorphic, 289 male-specific, and 71 female-specific types. This resource enables analysis of full sensory-to-motor circuits underlying complex behaviors and the impact of dimorphic elements. Sex-specific/dimorphic neurons are concentrated in higher brain centers, while the sensory and motor periphery is largely isomorphic. Within higher centers, male-specific connections are organized into hotspots defined by male-specific neurons or arbors. Dimorphic neurons reroute information across sexes.
