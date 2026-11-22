@@ -1,0 +1,11 @@
+TITLE: Advancing regulatory variant effect prediction with AlphaGenome
+VENUE: Nature (2026)
+TYPE: article
+CITED: 691
+AUTHORS: Žiga Avsec, Natasha S. Latysheva, Jun Cheng, Guido Novati, Kyle R. Taylor, Tom Ward, Clare Bycroft, Lauren Nicolaisen
+URL: https://doi.org/10.1038/s41586-025-10014-0
+PAGES: 13
+
+ABSTRACT:
+============================================================
+Deep learning models that predict functional genomic measurements from DNA sequences are powerful tools for deciphering the genetic regulatory code. Existing methods involve a trade-off between input sequence length and prediction resolution, thereby limiting their modality scope and performance 1–5 . We present AlphaGenome, a unified DNA sequence model, which takes as input 1 Mb of DNA sequence and predicts thousands of functional genomic tracks up to single-base-pair resolution across diverse modalities. The modalities include gene expression, transcription initiation, chromatin accessibility, histone modifications, transcription factor binding, chromatin contact maps, splice site usage and splice junction coordinates and strength. Trained on human and mouse genomes, AlphaGenome matches or exceeds the strongest available external models in 25 of 26 evaluations of variant effect prediction. The ability of AlphaGenome to simultaneously score variant effects across all modalities accurately recapitulates the mechanisms of clinically relevant variants near the TAL1 oncogene 6 . To facilitate broader use, we provide tools for making genome track and variant effect predictions from sequence.

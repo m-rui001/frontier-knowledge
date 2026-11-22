@@ -1,0 +1,11 @@
+TITLE: Rapid in silico directed evolution by a protein language model with EVOLVEpro
+VENUE: Science (2024)
+TYPE: article
+CITED: 307
+AUTHORS: Kaiyi Jiang, Zhaoqing Yan, Matteo Di Bernardo, Samantha R. Sgrizzi, Lukas Villiger, Alişan Kayabölen, Byungji Kim, Josephine K. Carscadden
+URL: https://doi.org/10.1126/science.adr6006
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Directed protein evolution is central to biomedical applications but faces challenges such as experimental complexity, inefficient multiproperty optimization, and local maxima traps. Although in silico methods that use protein language models (PLMs) can provide modeled fitness landscape guidance, they struggle to generalize across diverse protein families and map to protein activity. We present EVOLVEpro, a few-shot active learning framework that combines PLMs and regression models to rapidly improve protein activity. EVOLVEpro surpasses current methods, yielding up to 100-fold improvements in desired properties. We demonstrate its effectiveness across six proteins in RNA production, genome editing, and antibody binding applications. These results highlight the advantages of few-shot active learning with minimal experimental data over zero-shot predictions. EVOLVEpro opens new possibilities for artificial intelligence–guided protein engineering in biology and medicine.
