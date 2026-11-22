@@ -1,0 +1,11 @@
+TITLE: Twenty years of microplastic pollution research—what have we learned?
+VENUE: Science (2024)
+TYPE: review
+CITED: 1779
+AUTHORS: Richard Charles Thompson, Winnie Courtene‐Jones, Julien Boucher, Sabine Pahl, Karen Raubenheimer, Albert A. Koelmans
+URL: https://doi.org/10.1126/science.adl2746
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Twenty years after the first publication that used the term microplastic, we review current understanding, refine definitions, and consider future prospects. Microplastics arise from multiple sources, including tires, textiles, cosmetics, paint, and the fragmentation of larger items. They are widely distributed throughout the natural environment, with evidence of harm at multiple levels of biological organization. They are pervasive in food and drink and have been detected throughout the human body, with emerging evidence of negative effects. Environmental contamination could double by 2040, and wide-scale harm has been predicted. Public concern is increasing, and diverse measures to address microplastic pollution are being considered in international negotiations. Clear evidence on the efficacy of potential solutions is now needed to address the issue and to minimize the risks of unintended consequences.

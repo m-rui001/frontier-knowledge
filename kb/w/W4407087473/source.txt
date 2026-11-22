@@ -1,0 +1,11 @@
+TITLE: Bioaccumulation of microplastics in decedent human brains
+VENUE: Nature Medicine (2025)
+TYPE: article
+CITED: 1277
+AUTHORS: Alexander J. Nihart, Marcus A. Garcia, Eliane El Hayek, Rui Liu, Marian Olewine, Josiah D. Kingston, Eliseo F. Castillo, Rama R. Gullapalli
+URL: https://doi.org/10.1038/s41591-024-03453-1
+PAGES: 6
+
+ABSTRACT:
+============================================================
+Rising global concentrations of environmental microplastics and nanoplastics (MNPs) drive concerns for human exposure and health outcomes. Complementary methods for the robust detection of tissue MNPs, including pyrolysis gas chromatography-mass spectrometry, attenuated total reflectance-Fourier transform infrared spectroscopy and electron microscopy with energy-dispersive spectroscopy, confirm the presence of MNPs in human kidney, liver and brain. MNPs in these organs primarily consist of polyethylene, with lesser but significant concentrations of other polymers. Brain tissues harbor higher proportions of polyethylene compared to the composition of the plastics in liver or kidney, and electron microscopy verified the nature of the isolated brain MNPs, which present largely as nanoscale shard-like fragments. Plastic concentrations in these decedent tissues were not influenced by age, sex, race/ethnicity or cause of death; the time of death (2016 versus 2024) was a significant factor, with increasing MNP concentrations over time in both liver and brain samples (P = 0.01). Finally, even greater accumulation of MNPs was observed in a cohort of decedent brains with documented dementia diagnosis, with notable deposition in cerebrovascular walls and immune cells. These results highlight a critical need to better understand the routes of exposure, uptake and clearance pathways and potential health consequences of plastics in human tissues, particularly in the brain.
