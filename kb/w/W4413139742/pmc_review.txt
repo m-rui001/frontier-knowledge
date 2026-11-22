@@ -1,0 +1,860 @@
+The 2025 AHA/ACC Hypertension Guidelines: Key Updates, Historical Context, and Clinical Implications - PMC
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official
+government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+Locked padlock icon
+) or
+https://
+means you've safely
+connected to the .gov website. Share sensitive
+information only on official, secure websites.
+Search
+Log in
+Dashboard
+Publications
+Account settings
+Log out
+Search…
+Search NCBI
+Primary site navigation
+Search
+Logged in as:
+Dashboard
+Publications
+Account settings
+Log in
+Search PMC Full-Text Archive
+Search in PMC
+Journal List
+User Guide
+PERMALINK
+Copy
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+the contents by NLM or the National Institutes of Health.
+Learn more:
+PMC Disclaimer
+|
+PMC Copyright Notice
+Curr Cardiol Rep
+. 2026 Sep 7;28(1):90. doi:
+10.1007/s11886-026-02413-0
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+The 2025 AHA/ACC Hypertension Guidelines: Key Updates, Historical Context, and Clinical Implications
+John M Giacona
+John M Giacona
+1
+Hypertension Section, Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, USA
+2
+Department of Applied Clinical Research, School of Health Professions, University of Texas Southwestern Medical Center, Dallas, USA
+3
+Department of Internal Medicine – Cardiology Division, The University of Texas Southwestern Medical Center, 5323 Harry Hines Boulevard, H4.130B, Dallas, TX USA
+Find articles by
+John M Giacona
+1,
+2,
+3,
+✉
+,
+Wanpen Vongpatanasin
+Wanpen Vongpatanasin
+1
+Hypertension Section, Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, USA
+3
+Department of Internal Medicine – Cardiology Division, The University of Texas Southwestern Medical Center, 5323 Harry Hines Boulevard, H4.130B, Dallas, TX USA
+Find articles by
+Wanpen Vongpatanasin
+1,
+3
+Author information
+Article notes
+Copyright and License information
+1
+Hypertension Section, Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, USA
+2
+Department of Applied Clinical Research, School of Health Professions, University of Texas Southwestern Medical Center, Dallas, USA
+3
+Department of Internal Medicine – Cardiology Division, The University of Texas Southwestern Medical Center, 5323 Harry Hines Boulevard, H4.130B, Dallas, TX USA
+✉
+Corresponding author.
+Received 2026 Aug 11; Accepted 2026 Sep 1; Issue date 2026.
+© The Author(s) 2026
+Open Access
+This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit
+http://creativecommons.org/licenses/by-nc-nd/4.0/
+.
+PMC Copyright notice
+PMCID: PMC13550040  PMID:
+42704524
+Abstract
+Purpose of Review
+This review examines the 2025 American Heart Association/American College of Cardiology multisociety hypertension guideline, placing its recommendations in historical context and evaluating the supporting evidence across major clinical populations.
+Recent Findings
+The 2025 guideline retains the 2017 blood pressure categories and treatment goal of less than 130/80 mmHg but introduces the race-free PREVENT equations, uses a 7.5% 10-year risk threshold to guide pharmacologic treatment of stage-1 hypertension, and encourages systolic blood pressure below 120 mmHg in selected high-risk patients. Additional updates include single-pill combination therapy for stage-2 hypertension, broader primary aldosteronism screening, routine urine albumin-to-creatinine ratio measurement, removal of race-based drug selection, and cautious incorporation of renal denervation. Recent trials strengthen the evidence for intensive lowering, including in diabetes and older adults.
+Summary
+The 2025 guideline advances a risk-based, measurement-dependent approach. The principal challenge is no longer identifying effective treatments but delivering accurate measurement, timely intensification, and sustained follow-up at scale.
+Keywords:
+Hypertension, AHA/ACC guideline, PREVENT, Intensive treatment, Primary aldosteronism, Renal denervation
+Introduction
+Hypertension affects nearly half of U.S. adults and remains a major driver of myocardial infarction, stroke, heart failure, chronic kidney disease (CKD), cognitive impairment, and premature death [
+1
+]. During 2021–2023, 47.7% of U.S. adults met the contemporary definition of hypertension as blood pressure (BP) ≥ 130/80 mmHg, yet only about one-fifth achieved control below 130/80 mmHg [
+2
+]. Control using the traditional < 140/90 mmHg threshold has also shown no meaningful improvement in recent years, underscoring a persistent implementation gap despite effective and inexpensive therapies [
+3
+].
+Against this backdrop, on August 14, 2025, the American Heart Association (AHA) and American College of Cardiology (ACC), alongside 11 collaborating organizations, released the first comprehensive U.S. adult hypertension guideline since 2017 [
+1
+]. The update retains the 2017 BP categories and general treatment goal of < 130/80 mmHg but changes how clinicians estimate cardiovascular risk, initiate therapy, evaluate secondary causes and target-organ injury, and manage difficult-to-control hypertension. Major updates include adoption of PREVENT, earlier pharmacologic treatment of persistent lower-risk stage-1 hypertension, greater use of single-pill combination therapy, routine assessment of albuminuria, broader screening for primary aldosteronism, and selective incorporation of renal denervation.
+This review places these recommendations in historical context, examines the evidence supporting contemporary treatment thresholds and targets, and discusses their application across major clinical populations. Particular attention is given to SBP < 120 mmHg, for which potential cardiovascular and cognitive benefits must be balanced against measurement quality, treatment tolerance, and individual clinical context.
+From Stepped Care to Risk-Based Treatment
+U.S. hypertension guidance has evolved from treating severe, predominantly diastolic hypertension to preventing cardiovascular disease across the continuum of BP and cardiovascular risk. Early reports from the Joint National Committee (JNC), which was appointed by the National Institute of Health, have defined the presence of severe hypertension based on diastolic BP alone as cardiovascular outcome data that pertain to systolic BP were not available [
+4
+–
+7
+]. By JNC 5 and JNC 6, evidence from clinical trials and epidemiological studies led to revision of the hypertension definition to 140/90 mmHg as the conventional diagnostic threshold, while treatment decisions increasingly incorporated target-organ damage and comorbid conditions [
+8
+,
+9
+].
+JNC 7 also introduced “prehypertension” for SBP 120–139 mmHg or DBP 80–89 mmHg to identify patients at risk for progression and emphasize lifestyle intervention. It also recommended lower treatment goals for patients with diabetes or CKD [
+10
+]. Subsequently, the NIH has shifted the task in providing hypertension treatment recommendation to the AHA and the ACC. Nevertheless, in 2014 the panel of JNC8 that had been appointed, provided the evidence-based panel report that recommended a threshold and goal of 150/90 mmHg for adults aged ≥ 60 years and 140/90 mmHg for younger adults and those with diabetes or CKD [
+11
+]. This recommendation generated substantial controversy. A minority of panel members argued that the evidence did not justify relaxing the SBP goal to 150 mmHg in otherwise healthy adults aged 60–79 years [
+12
+].
+The 2017 ACC/AHA guideline represented the decisive shift toward the current risk-based framework. It defined hypertension as BP ≥ 130/80 mmHg, classified 130–139/80–89 mmHg as stage-1 hypertension, and recommended a treatment goal below 130/80 mmHg for most treated adults [
+13
+]. Although the revised definition substantially increased the estimated prevalence of hypertension, it did not imply that every newly classified patient required medication. Pharmacologic treatment of stage-1 hypertension was linked to established cardiovascular disease or elevated predicted cardiovascular risk, whereas lower-risk adults were initially managed with lifestyle modification and follow-up.
+The 2025 ACC/AHA guideline preserves the 2017 BP categories and the overarching treatment goal of < 130/80 mmHg but further advances the transition toward risk-based and earlier treatment. The PREVENT equations replace the Pooled Cohort Equations, and a 10-year cardiovascular disease risk of ≥ 7.5% is now used to guide pharmacologic treatment among adults with stage-1 hypertension who do not already have cardiovascular disease, prior stroke, diabetes, or CKD [
+1
+]. Importantly, lower-risk adults with stage-1 hypertension are no longer managed with lifestyle modification indefinitely. If BP remains ≥ 130/80 mmHg after 3–6 months of structured lifestyle intervention, initiation of medication is recommended. Thus, the principal change from 2017 is not how hypertension is defined, but when persistent BP elevation warrants escalation from lifestyle treatment to pharmacotherapy. Selected U.S. hypertension guidelines are compared in Table
+1
+.
+Table 1.
+Evolution of U.S. hypertension definitions, treatment thresholds, and goals
+Guideline (Year)
+Stage 1 Hypertension definition
+Stage 2 threshold
+Recommended treatment goal
+Key differences and clinical implications
+JNC 7 (2003) [
+10
+]
+SBP 140–159 mm Hg or DBP 90–99 mm Hg; prehypertension defined as SBP 120–139 mm Hg or DBP 80–89 mm Hg
+SBP ≥ 160 mm Hg or DBP ≥ 100 mm Hg
+< 140/90 mm Hg; <130/80 mm Hg for patients with diabetes or CKD
+Introduced “prehypertension” and consolidated more severe hypertension into a single stage 2 category. Lower treatment goals were recommended for diabetes and CKD.
+2014 JNC 8 Panel Report [
+11
+]
+Did not establish new BP categories or hypertension stages
+Not defined; pharmacologic treatment threshold was ≥ 150/90 mm Hg for adults aged ≥ 60 years and ≥ 140/90 mm Hg for adults aged < 60 years or with diabetes or CKD
+< 150/90 mm Hg for adults aged ≥ 60 years; <140/90 mm Hg for adults aged < 60 years or with diabetes or CKD
+Focused on treatment thresholds rather than classification. Relaxed the SBP treatment threshold and goal for many adults aged ≥ 60 years, a recommendation that generated substantial controversy.
+2017 ACC/AHA Guideline [
+13
+]
+SBP 130–139 mm Hg or DBP 80–89 mm Hg
+SBP ≥ 140 mm Hg or DBP ≥ 90 mm Hg
+< 130/80 mm Hg for most treated adults
+Lowered the diagnostic threshold for hypertension to 130/80 mm Hg. Pharmacologic treatment of stage 1 hypertension was guided by clinical CVD or an estimated 10-year ASCVD risk ≥ 10%; lower-risk adults initially received lifestyle therapy.
+2025 ACC/AHA Guideline [
+1
+]
+SBP 130–139 mm Hg or DBP 80–89 mm Hg
+SBP ≥ 140 mm Hg or DBP ≥ 90 mm Hg
+< 130/80 mm Hg for most adults; SBP < 120 mm Hg may be pursued in appropriately selected higher-risk patients when feasible and tolerated
+Retains the 2017 categories but replaces the Pooled Cohort Equations with PREVENT and uses a 7.5% 10-year CVD-risk threshold. Lower-risk stage 1 hypertension is treated pharmacologically if BP remains ≥ 130/80 mm Hg after 3–6 months of lifestyle therapy. Two first-line agents in a single-pill combination are preferred for stage 2 hypertension.
+Open in a new tab
+Abbreviations:
+ACC
+American College of Cardiology,
+AHA
+American Heart Association,
+ASCVD
+atherosclerotic cardiovascular disease,
+BP
+blood pressure,
+CKD
+chronic kidney disease,
+CVD
+cardiovascular disease,
+DBP
+diastolic blood pressure,
+JNC
+Joint National Committee,
+PREVENT
+Predicting Risk of Cardiovascular Disease EVENTs,
+SBP
+systolic blood pressure. Note: The 2014 document is commonly called “JNC 8,” although it was published by the panel members appointed to the Eighth Joint National Committee and did not establish a new BP classification system
+What’s new in the 2025 Guidelines
+BP Classification, Confirmation, and Measurement
+The 2017 BP categories remain unchanged: normal BP is defined as SBP < 120 mmHg and DBP < 80 mmHg; elevated BP as SBP 120–129 mmHg and DBP < 80 mmHg; stage-1 hypertension as SBP 130–139 mmHg or DBP 80–89 mmHg; and stage-2 hypertension as SBP ≥ 140 mmHg or DBP ≥ 90 mmHg [
+1
+]. When SBP and DBP fall into different categories, the higher category applies. Importantly, these categories describe average BP rather than a single isolated reading.
+Diagnosis should rely on averaged readings obtained with a validated upper-arm device, correct cuff size, supported posture, the arm at heart level, no talking, and adequate rest. Automated oscillometric devices facilitate repeated measurements but do not compensate for poor technique. Home or ambulatory monitoring should confirm hypertension when feasible, identify white-coat and masked hypertension, and guide titration. Home monitoring is most effective when paired with standardized protocols and regular clinical follow-up. Cuffless devices, including smartwatches, should not currently be used to diagnose hypertension or direct treatment because their precision and reliability remain insufficient.
+PREVENT Replaces the Pooled Cohort Equations
+The guideline replaces the Pooled Cohort Equations with the AHA Predicting Risk of Cardiovascular Disease EVENTs (PREVENT) equations. PREVENT was developed and externally validated in more than 6.6 million U.S. adults and provides 10- and 30-year estimates of total cardiovascular disease, including atherosclerotic events and heart failure, in adults aged 30–79 years without known cardiovascular disease [
+14
+]. The equations are sex-specific and race-free, incorporate routine cardiovascular, metabolic, and kidney variables, and allow optional inclusion of hemoglobin A1c, urinary albumin-to-creatinine ratio (UACR), and the social deprivation index.
+For stage-1 hypertension, increased risk is defined as a 10-year PREVENT cardiovascular disease risk ≥ 7.5% [
+1
+]. Although numerically lower than the former 10% Pooled Cohort Equations threshold, the 7.5% value was selected to produce broadly comparable treatment implications with the new model rather than simply lower the threshold for treatment. The 7.5% threshold is also deemed to have equivalent risk prediction as the Framingham risk score threshold of 15% which is one of the eligibility criteria for the SPRINT trial. PREVENT is most useful in patients without clinical cardiovascular disease, prior stroke, diabetes, or CKD.
+When to Start Medication and How Low to Aim
+The overarching treatment goal remains < 130/80 mmHg for most adults with hypertension [
+1
+]. Among patients at increased cardiovascular risk, the guideline recommends achieving an SBP < 130 mmHg and encourages further lowering to < 120 mmHg when feasible, tolerated, and measured using standardized techniques. The latter should not be interpreted as a universal target for every patient. For adults at lower cardiovascular risk, SBP < 130 mmHg remains the principal goal, although an SBP < 120 mmHg may be reasonable in appropriately selected patients. Treatment targets should be individualized for patients who are pregnant, reside in institutional care, have a limited predicted lifespan, experience symptomatic orthostatic hypotension, or have substantial frailty or treatment-related adverse effects.
+Treatment thresholds remain distinct from treatment goals. All adults with an average BP ≥ 140/90 mmHg should receive lifestyle counseling and antihypertensive medication, irrespective of predicted cardiovascular risk. Adults with BP of 130–139/80–89 mmHg should begin medication if they have clinical cardiovascular disease, prior stroke, diabetes, CKD, or a 10-year PREVENT risk ≥ 7.5%. Lower-risk adults should initially receive a structured lifestyle intervention. If their average BP remains ≥ 130/80 mmHg after three to six months, medication is recommended rather than continued observation without a defined endpoint. This is an important change from the 2017 framework, which allowed lower-risk stage-1 hypertension to be managed with nonpharmacologic therapy and periodic reassessment without an explicit requirement to begin medication.
+Simpler, Earlier Pharmacotherapy
+For adults with stage-2 hypertension, initial treatment with two first-line agents from different classes is preferred, ideally administered as a fixed-dose single-pill combination. The principal first-line classes remain an angiotensin-converting enzyme (ACE) inhibitor or angiotensin receptor blocker (ARB), a long-acting dihydropyridine calcium-channel blocker, and a thiazide-type diuretic. A renin–angiotensin system blocker combined with either a calcium-channel blocker or a thiazide-type diuretic is a common initial regimen. ACE inhibitors and ARBs should not be used together. Beta-blockers remain appropriate when there is a compelling indication, such as ischemic heart disease, selected arrhythmias, or heart failure, but are not routine first-line therapy for uncomplicated hypertension.
+The preference for a single pill is practical rather than cosmetic. Fixed-dose combinations reduce pill burden, improve adherence and persistence, and shorten the time required to achieve BP control compared with sequential monotherapy [
+15
+]. Beginning with complementary agents at lower doses may also produce greater BP reduction with fewer class-specific adverse effects than maximizing a single drug before adding another. More importantly, many 2-in-1 and even certain 3-in-1 combination pills have become generic such that the cost of co-payment is substantially lower, and in some instances, cheaper than the cost of 2–3 free equivalent pills.
+Another meaningful change is the removal of race-based drug selection. Unlike the 2017 guideline, the 2025 guideline does not recommend a distinct first-line regimen solely on the basis of Black race. Drug selection should be guided by comorbidities, target-organ involvement, prior treatment response, adverse-effect risk, medication access, and patient preference [
+1
+]. This race-neutral approach doesn’t minimize the profound racial inequities in hypertension prevalence, treatment, and control [
+16
+]. Rather, it avoids using a social classification as a surrogate for an individual pharmacologic phenotype.
+Lifestyle Treatment and Cardiometabolic Therapy
+Lifestyle therapy remains foundational across the entire BP spectrum and should be prescribed with the same specificity as pharmacotherapy. The guideline recommends a DASH-style eating pattern; reduction of dietary sodium intake to < 2,300 mg/day, ideally approaching 1,500 mg/day; weight loss of at least 5% in adults with overweight or obesity; regular aerobic and resistance exercise; and moderate potassium intake, preferably from dietary sources, when kidney function and concomitant medications permit [
+1
+]. Potassium-enriched salt substitutes may provide additional BP and cardiovascular benefit, particularly when sodium intake arises largely from food preparation at home but require caution in patients with CKD or those taking medications that impair potassium excretion [
+17
+]. Abstinence from alcohol is preferred; adults who continue to drink should limit intake to no more than one standard drink daily for women or two for men. Isometric resistance exercise and stress-management practices, including meditation, may be reasonable adjuncts but should not displace established lifestyle measures or indicated medications.
+The guideline also places BP management within a broader cardiometabolic framework. In adults with hypertension and overweight or obesity, a glucagon-like peptide-1 receptor agonist may be considered when otherwise clinically appropriate. Its principal role is to promote weight loss and reduce cardiometabolic risk, with an accompanying reduction in BP, rather than to replace conventional antihypertensive therapy. Sodium-glucose cotransporter 2 inhibitors likewise produce modest BP reductions and provide substantial cardiorenal benefit in selected patients with diabetes, CKD, or heart failure, although they are not classified as first-line antihypertensive agents.
+Kidney Assessment and Secondary Hypertension
+Measurement of UACR is now recommended as part of the routine initial evaluation of adults with hypertension, complementing standard laboratory testing and electrocardiography [
+1
+]. This addition is clinically consequential: albuminuria can identify previously unrecognized kidney injury, refine cardiovascular and kidney risk, and influence the selection and intensity of therapy.
+Primary aldosteronism receives substantially greater attention because it remains common, frequently normokalemic, and markedly underdiagnosed [
+18
+,
+19
+]. Screening is recommended in patients with resistant hypertension regardless of potassium level, spontaneous or diuretic-induced hypokalemia, obstructive sleep apnea, an adrenal incidentaloma, or a family history of hypertension beginning at a young age or stroke occurring before age 40; screening may also be considered in all adults with stage-2 hypertension [
+1
+]. This broader approach is supported by evidence that primary aldosteronism occurs across the BP spectrum and becomes more prevalent as hypertension severity increases [
+20
+,
+21
+].
+Screening can generally be performed while most antihypertensive medications are continued, reducing an important practical barrier. Mineralocorticoid receptor antagonists and other strongly interfering agents may require individualized adjustment. When suspicion remains high despite negative or equivocal results, hypokalemia and medication interference should be addressed before repeat testing. The guideline also emphasizes evaluation for renal parenchymal and renovascular disease, sleep apnea, other endocrine disorders, and medications or substances that raise BP.
+Resistant Hypertension and Renal Denervation
+Apparent treatment-resistant hypertension should first prompt confirmation of standardized office and out-of-office BP, medication adherence, maximally tolerated dosing, interfering substances, and secondary causes. Once pseudoresistance has been excluded, pharmacotherapy should generally include complementary long-acting agents, an effective thiazide-like diuretic when kidney function permits, and a mineralocorticoid receptor antagonist when not contraindicated. PATHWAY-2 established spironolactone as the most effective fourth-line agent [
+22
+].
+Catheter-based renal denervation is now a Class 2b adjunctive option for carefully selected adults with resistant hypertension that remains uncontrolled despite optimized lifestyle and pharmacologic therapy, or in patients unable to tolerate multiple medications, after informed shared decision-making [
+1
+]. Candidate selection should occur within an experienced multidisciplinary program after confirmation of true resistant hypertension, exclusion of treatable secondary causes, and assessment of kidney function and renal artery anatomy.
+Sham-controlled trials suggest that renal denervation lowers 24-hour ambulatory SBP by approximately 3–6 mmHg, with substantial individual variability [
+23
+]. The effect is therefore clinically relevant but generally modest, and the procedure should not be presented as curative or as a routine substitute for medication. Moreover, no randomized renal-denervation trial has yet demonstrated reductions in myocardial infarction, stroke, heart-failure events, or mortality.
+Severe Hypertension and Acute-Care Settings
+The replacement of “hypertensive urgency” with “severe hypertension” emphasizes that emergency treatment depends on acute target-organ injury, not BP alone. In nonpregnant adults, severe hypertension is defined as SBP > 180 mmHg and/or DBP > 120 mmHg without acute target-organ damage [
+1
+,
+24
+]. Clinicians should repeat the measurement and evaluate for neurologic, cardiac, aortic, retinal, and kidney injury.
+Hypertensive emergency remains defined by severe BP elevation accompanied by acute target-organ injury and requires monitored treatment, usually intravenously. In contrast, patients without acute injury should not undergo reflexive rapid BP reduction. Those presenting from the outpatient setting usually require timely initiation, reinitiation, or intensification of oral therapy, identification of contributing factors, and close follow-up.
+A similar principle applies to patients hospitalized for unrelated conditions who have asymptomatic severe BP elevation. Intermittent intravenous medication or short-acting oral therapy should not be administered solely to normalize an isolated BP value. Clinicians should address pain, anxiety, medication omission, withdrawal, volume disturbance, or other reversible contributors, and adjust the long-term regimen when appropriate. Pregnancy, acute ischemic stroke, intracerebral hemorrhage, and other condition-specific emergencies use separate thresholds and management pathways.
+Evidence for More Intensive SBP Lowering
+Earlier trials established that treating systolic hypertension prevents cardiovascular events. In SHEP, chlorthalidone-based treatment of isolated systolic hypertension reduced stroke by 36% and heart failure by approximately half [
+25
+]. SPRINT then provided pivotal U.S. evidence for a lower target by randomizing 9,361 adults aged ≥ 50 years with increased cardiovascular risk, but without diabetes or prior stroke, to SBP targets < 120 or < 140 mmHg. Intensive treatment reduced the primary cardiovascular composite by 25% and all-cause mortality by 27%; the final adjudicated analysis produced similar estimates [
+26
+,
+27
+]. Hypotension, electrolyte abnormalities, acute kidney injury, and syncope occurred more frequently, underscoring the need for careful selection and monitoring.
+Evidence in diabetes was initially uncertain. ACCORD-BP did not significantly reduce its primary cardiovascular composite with an SBP target < 120 mmHg, although stroke was reduced by 41% [
+28
+]. Interpretation was limited by an event rate approximately half that anticipated. BPROAD subsequently randomized 12,821 high-risk Chinese adults with type 2 diabetes and found a 21% reduction in the primary cardiovascular outcome with intensive treatment [
+29
+]. Serious adverse events overall were similar, although symptomatic hypotension and hyperkalemia were more frequent. Together, these trials support intensive treatment in appropriately selected high-risk patients with diabetes.
+STEP provided further evidence by randomizing 8,511 Chinese adults aged 60–80 years. Targeting SBP 110 to < 130 rather than 130 to < 150 mmHg reduced the primary cardiovascular composite by 26% [
+30
+]. During extended follow-up, all participants were offered intensive treatment, yet those originally assigned to the intensive group retained a lower event rate, supporting earlier and sustained treatment [
+31
+]. ESPRIT enrolled 11,255 high-risk adults, including patients with diabetes or prior stroke, and found a more modest 12% reduction with a target < 120 rather than < 140 mmHg, although syncope was more frequent [
+32
+].
+Viewed collectively, these trials support a graded relationship between SBP reduction and cardiovascular benefit rather than a single universally optimal threshold. An individual-participant meta-analysis found that each 5-mmHg SBP reduction lowered major cardiovascular events by approximately 10%, with broadly consistent relative benefit across baseline BP levels and among patients with and without prior cardiovascular disease [
+33
+]. Absolute benefit is greatest at higher baseline risk, whereas treatment burden and adverse effects become more important in lower-risk or frail patients.
+Translation requires standardized measurement. SPRINT used an automated protocol with five minutes of seated rest and the average of three readings, but staff presence varied without materially changing achieved BP or treatment effects [
+34
+]. A fixed conversion asserting that an SBP of 120 mmHg in SPRINT invariably corresponds to 130–135 mmHg in routine practice is unsupported. Intensive targets should instead be pursued with validated devices, standardized technique, and appropriate safety monitoring. Major randomized trials informing intensive SBP targets are summarized in Table
+2
+.
+Table 2.
+Major randomized trials informing intensive systolic blood pressure targets
+Trial
+Population and comparison
+Principal result
+Clinical relevance
+SPRINT [
+26
+,
+27
+]
+9,361 high-risk adults without diabetes or prior stroke; SBP < 120 vs. < 140
+Primary outcome HR 0.75 initially; 0.73 in final report; mortality reduced
+Strongest U.S. evidence for intensive SBP lowering; requires standardized measurement and monitoring
+ACCORD-BP [
+28
+]
+4,733 adults with type 2 diabetes; SBP < 120 vs. < 140
+Primary HR 0.88 (not significant); stroke HR 0.59
+Underpowered for a lower-than-expected event rate; suggested stroke benefit
+BPROAD [
+29
+]
+12,821 high-risk Chinese adults with type 2 diabetes; SBP < 120 vs. < 140
+Primary HR 0.79
+Confirms cardiovascular benefit in diabetes; monitor hypotension and potassium
+STEP [
+30
+,
+31
+]
+8,511 Chinese adults aged 60–80; SBP 110–<130 vs. 130–<150
+Primary HR 0.74
+Supports earlier intensive treatment in ambulatory older adults
+ESPRIT [
+32
+]
+11,255 high-risk Chinese adults, including diabetes and prior stroke; SBP < 120 vs. < 140
+Primary HR 0.88
+Broadens the evidence base; benefit was smaller and syncope more frequent
+Open in a new tab
+Abbreviations:
+HR
+hazard ratio,
+SBP
+systolic blood pressure. Trial targets are not interchangeable without attention to measurement protocol, achieved BP population, and adverse events
+Special Populations
+Older Adults and Cognitive Health
+Chronologic age alone is not a reason to accept poorly controlled SBP. The guideline recommends SBP < 130 mmHg for most older adults and encourages lower values in those at elevated cardiovascular risk when treatment is well tolerated [
+1
+]. Functional status, frailty, orthostatic symptoms, falls, polypharmacy, and goals of care should guide individualization.
+Evidence that BP lowering preserves cognitive health has strengthened. SPRINT-MIND did not significantly reduce probable dementia alone, but it reduced mild cognitive impairment and the combined outcome of mild cognitive impairment or probable dementia [
+35
+]. During extended follow-up, benefit for the combined outcome persisted, whereas probable dementia alone remained nonsignificant [
+36
+].
+The China Rural Hypertension Control Project extended this evidence beyond cognitive composites. Among 33,995 adults aged ≥ 40 years with uncontrolled hypertension in rural China, a community healthcare provider–led intervention targeting BP < 130/80 mmHg produced a net SBP reduction of 22 mmHg over 48 months and reduced all-cause dementia by 15%, with fewer serious adverse events [
+37
+]. Although the large BP separation and community-based care model differ from conventional target-comparison trials, this was the first large, randomized trial to demonstrate a statistically significant reduction in all-cause dementia with an intensive BP intervention. An individual-participant meta-analysis of five placebo-controlled trials likewise found a 13% reduction in incident dementia with antihypertensive treatment [
+38
+]. Taken together, the evidence now supports not only reductions in mild cognitive impairment and composite cognitive outcomes but also a probable reduction in dementia itself. The benefit appears most likely to emerge when meaningful BP reduction is achieved and sustained over several years.
+Pregnancy and Postpartum Care
+Historically, antihypertensive treatment in hypertensive disorders of pregnancy was reserved for BP ≥ 160/110 mm Hg, with a goal below 160/105 mm Hg, owing to concerns that lower targets could compromise placental perfusion and fetal growth. The Chronic Hypertension and Pregnancy trial randomized 2,408 patients with mild chronic hypertension before 23 weeks of gestation to active treatment targeting BP < 140/90 mm Hg or to receive no such treatment unless severe hypertension developed (SBP ≥ 160 mmHg or DBP ≥ 105 mmHg). Active treatment reduced a composite of severe preeclampsia, medically indicated preterm birth before 35 weeks, placental abruption, or fetal or neonatal death without increasing small-for-gestational-age birth [
+39
+]. These findings established that treating mild chronic hypertension improves pregnancy outcomes without an apparent fetal-growth penalty.
+Following publication of CHAP in 2022, both the American College of Obstetricians and Gynecologists (ACOG) and the Society for Maternal-Fetal Medicine (SMFM) updated their recommendations to initiate or titrate antihypertensive therapy for chronic hypertension in pregnancy at 140/90 mm Hg; SMFM additionally recommended treatment to a goal < 140/90 mm Hg. These recommendations are supported by the 2025 AHA/ACC guideline [
+40
+,
+41
+]. However, uncertainty exists in regard to target BP in gestational hypertension and preeclampsia due to lack of clinical trial data addressing these subgroups of HDP. Currently, the 2025 guideline does not provide specific recommendations addressing BP targets for the treatment of gestational hypertension and preeclampsia. Consistent with ACOG guidance, the guidelines concur with treatment when BP exceeds ≥ 160/110 mmHg threshold.
+When treatment is indicated, labetalol and extended-release nifedipine are generally preferred. Methyldopa is considered an alternative as treatment is not as effective. ACE inhibitors, ARBs, direct renin inhibitors, and mineralocorticoid receptor antagonists are generally avoided, and low-dose aspirin is recommended for women at high risk for development of preeclampsia, particularly among women with chronic hypertension to prevent preeclampsia and its complications. Early postpartum BP surveillance is essential because BP may rise after discharge. A hypertensive disorder of pregnancy should remain in the medical record as a marker of increased long-term cardiovascular risk.
+Chronic Kidney Disease
+CKD substantially increases both cardiovascular and kidney risk, making accurate measurement and treatment tolerance particularly important. For adults with CKD, the 2025 guideline recommends a BP goal < 130/80 mmHg [
+1
+]. An ACE inhibitor or ARB is preferred when albuminuria or another kidney-specific indication is present because renin–angiotensin system blockade can reduce albuminuria and slow kidney disease progression in appropriately selected patients.
+UACR should be measured to identify kidney injury and guide therapy. Serum creatinine and potassium should be reassessed after initiation or dose escalation of renin–angiotensin system blockade. A modest early increase in creatinine may reflect the expected hemodynamic effect of treatment and does not necessarily require discontinuation. In contrast, a substantial or progressive decline in estimated glomerular filtration rate should prompt evaluation for volume depletion, concomitant medications, renovascular disease, or another underlying process rather than automatic continuation or withdrawal of therapy.
+The 2021 Kidney Disease: Improving Global Outcomes guideline recommends an SBP target < 120 mmHg for many adults with nondialysis CKD when BP is measured using a standardized office protocol [
+42
+]. This recommendation is broadly compatible with the 2025 guideline’s encouragement of lower SBP values in selected high-risk patients, but the measurement requirement is critical. Dialysis patients, kidney transplant recipients, and individuals with advanced frailty remain underrepresented in intensive-treatment trials, and targets in these populations require greater individualization.
+Diabetes
+Diabetes is now incorporated directly into the higher-risk treatment pathway. Adults with diabetes should begin antihypertensive medication at an average BP ≥ 130/80 mmHg, with a treatment goal < 130/80 mmHg [
+1
+]. An SBP < 120 mmHg may be considered in appropriately selected patients when the expected cardiovascular benefit outweighs treatment burden and the risks of hypotension, electrolyte abnormalities, or kidney injury.
+Initial drug selection follows the same race-neutral framework used for other adults with hypertension. An ACE inhibitor or ARB is particularly appropriate when albuminuric CKD is present, whereas treatment in the absence of albuminuria can be selected from the usual first-line classes according to comorbidities, tolerance, and patient preference.
+BPROAD substantially narrows the uncertainty left by ACCORD-BP by demonstrating cardiovascular benefit from intensive SBP lowering in high-risk adults with type-2 diabetes. However, its participants were treated entirely in China and had elevated baseline cardiovascular risk. The findings therefore strongly support intensive treatment in comparable high-risk patients but should not be extrapolated automatically to younger adults with diabetes, low short-term cardiovascular risk, or a greater susceptibility to treatment-related adverse effects. BP treatment remains indicated, but its intensity should be individualized.
+Conclusions
+The 2025 AHA/ACC guideline retains the 2017 BP categories while advancing risk-based and earlier treatment. PREVENT now guides risk assessment, while persistent lower-risk stage-1 hypertension prompts medication after structured lifestyle therapy. Stage-2 hypertension generally begins with a two-drug single-pill combination. UACR testing and broader primary aldosteronism screening move target-organ and secondary-cause evaluation earlier in care. Renal denervation enters the algorithm as a limited adjunct rather than a substitute for optimized therapy. Evidence increasingly supports lower SBP targets in selected older adults and patients with diabetes or CKD, but benefit depends on standardized measurement, tolerability, and safety monitoring. The principal challenge is no longer identifying effective treatments, but delivering them consistently through timely intensification, home monitoring, team-based care, and reliable follow-up.
+Author Contributions
+J.M.G. and W.V. contributed to conceptualization and methodology. J.M.G. wrote the original draft and prepared Tables
+1
+and
+2
+. All authors reviewed, edited, and approved the final manuscript.
+Funding
+None declared.
+Data Availability
+No datasets were generated or analysed during the current study.
+Declarations
+Use of Artificial Intelligence
+No artificial intelligence tools were used in the preparation, writing, analysis, or editing of this manuscript.
+Human and Animal Rights and Informed Consent
+This article does not contain any studies with human or animal subjects performed by any of the authors.
+Conflict of Interest
+The authors declare no conflict of interest
+Footnotes
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+References
+1.
+Jones DW, Ferdinand KC, Taler SJ, Johnson HM, Shimbo D, Abdalla M, et al. AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Hypertension. 2025.
+[
+DOI
+] [
+PubMed
+]
+2.
+Fryar CD, Kit B, Carroll MD, Afful J, Hypertension Prevalence. Awareness, Treatment, and Control Among Adults Age 18 and Older: United States, August 2021-August 2023. NCHS Data Brief. 2024(511).
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+]
+3.
+Hardy ST, Jaeger BC, Foti K, Ghazi L, Wozniak G, Muntner P. Trends in Blood Pressure Control among US Adults With Hypertension, 2013–2014 to 2021–2023. Am J Hypertens. 2025;38(2):120–8.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Report of the Joint National Committee on. Detection, Evaluation, and Treatment of High Blood Pressure. A cooperative study. JAMA. 1977;237(3):255–61.
+[
+PubMed
+] [
+Google Scholar
+]
+5.
+The 1980 report of the Joint National Committee on. Detection, Evaluation, and Treatment of High Blood Pressure. Arch Intern Med. 1980;140(10):1280–5.
+[
+PubMed
+] [
+Google Scholar
+]
+6.
+The 1984 Report of the Joint National Committee on. Detection, Evaluation, and Treatment of High Blood Pressure. Arch Intern Med. 1984;144(5):1045–57.
+[
+PubMed
+] [
+Google Scholar
+]
+7.
+The 1988 report of the Joint National Committee on. Detection, Evaluation, and Treatment of High Blood Pressure. Arch Intern Med. 1988;148(5):1023–38.
+[
+PubMed
+] [
+Google Scholar
+]
+8.
+The fifth report of the Joint National Committee on. Detection, Evaluation, and Treatment of High Blood Pressure (JNC V). Arch Intern Med. 1993;153(2):154–83.
+[
+PubMed
+] [
+Google Scholar
+]
+9.
+The sixth report of the Joint National Committee on. prevention, detection, evaluation, and treatment of high blood pressure. Arch Intern Med. 1997;157(21):2413–46.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+10.
+Chobanian AV, Bakris GL, Black HR, Cushman WC, Green LA, Izzo JL Jr., et al. Seventh report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure. Hypertension. 2003;42(6):1206–52.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+11.
+James PA, Oparil S, Carter BL, Cushman WC, Dennison-Himmelfarb C, Handler J, et al. 2014 evidence-based guideline for the management of high blood pressure in adults: report from the panel members appointed to the Eighth Joint National Committee (JNC 8). JAMA. 2014;311(5):507–20.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+12.
+Wright JT Jr., Fine LJ, Lackland DT, Ogedegbe G, Dennison Himmelfarb CR. Evidence supporting a systolic blood pressure goal of less than 150 mm Hg in patients aged 60 years or older: the minority view. Ann Intern Med. 2014;160(7):499–503.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+13.
+Whelton PK, Carey RM, Aronow WS, Casey DE Jr., Collins KJ, Dennison Himmelfarb C, et al. ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults: Executive Summary: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. Hypertension. 2018;71(6):1269 – 324.
+[
+DOI
+] [
+PubMed
+]
+14.
+Khan SS, Matsushita K, Sang Y, Ballew SH, Grams ME, Surapaneni A, et al. Development and Validation of the American Heart Association’s PREVENT Equations. Circulation. 2024;149(6):430–49.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+15.
+King JB, An J, Bellows BK, Cohen JB, Commodore-Mensah Y, Ghazi L, et al. Single-Pill Combination Therapy for the Management of Hypertension: A Scientific Statement From the American Heart Association. Hypertension. 2026;83(3):e00258.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+16.
+Cohen JB, Jones DW, Flack JM. From Race-Based to Equity-Informed Antihypertensive Medication Selection: Rationale for the 2025 AHA/ACC Guideline Change. Circulation. 2026;153(3):137–9.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+17.
+Neal B, Wu Y, Feng X, Zhang R, Zhang Y, Shi J, et al. Effect of Salt Substitution on Cardiovascular Events and Death. N Engl J Med. 2021;385(12):1067–77.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+18.
+Vaidya A, Hundemer GL, Nanba K, Parksook WW, Brown JM. Primary Aldosteronism: State-of-the-Art Review. Am J Hypertens. 2022;35(12):967–88.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+19.
+Kositanurit W, Giacona JM, Xie D, Wang J, Feuer D, O’Malley KJ, et al. Trends in Primary Aldosteronism Screening Among High-Risk Hypertensive Adults. J Am Heart Assoc. 2024;13(15):e036373.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+20.
+Brown JM, Siddiqui M, Calhoun DA, Carey RM, Hopkins PN, Williams GH, et al. The Unrecognized Prevalence of Primary Aldosteronism: A Cross-sectional Study. Ann Intern Med. 2020;173(1):10–20.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+21.
+Monticone S, Burrello J, Tizzani D, Bertello C, Viola A, Buffolo F, et al. Prevalence and Clinical Manifestations of Primary Aldosteronism Encountered in Primary Care Practice. J Am Coll Cardiol. 2017;69(14):1811–20.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+22.
+Williams B, MacDonald TM, Morant S, Webb DJ, Sever P, McInnes G, et al. Spironolactone versus placebo, bisoprolol, and doxazosin to determine the optimal treatment for drug-resistant hypertension (PATHWAY-2): a randomised, double-blind, crossover trial. Lancet. 2015;386(10008):2059–68.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+23.
+Cluett JL, Blazek O, Brown AL, East C, Ferdinand KC, Fisher NDL, et al. Renal Denervation for the Treatment of Hypertension: A Scientific Statement From the American Heart Association. Hypertension. 2024;81(10):e135–48.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+24.
+Bress AP, Anderson TS, Flack JM, Ghazi L, Hall ME, Laffer CL, et al. The Management of Elevated Blood Pressure in the Acute Care Setting: A Scientific Statement From the American Heart Association. Hypertension. 2024;81(8):e94–106.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+25.
+Prevention of stroke. by antihypertensive drug treatment in older persons with isolated systolic hypertension. Final results of the Systolic Hypertension in the Elderly Program (SHEP). SHEP Cooperative Research Group. JAMA. 1991;265(24):3255–64.
+[
+PubMed
+] [
+Google Scholar
+]
+26.
+Group SR, Wright JT Jr., Williamson JD, Whelton PK, Snyder JK, Sink KM, et al. A Randomized Trial of Intensive versus Standard Blood-Pressure Control. N Engl J Med. 2015;373(22):2103–16.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+27.
+Group SR, Lewis CE, Fine LJ, Beddhu S, Cheung AK, Cushman WC, et al. Final Report of a Trial of Intensive versus Standard Blood-Pressure Control. N Engl J Med. 2021;384(20):1921–30.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+28.
+Group AS, Cushman WC, Evans GW, Byington RP, Goff DC Jr., Grimm RH Jr., et al. Effects of intensive blood-pressure control in type 2 diabetes mellitus. N Engl J Med. 2010;362(17):1575–85.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+29.
+Bi Y, Li M, Liu Y, Li T, Lu J, Duan P, et al. Intensive Blood-Pressure Control in Patients with Type 2 Diabetes. N Engl J Med. 2025;392(12):1155–67.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+30.
+Zhang W, Zhang S, Deng Y, Wu S, Ren J, Sun G, et al. Trial of Intensive Blood-Pressure Control in Older Patients with Hypertension. N Engl J Med. 2021;385(14):1268–79.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+31.
+Song Q, Peng X, Bai J, Yang R, Ling Q, Chen S, et al. Intensive Blood Pressure Control in Older Patients With Hypertension: 6-Year Results of the STEP Trial. J Am Coll Cardiol. 2025;86(17):1421–33.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+32.
+Liu J, Li Y, Ge J, Yan X, Zhang H, Zheng X, et al. Lowering systolic blood pressure to less than 120 mm Hg versus less than 140 mm Hg in patients with high cardiovascular risk with and without diabetes or previous stroke: an open-label, blinded-outcome, randomised trial. Lancet. 2024;404(10449):245–55.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+33.
+Blood Pressure Lowering Treatment Trialists C. Pharmacological blood pressure lowering for primary and secondary prevention of cardiovascular disease across different levels of blood pressure: an individual participant-level data meta-analysis. Lancet. 2021;397(10285):1625–36.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+34.
+Johnson KC, Whelton PK, Cushman WC, Cutler JA, Evans GW, Snyder JK, et al. Blood Pressure Measurement in SPRINT (Systolic Blood Pressure Intervention Trial). Hypertension. 2018;71(5):848–57.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+35.
+Group SMISR, Williamson JD, Pajewski NM, Auchus AP, Bryan RN, Chelune G, et al. Effect of Intensive vs Standard Blood Pressure Control on Probable Dementia: A Randomized Clinical Trial. JAMA. 2019;321(6):553–61.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+36.
+Reboussin DM, Gaussoin SA, Pajewski NM, Jaeger BC, Sachs B, Rapp SR, et al. Long-Term Effect of Intensive vs Standard Blood Pressure Control on Mild Cognitive Impairment and Probable Dementia in SPRINT. Neurology. 2025;104(3):e213334.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+37.
+He J, Zhao C, Zhong S, Ouyang N, Sun G, Qiao L, et al. Blood pressure reduction and all-cause dementia in people with uncontrolled hypertension: an open-label, blinded-endpoint, cluster-randomized trial. Nat Med. 2025;31(6):2054–61.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+38.
+Peters R, Xu Y, Fitzgerald O, Aung HL, Beckett N, Bulpitt C, et al. Blood pressure lowering and prevention of dementia: an individual patient data meta-analysis. Eur Heart J. 2022;43(48):4980–90.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+39.
+Tita AT, Szychowski JM, Boggess K, Dugoff L, Sibai B, Lawrence K, et al. Treatment for Mild Chronic Hypertension during Pregnancy. N Engl J Med. 2022;386(19):1781–92.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+40.
+Gestational Hypertension and Preeclampsia. ACOG Practice Bulletin, Number 222. Obstet Gynecol. 2020;135(6):e237–60.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+41.
+Society for Maternal-Fetal Medicine Statement. Antihypertensive therapy for mild chronic hypertension in pregnancy–The Chronic Hypertension and Pregnancy trial. Am J Obstet Gynecol. 2022;227(2):B24–7.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+42.
+Kidney Disease. Improving Global Outcomes Blood Pressure Work G. KDIGO 2021 Clinical Practice Guideline for the Management of Blood Pressure in Chronic Kidney Disease. Kidney Int. 2021;99(3S):S1–87.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+Associated Data
+This section collects any data citations, data availability statements, or supplementary materials included in this article.
+Data Availability Statement
+No datasets were generated or analysed during the current study.
+Articles from Current Cardiology Reports are provided here courtesy of
+Springer
+ACTIONS
+View on publisher site
+PDF (761.6 KB)
+Cite
+Collections
+Permalink
+PERMALINK
+Copy
+RESOURCES
+Similar articles
+Cited by other articles
+Links to NCBI Databases
+Cite
+Copy
+Download .nbib
+.nbib
+Format:
+AMA
+APA
+MLA
+NLM
+Add to Collections
+Create a new collection
+Add to an existing collection
+Name your collection
+*
+Choose a collection
+Unable to load your collection due to an error
+Please try again
+Add
+Cancel
+Follow NCBI
+NCBI on X (formerly known as Twitter)
+NCBI on Facebook
+NCBI on LinkedIn
+NCBI on GitHub
+NCBI RSS feed
+Connect with NLM
+NLM on X (formerly known as Twitter)
+NLM on Facebook
+NLM on YouTube
+National Library of Medicine
+8600 Rockville Pike
+Bethesda, MD 20894
+Web Policies
+FOIA
+HHS Vulnerability Disclosure
+Help
+Accessibility
+Careers
+NLM
+NIH
+HHS
+USA.gov
+Back to Top

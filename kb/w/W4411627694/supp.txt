@@ -1,0 +1,1604 @@
+               Supplementary Appendix:
+    Generative AI Without Guardrails Can Harm
+Learning: Evidence from High School Mathematics
+
+               Hamsa Bastani,1 Osbert Bastani,2 Alp Sungu,1
+                   Haosen Ge,3 O¨ zge Kabakci,4 Rei Mariman
+
+             1Operations, Information and Decisions, University of Pennsylvania
+               2Computer and Information Science, University of Pennsylvania
+                     3Wharton AI & Analytics, University of Pennsylvania
+                               4Budapest British International School
+                     These authors (H.B., O.B., A.S.) contributed equally.
+
+ To whom correspondence should be addressed; E-mail: alpsungu@wharton.upenn.edu.
+
+                                                     1
+    Appendix A provides details on our experimental protocol, Appendix B presents supporting
+analyses for our main results, Appendix C presents supporting analyses for our mechanism
+results, and Appendix D provides the practice and exam problems across all sessions and grades.
+
+A Experimental Protocol Details
+
+Details on the GPT tutoring program are in Appendix A.1, teacher and student briefing in Ap-
+pendix A.2, session material development and IT setup in Appendix A.3, treatment assignment
+and covariate balance in Appendix A.4, and grading student work in Appendix A.5.
+
+A.1 GPT Tutoring Program
+
+We developed two math tutoring tools based on OpenAI's GPT-4-0613 model. These tools are
+implemented as web applications hosted on Amazon Web Services (AWS), and use the OpenAI
+API to access GPT-4. At the beginning of the semester, each student is assigned unique login
+credentials (username and password) based on their student ID. During a class, if a class is
+assigned to either the GPT Base or GPT Tutor arms, then the teacher distributed laptops (pro-
+vided by us) to the students so that they could access the website that hosted our tool; students
+could not access other websites or applications. When students view this website, they are first
+presented with a login screen (Figure A.1a), upon which they entered their login credentials to
+access the tool. The version of the tool (Base vs. Tutor) is automatically determined by the web
+application based on the provided username.
+
+    Upon login, the students see a list of questions corresponding to the practice problems in
+the second part--i.e., the assisted practice period (Figure A.1b). When the student would like
+hints on how to solve one of the practice problems, they click on the corresponding module.
+This action brings up a new screen where they have a chat interface; in particular, they can
+submit messages, after which the web application will provide the response given by OpenAI's
+GPT-4 model (Figure A.1c). This interface is essentially the same as OpenAI's ChatGPT web
+application. The key difference is in the system prompts used, which depend on the arm:
+
+    · GPT Base: This arm uses a prompt that instructs GPT-4 to help the user solve the prob-
+       lem; it includes the problem the user is currently working on.
+
+    · GPT Tutor: The prompt used by GPT Tutor includes the instructions and information
+       provided in the GPT Base prompt. There are two significant additional aspects. First, it
+       includes detailed instructions asking GPT-4 to avoid giving away the full solution, and in-
+       stead provide incremental hints to help the student solve the problem. Second, it includes
+
+                                                        2
+ (a) Login portal: Students lo-
+ gin to the tutoring tool with
+ their individualized credentials.
+
+ (b) Question selection: Stu-
+ dents select the question (for
+ their session and grade) corre-
+ sponding to the practice prob-
+ lem they want to solve.
+
+ (c) Chat interface: After se-
+ lecting a question, students
+ interact with GPT-4 by typ-
+ ing messages and receiving re-
+ sponses. The prompt differs be-
+ tween GPT Base and Tutor.
+
+Figure A.1: Screen shot of different steps in using our GPT Base and GPT Tutor tools. The
+tools are identical except for the system prompt and the welcome message in the chat interface
+for GPT Tutor.
+
+                                                        3
+       one or more solutions, as well as a list of common mistakes and corresponding hints to
+       provide to the student should they make one of these mistakes.
+
+Besides the different prompts, one additional feature of GPT Tutor is that it provides a welcome
+message to the student, providing them with a description of its capabilities as well as three
+suggested prompts that they can use (see Figure A.2b for an illustration).
+
+    The problems, solutions, and common mistakes are provided by teachers (see Appendix A.3).
+We designed the prompt templates, and incorporated the material provided by the teachers into
+the prompts. These prompts were then uploaded into the web application prior to each session.
+Representative prompts for both GPT Base and Tutor for a question on linear systems (from the
+first 11th grade practice session) are shown in Figure 1 in the main paper.
+
+    Finally, Figure A.2 illustrates the impact of the prompt on students' interactions with GPT-4
+in the chat interface. In particular, Figure A.2a shows a hypothetical interaction with GPT Base,
+and Figure A.2b shows the same hypothetical interaction with GPT Tutor. As can be seen, GPT
+Base gives away the solution, whereas GPT Tutor asks the student to provide their progress.
+
+A.2 Teacher and Student Briefing
+
+Before the start of the study, our team held a meeting with all participating teachers to introduce
+the experiment protocol and to demo both versions of our tool. Teachers were not provided any
+training on the best usage of generative AI or our tool. (Note that they did not interact with
+students during the assisted practice periods, or instruct students on generative AI usage.)
+
+    Prior to the first session, teachers informed students about our experiment, including its
+general structure (i.e., there would be four 90 minute sessions with 3 stages, etc.) and its goals,
+but they were not informed of the specific topics that would be covered. Students were also
+told that their performance on both the practice and exam questions in these sessions would be
+factored into their final grades, and that the exam questions would cover the same topics as the
+practice questions.
+
+    Students in the GPT arms were shown short videos (< 5 minutes) introducing our tool and
+sample non-superficial interactions.1 The landing page of our tool (identical for GPT Base and
+Tutor) also includes some tips on best interacting with the tool as well as sample interactions
+(see Figure A.3). No further training was provided to students on specific prompting styles or
+ways in which they could best use the mentoring interface to facilitate their learning.
+
+    1GPT Base classes were shown https://www.youtube.com/watch?v=klas2MZbG6g and GPT Tu-
+tor classes were shown https://www.youtube.com/watch?v=Mwtb--FyHhs.
+
+                                                        4
+                                                 (a) GPT Base
+
+                                                (b) GPT Tutor
+Figure A.2: Response to a message asking for the answer in (a) GPT Base, and (b) the GPT
+Tutor. For GPT Base, the GPT-4 will typically return the solution to the problem. In contrast,
+for GPT Tutor, GPT-4 will typically avoid returning the solution and will instead ask the student
+to explain what they are stuck on.
+
+                                                        5
+Figure A.3: The landing page for the GPT Base and GPT Tutor arms. Upon logging into their
+accounts, each user will see this page and must click "I understand" to access the practice
+problems.
+
+                                                        6
+A.3 Material Development and IT Setup
+
+One of the co-authors, O¨ zge Kabakci, a high school math teacher and former department chair
+of the math department at our partner Turkish high school, led the development of all session
+materials. Additionally, we employed a math teacher, Tugba Tas¸, who was formerly at our
+partner high school as a part-time research assistant to aid in material development. Notably,
+these materials comprise a substantial portion (about 15%) of the curriculum in each of three
+grades. Our content creation was guided by two primary sources. First, we adhered strictly to
+the syllabus prescribed by the Ministry of Education in Turkey.2 Second, we incorporated sup-
+plementary materials from two extra books for each grade level, developed by the partner high
+school. These books, not publicly accessible, have been reviewed by the educational board of
+the Ministry of Education in Turkey, ensuring that our materials align with official pedagogical
+guidelines. The questions developed for each session are documented in Appendix D. All mate-
+rial in this study was consistent with the school's existing curriculum and teaching methods--no
+adjustments were made to the sequence of topics or instructional practices.
+
+    We purchased 52 laptops, as the largest class size was 26, ensuring sufficient IT resources to
+cover two classes simultaneously. We hired two IT experts as research assistants to provide full-
+time IT support during all sessions. The partner high school has Wi-Fi coverage in classrooms,
+with each classroom equipped with a computer and often utilizing the internet as a teaching
+resource. While we primarily relied on the school's existing Wi-Fi infrastructure, we acquired
+four portable Wi-Fi dongles, two for each session, to guarantee reliable internet connectivity
+at all times. In case of connectivity issues within the school's network, we used these dongles
+to supplement Wi-Fi access. All computers were charged overnight, and we used batteries
+during the sessions. Additionally, we carried extension cables to address any battery drainage.
+The laptops were stored in a secure location within the school (the IT support team's office).
+Teachers submitted requests before reaching the topics covered in our sessions. Our IT RA
+team transported the laptops and set up the IT equipment during the break before the start of
+each lecture, ensuring that the IT setup did not encroach upon session time, with one exception
+noted in Appendix B.1. Once a student opens the laptop lid, they are directly presented with
+our GPT interface. Students were explicitly forbidden from accessing other websites or opening
+additional applications. To enforce this protocol, both the teacher and the IT research assistant
+actively monitored the classroom, ensuring strict adherence to the guidelines.
+
+A.4 Treatment Assignment and Covariate Balance
+
+We assign treatment arms (Control, GPT Base, and GPT Tutor) at the class level--i.e., all
+students in a single class are assigned to the same arm across all four sessions. One challenge
+
+    2Available at https://mufredat.meb.gov.tr/ProgramDetay.aspx?PID=343
+
+                                                        7
+is that there are overlapping classes but a limited number of laptops. Therefore, we randomize
+classes to treatment arms while accounting for scheduling constraints using an integer program,
+based on the strategy proposed in (1). We also include additional constraints to help balance the
+number of students in each arm. Note that, except for honors students (who are excluded from
+our main analysis), the school randomly assigns students to classes, so the treatment assignment
+at the student level is random. In our main regression analysis, we cluster the standard error at
+the class level to account for the fact that treatment is assigned at the class level.
+
+    Table A.1 presents sample descriptive statistics by trial arm. We separately report balance
+across covariates for our main sample (which excludes students in special honors-designated
+classes), and the full survey sample.
+
+A.5 Grading
+
+Official solutions and grading rubrics were created as part of material development for both
+practice and exam questions. To mitigate potential grading biases stemming from teachers' per-
+sonal connections and expectations of their students, we engaged independent graders to carry
+out a blinded grading process. We hired one lead grader to oversee the entire process, responsi-
+ble for collecting the papers from the school, distributing them to other graders, training them
+on the grading rubric, and returning the graded papers to the teachers. Each grader evaluated a
+similar number of papers from all three arms for each grade-session pair. Furthermore, we note
+that the submitted papers did not include any information about the assigned arm, so graders
+could not be influenced by the treatment arm during grading. Initially, we hired two additional
+graders for the first session. For the subsequent three sessions, we employed a different team of
+five graders. All graders were either master's or Ph.D. students from the engineering or math-
+ematics departments of two top Turkish universities. They entered all the grades into an Excel
+spreadsheet, each associated with a unique student ID. Graders were assigned to different trial
+arms to incorporate grader fixed effects, with grader assignments made at the class level.
+
+A.6 Pre-Registration Details
+
+Our pre-registration is available at https://aspredicted.org/4DL_Q3J. Our desig-
+nated primary analysis was to compare students' unassisted exam performance across arms.
+In the main paper, we present a principled regression specification (Table 1), which appropri-
+ately controls for relevant covariates and clusters standard errors at the classroom level. We
+pre-registered an alternative strategy using pairwise t-tests to compare each pair of arms--the
+results on our main sample are reported in Table A.2, and those additionally including non-
+survey responders are reported in Table A.3. Note that the results are qualitatively consistent
+with Table 1 for both the practice problems and the exam.
+
+                                                        8
+Table A.1: Column (1) presents the overall sample descriptive statistics. Columns (2) to (4)
+report the outcome level of each variable by treatment arm. Column (5) reports the p-value
+from a test of the hypothesis of equal means across the experimental conditions. Column (6)
+reports the p-value with FDR correction for multiple hypothesis testing. Note that this table
+includes the sample of students who completed the survey.
+
+Description                                              Overall    GPT-Tutor      Control    GPT-Base     P-Value  P-val (FDR)
+                                                            (1)          (2)          (3)          (4)        (5)        (6)
+Main Sample
+                                                           839          277          320          242       0.285       0.619
+Total Count                                            196 (23.36)  63 (22.74)   68 (21.25)   65 (26.86)
+Both Parents with at least College Degree N False (%)  643 (76.64)  214 (77.26)  252 (78.75)  177 (73.14)   0.074       0.424
+Both Parents with at least College Degree N True (%)   3.59 (1.00)  3.53 (0.99)  3.69 (0.96)  3.52 (1.07)   0.369       0.655
+# of Household Members, Mean (SD)                      1.47 (1.47)  1.39 (1.39)  1.56 (1.51)  1.45 (1.50)   0.857       0.929
+# of Children Aged in the Household, Mean (SD)         2.22 (1.08)  2.19 (1.05)  2.23 (1.11)  2.24 (1.08)   0.286       0.619
+Class Enjoyment Score [0-4], Mean (SD)                 2.37 (1.01)  2.33 (1.02)  2.34 (1.00)  2.46 (1.01)   0.133       0.432
+Participation Score [0-4], Mean (SD)                   3.04 (0.94)  3.02 (0.89)  3.11 (0.92)  2.95 (1.00)   0.457       0.660
+Math HW Completion Score [0-4], Mean (SD)              238 (28.37)  71 (25.63)   94 (29.38)   73 (30.17)
+Get Help with Homeworks, N False (%)                   601 (71.63)  206 (74.37)  226 (70.62)  169 (69.83)   0.098       0.424
+Get Help with Homeworks, N True (%)                    322 (38.38)  102 (36.82)  137 (42.81)  83 (34.30)
+Private Tutorship, N False (%)                         517 (61.62)  175 (63.18)  183 (57.19)  159 (65.70)   0.035       0.424
+Private Tutorship, N True (%)                          628 (74.85)  193 (69.68)  243 (75.94)  192 (79.34)
+Visits to Training Center, N False (%)                 211 (25.15)  84 (30.32)   77 (24.06)   50 (20.66)    0.954       0.954
+Visits to Training Center, N True (%)                  447 (53.28)  148 (53.43)  172 (53.75)  127 (52.48)
+Female, N False (%)                                    392 (46.72)  129 (46.57)  148 (46.25)  115 (47.52)   0.579       0.684
+Female, N True (%)                                     1.95 (2.42)  2.06 (2.59)  1.92 (2.43)  1.85 (2.20)   0.527       0.684
+Average Weekday Study Hours, Mean (SD)                 2.98 (2.57)  2.85 (2.46)  3.09 (2.62)  2.99 (2.63)   0.403       0.655
+Average Weekend Study Hours, Mean (SD)                 0.82 (0.11)  0.81 (0.12)  0.82 (0.11)  0.82 (0.11)
+Previous GPA [0,1], Mean (SD)                                                                               0.268       0.576
+                                                           943          312          349          282
+Including Honors                                       206 (21.85)  63 (20.19)   72 (20.63)   71 (25.18)    0.076       0.490
+                                                       737 (78.15)  249 (79.81)  277 (79.37)  211 (74.82)   0.299       0.576
+Total Count                                            3.60 (0.99)  3.54 (0.99)  3.70 (0.95)  3.55 (1.02)   0.848       0.918
+Both Parents with at least College Degree N False (%)  1.42 (1.43)  1.34 (1.34)  1.51 (1.51)  1.39 (1.42)   0.375       0.609
+Both Parents with at least College Degree N True (%)   2.27 (1.07)  2.24 (1.07)  2.27 (1.10)  2.29 (1.05)   0.192       0.576
+# of Household Members, Mean (SD)                      2.39 (1.02)  2.37 (1.03)  2.36 (1.01)  2.46 (1.02)   0.310       0.576
+# of Children Aged in the Household, Mean (SD)         3.08 (0.93)  3.05 (0.89)  3.15 (0.92)  3.02 (0.97)
+Class Enjoyment Score [0-4], Mean (SD)                 287 (30.43)  86 (27.56)   107 (30.66)  94 (33.33)    0.113       0.490
+Participation Score [0-4], Mean (SD)                   656 (69.57)  226 (72.44)  242 (69.34)  188 (66.67)
+Math HW Completion Score [0-4], Mean (SD)              386 (40.93)  121 (38.78)  158 (45.27)  107 (37.94)   0.018       0.236
+Get Help with Homeworks, N False (%)                   557 (59.07)  191 (61.22)  191 (54.73)  175 (62.06)
+Get Help with Homeworks, N True (%)                    722 (76.56)  223 (71.47)  270 (77.36)  229 (81.21)   0.954       0.954
+Private Tutorship, N False (%)                         221 (23.44)  89 (28.53)   79 (22.64)   53 (18.79)
+Private Tutorship, N True (%)                          511 (54.19)  171 (54.81)  189 (54.15)  151 (53.55)   0.646       0.763
+Visits to Training Center, N False (%)                 432 (45.81)  141 (45.19)  160 (45.85)  131 (46.45)   0.711
+Visits to Training Center, N True (%)                  1.91 (2.32)  2.01 (2.48)  1.86 (2.36)  1.87 (2.10)   0.548       0.712
+Female, N False (%)                                    2.84 (2.41)  3.04 (2.56)  3.06 (2.61)
+Female, N True (%)                                     0.83 (0.11)  0.83 (0.12)  0.83 (0.11)     0.492
+Average Weekday Study Hours, Mean (SD)                                                        0.84 (0.11)
+Average Weekend Study Hours, Mean (SD)
+Previous GPA [0,1], Mean (SD)
+
+                                                       9
+Table A.2: Pre-registered pairwise t-test results on our main sample for each pair of arms on nor-
+malized student performance in the practice (assisted) and exam (unassisted) problems across
+grades and sessions.
+
+                               Practice Perf                            Exam Perf
+
+                        Diff   95% CI              p-value    Diff        95% CI      p-value
+
+GPT Base vs. Control    0.19   [0.165, 0.214]  < 10-15      -0.035  [-0.057, -0.012]   0.003
+GPT Tutor vs. Control   0.385  [0.359, 0.411]  < 10-15      -0.006   [-0.030, 0.018]   0.613
+GPT Tutor vs. GPT Base  0.195  [0.169, 0.221]  < 10-15       0.028    [0.005, 0.052]   0.019
+
+Table A.3: Pre-registered pairwise t-test results on our main sample and non-survey responders
+for each pair of arms on normalized student performance in the practice (assisted) and exam
+(unassisted) problems across grades and sessions.
+
+                               Practice Perf                            Exam Perf
+
+                        Diff   95% CI              p-value    Diff        95% CI      p-value
+
+GPT Base vs. Control    0.181  [0.158, 0.204]  < 10-15      -0.027  [-0.049, -0.006]   0.013
+GPT Tutor vs. Control   0.388  [0.364, 0.413]  < 10-15      -0.005   [-0.028, 0.018]   0.676
+GPT Tutor vs. GPT Base  0.208  [0.183, 0.232]  < 10-15       0.022    [0.000, 0.045]   0.048
+
+    We pre-registered a number of secondary analyses, including testing for heterogeneous
+treatment effects (detailed in Appendix B.4), comparing students' perceived learning outcomes
+(detailed in Appendix B.3), and qualitatively examining student conversations with the mentor-
+ing interface to better understand the mechanisms behind outcomes (detailed in Appendix C.2).
+We additionally performed a number of exploratory analyses that we did not pre-register to
+better understand our findings--including comparing performance on assisted practice prob-
+lems, an alternative problem-level regression specification (detailed in Appendix B.2), exam-
+ining grade dispersion (detailed in Appendix B.5), and an error-level analysis (detailed in Ap-
+pendix C.1).
+
+B Supporting Analyses for Main Results
+
+Details on non-compliance with the treatment are in Appendix B.1, robustness of our results
+to alternative regression specifications in Appendix B.2, students' self-reported perceptions in
+Appendix B.3, heterogeneous treatment effects in Appendix B.4, student grade dispersion in
+Appendix B.5, and student absenteeism in Appendix B.6.
+
+                                               10
+B.1 Non-Compliance with Treatment
+
+In five instances, a treatment classroom could not execute the treatment due to unanticipated ex-
+ternal circumstances; these instances are summarized in Table B.4 (note that honors classrooms
+are already excluded from our main sample). We check the validity of our results accounting for
+non-compliance by performing an alternative regression specification where we exclude non-
+compliers. Table B.5 shows results for this regression; they are nearly identical to our main
+analysis in Table 1.
+
+Table B.4: Class sessions that were non-compliant with a GPT treatment (i.e., switched to the
+control condition) due to exogenous circumstances.
+
+Class Session Treatment Honors Class Reason for Non-Compliance
+
+9J   1 GPT Base           No   Computers arrived late.
+
+10A  2          GPT Base  Yes  Teacher did not realize the class was a GPT session.
+
+11S  2 GPT Base           No   Technical error in math mentoring UI.
+
+10B  3 GPT Tutor          Yes  Technical error in math mentoring UI.
+
+11S  4 GPT Base           No   Teacher did not realize the class was a GPT session.
+
+Table B.5: Regression results on normalized student performance in the practice (assisted) and
+exam (unassisted) problems across grades and sessions, excluding non-complying class sessions
+(as reported by school teachers and staff); fixed effects are suppressed. Robust standard errors
+are clustered at the classroom level.
+
+                                                          Dependent variable:
+
+                                                          Practice Perf Exam Perf
+
+                                                          (1)      (2)
+
+     GPT Base                                              0.137   -0.054
+     GPT Tutor                                            (0.031)   (0.022)
+     Prev GPA
+                                                           0.362   -0.004
+                                                          (0.032)   (0.013)
+
+                                                           0.808    1.341
+                                                          (0.077)  (0.069)
+
+     Observations                                         2,805    2,805
+     R2                                                   0.387    0.385
+     Adjusted R2                                          0.380    0.377
+
+     Note: HC1 robust standard errors clustered by class         p<0.05; p<0.01
+
+                               11
+B.2 Alternative Main Regression Specifications
+
+First, we consider the problem-level (rather than student-level) regression specification in Eq. (2)
+in the main paper. Here, Outcomei(cjp)s  [0, 1] is the normalized grade of student i in classroom c
+for problem p and session s  {1, .., 4} for the assisted (j = 0) or unassisted (j = 1) portions;
+GPT Basec, GPT Tutorc, Prev GPAi, s, g, y, and t are all as before. Standard errors are
+again clustered at the classroom level. The results, shown in Table B.6, are similar to results
+from the student-level specification in Eq. (1).
+
+Table B.6: Regression results on normalized problem-level performance in the practice (as-
+sisted) and exam (unassisted) problems across grades and sessions; fixed effects are suppressed.
+Robust standard errors are clustered at the classroom level.
+
+                                                     Dependent variable:
+
+                                                     Practice Perf Exam Perf
+
+GPT Base                                              0.138   -0.054
+GPT Tutor                                            (0.031)   (0.022)
+Prev GPA
+                                                      0.366   -0.004
+                                                     (0.032)   (0.013)
+
+                                                      0.795    1.334
+                                                     (0.075)  (0.069)
+
+Observations                                         13,484   11,392
+R2                                                   0.172    0.195
+Adjusted R2                                          0.170    0.192
+
+Note: HC1 robust standard errors clustered by class          p<0.05; p<0.01
+
+    Next, we consider a number of alternatives to our main regression specification given in
+Eq. (1) to ensure that our findings are consistent, specifically:
+
+1. include the non-random honors classes (9A, 9B, 9C, 10A, 10B, 10C) in our sample,
+
+2. include students who did not complete the baseline survey in our sample,
+
+3. include the self-reported survey variables we collected (parents' education, household
+   composition, class enjoyment/participation, hours spent studying, homework completion,
+   homework help, access to private tutoring or training centers, prior exposure to ChatGPT,
+   and gender) as controls, and
+
+4. cluster our heteroskedasticity-robust standard errors at the student-level or the (classroom,
+   student)-level.
+
+           12
+Results in Table B.7 provide the same insights as our main results in Table 1.
+
+Table B.7: Results from variations of regression specification Eq. (1). For brevity, we only
+report the coefficients of our treatment variables (GPT Base and GPT Tutor) for both the assisted
+practice problems and the unassisted exam.
+
+                                          Practice Perf                  Exam Perf
+
+                                GPT Base  GPT Tutor                      GPT Base    GPT Tutor
+
+Include honors classes           0.101                    0.359            -0.064         0.001
+Include non-survey responders                                               (0.026)     (0.018)
+Include survey variables        (0.032)                  (0.032)           -0.069         0.001
+Clustered SEs: Student           0.095                    0.364             (0.027)     (0.017)
+Clustered SEs: Student & Class                                             -0.041      -0.001
+                                (0.033)                  (0.031)            (0.021)     (0.012)
+                                 0.146                    0.364            -0.054      -0.004
+                                                                            (0.018)     (0.013)
+                                (0.029)                  (0.030)           -0.054      -0.004
+                                 0.137                    0.361             (0.022)     (0.013)
+
+                                (0.023)                  (0.018)
+                                 0.137                    0.361
+
+                                (0.031)                  (0.032)
+
+Note: HC1 robust errors clustered by class (unless specified otherwise)  p<0.05; p<0.01
+
+B.3 Student Perception
+
+At the end of each exam, we conducted a short survey to measure students' perceptions of their
+own performance. We asked five questions:
+
+   1. "How much do you think you learned from this whole class session?" with options "A
+       great deal," "Quite a lot," "Moderately," "A little," and "Nothing at all."
+
+   2. "How well do you think you performed in this quiz?" with options "Excellent," "Above
+       Average," "Average," "Below Average," and "Very Poorly."
+
+   3. "How much time did it take you to solve the questions in this quiz?" with options "0-5
+       min," "5-10 min," "10-15 min," "15-20 min," "20-25 min," and "25-30 min."
+
+   4. "How useful was the problem-solving session in the previous part (Part 2) in helping
+       you solve the questions in this quiz?" with options "Effective," "Somewhat effective,"
+       "Neutral," "Somewhat ineffective," and "Ineffective."
+
+   5. "How many minutes would you be willing to give up on this quiz to have the help of
+       the TED-AI Training Engine (or ChatGPT-4 if you haven't used the TED-AI Training
+       Engine)?" with options "0-5 min," "5-10 min," "10-15 min," "15-20 min," "20-25 min,"
+       and "25-30 min."
+
+                                                       13
+For each question, we fit a model to predict the student's response. For Questions (1), (2),
+and (4), we use an ordered probit model using all five categories. For Questions (3) and (5),
+we convert the interval responses into a continuous value by taking the mid-point of each bin,
+resulting in a value between 2.5 and 27.5 minutes; then, we use a OLS model. Our model has the
+same form as our main regression specification in Eq. (1) in the main paper, except the outcome
+is replaced with the student response and we additionally use a link function  (corresponding
+to the ordered probit model for Questions (1), (2), and (4) and linear for Questions (3) and (5)):
+
+ Response(icjs) = (1GPTBasec + 2GPTTutorc + 3Prev GPAc + s + g + y + t + ics).
+                                                                                                               (3)
+
+We omit all unanswered questions from estimation. Results are shown in Table B.8. Although
+students in the GPT Base arm performed significantly worse in the final exam, they did not
+perceive that they learned less or performed worse. Interestingly, despite no real detectable
+performance improvement, we found a significant increase in perceived exam performance in
+the GPT Tutor arm relative to the control. Additionally, students in the GPT Tutor arm perceived
+the practice sessions as more valuable for learning than those in other arms, and they took
+about a minute (approximately 3%) longer to finish the exam. Overall, these results suggest
+that despite the negative effect of GPT Base and the null effect of GPT Tutor on real exam
+performance, students attribute some value to having access to GPT and potentially overvalue
+its benefits. Lastly, students in both GPT arms were willing to sacrifice more exam time to
+have access to GPT, with students in the GPT Base arm giving up about 2.5 minutes (8.3%) and
+students in the GPT Tutor arm giving up about 3.7 minutes (12.3%).
+
+Table B.8: Regression results on student perception; fixed effects are suppressed. Robust stan-
+dard errors reported for all questions, with clustering at the classroom level in Questions (3) and
+(5). Questions (1), (2) and (4) are from an ordered probit model.
+
+GPT Base      (1) Perceived  (2) Perceived      (3) Exam  (4) Perceived Value  (5) Time
+GPT Tutor       Learning      Exam Perf         Duration  of Practice Session  Trade-off
+Prev GPA         -0.0783        -0.0218          -0.114                        2.245**
+Observations    (0.0800)       (0.0774)          (0.799)          0.113         (0.692)
+                 0.0711         0.130*           0.953*         (0.0804)       3.710**
+                (0.0551)       (0.0563)          (0.399)        0.271**         (0.561)
+                 0.931**        2.517**          5.144*         (0.0562)
+                 (0.222)        (0.236)          (2.222)        0.965**         -3.967
+                                                                 (0.220)        (2.635)
+                  2,603          2,594            2,523
+                                                          2,549                2,321
+
+                                                                 p<0.05; p<0.01
+
+                                            14
+B.4 Heterogeneous Treatment Effects
+
+We look for heterogeneous treatment effects as a function of pre-registered secondary analysis
+variables: students' previous GPA (student ability), access to private tutoring (student's re-
+sources), and hours spent studying (student effort);3 results are shown in Table B.9, Table B.10,
+and Table B.11, respectively. In general, we find limited to no statistically significant support for
+heterogeneous treatment effects with either treatment. The only exceptions are, for the assisted
+practice sessions, we find that weaker students (those with lower GPAs) and students with pri-
+vate tutors benefit more from assistance from GPT Base--however, these heterogeneous effects
+do not persist for the unassisted exams.
+
+                                Table B.9: Heterogeneity: Previous GPA.
+
+                                                     Dependent variable:
+
+                                                     Practice Perf Exam Perf
+
+GPT Base                                                  (1)          (2)
+Above Median GPA
+GPT Base × Above Median GPA                               0.178      -0.042
+GPT Tutor                                                (0.029)      (0.024)
+GPT Tutor × Above Median GPA                              0.095        0.031
+Prev GPA                                                 (0.026)      (0.020)
+Observations                                            -0.077       -0.026
+R-squared                                                (0.028)      (0.024)
+Note: HC1 robust standard errors clustered by class       0.38       -0.014
+                                                         (0.038)      (0.015)
+                                                        -0.037         0.019
+                                                         (0.031)      (0.025)
+                                                          0.571        1.220
+                                                         (0.123)      (0.107)
+                                                     2, 848       2, 848
+                                                          0.394        0.388
+
+                                                     p<0.05; p<0.01
+
+B.5 Student Grade Dispersion
+
+We study how access to GPT Base and GPT Tutor impact dispersion in student performance,
+for both the assisted practice problems and the unassisted exam. In particular, we compute the
+classroom-session level Hirschman-Herfindahl-Index (HHI) of normalized student performance
+for both the practice and exam problems. Then, we fit a model with the same form as our main
+
+    3One of our pre-registered heterogeneity analyses was prior exposure to generative AI. However, since students
+filled out our survey throughout the semester (rather than prior to the first session), and because our treatments
+involve exposure to generative AI, we omit this variable.
+
+                                                       15
+Table B.10: Heterogeneity: Private Tutorship.
+
+                                                     Dependent variable:
+
+                                                     Practice Perf Exam Perf
+
+GPT Base                                                  (1)            (2)
+Private Tutor Access
+GPT Base × Private Tutor                                  0.0905       -0.0645
+GPT Tutor                                                (0.0339)       (0.0270)
+GPT Tutor × Private Tutor                               -0.0237        -0.0129
+Prev GPA                                                 (0.0234)       (0.0116)
+Observations                                              0.0735         0.0170
+R-squared                                                (0.0342)       (0.0224)
+Note: HC1 robust standard errors clustered by class       0.336        -0.0126
+                                                         (0.0418)       (0.0196)
+                                                          0.0398         0.0138
+                                                         (0.0343)       (0.0165)
+                                                          0.800          1.327
+                                                         (0.0725)       (0.0724)
+                                                     2, 848         2, 848
+                                                          0.391          0.386
+
+                                                     p<0.05; p<0.01
+
+Table B.11: Heterogeneity: Hours Spent Self-studying.
+
+                                                     Dependent variable:
+
+                                                     Practice Perf  Exam Perf
+
+GPT Base                                                  (1)            (2)
+Above Median Self-study Hours
+GPT Base × Above Median Self-study                        0.118        -0.0682
+GPT Tutor                                                (0.0338)       (0.0244)
+GPT Tutor × Above Median Self-study                     -0.0164        -0.0334
+Prev GPA                                                 (0.0219)       (0.0136)
+Observations                                              0.0359         0.0284
+R-squared                                                (0.0312)       (0.0200)
+Note: HC1 robust standard errors clustered by class       0.347        -0.0249
+                                                         (0.0324)       (0.0158)
+                                                          0.0301         0.0431
+                                                         (0.0290)       (0.0232)
+                                                          0.798          1.337
+                                                         (0.0777)       (0.0681)
+                                                     2, 848         2, 848
+                                                          0.390          0.388
+
+                                                                    p<0.05; p<0.01
+
+16
+regression specification in Eq. (1) in the main paper, except that it is conducted at the classroom-
+session level:
+
+       HHIc(js) = 1GPTBasec + 2GPTTutorc + 3Prev GPAc + s + g + y + t + cs. (4)
+
+Here, HHIc(js) is the HHI of classroom c and session s  {1, .., 4} for the assisted (j = 0) or
+unassisted (j = 1) portion. Table B.12 shows results for this regression. We find that access to
+either GPT Base or GPT Tutor reduces HHI (i.e., reduces grade dispersion) during the assisted
+practice portion. However, we observe no significant treatment effect on performance in the
+unassisted exam. In other words, while access to generative AI can reduce the "skill gap" by
+helping weaker students more (2­4), this effect does not persist when access is removed.
+
+        Table B.12: Regression results on grade dispersion; fixed effects are suppressed.
+
+                                                     Dependent variable:
+
+                                                     Practice Perf  Exam Perf
+
+                                                     (1)            (2)
+
+GPT Base                                             -0.0429        -0.0162
+GPT Tutor                                             (0.0163)       (0.0142)
+Prev GPA
+                                                     -0.0773         0.00113
+                                                      (0.0198)      (0.0147)
+
+                                                     -0.373         -0.953
+                                                      (0.169)        (0.249)
+
+Observations                                          172                   172
+R2                                                   0.414                 0.530
+
+Note: HC1 robust standard errors clustered by class            p<0.05; p<0.01
+
+B.6 Student Absenteeism
+
+Students are absent from class at an average rate of 12.3%. A potential concern is that students
+systematically miss class in the treatment or control arms for various treatment-related reasons
+(e.g., they dislike GPT, they anticipate poor performance, etc). To this end, in Table B.13,
+we report student absenteeism rates in each session and each arm. We do not find differential
+attrition--i.e., students in all three arms have a similar likelihood of attending classes. We also
+do not find any effect of session on student absenteeism. Unsurprisingly, we find that students
+with a higher previous GPA are mildly more likely to attend class sessions.
+
+                                                       17
+Table B.13: Regression results on student absenteeism; fixed effects are suppressed.
+
+GPT Base                                                  Attendance
+GPT Tutor                                                      (1)
+Prev GPA
+2.Session                                                   -0.0245
+3.Session                                                  (0.0271)
+4.Session                                                   0.00312
+Observations                                               (0.0212)
+R-squared
+Note: HC1 robust standard errors clustered by class          0.165
+                                                           (0.0875)
+                                                            -0.0243
+                                                           (0.0322)
+                                                            0.0121
+                                                           (0.0391)
+                                                            -0.0481
+                                                           (0.0403)
+
+                                                             3,247
+                                                             0.033
+                                                     p<0.05; p<0.01
+
+C Supporting Analyses for Mechanism Results
+
+Details on our analysis with GPT Base errors are in Appendix C.1, and clustering messages in
+Appendix C.2.
+
+C.1 GPT Base Error Rate Analysis
+
+We estimate the error rate of GPT Base on practice problems by testing a standardized Chat-
+GPT message (in conjunction with the GPT Base prompt). We use the most common message
+used by students in the GPT Base arm--namely, "what is the answer?" (see Appendix C.2 for
+statistics on most common messages). Then, for each practice problem, we sample 10 random
+responses from GPT-4 using this message. We do this because, for the same exact question and
+prompt, there is a lot of variability in the answer (and its correctness) provided by GPT-4. We
+manually classify each response as "correct" (i.e., correctly solves the problem), "arithmetic
+error" (i.e., used the correct solution strategy but computed a numerical value incorrectly), or
+"logical error" (i.e., used the wrong solution strategy). Then, for a given problem, the arithmetic
+error rate is the fraction of answers labeled as an arithmetic error, and similarly, the logical error
+rate is the fraction of answers labeled as a logical error.
+
+    When analyzing the impact of these errors on student performance, we use the following
+
+18
+problem-level regression specification:
+
+Outcomei(cjp)s = 1GPT Basec + 2GPT Tutorc + 3Prev GPAi   (5)
+
++ 4Logical Error Rate(j)(p)s + 5Arithmetic Error Rateps
+
++ 6Logical Error Rate(j)(p)s × GPT Basec
+
++ 7Logical Error Rate(j)(p)s × GPT Tutorc
+
++ 8Arithmetic Error Rate(j)(p)s × GPT Basec
+
++ 9Arithmetic Error Rate(j)(p)s × GPT Tutorc
+
++ s + g + y + t + ics.
+
+This specification is identical to Eq. (2) in the main paper, except for two changes. First, when
+j = 1 (i.e., the outcome is performance on the unassisted exam), we use a mapping from each
+exam problem p to practice problem (1)(p) so we can associate exam problems with GPT Base
+error rates on the practice problems. This way, we can evaluate the impact of the GPT Base
+error rate on a practice problem the performance of the student on the corresponding exam
+problem. If j = 0, then we use (0)(p) = p. This mapping is derived from how the exams
+were designed; in particular, for each exam problem, teachers designed a practice problem to
+help students learn the concepts necessary to solve that exam problem. Second, it includes
+additional controls for Logical Error Rateps (i.e., logical error rate of GPT Base for problem p
+in session s) and Arithmetic Error Rateps (i.e., arithmetic error rate of GPT Base for problem
+p in session s), where p = (j)(p); it also includes interaction terms between these error rates
+and the treatment variables GPT Basec and GPT Tutorc.
+
+    Table C.14 shows results for an alternate version of the regression specified in Eq. (5),
+where we look at the total error rates of GPT Base, instead of distinguishing between logical
+and arithmetic errors. Consistent with the previous results, while GPT Base's errors negatively
+affect performance on the practice problems, we find no evidence that this effect spills over to
+the corresponding exam problems (i.e., "GPT Base × Total Error Rate" does not have a sta-
+tistically significant effect on exam performance), suggesting that students are simply copying
+answers from GPT Base.
+
+C.2 Clustering Student Messages
+
+We use a BERT-based topic model framework to cluster student messages (5); we summarize
+this procedure here. To ensure the number of messages is balanced across different students,
+we focus on the first message provided by each student for each problem. First, we convert
+each message into a dense vector representation using Sentence-BERT (6). Next, we reduce the
+dimension of these vectors using UMAP (7) to increase the stability of clustering. Then, we
+
+                                         19
+Table C.14: Regression results on student performance in the practice and corresponding exam
+problems across grades and sessions; this regression is at the problem level, and includes inter-
+action terms for the total (logical or arithmetic) error rates of GPT Base on practice problems.
+We use a correspondence between the exam and practice problems to estimate how errors on
+practice problems affect performance on exam problems. Fixed effects are suppressed.
+
+                                                     Dependent variable:
+
+                                                     Practice Perf Exam Perf
+
+GPT Base                                              0.362    -0.036
+GPT Tutor                                            (0.032)    (0.027)
+Total Error Rate
+Prev GPA                                              0.341     0.032
+GPT Base × Total Error Rate                          (0.038)   (0.024)
+GPT Tutor × Total Error Rate
+                                                     -0.081     0.157
+                                                      (0.028)  (0.027)
+
+                                                      0.796     1.335
+                                                     (0.074)   (0.069)
+
+                                                     -0.452    -0.035
+                                                      (0.037)   (0.039)
+
+                                                      0.045    -0.076
+                                                     (0.035)    (0.042)
+
+Observations                                         13,484    11,392
+R2                                                   0.212     0.207
+Adjusted R2                                          0.210     0.204
+
+Note: HC1 robust standard errors clustered by class          p<0.05; p<0.01
+
+                              20
+run the clustering algorithm HDBSCAN (8) on the resulting vectors. The number of clusters
+are chosen automatically by the BERTTopic model, with the constraint that there are at least 2
+messages per cluster. We perform this procedure separately for each practice problem (uniquely
+identified by its session, treatment arm, grade, and problem ID). In the end, we obtain 394
+unique clusters across all 57 problems. Afterwards, we compute the cluster TF-IDF (which
+runs TF-IDF treating all messages in a cluster as a single document), and extract the top three
+representative messages for each cluster.
+
+    Once we have obtained representative messages, we aggregate them across practice prob-
+lems and perform a second round of clustering; we refer to this second clustering step as the
+meta-clustering step and call the resulting clusters meta-clusters. Once again, the number of
+clusters are chosen automatically by the BERTTopic model, with the constraint that there are at
+least 5 message clusters per meta cluster. In total, we have 29 unique meta clusters. Then, we
+compute the top representative message for each meta-cluster using the same cluster TF-IDF
+index described above, which we call a meta-representative message. In addition, we manually
+examine the messages in each meta-cluster to label it with a message type. These results are
+shown in Figure C.4a for GPT Base and Figure C.4b for GPT Tutor. As can be seen, students
+in GPT Base most often simply ask for the answer; in contrast, students in GPT Tutor learn to
+interact more substantively with the tutoring tool over time--they most often ask for help in
+Sessions 2-3, and by Session 4, they most often independently attempt to answer the problem.
+
+    In addition, we categorize each meta-representative message as superficial (i.e., the message
+simply asks GPT Base for the answer in some way) or not superficial; we associate each indi-
+vidual message with the category label of its corresponding meta-representative message. To
+visualize the rate of messages in each cluster, for each student and each session, we select the
+first message in the corresponding conversation, and compute the fraction of first messages in
+each of the four clusters; these fractions are illustrated in Figure C.5. We observe that students
+in the GPT Tutor arm consistently send fewer superficial messages (top two panels) and send
+more non-superficial messages (bottom two panels) across sessions. For Figure 3b in the main
+paper, we repeat this procedure for all messages to categorize superficial conversations.
+
+    Finally, for the error rate analysis described in Appendix C.1, we use the top meta-representative
+message in GPT Base, "what is the answer?"; this accounts for 31% of students' first messages
+in the GPT Base arm.
+
+C.3 Student Engagement
+
+Apart from the number of messages sent per session and their content, we also examine the
+amount of time students in GPT Base vs. Tutor spent on the tutoring platform. We use the time
+of the last message minus the time of the first message in a session to proxy for the total time a
+
+                                                       21
+Sessions   1st Common                         2nd Common                         3rd Common
+
+Session 1  Repeat Question Text                  Ask for Answers                Ask for Help
+                      (38%)                              (29%)                         (8%)
+
+              e.g., copy the exact            e.g. "what is the answer",  e.g. "help me solve this",
+                  question text                 "give me the answer"      "can u solve this question"
+
+Session 2     Ask for Answers                 Repeat Question Text              Ask for Help
+                      (35%)                              (33%)                        (10%)
+
+           e.g. "what is the answer",            e.g., copy the exact     e.g. "help me solve this",
+             "give me the answer"                    question text        "can u solve this question"
+
+Session 3     Ask for Answers                 Repeat Question Text              Ask for Help
+                      (25%)                              (24%)                        (15%)
+
+           e.g. "what is the answer",            e.g., copy the exact     e.g. "help me solve this",
+             "give me the answer"                    question text        "can u solve this question"
+
+Session 4     Ask for Answers                 Repeat Question Text              Ask for Help
+                      (36%)                              (26%)                         (9%)
+
+           e.g. "what is the answer",            e.g., copy the exact     e.g. "help me solve this",
+             "give me the answer"                    question text        "can u solve this question"
+
+           (a) Top 3 Message Types for GPT Base
+
+Sessions   1st Common                             2nd Common                     3rd Common
+
+Session 1  Repeat Question Text                Attempted Answers                    Ask for Answers
+                      (31%)                              (27%)                               (6%)
+
+              e.g., copy the exact            e.g., "the answer is 456",         e.g. "what is the answer",
+                  question text                      "is f(0) = 6"                 "give me the answer"
+
+Session 2    Ask for Help (template)          Repeat Question Text                Attempted Answers
+                          (37%)                          (19%)                               (8%)
+
+           i.e., "can you help me figure out     e.g., copy the exact            e.g., "the answer is 456",
+             how to solve this problem?"             question text                      "is f(0) = 6"
+
+Session 3    Ask for Help (template)          Repeat Question Text                Attempted Answers
+                          (25%)                          (19%)                              (15%)
+
+           i.e., "can you help me figure out     e.g., copy the exact            e.g., "the answer is 456",
+             how to solve this problem?"             question text                      "is f(0) = 6"
+
+Session 4   Attempted Answers                   Ask for Help (template)          Repeat Question Text
+                      (24%)                                  (22%)                          (13%)
+
+           e.g., "the answer is 456",         i.e., "can you help me figure out     e.g., copy the exact
+                  "is f(0) = 6"                 how to solve this problem?"             question text
+
+           (b) Top 3 Message Types for GPT Tutor
+
+           Figure C.4: Top 3 Message Types
+
+                                              22
+                                              Repeat Question Text           Ask for Answers
+
+Proportion of First Messages  0.3                                                                    Treatment
+                              0.2
+                              0.1                                                                             GPT Base
+                                                                                                              GPT Tutor
+                                        Attempted Answers                    Ask for Help
+                                                                                              4
+                              0.3       2  3                        41       2  3
+                              0.2
+                              0.1
+
+                                     1
+
+                                                                    Session
+
+Figure C.5: Proportion of first messages for each problem that fall into each of the four clusters
+("Repeat Question Text", "Ask for Answer", "Attempted Answer", and "Ask for Help"); the top
+two clusters are superficial and the bottom two are non-superficial.
+
+student spent on the platform.4
+
+                              Session Timeics = 1GPT Basec + 2Prev GPAi + s + y + t + ics                                (6)
+
+Here, Session Timeics  [0, 40] is the number of minutes between the last and first message of
+student i in classroom c and session s  {1, .., 4}. We control for student GPA, and include
+session, grade level, and teacher fixed effects. The results are show in Table C.15. We see that
+students spend 2 additional minutes in each session when using GPT Tutor--i.e., they spend
+13% more time on the platform, suggesting increased engagement.
+
+D Session Material
+
+This appendix provides the practice and exam problems across all sessions and grades.
+
+    4This length should be no longer than 40 minutes. We occasionally observe longer times if the student logs in
+to the platform after the class is over; we drop these observations.
+
+                                                       23
+Table C.15: Regression results on minutes students spent on the GPT Base vs. Tutor platform;
+fixed effects are suppressed. Robust standard errors are clustered at the classroom level.
+
+GPT Tutor                                            Session Time
+Prev GPA                                                   2.046
+                                                          (0.322)
+
+                                                          10.598
+                                                          (2.362)
+
+GPT Base Mean                                        15.5
+
+GPT Base SD                                          6.4
+
+Observations                                             1,617
+R2                                                       0.218
+Adjusted R2                                              0.207
+
+Note: HC1 robust standard errors clustered by class  p<0.05; p<0.01
+
+               24
+Grade                 9
+Session               1
+Unit                  Logic
+Session topic         Logical connectives
+No of students (av.)  25
+Textbooks             The Mathematics 9, The Math Book 9
+
+Part 2
+1) If the compound proposition (!  )!   is false, then find the truth value of (  p)  (  )
+2) Simplify the compound proposition +(  )  -  +(  !)  !-
+3) A basketball team coach is thinking about a line-up for a match. He is taking the following
+
+   conditions into account:
+
+i. If A plays, then player B won't play.
+ii. If B plays, then A or C will play.
+iii. Players B and Cwill not play together.
+Who of the players A, B, and C will play?
+
+4) For a two digits natural number AB, the propositions given below.
+p: AB is even number.
+q: AB is prime number.
+r: A+B=11.
+
+If the compound proposition (  )  (  ) is true then find the value of  × . (University
+enterance exam question)
+
+Part 3
+
+1) (  )  (  !) is false, then find the truth value of (  r)  (  )
+
+2) Simplify +(  )!  (  !)-!  ((  )!  )
+
+3) A school arranges a trip. If Serpil won't go on the trip, then Tuba or Elif will go on the trip. If
+   Tuba will on the trip, then Elif will go. Either Serpil won't go on the trip or Tuba will go on the trip.
+   They will not go on the trip all together. Who will attend the trip?
+
+4) For AB two digits natural number, following propositons are given.
+
+p: AB divisible by 3.
+q: A+B is divisible by 5.
+r: A ×B is divisible by 7.
+If   (  ) is false then find the value of A ×B. (University entrance exam question)
+
+                      25
+Grade                 9
+Session               2
+Unit                  Logic
+Session topic         Review
+No of students (av.)  25
+Textbooks             The Mathematics 9, The Math Book 9
+
+Part 2
+
+1) If converse of   (  ) is false, then find the truth value of inverse of (  p)  (  ).
+
+2) Simplify the following compound proposition
+                                      (!  q)  (  !)  [  (  q)]
+
+3) In a security system, there are four switches: A, B, C, and D. The switches can be either in the
+ON position ("1") or the OFF position ("0"). To decrypt a special code, the following logical condition
+must be met:
+
+                                             Y = (A  B)  (C!  D)  A
+
+However, due to an advanced safeguard mechanism, two switches are interconnected in such a way
+that if one is ON, the other is forced to be OFF, and vice versa. These interconnected switches are B
+and C.
+
+Given these circumstances, for the code to be decrypted (for Y to be "1"), write the possible
+combination of switches need to be turned on and off?
+
+4) "If at least one prime number is even, then the square of every real number is positive."
+Find the truth value of the given proposition and write the negation of the given proposition.
+
+5) At a table; There are three marbles in total, one red, one blue and one yellow. These marbles
+are placed in bags A, B and C, with one marble in each bag.
+
+p : "There is no red marble in bag A."
+q: "There is a blue marble in bag B."
+r: "There is no yellow marble in bag C."
+
+If the proposition p  (q  r)' is true, what are the colors of the marbles in bags A, B and C,
+respectively? (University entrance exam)
+
+                      26
+Part 3: (Without ChatGPT) (30 mins)
+
+1) If the converse of   () is false, then find the truth value of the contrapositive of (  r) 
+    .
+
+2) Simplify the following compound proposition
+    (  q)  [(  !)  ].
+
+3) (  , -"  0)  [(  , 2 + 12 = 3)  (  , -2 >     4)]
+a) Find the truth-value of the given compound proposition.
+
+b) Write the negation of the compound proposition.
+
+4)    +  = 0     +  < 0                                 0
+
+The proposition , , and  is given.
+
+If the compound proposition (  )   is false, then what are the signs of ,  and  respectively?
+
+                                     27
+Grade                 9
+Session               3
+Unit                  Sets
+Session topic         Revision
+No of students (av.)  25
+Textbooks             The Mathematics 9, The Math Book 9
+
+Part 2:
+     1)  = { | 24 <   150,  = 4,   },
+          = { | 12   < 144,  = 6,   }
+         sets are given.
+         According to this, what is the number of elements in the set   ?
+
+2) Given sets  = {, , } and  = {1, 2, 3, 4, , , }, how many different subsets K can be
+    written such that K is not equal to A, K is not equal to B, and A is a subset of K which is a
+    subset of B?
+
+3) On a certain website, the number of people who can use both a bicycle and a motorcycle are
+    10, and the number of people who can use at least one of them is 35. On this site, if the number
+    of people who can use a motorcycle is twice the number of people who can use a bicycle, how
+    many people can use only a motorcycle?
+
+4) For sets A and B,
+     (  `) = 2(  )
+     ( - ) = 6
+     () = 2() + 1 are given.
+     Find (  ).
+
+5) , ,  are one-digit natural numbers, and x is a positive integer, such that  <  < .
+    The sets are given as
+     = {|" < 42}
+     = {1,2,3,7,8,9}
+     = {, , }
+    The number of elements in the Cartesian product (  ) × (  ) is 54. Find the sum of
+    possible values for c.
+
+Part 3:
+        1) Consider the sets
+              = {| 43 <   210,  = 10,   },
+              = { | 15   < 270,  = 15,   }
+             Find the number of elements in  - .
+
+        2) Given sets  = {1,2,3,4} and  = {1, 2, 3, 4,5,6, , , }, how many different subsets K can
+             be written such A is a subset of K and K is a subset of B but not equal to B, additionally K
+             needs to include all even numbers in set B?
+
+                              28
+3) In a high school, students are either gamers or social media users. The number of students
+    who are both passionate about gaming and active on social media is 20, and the total
+    number of students who engage in at least one of these activities is 60. If we denote the set
+    of gamers as G and social media users as S, and given that (  `) =  and () =
+    2() + 5, find the value of .
+
+4) For sets A, B and C, the following equations are given:
+     () = () = 5
+     + × (  )- = 30
+     + × (  )- = 16
+     Find the number of elements of   .
+
+                                         29
+Grade                 9
+Session               4
+Unit                  Divisibility Rules
+Session topic         Revision
+No of students (av.)  25
+Textbooks             The Mathematics 9, The Math Book 9
+
+Part 2:
+
+1) For A and B natural numbers, if A is divided by 6, quotient is B and remainder is 5.
+    If B is divided by 5 remainder is 4. Find the remainder when A is divided by 15.
+
+2) Emre, a store manager, is entering the total sales and the number of items sold into the
+    computer when he notices an error in the invoice. The total sales amount for a product,
+    which is priced at 11 per unit, is incorrectly recorded as 27,360. This error is due to two
+    consecutive digits being written in the wrong order. How many units were sold?
+
+3) A five-digit number is represented as a4c5c. If this number becomes divisible by 12 when 7
+    is added to it, what is the highest possible value for the sum of a + c?
+
+4) A school is planning to distribute 72 pencils and 90 notebooks among students in a class,
+    ensuring each student gets the same number of pencils and the same number of notebooks
+    without any leftovers. What is the maximum number of students that can be in the class?
+
+5) In a music school, two students are practicing their scales on different instruments. Alice
+    practices her piano scales every 12 days, while Bob practices his violin scales every 18
+    days. They both had their first practice session on the same Tuesday. What will be the day
+    of their 4th joint practice session?
+
+Part 3:
+        1) In a bakery, a large batch of cookies is divided into packages. When the total number of
+             cookies (C) is divided by 9, the quotient is the number of packages (P) and the remainder is
+             8. When the number of packages is divided by 8, the remainder is 7. Your task is to find the
+             remainder when the total number of cookies is divided by 18.
+        2) Aden was checking if some numbers are divisible by 11 or not. She found out that A and B
+             are divisible by 11, but if you divide C by 11, the remainder is 5.
+             30512 = 2 + 3 + . What is the value(s) of d?
+
+        3) The six-digit number 234 is 11 less than a multiple of 45. What is(are) possible the
+             value(s) of  × .
+
+                      30
+4) In a high school, two clubs hold their meetings on different schedules. The Robotics Club
+    meets every 6 days, while the Astronomy Club meets every 8 days. Both clubs held their
+    second meeting on the same Thursday. On what day of the week will their 10th joint
+    meeting occur?
+
+                                         31
+Grade                 10
+Session               1
+Unit                  Counting Principles-Permuation-Combination-Porabililty
+Session topic         Combination
+No of students (av.)  25
+Textbooks             The Mathematics 10, The Math Book 10
+
+Part 2:
+    1) Find the number of subsets of A with 3 elements containing b or f where A={a,b,c,d,e,f}
+    2) Find the number of 5-person group is chosen from 6 girls and 5 boys that contain at least 1 boy.
+
+3) In how many ways can 12 people form 3 teams of 4 people?
+
+4) In a mathematics lesson, the teacher asked Naz how 3 students out of the class could be chosen
+    in different ways, Mert how 5 students could be chosen in different ways, and Zeynep how 11
+    students could be chosen in different ways. All three students calculated the requested numbers
+    correctly. Given that the numbers found by Mert and Zeynep are the same positive integer,
+    what is the number Naz found?
+
+Part 3:
+
+    1) Find the number of subsets of A with 4 elements containing 1 and 3 but not 4 where
+         A={1,2,3,4,5,6,7}
+
+    2) Find the number of 4 people medical crew from 4 doctors and 5 nurses, containing at least 1
+         nurse.
+
+    3) In how many ways can 15 people form three teams of 5 people where the teams are called team
+         A, team B and team C?
+
+    4) Two students from three different schools will participate in a chess tournament. In the first
+         round of the tournament, each student will be paired with a student from a different school to
+         play a match. According to this, how many different ways can the pairings be made in the first
+         round? (university entrance exam question)
+
+                      32
+Grade                 10
+Session               2
+Unit                  Porabability
+Session topic         Revision
+No of students (av.)  25
+Textbooks             The Mathematics 10, The Math Book 10
+
+Part 2:
+     1. A and B are two mutually exclusive events. If (`  ) = 0.5 and (`  `) = 0.2, find
+         P(A).
+
+2. We are given seven courses, each with a set number of weekly teaching hours as follows:
+   Course 1: 5 hours
+   Course 2: 4 hours
+   Course 3: 4 hours
+   Course 4: 5 hours
+   Course 5: 3 hours
+   Course 6: 5 hours
+   Course 7: 5 hours
+
+Suppose we randomly select four courses from this pool. Determine the probability that the
+total number of weekly teaching hours of the selected courses equals 17. (University Entrance
+Exam)
+
+3. A digital lock is operated by a 3-character code. Each character can be any lowercase letter ('a'
+    to 'z') or digit (0 to 9). This means each position has 36 possible characters (26 letters and 10
+    numbers). What is the probability that a code, randomly set, starts with a letter and ends with
+    a number?
+
+4. 5 adults and their 7 children are going to the cinema. They will sit randomly in three rows of 4
+    seats each. What is the probability that four of the adults will be seated at the back row?
+
+     5. Find the probability that a random arrangement of the twelve letters in the word
+         HIPPOPOTAMUS begins with a vowel and that every O follows a P (i.e., O only occurs after
+         P). (Take the vowels in the English alphabet to be A, E, I, O, and U)
+
+Part 3:
+
+1) A and B are two mutually exclusive events. If P(AB`)=0.4 and P(A`B)=0.2, find P(A`B`).
+
+2) Evrim is packing for a hiking trip and wants to ensure she has enough water for the journey. She
+has several bottles of different capacities but can only fit 3 bottles in her backpack. The bottles she has
+are:
+4 bottles, each holding 500 ml,
+3 bottles, each holding 750 ml,
+2 bottles, each holding 1000 ml.
+If Evrim randomly selects 3 bottles to pack, what is the probability that she will have exactly 2500 ml
+of water for her trip?
+
+                      33
+3) Suppose the digits 105054020 are randomly rearranged into a new 9-digit number. What is the
+probability that this new number starts with an even number and that each 5 is followed by a 0?
+4) Consider a bookcase with 3 shelves, each holding 3 books. It is desired to place 4 different
+mathematics, 2 different biology, and 3 different chemistry books on the bookcase. What is the
+probability that there are only mathematics books on the top shelf, assuming these books are randomly
+placed on the shelves?
+
+                                                 34
+Grade                 10
+Session               3
+Unit                  Functions
+Session topic         Revision
+No of students (av.)  25
+Textbooks             The Mathematics 10, The Math Book 10
+
+Part 2:
+
+6. Determine if the following relations represents a function or not. Justify your answer by giving
+    reasons.
+    a)  = {(1,2), (2,2), (3,2), (4,2)} defined on set  = {1,2,3,4,5}
+    b) () =  + !2 - 5 where the relation is defined from #  {0} to R.
+    c) " +  = 5 where ,   
+
+7. Find the possible largest domain of the function () = $#% + "7 - .
+
+                                                                                                        $'(
+
+8. :    is a one to one and onto function. The number of elements in set A and B are
+    () = 5 - 12 and () = 3 - 6.
+    Another function will be defined from B to C where () = 2(). How many different
+    constant functions can be defined from B to C?
+
+9. f, h and g are functions defined on R.
+    If () = () + (3 - 5) is a linear function where () is an identity function, evaluate
+    (-2) where (-3) = 4 and (2) = -6.
+
+10. As a marketing coordinator, you are analyzing the impact of advertising on product sales. You
+    have observed that starting from an initial sales amount (without any advertising), each
+    additional 1,000 TRY spent on advertising leads to an increase of 15 units in product sales. If
+    you know that without any advertising, the sales are 100 units, formulate the linear function
+    that describes this relationship.
+    a) Define the linear function :    where A is the amount spent on advertising (in
+         thousand TRY) S is the total units sold. Use the given initial sales and the rate of increase
+         in sales with advertising expenditure.
+    b) Calculate the expected sales if 17000 TRY is spent on advertising.
+
+Part 3:
+
+                      35
+1. Determine if the following relations represents a function or not. Justify your answer by giving
+    reasons.
+     d)  = {(1,3), (2,1), (3,5), (4,2), (3,1), (5,1)} defined on set  = {1,2,3,4,5}
+
+    e) % - 2 = 0 where ,   
+
+2.  Find  the  largest  possible  domain  for  the  function  ()  =  %'$   +  !$#%
+                                                                     "$'(     $##)
+
+3. ,  and h are functions defined on R.
+
+    () is a constant function and () is a linear function where (3) = 2 and (-1) = -10
+
+    If () = *($) and (9) = 4 then find (2023).
+
+                      -("$'()
+
+4. As a digital content manager, you are exploring the relationship between the number of blog
+    posts published on your company's website and the increase in web traffic. You've found that
+    with no new blog posts, the website attracts 500 visitors per week. Your analysis shows that for
+    each additional 5 blog post published per week, there is an increase of 100 visitors.
+
+a) Define the linear function f:BV where B is the number of blog posts published per week and
+    V is the total number of website visitors per week.
+
+b) Calculate the expected number of website visitors per week if 12 new blog posts are published.
+
+                                                    36
+Grade                        10
+Session                      4
+Unit                         Composite and Inverse Functions
+Session topic                Revision
+No of students (av.)         25
+Textbooks                    The Mathematics 10, The Math Book 10
+
+Part 2:
+
+1.       Let  f(x)  =    )   and  () =  + 1 are given. Find the domain of +()-.
+                       .#')
+
+2. A city's public transportation system includes a bus service and a subway. The number of people
+
+         using the bus service on any given day can be modelled by the function () = 100 - 500,
+
+         where d is the day of the month. The expected number of people using the subway depends on
+
+         the expected number of bus users and can be modelled by the function () = 0.75 + 200,
+
+         where p is the number of expected bus users. The city transportation department wants to create
+
+         a composite function T(d) to directly relate the day of the month to the expected number of
+
+         subway users.
+
+         a) Determine the explicit form of the composite function T(d).
+
+         b) Calculate the day of the month if the expected number of subway users is 950.
+
+3. For the two functions f and g, composition of these functions is equal to their product
+    ((  )() = ()  ()) and () = 2 - 5 are given. Find the value of (3).
+
+4. ')() = % and () = "$') are two functions defined on their largest domain. Find
+
+                                                           $#%
+
+    (  )')()
+
+     5. f(x) is a linear function which is self-inverse (the inverse of the function is itself). If () is the
+
+         identity function and (3) - (2) = 13, find f(x).
+
+Part 3:
+    1. Let m(x) = 5 -  and () = " be given functions. Determine the domain of +()-.
+
+                                                                         $'%
+
+    2. In a forest, the number of birds observed depends on the number of trees. If  represents the
+         number of trees, the number of birds observed is given by () = " + 4. Also, the amount of
+         bird food needed each day depends on the number of birds. The bird food in kilograms is given
+         by () = 3 + 2 , where b is the number of birds. The forest ranger wants to know the total
+         amount of bird food needed each day based on the number of trees.
+         a) Write a formula G(t) that shows the total bird food needed based on the number of trees.
+         b) If there are 6 trees, how much bird food is needed?
+
+    3. ( ')  )')() = "$') and () =  - 2 are two functions defined on their largest domain.
+
+                                               $#%
+
+         Find ().
+
+    4. Let p(x) is a linear function which is self-inverse (the inverse of the function is itself). If ()
+         is the identity function and +(3)- = 7, find ().
+
+                                  37
+Grade                 11
+Session               1
+Unit                  Analytical Study of Lines
+Session topic         Writing Equation of Lines
+No of students (av.)  25
+Textbooks             The Mathematics 11, The Math Book 11
+
+Part 2:
+
+1) Find the equation of the line which passes through (-2,3) and parallel to 2 - 3 + 5 = 0.
+
+2) Write the equation of the line passing through the point (2,3) and perpendicular to the line passing
+through the points (2,1) and (-1,3).
+
+4) A plane flies along a straight line ) with equation  = 2 - 5. Determine the equation of the line
+    " which represents the trajectory of another plane flying at the same altitude that should not
+    intersect ) and should pass through (3, -1).
+
+4)  and  are real numbers.
+3 = 2 + 
+ = 3 - 12 are perpendicular lines and intersects at y-axis. Find  + . (University enterance exam
+question)
+
+Part 3:
+1) Find the equation of the line which passes through (1, -2) and perpendicular to - + 2 = 4.
+
+2) Find the equation of the line which passes through (0,3) and parallel to the line passing through
+(-1,2) and (3, -4).
+
+3) A straight connecting street segment is built perpendicular to an existing street with equation
+ = -2 + 3. Determine the equation of the line of the new street segment which passes through
+point (-1,2).
+
+4) On the cartesian coordinate system, line d is istersecting with the line 2 +  = 12 at the point
+(4,4). If these two lines divides any circle with center (4,4) into four pieces of equal area, then
+find the equation of line d. (University enterance exam question)
+
+                      38
+Grade                 11
+Session               2
+Unit                  Analytical Study of Lines
+Session topic         Revision
+No of students (av.)  25
+Textbooks             The Mathematics 11, The Math Book 11
+
+Part 2:
+     11. On the cartesian coordinate plane, line L is passing through (-1, 2) and parallel to
+          2 - 4 - 5 = 0. (, 0) and (0. ) are the  -  and  -  of the line L
+         respectively. Find the sum of  and .
+     12. Find the equation of a line which passes through the midpoint of (3,5) and (-1,3), and
+         perpendicular to the line passing through A and B.
+
+13. If the centroid of triangle ABC which has the vertices
+    ( - 4, - - 5), (-2 + 1, 2 - 7) and (4 - 6, 2 - 3) is on the 4th quadrant then
+   find the value of  where a is an integer.
+
+     14. If the lines below intersect at the same point on the cartesian coordinate plane, find the value
+         of .
+
+    · Line 1 passes through (0,1) and has a slope 
+    · Line 2 passes through origin and has a slope 2
+    · Line 3 passes through (1,0) and has a slope 3m
+
+    (University Entrance Exam)
+     15. Duru pinned her position on a map at (1, -1) and drew the path she wanted to reach as a
+
+         straight line. She noticed that the line she drew passes through (-1,3) and (-5,6). Help Duru
+         find the shortest distance from her position to the path by describing what she should do and
+         finding the distance.
+
+Part 3:
+1) Let (, 0)and (0. )are the  -  and  -  of the line L,
+2 - 3 - 12 = 0. Find the equation of the which passes through (, ) and parallel to the line
+3 - 6 + 8 = 0.
+2) The midpoint of the ( - 3, 2 + 4) and ( + 5, - - 1) lies in the second quadrant. If  is an
+integer, find on which quadrant where ( - 3, 2) is.
+3) L is the line which is passing through origin perpendicular to line passing through (1, -1) and
+(7, -3). If the lines L,  =  + 3 and  + 2 + 9 = 0 have only one point in common, then
+find m.
+4) Ali pinned his position on a map at the centroid of the triangle formed by his school (10, -8), his
+home (-2,2) and his favorite coffee place (-2, -3). One of his friends, Nil pinned her own
+place on the straight line passing through the school and the coffee place and at the closest point to Ali.
+Find the distance between Ali and Nil.
+
+                      39
+Grade                 11
+Session               3
+Unit                  Applications of Functions
+Session topic         Revision
+No of students (av.)  25
+Textbooks             The Mathematics 11, The Math Book 11
+
+Part 2:
+   1) Consider the quadratic function () = -2" + 8 + 3, which models the height (in meters)
+
+ of a ball thrown upwards, with  representing the time in seconds after the ball has been thrown.
+
+ Calculate the average rate of change of the ball's height over the interval from 2 seconds to 4
+seconds.
+
+ 2) Consider a parabola defined by the equation  = " +  + , where ,  and  are real
+numbers. This parabola intersects with the line  = 6 at exactly one point. If the parabola intersects
+x-axis at
+
+  = -1 and  = 5 , then determine the signs (positive, negative, or zero) of the coefficients , 
+and .
+
+ 3) Consider the function () = 0.005" - 0.6 + 25, where () represents a vehicle's fuel
+consumption in litres per 100 kilometres and S is the speed of the vehicle in kilometres per hour. For
+speeds ranging from 50 to 100 km/h, calculate the minimum and maximum fuel consumption value.
+
+ 4) The line  =  - 4 is tangent to the parabola  = " - . Find the possible value(s) of m.
+ 5) Determine the area of triangle TAB formed by a quadratic function () = " +  + , The
+vertex of the parabola is denoted as point T. The x-intercepts of the parabola are at points A(-2,0) and
+ B(8, 0), and the y-intercept is at (0, -16).
+
+Part 3:
+
+1) Examine the quadratic function g() = -3" + 10 + 5, which represents the altitude (in
+meters) of a drone flying vertically, where x denotes the time in seconds after the drone's ascent
+
+                                 began. Determine the average rate of change in the drone's altitude
+                                 during the time interval from 1 second to 4 seconds.
+
+                      2) For the quadratic function () = " +  +  whose graph is
+                      given below, determine the sign of , ,  and .
+
+                                                                
+                      Sign
+
+                      40
+3) Consider the function () = 2" - 8 + 10 where () represents the profit in dollars of a
+small bakery and  is the number of hours the bakery is open each day. Determine maximum and
+minimum profit that the bakery can expect when it is open for a duration ranging from 1 to 5 hours
+per day.
+4) Determine the area of the triangle TAB formed by quadratic
+function () = " +  + 
+
+                                              41
+Grade                     11
+Session                   4
+Unit                      Transformation of Functions and Solution of second degree
+                          equation systems with two unknowns
+Session topic             Revision
+No of students (av.)      25
+Textbooks                 The Mathematics 11, The Math Book 11
+
+Part 2:
+
+1) If a function f(x) = x" - 4x + 5 is translated a units right and b units down, then
+g(x) = x" - 6x + 4 can be obtained. Find the value of a × b.
+
+2) Describe, in order, a sequence of transformations that maps the graph of y =f (x) onto the graph
+
+y = -3f (x) + 2.
+
+3)       0 -y=8
+         .#)
+
+x-  5    =6
+
+    y+1
+
+Find the value of x + y.
+
+4)
+
+                                       x" + y" = 11
+
+                                       x      y 11
+                                       x+y+x-y= 7
+
+Find the possible y values that satisfied the system of the equations.
+
+5) Elif is designing a rectangular playground. The length of the playground is y meters and the
+
+width is x meters. She plans to install a special rubber surface on the playground, which costs $30 per
+
+". The diagonal of the playground is 500 . Elif had spent of $6000 for the rubber surface. What
+
+are the dimensions of the playground?
+
+Part 3:
+1) A roller coaster's path can be modeled by the function () = " - 8 + 20 where ()
+represents the height of the coaster at a horizontal distance  meters horizontally from its starting
+position. To enhance the ride experience, the engineers plan to alter the route. They intend to shift the
+
+entire coaster path 2 meters to the left and 3 meters lower than its current position. Write the equation
+in the form  = " +  +  that will represent the new path of the roller coaster.
+
+2) Describe, in order, a sequence of transformations that maps the graph of  =  () onto the
+graph
+y = f (-2x + 6) .
+3) 4 =  - 
+32
+ +  = 9
+
+Find the value of $.
+
+                              1
+
+4) A farmer is constructing a rectangular enclosure for her sheep. To strengthen the structure, she
+plans to add a diagonal support from one corner to the opposite corner. The farmer knows that the
+area of the enclosure must be exactly 12 " to provide enough space for her sheep. Additionally, she
+has calculated that the length of the diagonal should be equal to 5 m for safety reasons. Find the
+possible dimensions of the enclosure.
+
+                                          42
+References
+
+1. D. Bertsimas, M. Johnson, N. Kallus, Operations Research 63, 868 (2015).
+2. S. Noy, W. Zhang, Science 381, 187 (2023).
+3. E. Brynjolfsson, D. Li, L. R. Raymond, National Bureau of Economic Research Working
+
+   Paper (2023).
+4. F. Dell'Acqua, et al., Harvard Business School Technology & Operations Management Unit
+
+   Working Paper (2023).
+5. M. Grootendorst, arXiv preprint arXiv:2203.05794 (2022).
+6. N. Reimers, I. Gurevych, arXiv preprint arXiv:1908.10084 (2019).
+7. L. McInnes, J. Healy, J. Melville, arXiv preprint arXiv:1802.03426 (2018).
+8. L. McInnes, J. Healy, S. Astels, et al., J. Open Source Softw. 2, 205 (2017).
+
+                                                       43
+

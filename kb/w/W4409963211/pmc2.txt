@@ -1,0 +1,126 @@
+
+ Phase 3 ESSENCE Trial: Semaglutide in Metabolic Dysfunction-Associated Steatohepatitis - PMC
+ Skip to main content
+ An official website of the United States government
+ Here's how you know 
+ Here's how you know 
+ Official websites use .gov 
+ A
+ .gov website belongs to an official
+ government organization in the United States.
+ Secure .gov websites use HTTPS 
+ A lock (
+ Lock 
+ Locked padlock icon
+ ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites.
+ Search
+ Log in 
+ Dashboard
+ Publications
+ Account settings
+ Log out
+ Search…
+ Search NCBI
+ Primary site navigation
+ Search
+ Logged in as:
+ Dashboard
+ Publications
+ Account settings
+ Log in
+ Search PMC Full-Text Archive 
+ Search in PMC 
+ Journal List
+ User Guide
+ PERMALINK 
+ Copy 
+ As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. 
+ Learn more:
+ PMC Disclaimer 
+ |
+ PMC Copyright Notice
+ Gastroenterol Hepatol (N Y) . 2024 Dec;20(12 Suppl 11):6–7. 
+ Search in PMC 
+ Search in PubMed 
+ View in NLM Catalog 
+ Add to search 
+ Phase 3 ESSENCE Trial: Semaglutide in Metabolic Dysfunction-Associated Steatohepatitis Copyright and License information 
+ Copyright © 2024, Gastro-Hep Communications, Inc. 
+ PMC Copyright notice 
+ PMCID: PMC11784563 PMID: 39896971 
+ Semaglutide is a glucagon-like peptide-1 receptor agonist (GLP-1 RA) that has been extensively studied in a wide spectrum of cardiometabolic diseases. 1 , 2 As cardiovascular disease is the leading cause of mortality in metabolic dysfunction-associated steatotic liver disease (MASLD), it has been surmised that agents that result in improvements in cardiometabolic risk factors would also result in improved MASLD outcomes, including an improved liver condition. 3 , 4 Indeed, a randomized placebo-controlled phase 2 trial demonstrated that among 320 patients with biopsyconfirmed metabolic dysfunction-associated steatohepatitis (MASH) and fibrosis stage 1 to 3, semaglutide 0.4 mg once daily was associated with a significantly higher percentage of patients who achieved MASH resolution with no worsening of fibrosis compared with placebo (59% vs 17%; P <.001). 5 These data led to the design of the ESSENCE trial, an ongoing phase 3, randomized, controlled trial comparing once-weekly subcutaneous semaglutide 2.4 mg vs placebo in patients with biopsy-defined MASH and fibrosis stage 2 or 3. 4 Patients were randomized in a 2 to 1 ratio to treatment with semaglutide, which was initiated at a dose of 0.25 mg and titrated up over 16 weeks to a final dose of 2.4 mg once-weekly, or placebo. The ESSENCE study plans to treat patients for up to 240 weeks. 
+ In a late-breaking abstract, Newsome and colleagues presented efficacy data from the first 800 participants who completed 72 weeks of treatment alongside a more up-to-date safety dataset. 6 This 72-week phase 1 of the ESSENCE study was evaluated against 2 primary endpoints—resolution of steatohepatitis with no worsening of liver fibrosis, and improvement in liver fibrosis with no worsening of steato-hepatitis. Resolution of steatohepatitis was defined as a Nonalcoholic Fatty Liver Disease (NAFLD) Activity Score (NAS) of 0 or 1 for inflammation, 0 for ballooning, and any value for steatosis. An improvement in fibrosis was defined as a 1 grade or higher improvement. No worsening of steatohepatitis was defined as no increase from baseline in NAS for ballooning, inflammation, or steatosis. The 2 primary endpoints were analyzed using a Cochran-Mantel-Haenszel test, stratified by both baseline diabetes status as well as fibrosis stage. 
+ Among the first 800 randomized patients, 534 were randomized to treatment with semaglutide; at week 72, 88% remained on treatment and 87% had a biopsy. Baseline characteristics were well balanced across the semaglutide and placebo arms. The mean age was 56.3 years in the semaglutide arm and 55.4 years in the placebo arm; 58.6% and 54.1%, respectively, were female. At baseline, 55.4% of semaglutide-treated patients and 56.8% of placebo-treated patients had type 2 diabetes, and the mean body mass index (BMI) was 34.3 and 35.0, respectively. Approximately two-thirds of patients in each arm had fibrosis stage 3 (68.4% in the semaglutide arm and 69.5% in the placebo arm). 
+ The primary endpoint of resolution of steatohepatitis with no worsening of fibrosis was achieved in semaglutide-vs placebo-treated patients, respectively (62.9% vs 34.1%) ( Figure 1 ). These results were considered to be highly significant, with an estimated difference in respondent proportions (EDP) of 28.9 percentage points ( P <.0001). A similarly significant improvement in the other primary endpoint of improvement in liver fibrosis with no worsening of steatohepatitis was also observed in the semaglutide vs placebo arms (37.0% vs 22.5%; an EDP of 14.5 percentage points; P <.0001). 
+ Figure 1. 
+ Open in a new tab 
+ Intention-to-treat population with metabolic dysfunction-associated steatohepatitis meeting the primary endpoints in the ESSENCE trial. EDP, estimated difference in responder proportions. Adapted from Newsome PN, et al. AASLD abstract 5018. Presented at: The Liver Meeting; November 15-19, 2024; San Diego, CA. 6 Results from several confirmatory secondary endpoints were also reported. One of these, patients who achieved both resolution of steatohepatitis and a 1-stage improvement in liver fibrosis, was significantly improved in the semaglutide arm compared with the placebo arm (32.8% vs 16.2%; P <.0001). Not unexpectedly, the mean change from baseline in body weight was significantly improved among semaglutide-treated patients vs placebo-treated patients (—10.5 vs —2.0, respectively; P <.0001). In contrast, the confirmatory secondary endpoint of mean change from baseline in bodily pain, chosen because it was significantly impacted in the phase 2 trial, did not achieve statistical significance in this study (0.9 vs —0.5 in the semaglutide vs placebo arms; P =.0488; a higher score represents an improvement in bodily pain). 
+ Semaglutide was significantly associated with improvement in both MASH resolution and fibrosis regression compared with placebo. These results were the most anticipated trial readout at The Liver Meeting and were met with great enthusiasm. Semaglutide has positive effects on each component of the metabolic syndrome, and now, its potential as a treatment for MASH with fibrosis can be seen. However, the modest estimated difference in responder proportions in fibrosis of 14.5% compared with placebo definitely leaves room for newer drugs and combination therapy. 
+ — Naim Alkhouri, MD A consistent effect of semaglutide on liver enzyme levels was observed, with a 30% to 40% placebo-adjusted reduction with semaglutide compared with placebo. These included a 40% decrease in alanine aminotransferase (ALT), 30% decrease in aspartate aminotransferase (AST), and 40% decrease in gamma-glutamyl transferase (GGT); P <.0001 vs placebo for all comparisons. The same was true for the noninvasive measurements of fibrosis, including changes in liver stiffness values assessed by vibration-controlled transient elastography (FibroScan), which was improved by a decrease of 20%; change in Enhanced Liver Fibrosis score, which was improved by a decrease of 0.6 units; and change in Pro-C3 level, which was improved by a decrease of 20%. An evaluation of cardiometabolic risk parameters showed significant improvements with semaglutide vs placebo across nearly all measures, including systolic and diastolic blood pressures, dyslipidemia (except low-density lipoprotein cholesterol), and highly sensitive C-reactive protein. 
+ Between the semaglutide and placebo arms, there was no increase in serious nor fatal adverse events (AEs). Discontinuations owing to AEs were also not significantly increased with semaglutide vs placebo. In accordance with previous safety findings with semaglutide, gastrointestinal side effects were more commonly found in patients receiving semaglutide vs placebo, including nausea (36.3% vs 13.2%), diarrhea (26.9% vs 12.2%), and constipation (22.3% vs 8.4%). With regard to a specific AE, an increase in gallbladder-related disorders was noted (2.5% vs 1.5%). 
+ ABSTRACT SUMMARY Performance of Noninvasive Tests in Identifying Appropriate Patients for Resmetirom Treatment: Real-World Data From Four Tertiary Care Centers 
+ In an attempt to find an alternative method for identifying patients eligible for treatment with resmetirom, an algorithm was proposed that included controlled attenuation parameter (>80 dB/m), liver stiffness measurement (10-20 kPa), and platelet count (>150 x 103/pL). This algorithm was applied to a cohort of 1006 patients with biopsy-proven patients with MASLD (Abstract 2041). The combination of these criteria was associated with a poor sensitivity of 39.3% and specificity of 67.7% to identify patients with accurate histologic features. This was associated with a positive predictive value of 0.390 and a negative predictive value of 0.680. These criteria showed a similarly poor performance in the prediction of the presence of F2/F3 disease on biopsy. These data led the study authors to conclude that semaglutide was associated with superior MASH-related outcomes compared with placebo. 
+ References 
+ Lincoff AM, Brown-Frandsen K, Colhoun HM et al. SELECT Trial Investigators. Semaglutide and cardiovascular outcomes in obesity without diabetes. N Engl J Med. 2023;389(24):2221–2232. doi: 10.1056/NEJMoa2307563. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ Husain M, Birkenfeld AL, Donsmark M et al. PIONEER 6 Investigators. Oral semaglutide and cardiovascular outcomes in patients with type 2 diabetes. N Engl J Med. 2019;381(9):841–851. doi: 10.1056/NEJMoa1901118. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ Gato S, García-Fernández V, Gil-Gómez A et al. Navigating the link between non-alcoholic fatty liver disease/non-alcoholic steatohepatitis and cardiometabolic syndrome. Eur Cardiol. 2024;19:e03. doi: 10.15420/ecr.2023.26. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+ Newsome PN, Sanyal AJ, Engebretsen KA et al. Semaglutide 2.4 mg in participants with metabolic dysfunction-associated steatohepatitis: baseline characteristics and design of the phase 3 ESSENCE trial. Aliment Pharmacol Ther. 2024;60(11-12):1525–1533. doi: 10.1111/apt.18331. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+ Newsome PN, Buchholtz K, Cusi K et al. NN99314296 Investigators. A placebo-controlled trial of subcutaneous semaglutide in nonalcoholic steatohepatitis. N Engl J Med. 2021;384(12):1113–1124. doi: 10.1056/NEJMoa2028395. [ DOI ] [ PubMed ] [ Google Scholar ] 
+ Newsome PN, Sanyal A, Kliers I Phase 3 ESSENCE trial: semaglutide in metabolic dysfunction-associated steatohepatitis (MASH) [AASLD abstract 5018]. Presented at: The Liver Meeting; November 15-19, 2024; San Diego, CA. 
+ Articles from Gastroenterology & Hepatology are provided here courtesy of Millenium Medical Publishing 
+ ACTIONS 
+ PDF (114.4 KB) 
+ Cite 
+ Collections 
+ Permalink 
+ PERMALINK 
+ Copy 
+ RESOURCES 
+ Similar articles
+ Cited by other articles
+ Links to NCBI Databases
+ Cite 
+ Copy 
+ Download .nbib 
+ .nbib 
+ Format: 
+ AMA
+ APA
+ MLA
+ NLM
+ Add to Collections 
+ Create a new collection 
+ Add to an existing collection 
+ Name your collection
+ * 
+ Choose a collection
+ Unable to load your collection due to an error 
+ Please try again 
+ Add
+ Cancel
+ Follow NCBI
+ NCBI on X (formerly known as Twitter) 
+ NCBI on Facebook 
+ NCBI on LinkedIn 
+ NCBI on GitHub 
+ NCBI RSS feed 
+ Connect with NLM
+ NLM on X (formerly known as Twitter) 
+ NLM on Facebook 
+ NLM on YouTube 
+ National Library of Medicine
+ 8600 Rockville Pike Bethesda, MD 20894 
+ Web Policies
+ FOIA
+ HHS Vulnerability Disclosure
+ Help
+ Accessibility
+ Careers
+ NLM
+ NIH
+ HHS
+ USA.gov
+ Back to Top 

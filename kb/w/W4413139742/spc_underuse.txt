@@ -1,0 +1,382 @@
+Single-Pill Combination Therapy for Hypertension: Persistent Underuse in the United States, 2015–2025 - PMC
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official
+government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock
+(
+Lock
+Locked padlock icon
+) or
+https://
+means you've safely
+connected to the .gov website. Share sensitive
+information only on official, secure websites.
+Search
+Log in
+Dashboard
+Publications
+Account settings
+Log out
+Search…
+Search NCBI
+Primary site navigation
+Search
+Logged in as:
+Dashboard
+Publications
+Account settings
+Log in
+Search PMC Full-Text Archive
+Search in PMC
+Journal List
+User Guide
+PERMALINK
+Copy
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+the contents by NLM or the National Institutes of Health.
+Learn more:
+PMC Disclaimer
+|
+PMC Copyright Notice
+J Am Coll Cardiol
+. Author manuscript; available in PMC: 2026 Nov 8.
+Published in final edited form as:
+J Am Coll Cardiol. 2026 May 6;88(3):360–363. doi:
+10.1016/j.jacc.2026.03.088
+Search in PMC
+Search in PubMed
+View in NLM Catalog
+Add to search
+Single-Pill Combination Therapy for Hypertension: Persistent Underuse in the United States, 2015–2025
+Kyungseon Choi
+Kyungseon Choi
+,
+PharmD, PhD, MSc
+1
+Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine
+2
+Yale New Haven Hospital Center for Outcomes Research and Evaluation
+Find articles by
+Kyungseon Choi
+1,
+2
+,
+Chungsoo Kim
+Chungsoo Kim
+,
+PharmD, PhD
+2
+Yale New Haven Hospital Center for Outcomes Research and Evaluation
+3
+Department of Biomedical Informatics, Ajou University School of Medicine
+Find articles by
+Chungsoo Kim
+2,
+3
+,
+Erica S Spatz
+Erica S Spatz
+,
+MD, MHS
+1
+Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine
+2
+Yale New Haven Hospital Center for Outcomes Research and Evaluation
+Find articles by
+Erica S Spatz
+1,
+2
+,
+Harlan M Krumholz
+Harlan M Krumholz
+,
+MD, SM
+1
+Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine
+2
+Yale New Haven Hospital Center for Outcomes Research and Evaluation
+4
+Department of Health Policy and Management, Yale School of Public Health
+Find articles by
+Harlan M Krumholz
+1,
+2,
+4
+,
+Yuan Lu
+Yuan Lu
+,
+ScD
+1
+Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine
+2
+Yale New Haven Hospital Center for Outcomes Research and Evaluation
+5
+Department of Biomedical Informatics and Data Sciences, Yale School of Medicine
+Find articles by
+Yuan Lu
+1,
+2,
+5
+Author information
+Article notes
+Copyright and License information
+1
+Section of Cardiovascular Medicine, Department of Internal Medicine, Yale School of Medicine
+2
+Yale New Haven Hospital Center for Outcomes Research and Evaluation
+3
+Department of Biomedical Informatics, Ajou University School of Medicine
+4
+Department of Health Policy and Management, Yale School of Public Health
+5
+Department of Biomedical Informatics and Data Sciences, Yale School of Medicine
+✉
+Corresponding author:
+Yuan Lu, ScD, 195 Church Street, Fifth Floor, New Haven, CT, 06510,
+y.lu@yale.edu
+Issue date 2026 Jul 21.
+PMC Copyright notice
+PMCID: PMC13744032  NIHMSID: NIHMS2214184  PMID:
+42089854
+The publisher's version of this article is available at
+J Am Coll Cardiol
+Introduction
+Hypertension affects nearly half of U.S. adults and remains a leading modifiable risk factor for cardiovascular disease.
+1
+Despite effective therapies, blood pressure control rates remain suboptimal nationwide.
+2
+Single-pill combinations (SPCs), which combine two antihypertensive agents into a single formulation, are recommended to to simplify treatment and improve adherence.
+3
+Clinical guidelines increasingly emphasize this approach. The 2017 hypertension guideline recommended SPCs for patients requiring combination treatment.
+4
+More recent 2025 guideline have further elevated this recommendation, identifying SPCs as a preferred initial strategy for stage 2 hypertension because combination therapy can achieve faster blood pressure reduction and reduce therapeutic inertia.
+3
+,
+5
+Despite these recommendations, real-world adoption of SPC therapy remains uncertain, as prior studies relied on limited or outdated data. Using a large national electronic health record (EHR) network, we examined contemporary SPC initiation among adults with newly diagnosed hypertension in the U.S. from 2015 to 2025.
+Methods
+We conducted a retrospective observational study using the Epic Cosmos database, a large national EHR platform covering over 300 million patients. We identified adults with newly diagnosed hypertension (identified via ICD-10-CM codes I10-I15) between 2015–2025 who initiated antihypertensive pharmacotherapy and had ⩾1 year of observable history.
+Eligible patients were adults initiating treatment with a major antihypertensive drug classes (angiotensin-converting enzyme inhibitors (ACEIs), angiotensin receptor blockers (ARBs), beta-blockers, calcium channel blockers (CCBs), or diuretics). The index date was defined as the earliest antihypertensive prescription date within 30 days following the initial diagnosis. Individuals with prior hypertension diagnoses, prior antihypertensive prescriptions, or concurrent ACEI and ARB prescriptions on the index date were excluded. SPCs were defined as fixed-dose combinations of ⩾2 antihypertensive agents, whereas separate-pill combinations involved ⩾2 distinct agents prescribed individually. The primary outcome was SPC initiation, assessed quarterly from 2015–2025.
+To assess temporal trends in prescribing rates, we estimated the average annual percent change (AAPC) using a generalized linear model with a Poisson distribution and logarithmic link, incorporating the quarterly number of patients as an offset. We conducted stratified analyses by drug class, primary insurance, baseline systolic blood pressure (SBP), race and ethnicity, and neighborhood-level Social Vulnerability Index (SVI). Baseline SBP was defined as the highest measurement within 90 days before the index date. Sensitivity analyses were restricted to patients with confirmed stage 2 hypertension, defined as at least two blood pressure measurements ⩾140/90 mmHg. All statistical tests were two-sided (P < .05). Analyses were conducted using Microsoft SQL Server and R version 4.5.2.
+Results
+Among 7,204,590 adults with newly diagnosed hypertension who initiated antihypertensive therapy, 423,560 patients (5.88%) initiated a SPCs, 561,223 (7.79%) a separate-pill combinations, and 6,219,807 (86.33%) monotherapy.
+Overall SPC use remained low throughout the study period (
+Figure
+). The quarterly SPC initiation rate peaked at 9.94% in Q1 2015 and declined over time (AAPC −6.56% [95% confidence interval −6.65 to −6.46],
+p
+< 0.001). In contrast, the initiation of monotherapy and separate-pill combinations increased (AAPC, 0.31% [0.28 to 0.34];
+p
+< .001; and 2.10% [1.99 to 2.20];
+p
+< .001, respectively).
+Figure. Use of Single-Pill Combination Therapy for Newly Diagnosed Hypertension in the United States.
+Open in a new tab
+Panel A.
+Quarterly Trends in SPC Initiation among Adults with Newly Diagnosed Hypertension, 2015–2025.
+This panel illustrates the quarterly trends in the proportion of patients initiating treatment with single-pill combinations (SPC/FDC), separate-pill combinations (multi-pill), or monotherapy. The study cohort included adults with incident hypertension (identified via ICD-10-CM codes I10-I15) who had at least 1 year of continuous observable records in the health system prior to their diagnosis. The index date was strictly defined as the earliest antihypertensive prescription date within 30 days of the initial diagnosis. To ensure mutually exclusive categorization, a predefined clinical hierarchy was applied (SPC combinations superseded single agents). Furthermore, patients with concurrent prescriptions of contraindicated classes on the index date (e.g., ACE inhibitors and ARBs) were excluded.
+Panel B.
+Quarterly Trends in the SPC Initiation of Dual Antihypertensive Regimens.
+This panel details the specific composition of dual-class regimens prescribed on the index date over the study period. Evaluated combinations include ACE inhibitor/CCB, ACE inhibitor/diuretic, ARB/CCB, ARB/diuretic, diuretic/beta-blocker, and diuretic/diuretic combinations. To maintain visual clarity, combination regimens accounting for less than 0.05% of the total initial prescriptions (e.g., triple ARB/CCB/diuretic and dual ARB/beta-blocker combinations) were excluded from this visualization.
+Panel C.
+Quarterly Trends in the SPC Initiation by Baseline Systolic Blood Pressure.
+This panel displays the quarterly trends in the proportion of patients receiving a single-pill combination (SPC) as their initial antihypertensive regimen, categorized by baseline systolic blood pressure (SBP). Baseline SBP was defined as the highest recorded SBP measurement during the 3 months preceding the index date and categorized as <130, 130–139, 140–149, 150–159, and ≥160 mmHg. Patients with missing baseline SBP data were excluded from this specific panel.
+Panel D.
+Quarterly Trends in SPC Initiation by Primary Insurance Type.
+This panel illustrates the quarterly trends in the proportion of patients receiving a single-pill combination (SPC) as their initial antihypertensive therapy, stratified by their primary health insurance coverage on the index date. For patients with dual eligibility or multiple insurance records on the same date, a single primary payer was assigned based on a predefined administrative hierarchy (Medicare, Commercial, Medicaid, Self-Pay, Other). Missing baseline covariates were handled using a complete-case analysis approach.
+In the sensitivity analysis restricted to patients with confirmed stage 2 hypertension (n = 2,076,287), SPC initiation rates were even lower: 113,296 (5.46%) initiated an SPC, 143,318 (6.90%) a separate-pill combination, and 1,819,673 (87.64%) monotherapy. SPC use declined from 9.06% in 2015 to 4.79% by 2025 (AAPC −6.11% [−6.30 to −5.92];
+p
+< 0001). Separate-pill combinations increased (AAPC, 3.52% [3.31 to 3.72];
+p
+< .001), as did monotherapy (AAPC, 0.39% [0.34 to 0.44];
+p
+< .001).
+Patterns of SPC prescribing varied by drug class. ACEI–diuretic combinations accounted for the largest share of SPC prescriptions (2.22% in Q3 2022), but declined over time (AAPC −13.38% [−13.52 to −13.24],
+p
+< .001). From Q4 2022 onward, ARB–diuretic combinations became the most frequently prescribed SPC (AAPC 2.86% [2.66 to 3.07],
+p
+< .001).
+Across clinical and sociodemographic groups, SPC initiation remained consistently low and declined over time. By baseline SBP, SPC use was paradoxically highest among patients with an SBP <130 mm Hg (7.09%) and lowest among those with 140–149 mmHg (4.78%). For insurance type, commercially insured patients had the highest rates of SPC use (7.05%), whereas those with Medicaid coverage had the lowest (4.08%). Across race and ethnicity, rates remained below 10.1% across all groups (range, 4.11%–10.1%). Similarly, SPC prescribing remained low across SVI quartiles, ranging from 5.79% (lowest quartile) to 6.11% (highest quartile).
+Discussion
+In this large national analysis of over 7 million adults with newly diagnosed hypertension, initiation of SPC therapy remained uncommon over the past decade, even among patients with stage 2 hypertension or across higher baseline SBP strata (140–149, 150–159, and ≥160 mmHg). Despite increasingly guideline-supported recommendations favoring combination therapy, fewer than one in ten patients initiating antihypertensive treatment received an SPC.
+These findings highlight a persistent disconnect between guideline recommendations and routine clinical practice. The rationale for combination therapy is well established: most patients ultimately require more than one antihypertensive agent to achieve blood pressure targets, and SPCs can simplify treatment regimens, reduce pill burden, and improve adherence.
+6
+,
+7
+Initiating combination therapy may also accelerate blood pressure control compared with traditional stepwise escalation strategies.
+3
+,
+8
+Yet our findings suggest that this paradigm has not translated into widespread adoption. SPC use did not increase following the publication of major hypertension guidelines recommending combination therapy. Several factors may contribute to this persistent underuse.
+3
+Clinicians may remain accustomed to initiating treatment with a single agent and escalating gradually, and concerns about tolerability, dose-titration flexibility, and insurance or formulary constraints may also influence prescribing decisions. In addition, clinical workflows and electronic prescribing systems may not consistently support SPCs as an initial treatment option, rather than reflecting inherent limitations of SPCs. This pattern reflects a broader challenge in cardiovascular medicine: translating evidence-based recommendations into everyday practice.
+9
+Importantly, the consistently low use of SPC therapy across racial and ethnic groups and across levels of neighborhood SVI suggests that underutilization reflects systemic practice patterns rather than disparities confined to specific populations. However, the lower uptake among Medicaid versus commercially insured patients highlights persistent barriers to equitable access. Given the high burden of uncontrolled hypertension in the U.S., improving adoption of evidence-based treatment strategies represents an important opportunity to improve population cardiovascular health.
+These findings underscore the need to move beyond guideline publication alone and focus on implementation.
+9
+Strategies such as clinical decision support tools, simplified treatment algorithms, and health system–level initiatives may help facilitate the routine use of combination therapy when clinically appropriate. As hypertension remains a major modifiable drivers of cardiovascular risk, closing this implementation gap could yield substantial public health impact.
+What is the clinical question being addressed?
+Among adults with newly diagnosed hypertension in the United States, how frequently is guideline-recommended single-pill combination therapy used as initial antihypertensive treatment?
+What is the main finding?
+In a national electronic health record analysis of nearly 9 million patients from 2015–2025, fewer than 1 in 10 patients initiating antihypertensive therapy received a single-pill combination, with no increase following major guideline recommendations.
+Funding and Disclosures:
+This work is supported by National Institutes of Health under award R01HL6995. Dr Lu has received support from the National Heart, Lung, and Blood Institute of the National Institutes of Health (under awards R01HL69954 and R01HL169171), the Patient-Centered Outcomes Research Institute (under award HM-2022C2-28354), Sentara Research Foundation, and Novartis through Yale University. Dr Krumholz, in the past three years, has received options for Element Science and Identifeye and payments from F-Prime for advisory roles. He was a co-founder of and held equity in Hugo Health. He is a co-founder of and holds equity in Refactor Health and ENSIGHT-AI. He is a co-founder of medRxiv and is on the Board of openRxiv (nonpaid, volunteer). He is associated with research contracts through Yale University from Janssen, Kenvue, Novartis, and Pfizer. Dr Spatz has received funding from the National Heart, Lung, and Blood Institute (R01HL151240), and the Patient-Centered Outcomes Research Institute (HM-2022C2-28354). All other authors have reported that they have no relationships relevant to the contents of this paper to disclose.
+Footnotes
+Publisher's Disclaimer:
+This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.
+References
+1.
+Fryar CD, Kit B, Carroll MD, Afful J. Hypertension prevalence, awareness, treatment, and control among adults age 18 and older: United States, August 2021–August 2023. NCHS Data Briefs [Internet]. National Center for Health Statistics (US); 2024.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+2.
+Lu Y, Liu Y, Dhingra LS, et al.
+National Trends in Racial and Ethnic Disparities in Antihypertensive Medication Use and Blood Pressure Control Among Adults With Hypertension, 2011–2018. Hypertension. Jan
+2022;79(1):207–217. doi: 10.1161/HYPERTENSIONAHA.121.18381
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+3.
+King JB, An J, Bellows BK, et al.
+Single-Pill Combination Therapy for the Management of Hypertension: A Scientific Statement From the American Heart Association. Hypertension. 2025;
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+4.
+Whelton PK, Carey RM, Aronow WS, et al.
+2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA guideline for the prevention, detection, evaluation, and management of high blood pressure in adults: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. Journal of the American College of Cardiology. 2018;71(19):e127–e248.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+5.
+Whelton PK CR, Aronow WS. 2025 AHA/ACC Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults. JACC. 2025;
+[
+Google Scholar
+]
+6.
+Choudhry NK, Kronish IM, Vongpatanasin W, et al.
+Medication adherence and blood pressure control: a scientific statement from the American Heart Association. Hypertension. 2022;79(1):e1–e14.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+7.
+Parati G, Kjeldsen S, Coca A, Cushman WC, Wang J. Adherence to single-pill versus free-equivalent combination therapy in hypertension: a systematic review and meta-analysis. Hypertension. 2021;77(2):692–705.
+[
+DOI
+] [
+PubMed
+] [
+Google Scholar
+]
+8.
+Schmieder RE, Wassmann S, Predel H-G, et al.
+Improved persistence to medication, decreased cardiovascular events and reduced all-cause mortality in hypertensive patients with use of single-pill combinations: results from the START-study. Hypertension. 2023;80(5):1127–1135.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+9.
+Abdalla M, Bolen SD, Brettler J, et al.
+Implementation strategies to improve blood pressure control in the United States: a scientific statement from the American Heart Association and American Medical Association. Hypertension. 2023;80(10):e143–e157.
+[
+DOI
+] [
+PMC free article
+] [
+PubMed
+] [
+Google Scholar
+]
+ACTIONS
+View on publisher site
+PDF (599.8 KB)
+Cite
+Collections
+Permalink
+PERMALINK
+Copy
+RESOURCES
+Similar articles
+Cited by other articles
+Links to NCBI Databases
+Cite
+Copy
+Download .nbib
+.nbib
+Format:
+AMA
+APA
+MLA
+NLM
+Add to Collections
+Create a new collection
+Add to an existing collection
+Name your collection
+*
+Choose a collection
+Unable to load your collection due to an error
+Please try again
+Add
+Cancel
+Follow NCBI
+NCBI on X (formerly known as Twitter)
+NCBI on Facebook
+NCBI on LinkedIn
+NCBI on GitHub
+NCBI RSS feed
+Connect with NLM
+NLM on X (formerly known as Twitter)
+NLM on Facebook
+NLM on YouTube
+National Library of Medicine
+8600 Rockville Pike
+Bethesda, MD 20894
+Web Policies
+FOIA
+HHS Vulnerability Disclosure
+Help
+Accessibility
+Careers
+NLM
+NIH
+HHS
+USA.gov
+Back to Top

@@ -1,0 +1,11 @@
+TITLE: Mechanisms linking social media use to adolescent mental health vulnerability
+VENUE: Nature Reviews Psychology (2024)
+TYPE: review
+CITED: 366
+AUTHORS: Amy C. Orben, Adrian Meier, Tim Dalgleish, Sarah‐Jayne Blakemore
+URL: https://doi.org/10.1038/s44159-024-00307-y
+PAGES: 17
+
+ABSTRACT:
+============================================================
+Research linking social media use and adolescent mental health has produced mixed and inconsistent findings and little translational evidence, despite pressure to deliver concrete recommendations for families, schools and policymakers. At the same time, it is widely recognized that developmental changes in behaviour, cognition and neurobiology predispose adolescents to developing socio-emotional disorders. In this Review, we argue that such developmental changes would be a fruitful focus for social media research. Specifically, we review mechanisms by which social media could amplify the developmental changes that increase adolescents’ mental health vulnerability. These mechanisms include changes to behaviour, such as sharing risky content and self-presentation, and changes to cognition, such as modifications in self-concept, social comparison, responsiveness to social feedback and experiences of social exclusion. We also consider neurobiological mechanisms that heighten stress sensitivity and modify reward processing. By focusing on mechanisms by which social media might interact with developmental changes to increase mental health risks, our Review equips researchers with a toolkit of key digital affordances that enables theorizing and studying technology effects despite an ever-changing social media landscape. Declines in adolescent mental health over the past decade have been attributed to social media, but the empirical evidence is mixed. In this Review, Orben et al. describe the mechanisms by which social media could amplify the developmental changes that increase adolescents’ mental health vulnerability.

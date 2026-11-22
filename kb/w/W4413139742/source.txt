@@ -1,0 +1,11 @@
+TITLE: 2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines
+VENUE: Circulation (2025)
+TYPE: article
+CITED: 711
+AUTHORS: Daniel W. Jones, Keith C. Ferdinand, Sandra J. Taler, Heather M. Johnson, Daichi Shimbo, Marwah Abdalla, M. Martine Altieri, Nisha Bansal
+URL: https://doi.org/10.1161/cir.0000000000001356
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+AIM: The "2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults" retires and replaces the "2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults." METHODS: A comprehensive literature search was conducted from December 2023 to June 2024 to identify clinical studies, reviews, and other evidence performed on human subjects that were published since February 2015 in English from MEDLINE (through PubMed), EMBASE, the Cochrane Library, the Agency for Healthcare Research and Quality, and other selected databases relevant to this guideline. STRUCTURE: The focus of this clinical practice guideline is to create a living, working document updating current knowledge in the field of high blood pressure aimed at all practicing primary care and specialty clinicians who manage patients with hypertension.
