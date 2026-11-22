@@ -70,7 +70,7 @@ typst compile --root . kb/w/<ID>/summary.typ kb/w/<ID>/summary.pdf
 
 ## 许可
 
-代码与中文笔记：MIT（见 `LICENSE`）。论文摘要与元数据版权归原作者与出版方，仅作溯源之用；抓取到的论文全文不随仓库分发。
+代码与中文笔记：MIT（见 `LICENSE`）。论文摘要与元数据版权归原作者与出版方，仅作溯源之用。细节见 `NOTICE.md`。
 
 ## 仓库里没什么
 
