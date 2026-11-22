@@ -1,0 +1,11 @@
+TITLE: Physics-based early warning signal shows that AMOC is on tipping course
+VENUE: Science Advances (2024)
+TYPE: article
+CITED: 450
+AUTHORS: René M. van Westen, Michael Kliphuis, Henk A. Dijkstra
+URL: https://doi.org/10.1126/sciadv.adk1189
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+One of the most prominent climate tipping elements is the Atlantic meridional overturning circulation (AMOC), which can potentially collapse because of the input of fresh water in the North Atlantic. Although AMOC collapses have been induced in complex global climate models by strong freshwater forcing, the processes of an AMOC tipping event have so far not been investigated. Here, we show results of the first tipping event in the Community Earth System Model, including the large climate impacts of the collapse. Using these results, we develop a physics-based and observable early warning signal of AMOC tipping: the minimum of the AMOC-induced freshwater transport at the southern boundary of the Atlantic. Reanalysis products indicate that the present-day AMOC is on route to tipping. The early warning signal is a useful alternative to classical statistical ones, which, when applied to our simulated tipping event, turn out to be sensitive to the analyzed time interval before tipping.

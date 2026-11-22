@@ -1,0 +1,11 @@
+TITLE: Half of twenty-first century global irrigation expansion has been in water-stressed regions
+VENUE: Nature Water (2024)
+TYPE: article
+CITED: 327
+AUTHORS: Piyush Mehta, Stefan Siebert, Matti Kummu, Qinyu Deng, Tariq Ali, Landon T. Marston, Wei Xie, Kyle Frankel Davis
+URL: https://doi.org/10.1038/s44221-024-00206-9
+PAGES: 8
+
+ABSTRACT:
+============================================================
+The expansion of irrigated agriculture has increased global crop production but resulted in widespread stress on freshwater resources. Ensuring that increases in irrigated production occur only in places where water is relatively abundant is a key objective of sustainable agriculture and knowledge of how irrigated land has evolved is important for measuring progress towards water sustainability. Yet, a spatially detailed understanding of the evolution of the global area equipped for irrigation (AEI) is missing. In this study, we used the latest subnational irrigation statistics (covering 17,298 administrative units) from various official sources to develop a gridded (5 arcmin resolution) global product of AEI for the years 2000, 2005, 2010 and 2015. We found that AEI increased by 11% from 2000 (297 Mha) to 2015 (330 Mha), with areas of both substantial expansion, such as northwest India and northeast China, and decline, such as Russia. Combining these outputs with information on green (that is, rainfall) and blue (that is, surface and ground) water stress, we also examined to what extent irrigation has expanded unsustainably in places already experiencing water stress. We found that more than half (52%) of the irrigation expansion has taken place in areas that were already water-stressed in the year 2000, with India alone accounting for 36% of global unsustainable expansion. These findings provide new insights into the evolving patterns of global irrigation with important implications for global water sustainability and food security.

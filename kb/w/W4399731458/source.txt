@@ -1,0 +1,11 @@
+TITLE: Harnessing landrace diversity empowers wheat breeding
+VENUE: Nature (2024)
+TYPE: article
+CITED: 220
+AUTHORS: Shifeng Cheng, Cong Feng, Luzie U. Wingen, Hong Cheng, A. B. Riche, Mei Jiang, Michelle Leverington‐Waite, Zejian Huang
+URL: https://doi.org/10.1038/s41586-024-07682-9
+PAGES: 9
+
+ABSTRACT:
+============================================================
+Harnessing genetic diversity in major staple crops through the development of new breeding capabilities is essential to ensure food security 1 . Here we examined the genetic and phenotypic diversity of the A. E. Watkins landrace collection 2 of bread wheat ( Triticum aestivum ), a major global cereal, by whole-genome re-sequencing of 827 Watkins landraces and 208 modern cultivars and in-depth field evaluation spanning a decade. We found that modern cultivars are derived from two of the seven ancestral groups of wheat and maintain very long-range haplotype integrity. The remaining five groups represent untapped genetic sources, providing access to landrace-specific alleles and haplotypes for breeding. Linkage disequilibrium-based haplotypes and association genetics analyses link Watkins genomes to the thousands of identified high-resolution quantitative trait loci and significant marker–trait associations. Using these structured germplasm, genotyping and informatics resources, we revealed many Watkins-unique beneficial haplotypes that can confer superior traits in modern wheat. Furthermore, we assessed the phenotypic effects of 44,338 Watkins-unique haplotypes, introgressed from 143 prioritized quantitative trait loci in the context of modern cultivars, bridging the gap between landrace diversity and current breeding. This study establishes a framework for systematically utilizing genetic diversity in crop improvement to achieve sustainable food security.

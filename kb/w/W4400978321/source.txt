@@ -1,0 +1,11 @@
+TITLE: Spillover of highly pathogenic avian influenza H5N1 virus to dairy cattle
+VENUE: Nature (2024)
+TYPE: article
+CITED: 576
+AUTHORS: Leonardo Cardia Caserta, Elisha Frye, Salman Latif Butt, Melissa A. Laverack, Mohammed Nooruzzaman, Lina M. Covaleda, Alexis C. Thompson, Melanie Prarat Koscielny
+URL: https://doi.org/10.1038/s41586-024-07849-4
+PAGES: 8
+
+ABSTRACT:
+============================================================
+Highly pathogenic avian influenza (HPAI) H5N1 clade 2.3.4.4b virus has caused the death of millions of domestic birds and thousands of wild birds in the U.S. since January, 2022 1–4 Throughout this outbreak, spillovers to mammals have been frequently documented 5–12 . We report spillover of HPAI H5N1 virus in dairy cattle herds across several states in the U.S. The affected cows displayed clinical signs encompassing decreased feed intake, altered fecal consistency, respiratory distress, and decreased milk production with abnormal milk. Infectious virus and viral RNA were consistently detected in milk from affected cows. Viral distribution in tissues via immunohistochemistry and in situ hybridization revealed a distinct tropism of the virus for the epithelial cells lining the alveoli of the mammary gland in cows. Whole viral genome sequences recovered from dairy cows, birds, domestic cats, and a raccoon from affected farms indicated multidirectional interspecies transmissions. Epidemiologic and genomic data revealed efficient cow-to-cow transmission after apparently healthy cows from an affected farm were transported to a premise in a different state. These results demonstrate the transmission of HPAI H5N1 clade 2.3.4.4b virus at a non-traditional interface underscoring the ability of the virus to cross species barriers.
