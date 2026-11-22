@@ -1,0 +1,11 @@
+TITLE: Self-Driving Laboratories for Chemistry and Materials Science
+VENUE: Chemical Reviews (2024)
+TYPE: review
+CITED: 1108
+AUTHORS: Gary Tom, Stefan P. Schmid, Sterling G. Baird, Yang Cao, Kourosh Darvish, Han Hao, Stanley Lo, Sergio Pablo‐García
+URL: https://doi.org/10.1021/acs.chemrev.4c00055
+PAGES: 100
+
+ABSTRACT:
+============================================================
+Self-driving laboratories (SDLs) promise an accelerated application of the scientific method. Through the automation of experimental workflows, along with autonomous experimental planning, SDLs hold the potential to greatly accelerate research in chemistry and materials discovery. This review provides an in-depth analysis of the state-of-the-art in SDL technology, its applications across various scientific disciplines, and the potential implications for research and industry. This review additionally provides an overview of the enabling technologies for SDLs, including their hardware, software, and integration with laboratory infrastructure. Most importantly, this review explores the diverse range of scientific domains where SDLs have made significant contributions, from drug discovery and materials science to genomics and chemistry. We provide a comprehensive review of existing real-world examples of SDLs, their different levels of automation, and the challenges and limitations associated with each domain.
