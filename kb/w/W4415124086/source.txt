@@ -1,0 +1,11 @@
+TITLE: The Faiss Library
+VENUE: IEEE Transactions on Big Data (2025)
+TYPE: article
+CITED: 2378
+AUTHORS: Matthijs Douze, Alexandr Guzhva, Chengqi Deng, Jeff Johnson, Gergely Szilvasy, Pierre-Emmanuel Mazaré, María Lomelí, Lucas Hosseini
+URL: https://doi.org/10.1109/tbdata.2025.3618474
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Vector databases typically manage large collections of embedding vectors. As AI applications are growing rapidly, the number of embeddings that need to be stored and indexed is increasing. The Faiss library is dedicated to vector similarity search, a core functionality of vector databases. Faiss is a toolkit of indexing methods and related primitives used to search, cluster, compress and transform vectors. This paper describes the trade-offs in vector search and the design principles of Faiss in terms of structure, approach to optimization and interfacing. We benchmark key features of the library and discuss a few selected use cases to highlight its broad applicability.
