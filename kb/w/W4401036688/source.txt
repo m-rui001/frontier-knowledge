@@ -1,0 +1,11 @@
+TITLE: What Is Qualitative Research? An Overview and Guidelines
+VENUE: Australasian Marketing Journal (AMJ) (2024)
+TYPE: article
+CITED: 3255
+AUTHORS: Weng Marc Lim
+URL: https://doi.org/10.1177/14413582241264619
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+This guide explains the focus, rigor, and relevance of qualitative research, highlighting its role in dissecting complex social phenomena and providing in-depth, human-centered insights. The guide also examines the rationale for employing qualitative methods, underscoring their critical importance. An exploration of the methodology’s strengths, such as its ability to offer contextual depth and holistic perspectives, is juxtaposed against challenges like constrained generalizability and potential researcher bias, accompanied by practical mitigation strategies. Covering a spectrum of qualitative approaches, including grounded theory, phenomenology, ethnography, action research, and general inquiry, the guide sheds light on diverse data collection and analysis techniques. Noteworthily, the guide underscores the crucial aspect of trustworthiness in qualitative research, detailing methods to establish credibility, dependability, confirmability, and transferability. The integration of technologies like recording and transcribing tools with data analysis software and the growing influence of artificial intelligence, machine learning, and deep learning are also explored. Concluding with a discussion on ethical considerations, from participant recruitment to data stewardship, this guide serves as an essential resource that offers insightful, actionable guidance for conducting effective and impactful qualitative research.

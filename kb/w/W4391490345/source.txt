@@ -1,0 +1,11 @@
+TITLE: The pillars of trustworthiness in qualitative research
+VENUE: Journal of Medicine Surgery and Public Health (2024)
+TYPE: article
+CITED: 2924
+AUTHORS: Sirwan Khalid Ahmed
+URL: https://doi.org/10.1016/j.glmedi.2024.100051
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+The global medical and nursing research community has increasingly embraced qualitative research approaches, recognizing the additional benefits they provide to the investigation process. Qualitative research explores the intricate details of human behavior, attitudes, and experiences, emphasizing the exploration of nuances and context. Ensuring trustworthiness is crucial in establishing the credibility and reliability of qualitative findings. This includes elements such as credibility, transferability, dependability, and confirmability. Several papers have discussed concerns regarding the rigor of qualitative health services research and have provided guidelines and checklists for publishing and conducting qualitative research. The key criteria for ensuring the quality of qualitative research include credibility, achieved through extended involvement, persistent observation, and triangulation; transferability, achieved through comprehensive and detailed explanations; dependability, achieved through rigorous documentation and the creation of an audit trail; and confirmability, achieved through peer debriefing, member checking, and reflexive journaling. Establishing reliability in qualitative research is crucial for influencing future research paths and advancing cumulative knowledge. Trustworthy qualitative research findings are also important for informing policy decisions and improving the provision of services in various fields. While qualitative research has limitations, such as subjectivity and resource constraints, the methodical application of measures to ensure trustworthiness greatly enhances the precision and reliability of qualitative research. These measures also encourage transparency and critical evaluation by the scholarly community.
