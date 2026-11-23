@@ -1,0 +1,11 @@
+TITLE: antiSMASH 8.0: extended gene cluster detection capabilities and analyses of chemistry, enzymology, and regulation
+VENUE: Nucleic Acids Research (2025)
+TYPE: article
+CITED: 907
+AUTHORS: Kai Blin, Simon Shaw, Lisa Vader, Judit Szenei, Zachary L. Reitz, Hannah E. Augustijn, José D D Cediel-Becerra, Valérie de Crécy‐Lagard
+URL: https://doi.org/10.1093/nar/gkaf334
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Microorganisms synthesize small bioactive compounds through their secondary or specialized metabolism. Those compounds play an important role in microbial interactions and soil health, but are also crucial for the development of pharmaceuticals or agrochemicals. Over the past decades, advancements in genome sequencing have enabled the identification of large numbers of biosynthetic gene clusters directly from microbial genomes. Since its inception in 2011, antiSMASH (https://antismash.secondarymetabolites.org/), has become the leading tool for detecting and characterizing these gene clusters in bacteria and fungi. This paper introduces version 8 of antiSMASH, which has increased the number of detectable cluster types from 81 to 101, and has improved analysis support for terpenoids and tailoring enzymes, as well as improvements in the analysis of modular enzymes like polyketide synthases and nonribosomal peptide synthetases. These modifications keep antiSMASH up-to-date with developments in the field and extend its overall predictive capabilities for natural product genome mining.
