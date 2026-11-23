@@ -5,7 +5,7 @@
   src: "Open X-Embodiment Collaboration · ICRA 2024 · RT-X",
   url: "https://doi.org/10.1109/icra57147.2024.10611477",
   meta: "被引 1641",
-  ratio: "原文 20 页 → 本篇 4 页（约 1/5）",
+  ratio: "原文页数未收录 · 摘要 1262 字符 · 本篇 3 页",
 )[
 = 数据汇不出来，机器人学就一直小
 

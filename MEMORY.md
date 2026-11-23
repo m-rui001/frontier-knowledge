@@ -1,4 +1,6 @@
-## 本轮新增（2026-11-24 续二）
+## 本轮新增（2026-11-24 续三）
+
+- `W4366208220` DINOv2（TMLR 2024，Oquab 等 27 人，被引 11819）：3485 汉字（smell 口径 3416），4 页，编译 exit=0，自造金句清零（首轮报「真正的/这一步」两处，已改写）。**目录里稿子已存在（13770 字节），本轮任务为核验＋自检：字数、smell、编译全过；ratio 字段原为空，按 full.pdf（32 页）手填「原文 32 页 → 本篇 4 页（约 1/8）」。** 稿子结构与数字自查过：LVD-142M 管线四步、消融 72.9→82.0、IN-1k 线性探针 86.5 对 OpenCLIP-G、ADE20k 49.0/53.0 mIoU、NYUd 0.279、碳账 22,016 GPU 时与 9.7 MWh 对 118.9 MWh、Dollar Street 15.7/26.9 个点偏差、蒸馏小模型、DINOv3 与「视觉 token 进语言系统」的后见。未加进 make_index.py ORDER，INDEX 不含本篇。
 
 - `W4401415287` Open X-Embodiment / RT-X（ICRA 2024，Open X-Embodiment Collaboration，被引 1641）：3334 汉字，3 页（点评块整块落末页、约八成满），编译 exit=0，smell 自造金句清零。**目录里原本只有 source.txt，从零写。** 全文路子：IEEE DOI 会挡，走 arXiv `2310.08864` 的 HTML 版（v9，CC BY，66 KB → 66 KB full.txt，正文七节＋表一/表二全在页内；表一在 HTML 里是行内文本，数字可直接取）。数字全部来自正文：22 本体 / 21 机构 / 60 数据集 / 34 实验室 / 1M+ 轨迹 / 527 技能（160,266 任务）/ RLDS 格式；RT-1-X 35M（EfficientNet+FiLM+15 帧历史+81 token+USE）、RT-2-X 55B（PaLI-X：ViT+UL2+WebLI）；7 维末端执行器、8 维 256 桶、九机槭臂混合（RT-1/QT-Opt/Bridge/Robot Play/Jaco Play/Cable Routing/RoboTurk/NYU VINN/VIOLA/UR5/TOTO/Language Table）、3-10 Hz；3600 次试验 / 6 机器人；小数据集 4/5 胜原方法、WidowX 原方法 13% 对 RT-1-X 27%；富数据域 RT-1-X 欠拟合（Google Robot 92→73）、RT-2-X Bridge 50% 反超；表二：涌现技能 27.3 对 75.8（约 3 倍）、去掉 Bridge 42.8、5B 加历史 14.5→44.4、从零 0/1、只微调 48.7 对协同微调 44.4、泛化 62 对 61 打平。**写作要点：①“同架构 RT-1 单训”基线是拆混淆因素的关键，必须写明；②表二“只微调反而略高”无置信区间，三千六百次摊到几十个配置单格未必站得住；③泛化是“新任务新物体”不是“新机器人”，所有评测本体都在训练混合里；④与册内 π0 对照——OXE 是地基、π0 是楼上，且 π0 明确放弃了动作即文本 token 的做法。** 本篇 3 页（3334 字，密度高于平均），ratio 已手改为 3 页。未加进 make_index.py ORDER。
 
