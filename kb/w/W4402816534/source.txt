@@ -1,0 +1,11 @@
+TITLE: DUSt3R: Geometric 3D Vision Made Easy
+VENUE: IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings (2024)
+TYPE: article
+CITED: 2309
+AUTHORS: Shuzhe Wang, Vincent Leroy, Yohann Cabon, Boris Chidlovskii, Jérôme Revaud
+URL: https://doi.org/10.1109/cvpr52733.2024.01956
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Multi-view stereo reconstruction (MVS) in the wild re-quires to first estimate the camera intrinsic and extrinsic parameters. These are usually tedious and cumbersome to obtain, yet they are mandatory to triangulate corresponding pixels in 3D space, which is at the core of all best performing MVS algorithms. In this work, we take an opposite stance and introduce DUSt3R, a radically novel paradigm for Dense and Unconstrained Stereo 3D Reconstruction of arbitrary image collections, operating without prior infor-mation about camera calibration nor viewpoint poses. We cast the pairwise reconstruction problem as a regression of pointmaps, relaxing the hard constraints of usual projective camera models. We show that this formulation smoothly unifies the monocular and binocular reconstruction cases. In the case where more than two images are provided, we fur-ther propose a simple yet effective global alignment strategy that expresses all pairwise pointmaps in a common refer-ence frame. We base our network architecture on standard Transformer encoders and decoders, allowing us to leverage powerful pretrained models. Our formulation directly provides a 3D model of the scene as well as depth information, but interestingly, we can seamlessly recover from it, pixel matches, focal lengths, relative and absolute cameras. Extensive experiments on all these tasks showcase how DUSt3R effectively unifies various 3D vision tasks, setting new performance records on monocular & multi-view depth estimation as well as relative pose estimation. In summary, DUSt3R makes many geometric 3D vision tasks easy. Code and mod-els at https://github.com/naver/dust3r.
