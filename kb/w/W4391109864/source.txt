@@ -1,9 +1,9 @@
 TITLE: Segment anything in medical images
 VENUE: Nature Communications (2024)
 TYPE: article
-CITED: 4780
-AUTHORS: Jun Ma, Yuting He, Feifei Li, Lin Han, Chenyu You, Bo Wang
-URL: https://doi.org/10.1038/s41467-024-44824-z
+CITED: 4765
+AUTHORS: -
+URL: -
 PAGES: unknown
 
 ABSTRACT:
