@@ -1,0 +1,11 @@
+TITLE: Rapid groundwater decline and some cases of recovery in aquifers globally
+VENUE: Nature (2024)
+TYPE: article
+CITED: 962
+AUTHORS: Scott Jasechko, Hansjörg Seybold, Debra Perrone, Ying Fan, Mohammad Shamsudduha, Richard G. Taylor
+URL: https://doi.org/10.1038/s41586-023-06879-8
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Groundwater resources are vital to ecosystems and livelihoods. Excessive groundwater withdrawals can cause groundwater levels to decline 1–10 , resulting in seawater intrusion 11 , land subsidence 12,13 , streamflow depletion 14–16 and wells running dry 17 . However, the global pace and prevalence of local groundwater declines are poorly constrained, because in situ groundwater levels have not been synthesized at the global scale. Here we analyse in situ groundwater-level trends for 170,000 monitoring wells and 1,693 aquifer systems in countries that encompass approximately 75% of global groundwater withdrawals 18 . We show that rapid groundwater-level declines (>0.5 m year −1 ) are widespread in the twenty-first century, especially in dry regions with extensive croplands. Critically, we also show that groundwater-level declines have accelerated over the past four decades in 30% of the world’s regional aquifers. This widespread acceleration in groundwater-level deepening highlights an urgent need for more effective measures to address groundwater depletion. Our analysis also reveals specific cases in which depletion trends have reversed following policy changes, managed aquifer recharge and surface-water diversions, demonstrating the potential for depleted aquifer systems to recover.
