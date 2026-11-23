@@ -1,0 +1,11 @@
+TITLE: A comprehensive electron wavefunction analysis toolbox for chemists, Multiwfn
+VENUE: The Journal of Chemical Physics (2024)
+TYPE: article
+CITED: 5956
+AUTHORS: Tian Lu
+URL: https://doi.org/10.1063/5.0216272
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Analysis of electron wavefunction is a key component of quantum chemistry investigations and is indispensable for the practical research of many chemical problems. After more than ten years of active development, the wavefunction analysis program Multiwfn has accumulated very rich functions, and its application scope has covered numerous aspects of theoretical chemical research, including charge distribution, chemical bond, electron localization and delocalization, aromaticity, intramolecular and intermolecular interactions, electronic excitation, and response property. This article systematically introduces the features and functions of the latest version of Multiwfn and provides many representative examples. Through this article, readers will be able to fully understand the characteristics and recognize the unique value of Multiwfn. The source code and precompiled executable files of Multiwfn, as well as the manual containing a detailed introduction to theoretical backgrounds and very rich tutorials, can all be downloaded for free from the Multiwfn website (http://sobereva.com/multiwfn).
