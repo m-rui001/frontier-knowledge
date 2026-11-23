@@ -1,0 +1,11 @@
+TITLE: Tafel Slope Plot as a Tool to Analyze Electrocatalytic Reactions
+VENUE: ACS Energy Letters (2024)
+TYPE: article
+CITED: 927
+AUTHORS: Onno van der Heijden, Sunghak Park, Rafaël E. Vos, Jordy J. J. Eggebeen, Marc T. M. Koper
+URL: https://doi.org/10.1021/acsenergylett.4c00266
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+High Resolution Image Download MS PowerPoint Slide Kinetic and nonkinetic contributions to the Tafel slope value can be separated using a Tafel slope plot, where a constant Tafel slope region indicates kinetic meaningfulness. Here, we compare the Tafel slope values obtained from linear sweep voltammetry to the values obtained from chronoamperometry and impedance spectroscopy, and we apply the Tafel slope plot to various electrocatalytic reactions. We show that similar Tafel slope values are observed from the different techniques under high-mass-transport conditions for the oxygen evolution reaction on NiFeOOH in 0.2 M KOH. However, for the alkaline hydrogen evolution reaction and the CO 2 reduction reaction, no horizontal Tafel slope regions were observed. In contrast, we obtained the expected Tafel slope of 30 mV/dec for the HER on Pt in 1 M HClO 4 . We argue that widespread application of the Tafel slope plot, or similar numerical differentiation techniques, would result in an improved comparison of kinetic data for many electrocatalytic reactions when the traditional Tafel plot analysis is ambiguous.
