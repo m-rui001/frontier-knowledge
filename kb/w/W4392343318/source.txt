@@ -1,0 +1,11 @@
+TITLE: NF-κB in biology and targeted therapy: new insights and translational implications
+VENUE: Signal Transduction and Targeted Therapy (2024)
+TYPE: article
+CITED: 2652
+AUTHORS: Qing Guo, Yizi Jin, Xinyu Chen, Xiaomin Ye, Xin Shen, Mingxi Lin, Cheng Zeng, Teng Zhou
+URL: https://doi.org/10.1038/s41392-024-01757-9
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+NF-κB signaling has been discovered for nearly 40 years. Initially, NF-κB signaling was identified as a pivotal pathway in mediating inflammatory responses. However, with extensive and in-depth investigations, researchers have discovered that its role can be expanded to a variety of signaling mechanisms, biological processes, human diseases, and treatment options. In this review, we first scrutinize the research process of NF-κB signaling, and summarize the composition, activation, and regulatory mechanism of NF-κB signaling. We investigate the interaction of NF-κB signaling with other important pathways, including PI3K/AKT, MAPK, JAK-STAT, TGF-β, Wnt, Notch, Hedgehog, and TLR signaling. The physiological and pathological states of NF-κB signaling, as well as its intricate involvement in inflammation, immune regulation, and tumor microenvironment, are also explicated. Additionally, we illustrate how NF-κB signaling is involved in a variety of human diseases, including cancers, inflammatory and autoimmune diseases, cardiovascular diseases, metabolic diseases, neurological diseases, and COVID-19. Further, we discuss the therapeutic approaches targeting NF-κB signaling, including IKK inhibitors, monoclonal antibodies, proteasome inhibitors, nuclear translocation inhibitors, DNA binding inhibitors, TKIs, non-coding RNAs, immunotherapy, and CAR-T. Finally, we provide an outlook for research in the field of NF-κB signaling. We hope to present a stereoscopic, comprehensive NF-κB signaling that will inform future research and clinical practice.
