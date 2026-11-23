@@ -1,0 +1,11 @@
+TITLE: LlamaFactory: Unified Efficient Fine-Tuning of 100+ Language Models
+VENUE: Proceedings of the conference - Association for Computational Linguistics. Meeting (2024)
+TYPE: article
+CITED: 2485
+AUTHORS: Yaowei Zheng, Richong Zhang, Junhao Zhang, YeYanhan YeYanhan, Zheyan Luo
+URL: https://doi.org/10.18653/v1/2024.acl-demos.38
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Efficient fine-tuning is vital for adapting large language models (LLMs) to downstream tasks.However, it requires non-trivial efforts to implement these methods on different models.We present LLAMAFACTORY, a unified framework that integrates a suite of cutting-edge efficient training methods.It provides a solution for flexibly customizing the fine-tuning of 100+ LLMs without the need for coding through the built-in web UI LLAMABOARD.We empirically validate the efficiency and effectiveness of our framework on language modeling and text generation tasks.It has been released at https://github.com/hiyouga/LLaMA-Factoryand received over 25,000 stars and 3,000 forks.
