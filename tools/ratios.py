@@ -59,6 +59,8 @@ def main():
     for d in sorted(glob.glob("kb/w/*")):
         wid = os.path.basename(d)
         f = f"{d}/summary.typ"
+        if not os.path.exists(f):
+            continue
         src = open(f, encoding="utf-8").read()
         cjk, lat, total = measure(body_text(src))
         abs_chars = len(ab.get(wid, ""))
@@ -66,7 +68,7 @@ def main():
         b = bib.get(wid) or {}
         fp, lp = b.get("first"), b.get("last")
         def num(v):
-            m = re.match(r"(\d+)", str(v or ""))
+            m = re.search(r"(\d+)", str(v or ""))
             return int(m.group(1)) if m else None
         a_, b_ = num(fp), num(lp)
         if a_ and b_ and b_ >= a_:

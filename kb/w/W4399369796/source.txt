@@ -1,0 +1,11 @@
+TITLE: Neoadjuvant Immunotherapy in Locally Advanced Mismatch Repair–Deficient Colon Cancer
+VENUE: New England Journal of Medicine (2024)
+TYPE: article
+CITED: 583
+AUTHORS: Myriam Chalabi, Yara L. Verschoor, Pedro Batista Tan, Sara Balduzzi, Anja U. van Lent, Cecile Grootscholten, Simone Dokter, Nikè V.J.A. Büller
+URL: https://doi.org/10.1056/nejmoa2400634
+PAGES: 10
+
+ABSTRACT:
+============================================================
+BACKGROUND: Mismatch repair-deficient (dMMR) tumors can be found in 10 to 15% of patients with nonmetastatic colon cancer. In these patients, the efficacy of chemotherapy is limited. The use of neoadjuvant immunotherapy has shown promising results, but data from studies of this approach are limited. METHODS: We conducted a phase 2 study in which patients with nonmetastatic, locally advanced, previously untreated dMMR colon cancer were treated with neoadjuvant nivolumab plus ipilimumab. The two primary end points were safety, defined by timely surgery (i.e., ≤2-week delay of planned surgery owing to treatment-related toxic events), and 3-year disease-free survival. Secondary end points included pathological response and results of genomic analyses. RESULTS: Of 115 enrolled patients, 113 (98%; 97.5% confidence interval [CI], 93 to 100) underwent timely surgery; 2 patients had surgery delayed by more than 2 weeks. Grade 3 or 4 immune-related adverse events occurred in 5 patients (4%), and none of the patients discontinued treatment because of adverse events. Among the 111 patients included in the efficacy analysis, a pathological response was observed in 109 (98%; 95% CI, 94 to 100), including 105 (95%) with a major pathological response (defined as ≤10% residual viable tumor) and 75 (68%) with a pathological complete response (0% residual viable tumor). With a median follow-up of 26 months (range, 9 to 65), no patients have had recurrence of disease. CONCLUSIONS: In patients with locally advanced dMMR colon cancer, neoadjuvant nivolumab plus ipilimumab had an acceptable safety profile and led to a pathological response in a high proportion of patients. (Funded by Bristol Myers Squibb; NICHE-2 ClinicalTrials.gov number, NCT03026140.).
