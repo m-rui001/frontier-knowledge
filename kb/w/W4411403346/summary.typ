@@ -5,7 +5,7 @@
   src: "Humza Naveed 等 · ACM TIST 2025 · A Comprehensive Overview of LLMs",
   url: "https://doi.org/10.1145/3744746",
   meta: "被引 3300+ · 西澳大学 Ajmal Mian 团队",
-  ratio: "原文约 90 页（arXiv 2311.12397）→ 本篇 4 页（约 1/22）",
+  ratio: "原文 90 页 → 本篇 4 页（约 1/22）",
 )[
 2023 年 7 月，ChatGPT 引爆大模型热潮之后不到一年，西澳大学的 Humza Naveed 等人在 arXiv 上贴出了这篇题为「A Comprehensive Overview of Large Language Models」的综述，2025 年 8 月正式发表于 ACM Transactions on Intelligent Systems and Technology，两年间被引超过三千三百次，成为 LLM 方向被引用最多的综述之一。它和同期的几篇大综述（Zhao 等人的「A Survey of Large Language Models」、Minaee 等人的版本）竞争同一个生态位，赢点是「自足」（self-contained）：从 n-gram 语言模型和 Transformer 底盘讲起，一路铺到多模态、机器人和高效率推理，入门者不需要先读一百篇论文就能看懂前沿在吵什么。全文收了五百多篇文献，按架构、训练、上下文长度、微调、多模态、机器人、数据集、基准、效率这几条线组织，每条线都给出方法清单加代表性数字。对想一次看清 2023 年前后 LLM 全貌、或者需要一个可引用的综述坐标的人，这篇仍是常被点名的入口。需要预警的是：成稿压在 2023 年年中，推理模型、智能体、长思维链这些后来的主线，它都没有见到。
 

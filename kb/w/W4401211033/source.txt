@@ -1,0 +1,11 @@
+TITLE: Review of Particle Physics
+VENUE: Physical review. D/Physical review. D. (2024)
+TYPE: article
+CITED: 6601
+AUTHORS: Sergio Navas, C. Amsler, Th. Gutsche, C. Hanhart, J.J. Hernandez, C. Lourenço, Alberto Masoni, M. Mikhasenko (Particle Data Group)
+URL: https://doi.org/10.1103/physrevd.110.030001
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+The summarizes much of particle physics and cosmology. Using data from previous editions, plus 2,717 new measurements from 869 papers, we list, evaluate, and average measured properties of gauge bosons and the recently discovered Higgs boson, leptons, quarks, mesons, and baryons. We summarize searches for hypothetical particles such as supersymmetric particles, heavy bosons, axions, dark photons, etc. Particle properties and search limits are listed in Summary Tables. We give numerous tables, figures, formulae, and reviews of topics such as Higgs Boson Physics, Supersymmetry, Grand Unified Theories, Neutrino Mixing, Dark Energy, Dark Matter, Cosmology, Particle Detectors, Colliders, Probability and Statistics. Most of the 120 reviews are updated, including many that are heavily revised. The is divided into two volumes. Volume 1 includes the Summary Tables and 97 review articles. Volume 2 consists of the Particle Listings and contains also 23 reviews that address specific aspects of the data presented in the Listings. The complete (both volumes) is published online on the website of the Particle Data Group () and in a journal. Volume 1 is available in print as the . A with the Summary Tables and essential tables, figures, and equations from selected review articles is available in print, as a web version optimized for use on phones, and as an Android app. The 2024 edition of the Review of Particle Physics should be cited as: S. Navas et al. (Particle Data Group), Phys. Rev. D 110, 030001 (2024) © 2024 2024
