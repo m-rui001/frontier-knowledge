@@ -1,0 +1,11 @@
+TITLE: MEGA12: Molecular Evolutionary Genetic Analysis Version 12 for Adaptive and Green Computing
+VENUE: Molecular Biology and Evolution (2024)
+TYPE: article
+CITED: 3373
+AUTHORS: Sudhir Kumar, Glen Stecher, Michael Suleski, Maxwell D. Sanderford, Sudip Sharma, Koichiro Tamura
+URL: https://doi.org/10.1093/molbev/msae263
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+We introduce the 12th version of the Molecular Evolutionary Genetics Analysis (MEGA12) software. This latest version brings many significant improvements by reducing the computational time needed for selecting optimal substitution models and conducting bootstrap tests on phylogenies using maximum likelihood (ML) methods. These improvements are achieved by implementing heuristics that minimize likely unnecessary computations. Analyses of empirical and simulated datasets show substantial time savings by using these heuristics without compromising the accuracy of results. MEGA12 also links-in an evolutionary sparse learning approach to identify fragile clades and associated sequences in evolutionary trees inferred through phylogenomic analyses. In addition, this version includes fine-grained parallelization for ML analyses, support for high-resolution monitors, and an enhanced Tree Explorer. MEGA12 can be downloaded from https://www.megasoftware.net.
