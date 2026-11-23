@@ -1,0 +1,11 @@
+TITLE: Neuronal wiring diagram of an adult brain
+VENUE: Nature (2024)
+TYPE: article
+CITED: 874
+AUTHORS: Sven Dorkenwald, Arie Matsliah, Amy Robinson Sterling, Philipp Schlegel, Szi-chieh Yu, Claire E. McKellar, Albert Lin, Marta Costa
+URL: https://doi.org/10.1038/s41586-024-07558-y
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Connections between neurons can be mapped by acquiring and analysing electron microscopic brain images. In recent years, this approach has been applied to chunks of brains to reconstruct local connectivity maps that are highly informative 1–6 , but nevertheless inadequate for understanding brain function more globally. Here we present a neuronal wiring diagram of a whole brain containing 5 × 10 7 chemical synapses 7 between 139,255 neurons reconstructed from an adult female Drosophila melanogaster 8,9 . The resource also incorporates annotations of cell classes and types, nerves, hemilineages and predictions of neurotransmitter identities 10–12 . Data products are available for download, programmatic access and interactive browsing and have been made interoperable with other fly data resources. We derive a projectome—a map of projections between regions—from the connectome and report on tracing of synaptic pathways and the analysis of information flow from inputs (sensory and ascending neurons) to outputs (motor, endocrine and descending neurons) across both hemispheres and between the central brain and the optic lobes. Tracing from a subset of photoreceptors to descending motor pathways illustrates how structure can uncover putative circuit mechanisms underlying sensorimotor behaviours. The technologies and open ecosystem reported here set the stage for future large-scale connectome projects in other species.
