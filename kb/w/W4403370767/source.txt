@@ -1,0 +1,11 @@
+TITLE: LLaVA-OneVision: Easy Visual Task Transfer
+VENUE: Transactions on machine learning research (2025)
+TYPE: article
+CITED: 3478
+AUTHORS: Bo Li, Yuanhan Zhang, Guo, Dong, Renrui Zhang, Feng Li, Hao Zhang, Kaichen Zhang, Zhang, Peiyuan
+URL: https://doi.org/10.48550/arxiv.2408.03326
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+We present LLaVA-OneVision, a family of open large multimodal models (LMMs) developed by consolidating our insights into data, models, and visual representations in the LLaVA-NeXT blog series. Our experimental results demonstrate that LLaVA-OneVision is the first single model that can simultaneously push the performance boundaries of open LMMs in three important computer vision scenarios: single-image, multi-image, and video scenarios. Importantly, the design of LLaVA-OneVision allows strong transfer learning across different modalities/scenarios, yielding new emerging capabilities. In particular, strong video understanding and cross-scenario capabilities are demonstrated through task transfer from images to videos.
