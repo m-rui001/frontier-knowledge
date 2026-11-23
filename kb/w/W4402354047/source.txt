@@ -1,0 +1,11 @@
+TITLE: DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset
+VENUE: Robotics: Science and Systems (2024)
+TYPE: article
+CITED: 1279
+AUTHORS: Alexander Khazatsky, Karl Pertsch, Suraj Nair, Ashwin Balakrishna, Sudeep Dasari, Siddharth Karamcheti
+URL: https://doi.org/10.15607/rss.2024.xx.120
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Dining RoomBedroom Laboratory Laundry Room Office Kitchen Fig. 1: We introduce DROID (Distributed Robot Interaction Dataset), an "in-the-wild" robot manipulation dataset with 76k trajectories or 350 hours of interaction data, collected across 564 scenes, 86 tasks, and 52 buildings over the course of 12 months.Each DROID episode contains three synchronized RGB camera streams, camera calibration, depth information, and natural language instructions.We demonstrate that training with DROID leads to policies with higher performance, greater robustness, and improved generalization ability.We open source the full dataset, pre-trained model checkpoints, and a detailed guide for reproducing our robot setup.Abstract-The creation of large, diverse, high-quality robot manipulation datasets is an important stepping stone on the path toward more capable and robust robotic manipulation policies.However, creating such datasets is challenging: collecting robot * Project Co-leads, correspondence to
