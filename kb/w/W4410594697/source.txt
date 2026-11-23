@@ -1,0 +1,11 @@
+TITLE: Transparency in the Reporting of Artificial Intelligence – The TITAN Guideline
+VENUE: Premier journal of science. (2025)
+TYPE: article
+CITED: 3084
+AUTHORS: Riaz Agha, Ginimol Mathew, Rasha Rashid, Ahmed Kerwan, Ahmed Al‐Jabir, Catrin Sohrabi, Thomas Franchi, Maria Nicola
+URL: https://doi.org/10.70389/pjs.100082
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+The use of AI in research and the literature is increasing. The need for transparency is clear. Here we present a guideline to transparently report the use of AI in any manuscript in general. The guideline items cover; declaration, purpose and scope, AI tools and configuration, data inputs and safeguards, human oversight and verification, bias, ethics and regulatory compliance and reproducibility and transparency. These items have been confirmed in a recent Delphi consensus exercise with high participation and agreement. This guide will evolve over time as technology, systems and behaviour evolve.
