@@ -5,7 +5,7 @@
   src: "Chen·Mei·Li 等（约翰霍普金斯大学＋斯坦福等）· Medical Image Analysis 2024 · TransUNet",
   url: "https://doi.org/10.1016/j.media.2024.103280",
   meta: "被引 1931",
-  ratio: "原文 1 页 → 本篇 4 页（约 1/0）",
+  ratio: "原文 20 页（MedIA 期刊版）→ 本篇 4 页（约 1/5）",
 )[
 2021 年挂在 arXiv 上的 TransUNet 常被认为是第一个把 Transformer 塞进医学图像分割的框架，到 2024 年它以期刊论文的形式在《医学图像分析》上正式定稿，被引已近两千次。这一版不是简单补个期刊排版：作者把 Transformer 的自注意力封装成两个可以独立插入 U-Net 主干的模块——一个从卷积特征图上切 patch 做 token 的 Transformer 编码器，一个用候选查询与 U-Net 特征做交叉注意力来精化分割区域的 Transformer 解码器——三种配置（只用编码器、只用解码器、两者都用）各自适配不同任务，并给出覆盖二维与三维的开源库。三年间医学分割圈经历了 Transformer 热潮的起落，这篇定稿相当于把「注意力到底该放在哪」这个问题做了一次系统的收口。
 
