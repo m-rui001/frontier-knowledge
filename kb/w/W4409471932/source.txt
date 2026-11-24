@@ -1,0 +1,11 @@
+TITLE: Using thematic analysis in qualitative research
+VENUE: Journal of Medicine Surgery and Public Health (2025)
+TYPE: article
+CITED: 1855
+AUTHORS: Sirwan Khalid Ahmed, Ribwar Arsalan Mohammed, Abdulqadir J. Nashwan, Radhwan Hussein Ibrahim, Araz Qadir Abdalla, Barzan Mohammed Ameen, Renas Mohammed Khidhir
+URL: https://doi.org/10.1016/j.glmedi.2025.100198
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Thematic analysis (TA) is one of the most widely utilized methods for analyzing qualitative data, offering a structured yet flexible framework for identifying, analyzing, and interpreting patterns of meaning within datasets. This paper provides a comprehensive overview of Braun and Clarke's six-phase thematic analysis framework, which includes (1) familiarization with data, (2) generating initial codes, (3) searching for themes, (4) reviewing themes, (5) defining and naming themes, and (6) writing the report. Additionally, it presents a 16-item checklist to ensure adherence to the established steps of thematic analysis, enhancing the rigor and reliability of the study. Each phase is explored in-depth, highlighting its purpose, key activities, reflexive considerations, challenges, and significance. Emphasis is placed on the iterative and reflexive nature of TA, where researchers actively engage with data and acknowledge their theoretical positioning and biases throughout the process. Challenges such as data overwhelm, coding inconsistencies, and balancing thematic depth and breadth are addressed, alongside practical strategies for overcoming these obstacles. The importance of transparency, reflexivity, and methodological rigor is underscored as central to producing trustworthy and insightful qualitative research. This article serves as both an academic reference and a practical guide for researchers aiming to apply thematic analysis effectively, ensuring that their findings are presented in a coherent, compelling, and analytically sound manner.
