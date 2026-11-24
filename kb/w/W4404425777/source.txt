@@ -1,0 +1,11 @@
+TITLE: World Population Prospects 2024: Summary of Results
+VENUE: Statistical papers - United Nations. Series A, Population and vital statistics report (2024)
+TYPE: article
+CITED: 1791
+AUTHORS: United Nations Department of Economic and Social Affairs
+URL: https://doi.org/10.18356/9789211065138
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+The Population Division prepares the official United Nations population estimates and projections, which serve as the standard figures on population for use throughout the United Nations system, including for the global monitoring of the Sustainable Development Goals. The estimates and projections are one of five flagship data products of the Population Division, each consisting of a comprehensive global dataset on a specific topic: population estimates and projections, population policies, numbers of international migrants (stock), family planning indicators, and estimates and projections of urban and rural populations. This publication is the only one that presents results from biannually updated population estimates and projections and covers all 237 countries or areas of the world over the time span of 1950-2100.
