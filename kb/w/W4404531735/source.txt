@@ -2,8 +2,9 @@ TITLE: InterPro: the protein sequence classification resource in 2025
 VENUE: Nucleic Acids Research (2024)
 TYPE: article
 CITED: 1469
-AUTHORS: Matthias Blum, Antonina E. Andreeva, Laise Cavalcanti Florentino, Sara Chuguransky, Tiago Grego, Emma Hobbs
+AUTHORS: Matthias Blum, Antonina E. Andreeva, Laise Cavalcanti Florentino, Sara Chuguransky, Tiago Grego, Emma Hobbs, Beatriz Lazaro Pinto, Ailsa Orr
 DOI: https://doi.org/10.1093/nar/gkae1082
+OA_URL: https://academic.oup.com/nar/advance-article-pdf/doi/10.1093/nar/gkae1082/60766178/gkae1082.pdf
 PAGES: unknown
 
 ABSTRACT:
