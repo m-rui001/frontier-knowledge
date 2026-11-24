@@ -1,0 +1,11 @@
+TITLE: Global Burden of Cardiovascular Diseases and Risks, 1990-2022
+VENUE: Journal of the American College of Cardiology (2023)
+TYPE: article
+CITED: 2191
+AUTHORS: George A. Mensah, Valentín Fuster, Christopher J L Murray, Gregory A. Roth, George A. Mensah, Yohannes Habtegiorgis Abate, Mohammadreza Abbasian, Foad Abd-Allah
+URL: https://doi.org/10.1016/j.jacc.2023.11.007
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Age-standardized CVD mortality rates by region ranged from 73.6 per 100,000 in High-income Asia Pacific to 432.3 per 100,000 in Eastern Europe in 2022. Global CVD mortality decreased by 34.9% from 1990 to 2022. Ischemic heart disease had the highest global age-standardized DALYs of all diseases at 2,275.9 per 100,000. Intracerebral hemorrhage and ischemic stroke were the next highest CVD causes for age-standardized DALYs. Age-standardized CVD prevalence ranged from 5,881.0 per 100,000 in South Asia to 11,342.6 per 100,000 in Central Asia. High systolic blood pressure accounted for the largest number of attributable age-standardized CVD DALYs at 2,564.9 per 100,000 globally. Of all risks, household air pollution from solid fuels had the largest change in attributable age-standardized DALYs from 1990 to 2022 with a 65.1% decrease.
