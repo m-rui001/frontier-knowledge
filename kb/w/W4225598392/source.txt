@@ -1,0 +1,11 @@
+TITLE: Comparing network structures on three aspects: A permutation test.
+VENUE: Psychological Methods (2023)
+TYPE: article
+CITED: 1799
+AUTHORS: Claudia D. van Borkulo, Riet van Bork, Lynn Boschloo, Jolanda Jacqueline Kossakowski, Pia Tio, Robert A. Schoevers, Denny Borsboom, Lourens Waldorp
+URL: https://doi.org/10.1037/met0000476
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Network approaches to psychometric constructs, in which constructs are modeled in terms of interactions between their constituent factors, have rapidly gained popularity in psychology. Applications of such network approaches to various psychological constructs have recently moved from a descriptive stance, in which the goal is to estimate the network structure that pertains to a construct, to a more comparative stance, in which the goal is to compare network structures across populations. However, the statistical tools to do so are lacking. In this article, we present the network comparison test (NCT), which uses resampling-based permutation testing to compare network structures from two independent, cross-sectional data sets on invariance of (a) network structure, (b) edge (connection) strength, and (c) global strength. Performance of NCT is evaluated in simulations that show NCT to perform well in various circumstances for all three tests: The Type I error rate is close to the nominal significance level, and power proves sufficiently high if sample size and difference between networks are substantial. We illustrate NCT by comparing depression symptom networks of males and females. Possible extensions of NCT are discussed. (PsycInfo Database Record (c) 2024 APA, all rights reserved).
