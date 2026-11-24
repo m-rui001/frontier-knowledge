@@ -1,0 +1,11 @@
+TITLE: The Past, Present, and Future of the Cognitive Theory of Multimedia Learning
+VENUE: Educational Psychology Review (2024)
+TYPE: article
+CITED: 2003
+AUTHORS: Richard E. Mayer
+URL: https://doi.org/10.1007/s10648-023-09842-1
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+The cognitive theory of multimedia learning (Mayer, 2021, 2022), which seeks to explain how people learn academic material from words and graphics, has developed over the past four decades. Although the name and graphical representation of the theory have evolved over the years, the core ideas have been constant—dual channels (i.e., humans have separate information processing channels for verbal and visual information), limited capacity (i.e., processing capacity is severely limited), and active processing (i.e., meaningful learning involves selecting relevant material to be processed in working memory, mentally organizing the material into coherent verbal and visual structures, and integrating them with each other and with relevant knowledge activated from long-term memory). This review describes how the theory has developed (i.e., the past), the current state of the theory (i.e., the present), and new directions for future development (i.e., the future). In addition, the review includes examples of the events and findings that led to changes in the theory. Implications for educational psychology are discussed, including 15 evidence-based principles of multimedia design.
