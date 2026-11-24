@@ -1,0 +1,11 @@
+TITLE: Software Update: The ORCA Program System—Version 6.0
+VENUE: Wiley Interdisciplinary Reviews Computational Molecular Science (2025)
+TYPE: article
+CITED: 1876
+AUTHORS: Frank Neese
+URL: https://doi.org/10.1002/wcms.70019
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Version 6.0 of the ORCA quantum chemistry program suite was released in July 2024. ORCA 6.0 is a major turning point in the history of the program since it represents a near complete rewrite of the code base that leads to: (1) major performance improvements, (2) a clean and highly efficient code base that greatly facilitates future development, (3) a large amount of new functionality, and (4) new interface capabilities that facilitate inter‐operability with other quantum chemistry program packages. The article describes the most salient features of the program.
