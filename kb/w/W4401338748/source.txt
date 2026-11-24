@@ -1,0 +1,12 @@
+TITLE: CAT: a computational anatomy toolbox for the analysis of structural MRI data
+VENUE: GigaScience (2024)
+TYPE: article
+CITED: 1507
+AUTHORS: Christian Gaser, Robert Dahnke, Paul M. Thompson, Florian Kurth, Eileen Luders, The Alzheimer’s Disease Neuroimaging Initiative
+DOI: https://doi.org/10.1093/gigascience/giae049
+OA_URL: https://academic.oup.com/gigascience/article-pdf/doi/10.1093/gigascience/giae049/58736633/giae049.pdf
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+A large range of sophisticated brain image analysis tools have been developed by the neuroscience community, greatly advancing the field of human brain mapping. Here we introduce the Computational Anatomy Toolbox (CAT)-a powerful suite of tools for brain morphometric analyses with an intuitive graphical user interface but also usable as a shell script. CAT is suitable for beginners, casual users, experts, and developers alike, providing a comprehensive set of analysis options, workflows, and integrated pipelines. The available analysis streams-illustrated on an example dataset-allow for voxel-based, surface-based, and region-based morphometric analyses. Notably, CAT incorporates multiple quality control options and covers the entire analysis workflow, including the preprocessing of cross-sectional and longitudinal data, statistical analysis, and the visualization of results. The overarching aim of this article is to provide a complete description and evaluation of CAT while offering a citable standard for the neuroscience community.
