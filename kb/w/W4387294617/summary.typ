@@ -5,7 +5,7 @@
   src: "Guangxuan Xiao, Yuandong Tian, Beidi Chen, Song Han, Mike Lewis · ICLR 2024 · StreamingLLM",
   url: "https://doi.org/10.48550/arxiv.2309.17453",
   meta: "被引 1683 · arXiv 2309.17453 · MIT + Meta AI + CMU · Llama-2 / MPT / Falcon / Pythia",
-  ratio: "原文 32 页（arXiv 含附录）→ 本篇 4 页（约 1/8）",
+  ratio: "原文 32 页 → 本篇 4 页（约 1/8）",
 )[
 LLM 部署里有一类场景长期悬空：多轮对话、长时段助手、持续监听之类的流式应用，输入与输出都按时间无限增长，而模型的注意力窗口在预训练时就钉死了——Llama-2 只有 4K。稠密注意力在这类场景下两头都输：解码阶段要缓存全部历史 token 的 Key/Value 状态，KV 缓存随序列长度线性膨胀，注意力计算的复杂度按平方涨，长会话跑不了多久就撑爆显存；即便算力和显存无限，稠密注意力在超出预训练窗口之后表现也会崩。把窗口砍掉、只缓存最近一段 KV 的窗口注意力（window attention）能保住恒定的内存与速度，作者实测它在文本长度超过缓存容量的一瞬就全面崩盘，哪怕被逐出缓存的只是第一个 token。另一条路是滑窗加重算（sliding window with re-computation）：每个新 token 都对最近 L 个 token 重算一遍 KV，质量保得住，但复杂度是 O(TL^2)，实际部署跑不动。于是问题变成：有没有一种方案，内存与延迟恒定，质量又与重算基线打平？这篇论文的答案是 StreamingLLM，而它的钥匙是一个此前没人认真对待的现象——模型会把大量注意力无差别地押在最开头的几个 token 上。
 
