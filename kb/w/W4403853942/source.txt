@@ -1,0 +1,11 @@
+TITLE: Generic Diagramming Platform (GDP): a comprehensive database of high-quality biomedical graphics
+VENUE: Nucleic Acids Research (2024)
+TYPE: article
+CITED: 2143
+AUTHORS: Shuai Jiang, Huiqin Li, Luowanyue Zhang, Weiping Mu, Ya Zhang, Tianjian Chen, Jingxing Wu, Haoyun Tang
+DOI: https://doi.org/10.1093/nar/gkae973
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+High-quality schematic illustrations are fundamental to the publication of scientific achievements in biomedical research, which are crucial for effectively conveying complex biomedical concepts. However, creating such illustrations remains challenging for many researchers due to the need to devote a significant amount of time and effort to accomplish it. To address this need, we present the Generic Diagramming Platform (GDP, https://BioGDP.com), a comprehensive database of professionally crafted biomedical graphics (bio-graphics). Currently, GDP houses 7 562 high-quality bio-graphics, meticulously categorized into 10 major and 77 minor categories. To increase the design efficiency, GDP provides 204 customizable templates derived from an extensive review of over 2000 literature and 7 textbooks. With the interactive drawing platform and user-friendly web interface implemented in GDP, these resources can facilitate the efficient generation of publication-ready illustrations for the biomedical community. Additionally, GDP incorporates a collaborative submission system, allowing researchers to contribute their artwork, fostering a growing diagramming ecosystem, and ensuring continuous database expansion. Overall, we believe that GDP will serve as an invaluable platform, significantly enhancing the efficiency and quality of scientific illustration for biomedical researchers.
