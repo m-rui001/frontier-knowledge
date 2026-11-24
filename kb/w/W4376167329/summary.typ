@@ -5,7 +5,7 @@
   src: "Li、Ben Allal 等 BigCode 社区约 600 人 · TMLR 2023 · StarCoder/StarCoderBase",
   url: "https://doi.org/10.48550/arxiv.2305.06161",
   meta: "被引 1972",
-  ratio: "原文 75 页（TMLR 含附录）→ 本篇 4 页（约 1/19）",
+  ratio: "原文 75 页 → 本篇 4 页（约 1/19）",
 )[
 这是一份技术报告，但它的分量不在模型本身——15.5B 参数在 2023 年算不上大——而在它第一次把"一个强力代码模型是怎么造出来的"从头到尾摊开给人看：数据从哪来、删了什么、谁参与了清洗、PII 怎么抹、算力烧了多少、碳排多少吨。大代码社区（BigCode）由 Hugging Face 与 ServiceNow 两家工业实验室共管，六百多名成员协作，训练出 StarCoderBase（1 万亿 token、80 多种语言）和在其上用 350 亿 Python token 微调出的 StarCoder。评测结论是：开放模型里最强，追平甚至超过 OpenAI 的 code-cushman-001——GitHub Copilot 的初代底座。这篇文章回答的问题在 2023 年之前没有开放答案：闭源阵营领先的代码模型，能力差距到底是数据、算力还是方法？
 
