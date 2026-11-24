@@ -1,0 +1,11 @@
+TITLE: Antimicrobial resistance: Impacts, challenges, and future prospects
+VENUE: Journal of Medicine Surgery and Public Health (2024)
+TYPE: article
+CITED: 1729
+AUTHORS: Sirwan Khalid Ahmed, Safin Hassan Hussein, Karzan Qurbani, Radhwan Hussein Ibrahim, Abdulmalik Fareeq, Kochr Ali Mahmood, Mona Gamal Mohamed
+URL: https://doi.org/10.1016/j.glmedi.2024.100081
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Antimicrobial resistance (AMR) is a critical global health issue driven by antibiotic misuse and overuse in various sectors, leading to the emergence of resistant microorganisms. The history of AMR dates back to the discovery of penicillin, with the rise of multidrug-resistant pathogens posing significant challenges to healthcare systems worldwide. The misuse of antibiotics in human and animal health, as well as in agriculture, contributes to the spread of resistance genes, creating a "Silent Pandemic" that could surpass other causes of mortality by 2050. AMR affects both humans and animals, with resistant pathogens posing challenges in treating infections. Various mechanisms, such as enzymatic modification and biofilm formation, enable microbes to withstand the effects of antibiotics. The lack of effective antibiotics threatens routine medical procedures and could lead to millions of deaths annually if left unchecked. The economic impact of AMR is substantial, with projected losses in the trillions of dollars and significant financial burdens on healthcare systems and agriculture. Artificial intelligence is being explored as a tool to combat AMR by improving diagnostics and treatment strategies, although challenges such as data quality and algorithmic biases exist. To address AMR effectively, a One Health approach that considers human, animal, and environmental factors is crucial. This includes enhancing surveillance systems, promoting stewardship programs, and investing in research and development for new antimicrobial options. Public awareness, education, and international collaboration are essential for combating AMR and preserving the efficacy of antibiotics for future generations.
