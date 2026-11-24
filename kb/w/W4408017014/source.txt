@@ -1,0 +1,11 @@
+TITLE: 2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines
+VENUE: Circulation (2025)
+TYPE: article
+CITED: 1703
+AUTHORS: Sunil V. Rao, Michelle L. O’Donoghue, Marc Ruel, Tanveer Rab, Jaqueline E. Tamis-Holland, John Hunter Alexander, Usman Baber, Heather Baker
+URL: https://doi.org/10.1161/cir.0000000000001309
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+AIM: The "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes" incorporates new evidence since the "2013 ACCF/AHA Guideline for the Management of ST-Elevation Myocardial Infarction" and the corresponding "2014 AHA/ACC Guideline for the Management of Patients With Non-ST-Elevation Acute Coronary Syndromes" and the "2015 ACC/AHA/SCAI Focused Update on Primary Percutaneous Coronary Intervention for Patients With ST-Elevation Myocardial Infarction." The "2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes" and the "2021 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization" retire and replace, respectively, the "2016 ACC/AHA Guideline Focused Update on Duration of Dual Antiplatelet Therapy in Patients With Coronary Artery Disease." METHODS: A comprehensive literature search was conducted from July 2023 to April 2024. Clinical studies, systematic reviews and meta-analyses, and other evidence conducted on human participants were identified that were published in English from MEDLINE (through PubMed), EMBASE, the Cochrane Library, Agency for Healthcare Research and Quality, and other selected databases relevant to this guideline. STRUCTURE: Many recommendations from previously published guidelines have been updated with new evidence, and new recommendations have been created when supported by published data.
