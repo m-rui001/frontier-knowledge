@@ -1,0 +1,12 @@
+TITLE: Exploring treatment options in cancer: tumor treatment strategies
+VENUE: Signal Transduction and Targeted Therapy (2024)
+TYPE: article
+CITED: 1508
+AUTHORS: Beilei Liu, Hongyu Zhou, Licheng Tan, Kin To Hugo Siu, Xin‐Yuan Guan
+DOI: https://doi.org/10.1038/s41392-024-01856-7
+OA_URL: https://www.nature.com/articles/s41392-024-01856-7.pdf
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Traditional therapeutic approaches such as chemotherapy and radiation therapy have burdened cancer patients with onerous physical and psychological challenges. Encouragingly, the landscape of tumor treatment has undergone a comprehensive and remarkable transformation. Emerging as fervently pursued modalities are small molecule targeted agents, antibody-drug conjugates (ADCs), cell-based therapies, and gene therapy. These cutting-edge treatment modalities not only afford personalized and precise tumor targeting, but also provide patients with enhanced therapeutic comfort and the potential to impede disease progression. Nonetheless, it is acknowledged that these therapeutic strategies still harbour untapped potential for further advancement. Gaining a comprehensive understanding of the merits and limitations of these treatment modalities holds the promise of offering novel perspectives for clinical practice and foundational research endeavours. In this review, we discussed the different treatment modalities, including small molecule targeted drugs, peptide drugs, antibody drugs, cell therapy, and gene therapy. It will provide a detailed explanation of each method, addressing their status of development, clinical challenges, and potential solutions. The aim is to assist clinicians and researchers in gaining a deeper understanding of these diverse treatment options, enabling them to carry out effective treatment and advance their research more efficiently.

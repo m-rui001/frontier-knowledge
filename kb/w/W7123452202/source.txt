@@ -1,0 +1,12 @@
+TITLE: Cancer statistics, 2026
+VENUE: CA A Cancer Journal for Clinicians (2026)
+TYPE: article
+CITED: 1530
+AUTHORS: Rebecca L. Siegel, Tyler B. Kratzer, Nikita Sandeep Wagle, Hyuna Sung, Ahmedin Jemal
+DOI: https://doi.org/10.3322/caac.70043
+OA_URL: https://doi.org/10.3322/caac.70043
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Each year, the American Cancer Society estimates the numbers of new cancer cases and deaths in the United States and compiles the most recent data on population-based cancer occurrence and outcomes using data collected by central cancer registries (incidence, through 2022) and the National Center for Health Statistics (mortality, through 2023). In 2026, approximately 2,114,850 new cancer cases and 626,140 cancer deaths are projected to occur in the United States. The cancer mortality rate continued to decline through 2023, averting 4.8 million deaths since 1991, largely because of smoking reductions, earlier detection, and improved treatment. These interventions are also evident in rising 5-year relative survival, which reached a milestone 70% for diagnoses during 2015-2021 overall, 69% for regional-stage disease, and 35% for distant-stage (metastatic) disease, up from 63%, 54%, and 17%, respectively, in the mid-1990s. People with high-mortality cancers and advanced diagnoses had the largest gains, including increases from 32% to 62% for myeloma, 7% to 22% for liver cancer, 16% to 35% for metastatic melanoma, 8% to 18% for metastatic rectal cancer, 20% to 37% for regional lung cancer, and 2% to 10% for metastatic lung cancer. Nevertheless, lung cancer will cause more deaths in 2026 than second-ranking colorectal cancer and third-ranking pancreatic cancer combined. In summary, decades of scientific investment have translated to longer lives for people with even the most fatal cancers. However, continued progress is threatened by proposed federal cuts to cancer research and health insurance, which provides access to life-saving cancer treatment.
