@@ -1,0 +1,11 @@
+TITLE: Revised Surgical CAse REport (SCARE) Guideline: An Update for the Age of Artificial Intelligence
+VENUE: Premier journal of science. (2025)
+TYPE: article
+CITED: 2083
+AUTHORS: Ahmed Kerwan, Ahmed Al‐Jabir, Ginimol Mathew, Catrin Sohrabi, Rasha Rashid, Thomas Franchi, Maria Nicola, Maliha Agha
+URL: https://doi.org/10.70389/pjs.100079
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+INTRODUCTION Artificial intelligence (AI) is rapidly transforming healthcare and scientific publishing. Reporting guidelines need to be updated to consider this advance.The SCARE Guideline 2025 update introduces a new AI-focused domain to promote transparency, reproducibility, and ethical integrity in surgical case reports (SCAREs) involving AI. METHODS A Delphi consensus exercise was conducted to update the SCARE guidelines. A panel of 49 surgical and scientific experts was invited to rate proposed new items. In round 1, participants scored each item on a nine-point Likert scale and provided feedback. Items not meeting consensus were revised or discarded. RESULTS A 94% response rate occurred amongst participants (46/49) in the first round. Ratings were analyzed for agreement levels, and consensus was reached on all six proposed AI-related items. A revised SCARE checklist is presented, which incorporates these new AI-related items. Authors are now expected to disclose AI involvement in patient care and manuscript preparation, as exemplified by this article. CONCLUSION The SCARE 2025 guideline provides an up-to-date framework for SCAREs in the era of AI. Through a robust consensus process, we have added specific reporting criteria for AI to ensure that any use of AI in a case report is documented, explained, and discussed concerning bias and ethics. This update will help maintain the quality, transparency, and clinical relevance of case reports, ultimately improving their educational value and trustworthiness for the surgical community.
