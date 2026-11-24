@@ -5,7 +5,7 @@
   src: "Ansel 等 · ASPLOS 2024 · PyTorch 2（TorchDynamo 与 TorchInductor）",
   url: "https://doi.org/10.1145/3620665.3640366",
   meta: "被引 1887（OpenAlex）",
-  ratio: "原文 18 页（ASPLOS 2024）→ 本篇 4 页（约 1/4）",
+  ratio: "原文 18 页 → 本篇 4 页（约 1/4）",
 )[
 2023 年 3 月 PyTorch 2.0 发布，头部功能只有一个：torch.compile——一行代码把 eager 模式的模型交给编译器，官方口径是推理提速两倍多、训练提速近一半。把整套机制讲透的论文直到 2024 年才出现：Meta 的 Ansel、Yang、He 与 Quansight、Intel、OpenAI 的合作者共 55 人署名，在 ASPLOS 2024 上系统交代了两个组件的设计与实测——TorchDynamo 负责从 Python 程序里把 PyTorch 算子序列抓成图，TorchInductor 负责把图编译成 Triton（GPU）与 C++（CPU）代码。这篇论文的特殊之处在于它不是一篇方法论文，而是一份工程系统的自证文档：图怎么抓、抓不全怎么办、代码怎么生成、跟六个对手编译器比快多少，全都摊开在正文里。读它的正确姿势是当一份「给动态语言框架装编译器」的施工图看，PyTorch 生态之外同样适用。
 
