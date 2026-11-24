@@ -1,0 +1,11 @@
+TITLE: ProTox 3.0: a webserver for the prediction of toxicity of chemicals
+VENUE: Nucleic Acids Research (2024)
+TYPE: article
+CITED: 2104
+AUTHORS: Priyanka Banerjee, Emanuel Kemmler, Mathias Dunkel, Robert Preißner
+URL: https://doi.org/10.1093/nar/gkae303
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Interaction with chemicals, present in drugs, food, environments, and consumer goods, is an integral part of our everyday life. However, depending on the amount and duration, such interactions can also result in adverse effects. With the increase in computational methods, the in silico methods can offer significant benefits to both regulatory needs and requirements for risk assessments and the pharmaceutical industry to assess the safety profile of a chemical. Here, we present ProTox 3.0, which incorporates molecular similarity and machine-learning models for the prediction of 61 toxicity endpoints such as acute toxicity, organ toxicity, clinical toxicity, molecular-initiating events (MOE), adverse outcomes (Tox21) pathways, several other toxicological endpoints and toxicity off-targets. All the ProTox 3.0 models are validated on independent external sets and have shown strong performance. ProTox envisages itself as a complete, freely available computational platform for in silico toxicity prediction for toxicologists, regulatory agencies, computational chemists, and medicinal chemists. The ProTox 3.0 webserver is free and open to all users, and there is no login requirement and can be accessed via https://tox.charite.de. The web server takes a 2D chemical structure as input and reports the toxicological profile of the compound for each endpoint with a confidence score and overall toxicity radar plot and network plot.

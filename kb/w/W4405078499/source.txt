@@ -1,0 +1,11 @@
+TITLE: World Stroke Organization: Global Stroke Fact Sheet 2025
+VENUE: International Journal of Stroke (2025)
+TYPE: article
+CITED: 2194
+AUTHORS: Valery L. Feigin, Michael Brainin, Bo G Norrving, Sheila Cristina Ouriques Martins, Jeyaraj Durai Pandian, M. Patrice Lindsay, Maria Fredin Grupper, Ilari Matias Rautalin
+URL: https://doi.org/10.1177/17474930241308142
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+BACKGROUND: Among non-communicable disorders (NCDs), stroke remains the second leading cause of death and the third leading cause of death and disability combined (as expressed by disability-adjusted life-years lost-DALYs) in the world. AIMS: The study was aimed to estimate global, regional and nationa burden of stroke and its risk factors from 1990 to 2021. METHODS: Finding presented in this paper were derived mainly from the Global Burden of Disease 2021 Study on stroke burden published in The Lancet Neurology 2024:23:973-1003. RESULTS: The estimated global cost of stroke is over US$890 billion (0.66% of the global GDP). From 1990 to 2021, the burden (in terms of the absolute number of cases) increased substantially (70.0% increase in incident strokes, 44.0% deaths from stroke, 86.0% prevalent strokes, and 32% DALYs), with the bulk of the global stroke burden (87.0% of deaths and 89.0% of DALYs) residing in lower-income and lower-middle-income countries (LMICs). Stroke attributable to metabolic risks constituted 69.0% of all strokes, environmental risks constituted 37.0%, and behavioral risks constituted 35.0%. CONCLUSION: This World Stroke Organization (WSO) Global Stroke Fact Sheet 2025 provides the most updated information that can be used to inform communication with all internal and external stakeholders; all statistics have been reviewed and approved for use by the WSO Executive Committee and leaders from the Global Burden of Disease research group.
