@@ -5,7 +5,7 @@
   src: "Guilherme Penedo, Hynek Kydlíček 等 · NeurIPS 2024 · FineWeb",
   url: "https://doi.org/10.52202/079017-0970",
   meta: "被引 1856 · arXiv 2406.17557 · 15T tokens · FineWeb-Edu 1.3T · 96 快照",
-  ratio: "原文 40 页（arXiv 含附录）→ 本篇 4 页（约 1/10）",
+  ratio: "原文 40 页 → 本篇 4 页（约 1/10）",
 )[
 开源大模型的榜单上，Llama 3 和 Mixtral 能打，但它们吃了什么长出来的，外人一概不知——闭源数据是这条赛道上最贵的一块拼图。HuggingFace 团队的 FineWeb 补的就是这个洞：从 Common Crawl 的 96 个快照里，用一套完全公开的流水线酿出 15 万亿 token 的英文预训练集，训练出的模型超过所有公开对手；再从中筛出 1.3 万亿 token 的教育内容子集 FineWeb-Edu，在 MMLU、ARC 这类知识推理基准上把领先幅度拉大。这份工作的分量不在某一处精巧设计，而在它把每一步决策背后的消融实验全部摊开——70 多个消融模型、约 8 万 H100 时，全数公开。做数据集的团队第一次能对着一条完整可查的配方照抄。
 
