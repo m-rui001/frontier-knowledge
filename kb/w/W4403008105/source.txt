@@ -1,0 +1,11 @@
+TITLE: Breast cancer statistics 2024
+VENUE: CA A Cancer Journal for Clinicians (2024)
+TYPE: article
+CITED: 1565
+AUTHORS: Angela N. Giaquinto, Hyuna Sung, Lisa A. Newman, Rachel A. Freedman, Robert A. Smith, Jessica Star, Ahmedin Jemal, Rebecca L. Siegel
+DOI: https://doi.org/10.3322/caac.21863
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+This is the American Cancer Society's biennial update of statistics on breast cancer among women based on high-quality incidence and mortality data from the National Cancer Institute and the Centers for Disease Control and Prevention. Breast cancer incidence continued an upward trend, rising by 1% annually during 2012-2021, largely confined to localized-stage and hormone receptor-positive disease. A steeper increase in women younger than 50 years (1.4% annually) versus 50 years and older (0.7%) overall was only significant among White women. Asian American/Pacific Islander women had the fastest increase in both age groups (2.7% and 2.5% per year, respectively); consequently, young Asian American/Pacific Islander women had the second lowest rate in 2000 (57.4 per 100,000) but the highest rate in 2021 (86.3 per 100,000) alongside White women (86.4 per 100,000), surpassing Black women (81.5 per 100,000). In contrast, the overall breast cancer death rate continuously declined during 1989-2022 by 44% overall, translating to 517,900 fewer breast cancer deaths during this time. However, not all women have experienced this progress; mortality remained unchanged since 1990 in American Indian/Alaska Native women, and Black women have 38% higher mortality than White women despite 5% lower incidence. Although the Black-White disparity partly reflects more triple-negative cancers, Black women have the lowest survival for every breast cancer subtype and stage except localized disease, with which they are 10% less likely to be diagnosed than White women (58% vs. 68%), highlighting disadvantages in social determinants of health. Progress against breast cancer could be accelerated by mitigating racial, ethnic, and social disparities through improved clinical trial representation and access to high-quality screening and treatment.

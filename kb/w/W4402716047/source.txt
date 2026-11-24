@@ -1,0 +1,11 @@
+TITLE: YOLO-World: Real-Time Open-Vocabulary Object Detection
+VENUE: IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings (2024)
+TYPE: article
+CITED: 1633
+AUTHORS: Tianheng Cheng, Lin Song, Yixiao Ge, Wenyu Liu, Xinggang Wang, Ying Shan
+DOI: https://doi.org/10.1109/cvpr52733.2024.01599
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+The You Only Look Once (YOLO) series of detectors have established themselves as efficient and practical tools. However, their reliance on predefined and trained object categories limits their applicability in open scenarios. Addressing this limitation, we introduce YOLO-World, an innovative approach that enhances YOLO with open-vocabulary detection capabilities through vision-language modeling and pre-training on large-scale datasets. Specifically, we propose a new Re-parameterizable Vision-Language Path Aggregation Network (RepVL-PAN) and region-text contrastive loss to facilitate the interaction between visual and linguistic information. Our method excels in detecting a wide range of objects in a zero-shot manner with high efficiency. On the challenging LVIS dataset, YOLO-World achieves 35.4 AP with 52.0 FPS on V100, which outperforms many state-of-the-art methods in terms of both accuracy and speed. Furthermore, the finetuned YOLO-World achieves remarkable performance on several downstream tasks, including object detection and open-vocabulary instance segmentation. Code and models are available at: https://github.com/AILab-eve/YOLO-World.
