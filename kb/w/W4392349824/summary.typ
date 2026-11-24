@@ -5,7 +5,7 @@
   src: "Journal of Medicine, Surgery, and Public Health, 2024, 2:100081 · Sirwan Khalid Ahmed 等",
   url: "https://doi.org/10.1016/j.glmedi.2024.100081",
   meta: "被引 1714 · 综述 · 124 篇参考文献 · 库尔德斯坦/伊拉克多机构合作",
-  ratio: "原文 12 页 → 本篇 3 页（约 1/4）· 仅摘要级转述",
+  ratio: "原文页数未收录 · 摘要 1715 字符 · 本篇 0 页",
 )[
 
 == 一、引言：静默大流行的到来
