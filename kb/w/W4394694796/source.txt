@@ -1,0 +1,11 @@
+TITLE: The EMBL-EBI Job Dispatcher sequence analysis tools framework in 2024
+VENUE: Nucleic Acids Research (2024)
+TYPE: article
+CITED: 2075
+AUTHORS: Fábio Madeira, Nandana Madhusoodanan, Joon Lee, Alberto Eusebi, Ania Niewielska, Adrian R. Tivey, Rodrigo López, Sarah Butcher
+URL: https://doi.org/10.1093/nar/gkae241
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+The EMBL-EBI Job Dispatcher sequence analysis tools framework (https://www.ebi.ac.uk/jdispatcher) enables the scientific community to perform a diverse range of sequence analyses using popular bioinformatics applications. Free access to the tools and required sequence datasets is provided through user-friendly web applications, as well as via RESTful and SOAP-based APIs. These are integrated into popular EMBL-EBI resources such as UniProt, InterPro, ENA and Ensembl Genomes. This paper overviews recent improvements to Job Dispatcher, including its brand new website and documentation, enhanced visualisations, improved job management, and a rising trend of user reliance on the service from low- and middle-income regions.
