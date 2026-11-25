@@ -1,0 +1,12 @@
+TITLE: RoboPoint: A Vision-Language Model for Spatial Affordance Prediction for Robotics
+ARXIV_CAT: cs.RO (arXiv official)
+ARXIV_ID: 2406.10721
+VENUE: arXiv (Cornell University) (2024)
+TYPE: article
+CITED: 329
+DOI: https://doi.org/10.48550/arxiv.2406.10721
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+From rearranging objects on a table to putting groceries into shelves, robots must plan precise action points to perform tasks accurately and reliably. In spite of the recent adoption of vision language models (VLMs) to control robot behavior, VLMs struggle to precisely articulate robot actions using language. We introduce an automatic synthetic data generation pipeline that instruction-tunes VLMs to robotic domains and needs. Using the pipeline, we train RoboPoint, a VLM that predicts image keypoint affordances given language instructions. Compared to alternative approaches, our method requires no real-world data collection or human demonstration, making it much more scalable to diverse environments and viewpoints. In addition, RoboPoint is a general model that enables several downstream applications such as robot navigation, manipulation, and augmented reality (AR) assistance. Our experiments demonstrate that RoboPoint outperforms state-of-the-art VLMs (GPT-4o) and visual prompting techniques (PIVOT) by 21.8% in the accuracy of predicting spatial affordance and by 30.5% in the success rate of downstream tasks. Project website: https://robo-point.github.io.
