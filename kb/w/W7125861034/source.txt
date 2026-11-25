@@ -1,0 +1,12 @@
+TITLE: Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models
+ARXIV_CAT: cs.LG (arXiv official)
+ARXIV_ID: 2601.18734
+VENUE: arXiv (Cornell University) (2026)
+TYPE: article
+CITED: 718
+DOI: https://doi.org/10.48550/arxiv.2601.18734
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Knowledge distillation improves large language model (LLM) reasoning by compressing the knowledge of a teacher LLM to train smaller LLMs. On-policy distillation advances this approach by having the student sample its own trajectories while a teacher LLM provides dense token-level supervision, addressing the distribution mismatch between training and inference in off-policy distillation methods. However, on-policy distillation typically requires a separate, often larger, teacher LLM and does not explicitly leverage ground-truth solutions available in reasoning datasets. Inspired by the intuition that a sufficiently capable LLM can rationalize external privileged reasoning traces and teach its weaker self, we introduce On-Policy Self-Distillation (OPSD), a learning algorithm where a single LLM acts as both teacher and student with different contexts. The teacher policy conditions on privileged information (e.g., verified reasoning traces) while the student policy sees only the question; training minimizes the per-token divergence between these distributions over the student's own rollouts. We demonstrate the efficacy of our method on multiple mathematical reasoning benchmarks, achieving superior token efficiency compared to reinforcement learning methods and better performance over off-policy distillation methods. Code repo: https://github.com/siyan-zhao/OPSD.
