@@ -1,0 +1,12 @@
+TITLE: Improving Online Algorithms via ML Predictions
+ARXIV_CAT: cs.DS (arXiv official)
+ARXIV_ID: 2407.17712
+VENUE: arXiv (Cornell University) (2024)
+TYPE: article
+CITED: 134
+DOI: https://doi.org/10.48550/arxiv.2407.17712
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+In this work we study the problem of using machine-learned predictions to improve the performance of online algorithms. We consider two classical problems, ski rental and non-clairvoyant job scheduling, and obtain new online algorithms that use predictions to make their decisions. These algorithms are oblivious to the performance of the predictor, improve with better predictions, but do not degrade much if the predictions are poor.

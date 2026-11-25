@@ -1,0 +1,12 @@
+TITLE: BlackJAX: Composable Bayesian inference in JAX
+ARXIV_CAT: cs.MS (arXiv official)
+ARXIV_ID: 2402.10797
+VENUE: arXiv (Cornell University) (2024)
+TYPE: article
+CITED: 184
+DOI: https://doi.org/10.48550/arxiv.2402.10797
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+BlackJAX is a library implementing sampling and variational inference algorithms commonly used in Bayesian computation. It is designed for ease of use, speed, and modularity by taking a functional approach to the algorithms' implementation. BlackJAX is written in Python, using JAX to compile and run NumpPy-like samplers and variational methods on CPUs, GPUs, and TPUs. The library integrates well with probabilistic programming languages by working directly with the (un-normalized) target log density function. BlackJAX is intended as a collection of low-level, composable implementations of basic statistical 'atoms' that can be combined to perform well-defined Bayesian inference, but also provides high-level routines for ease of use. It is designed for users who need cutting-edge methods, researchers who want to create complex sampling methods, and people who want to learn how these work.
