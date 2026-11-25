@@ -175,13 +175,6 @@
    "title": "PatternBoost: Constructions in Mathematics with a Little Help from AI"
   },
   {
-   "wid": "W4401306886",
-   "cat": "cs.AI",
-   "archive": "cs",
-   "cited": 29897,
-   "title": "The Llama 3 Herd of Models"
-  },
-  {
    "wid": "W7167604932",
    "cat": "cs.CL",
    "archive": "cs",
@@ -940,6 +933,7 @@
  ],
  "excluded": [
   "W47171462: Adaptive Control — 实为教科书 arXiv 条目（摘要自称 This book），非前沿研究论文，2026-... 剔除",
-  "W639809503: Rings of Quotients of Rings of Functions — 实为专著序言（摘要开头 From the original PREFACE），非前沿研究论文，剔除"
+  "W639809503: Rings of Quotients of Rings of Functions — 实为专著序言（摘要开头 From the original PREFACE），非前沿研究论文，剔除",
+  "W4401306886: The Llama 3 Herd of Models — 与已收 W7115097999 同 arXiv 2407.21783，重复剔除"
  ]
 }
