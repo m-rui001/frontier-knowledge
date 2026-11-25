@@ -1,0 +1,12 @@
+TITLE: Dream 7B: Diffusion Large Language Models
+ARXIV_CAT: cs.CL (arXiv official)
+ARXIV_ID: 2508.15487
+VENUE: arXiv (Cornell University) (2025)
+TYPE: article
+CITED: 825
+DOI: https://doi.org/10.48550/arxiv.2508.15487
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+We introduce Dream 7B, the most powerful open diffusion large language model to date. Unlike autoregressive (AR) models that generate tokens sequentially, Dream 7B employs discrete diffusion modeling to refine sequences in parallel through iterative denoising. Our model consistently outperforms existing diffusion language models on general, mathematical, and coding tasks. Dream 7B demonstrates superior planning abilities and inference flexibility, including arbitrary-order generation, infilling capabilities, and tunable quality-speed trade-offs. These results are achieved through simple yet effective training techniques, including AR-based LLM initialization and context-adaptive token-level noise rescheduling. We release both Dream-Base and Dream-Instruct to facilitate further research in diffusion-based language modeling.
