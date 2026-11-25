@@ -1,0 +1,12 @@
+TITLE: Open-TeleVision: Teleoperation with Immersive Active Visual Feedback
+ARXIV_CAT: cs.RO (arXiv official)
+ARXIV_ID: 2407.01512
+VENUE: arXiv (Cornell University) (2024)
+TYPE: article
+CITED: 344
+DOI: https://doi.org/10.48550/arxiv.2407.01512
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Teleoperation serves as a powerful method for collecting on-robot data essential for robot learning from demonstrations. The intuitiveness and ease of use of the teleoperation system are crucial for ensuring high-quality, diverse, and scalable data. To achieve this, we propose an immersive teleoperation system Open-TeleVision that allows operators to actively perceive the robot's surroundings in a stereoscopic manner. Additionally, the system mirrors the operator's arm and hand movements on the robot, creating an immersive experience as if the operator's mind is transmitted to a robot embodiment. We validate the effectiveness of our system by collecting data and training imitation learning policies on four long-horizon, precise tasks (Can Sorting, Can Insertion, Folding, and Unloading) for 2 different humanoid robots and deploy them in the real world. The system is open-sourced at: https://robot-tv.github.io/
