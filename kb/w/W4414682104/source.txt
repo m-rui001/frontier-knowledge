@@ -1,0 +1,10 @@
+TITLE: FLUX.1 Kontext: Flow Matching for In-Context Image Generation and Editing in Latent Space
+VENUE: arXiv (2025)
+TYPE: article
+CITED: 1679
+DOI: https://doi.org/10.48550/arxiv.2506.15742
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+We present evaluation results for FLUX.1 Kontext, a generative flow matching model that unifies image generation and editing. The model generates novel output views by incorporating semantic context from text and image inputs. Using a simple sequence concatenation approach, FLUX.1 Kontext handles both local editing and generative in-context tasks within a single unified architecture. Compared to current editing models that exhibit degradation in character consistency and stability across multiple turns, we observe that FLUX.1 Kontext improved preservation of objects and characters, leading to greater robustness in iterative workflows. The model achieves competitive performance with current state-of-the-art systems while delivering significantly faster generation times, enabling interactive applications and rapid prototyping workflows. To validate these improvements, we introduce KontextBench, a comprehensive benchmark with 1026 image-prompt pairs covering five task categories: local editing, global editing, character reference, style reference and text editing. Detailed evaluations show the superior performance of FLUX.1 Kontext in terms of both single-turn quality and multi-turn consistency, setting new standards for unified image processing models.
