@@ -1,0 +1,10 @@
+TITLE: Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling
+VENUE: arXiv (2025)
+TYPE: article
+CITED: 1091
+DOI: https://doi.org/10.48550/arxiv.2501.17811
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+In this work, we introduce Janus-Pro, an advanced version of the previous work Janus. Specifically, Janus-Pro incorporates (1) an optimized training strategy, (2) expanded training data, and (3) scaling to larger model size. With these improvements, Janus-Pro achieves significant advancements in both multimodal understanding and text-to-image instruction-following capabilities, while also enhancing the stability of text-to-image generation. We hope this work will inspire further exploration in the field. Code and models are publicly available.
