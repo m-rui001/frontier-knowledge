@@ -1,0 +1,12 @@
+TITLE: LIBERO-Plus: In-depth Robustness Analysis of Vision-Language-Action Models
+ARXIV_CAT: cs.RO (arXiv official)
+ARXIV_ID: 2510.13626
+VENUE: arXiv (Cornell University) (2025)
+TYPE: article
+CITED: 461
+DOI: https://doi.org/10.48550/arxiv.2510.13626
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Visual-Language-Action (VLA) models report impressive success rates on robotic manipulation benchmarks, yet these results may mask fundamental weaknesses in robustness. We perform a systematic vulnerability analysis by introducing controlled perturbations across seven dimensions: objects layout, camera viewpoints, robot initial states, language instructions, light conditions, background textures and sensor noise. We comprehensively analyzed multiple state-of-the-art models and revealed consistent brittleness beneath apparent competence. Our analysis exposes critical weaknesses: models exhibit extreme sensitivity to perturbation factors, including camera viewpoints and robot initial states, with performance dropping from 95% to below 30% under modest perturbations. Surprisingly, models are largely insensitive to language variations, with further experiments revealing that models tend to ignore language instructions completely. Our findings challenge the assumption that high benchmark scores equate to true competency and highlight the need for evaluation practices that assess reliability under realistic variation.
