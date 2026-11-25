@@ -1,0 +1,10 @@
+TITLE: LLaVA-Video: Video Instruction Tuning With Synthetic Data
+VENUE: Transactions on machine learning research (2025)
+TYPE: article
+CITED: 1127
+DOI: https://doi.org/10.48550/arxiv.2410.02713
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+The development of video large multimodal models (LMMs) has been hindered by the difficulty of curating large amounts of high-quality raw data from the web. To address this, we propose an alternative approach by creating a high-quality synthetic dataset specifically for video instruction-following, namely LLaVA-Video-178K. This dataset includes key tasks such as detailed captioning, open-ended question-answering (QA), and multiple-choice QA. By training on this dataset, in combination with existing visual instruction tuning data, we introduce LLaVA-Video, a new video LMM. Our experiments demonstrate that LLaVA-Video achieves strong performance across various video benchmarks, highlighting the effectiveness of our dataset. We plan to release the dataset, its generation pipeline, and the model checkpoints.
