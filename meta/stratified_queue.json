@@ -56,13 +56,6 @@
    "title": "AIFS -- ECMWF's data-driven forecasting system"
   },
   {
-   "wid": "W47171462",
-   "cat": "eess.SY",
-   "archive": "eess",
-   "cited": 300,
-   "title": "Adaptive Control: Algorithms, Analysis and Applications"
-  },
-  {
    "wid": "W4399510432",
    "cat": "astro-ph.IM",
    "archive": "astro-ph",
@@ -951,5 +944,8 @@
    "cited": 74,
    "title": "Dynamic metastability in the self-attention model"
   }
+ ],
+ "excluded": [
+  "W47171462: Adaptive Control — 实为教科书 arXiv 条目（摘要自称 This book），非前沿研究论文，2026-... 剔除"
  ]
 }

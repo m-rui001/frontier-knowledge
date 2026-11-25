@@ -1,0 +1,12 @@
+TITLE: Streamlining and standardizing software citations with The Software Citation Station
+ARXIV_CAT: astro-ph.IM (arXiv official)
+ARXIV_ID: 2406.04405
+VENUE: arXiv (Cornell University) (2024)
+TYPE: article
+CITED: 156
+DOI: https://doi.org/10.48550/arxiv.2406.04405
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Software is crucial for the advancement of science, especially in the context of rapidly growing datasets that increasingly require algorithm and pipeline development to process data and produce results. However, software has not always been consistently cited, despite the importance of citations in strengthening support for software development. To encourage, streamline, and standardize the process of citing software in academic works, we introduce 'The Software Citation Station': a publicly available website and tool to quickly find correct software citation statements and add them to publications.
