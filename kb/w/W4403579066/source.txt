@@ -1,0 +1,12 @@
+TITLE: 6-Functor Formalisms and Smooth Representations
+ARXIV_CAT: math.CT (arXiv official)
+ARXIV_ID: 2410.13038
+VENUE: arXiv (Cornell University) (2024)
+TYPE: article
+CITED: 97
+DOI: https://doi.org/10.48550/arxiv.2410.13038
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+The purpose of this article is threefold: Firstly, we propose some enhancements to the existing definition of 6-functor formalisms. Secondly, we systematically study the category of kernels, which is a certain 2-category attached to every 6-functor formalism. It provides powerful new insights into the internal structure of the 6-functor formalism and allows to abstractly define important finiteness conditions, recovering well-known examples from the literature. Finally, we apply our methods to the theory of smooth representations of $p$-adic Lie groups and, as an application, construct a canonical anti-involution on derived Hecke algebras generalizing results of Schneider--Sorensen. In an appendix we provide the necessary background on $\infty$-categories, higher algebra, enriched $\infty$-categories and $(\infty,2)$-categories. Among others we prove several new results on adjunctions in an $(\infty,2)$-category and in particular show that passing to the adjoint morphism is a functorial operation.

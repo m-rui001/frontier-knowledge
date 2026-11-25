@@ -1,0 +1,12 @@
+TITLE: Long time derivation of the Boltzmann equation from hard sphere dynamics
+ARXIV_CAT: math.AP (arXiv official)
+ARXIV_ID: 2408.07818
+VENUE: arXiv (Cornell University) (2024)
+TYPE: article
+CITED: 81
+DOI: https://doi.org/10.48550/arxiv.2408.07818
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+We provide a rigorous derivation of Boltzmann's kinetic equation from the hard sphere system for rarefied gas, which is valid for arbitrarily long times, as long as the solution to the Boltzmann equation exists. This extends Lanford's landmark theorem (1975), which justifies this derivation for a sufficiently short time. In a companion paper (arXiv:2503.01800), we connect this derivation to existing literature on hydrodynamic limits. This completes the resolution of Hilbert's Sixth Problem pertaining to the derivation of fluid equations from Newton's laws, in the case of a rarefied, hard sphere gas. The general strategy follows the paradigm introduced by the first two authors for the long-time derivation of the wave kinetic equation in wave turbulence theory. This is based on propagating a long-time cumulant ansatz, which keeps memory of the full collision history of the relevant particles, by an important partial time expansion. The heart of the matter is proving the smallness of these cumulants in $L^1$, which can be reduced to combinatorial properties for the associated diagrams which we call molecules. These properties are then proved by devising an elaborate cutting algorithm, which is a major novelty of this work.

@@ -140,13 +140,6 @@
    "title": "MolecularGPT: Open Large Language Model (LLM) for Few-Shot Molecular Property Prediction"
   },
   {
-   "wid": "W639809503",
-   "cat": "math.GN",
-   "archive": "math",
-   "cited": 91,
-   "title": "Rings of Quotients of Rings of Functions"
-  },
-  {
    "wid": "W4417248178",
    "cat": "cond-mat.mes-hall",
    "archive": "cond-mat",
@@ -946,6 +939,7 @@
   }
  ],
  "excluded": [
-  "W47171462: Adaptive Control — 实为教科书 arXiv 条目（摘要自称 This book），非前沿研究论文，2026-... 剔除"
+  "W47171462: Adaptive Control — 实为教科书 arXiv 条目（摘要自称 This book），非前沿研究论文，2026-... 剔除",
+  "W639809503: Rings of Quotients of Rings of Functions — 实为专著序言（摘要开头 From the original PREFACE），非前沿研究论文，剔除"
  ]
 }

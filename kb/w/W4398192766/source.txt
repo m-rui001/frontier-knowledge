@@ -1,0 +1,12 @@
+TITLE: K-theory and localizing invariants of large categories
+ARXIV_CAT: math.KT (arXiv official)
+ARXIV_ID: 2405.12169
+VENUE: arXiv (Cornell University) (2024)
+TYPE: article
+CITED: 78
+DOI: https://doi.org/10.48550/arxiv.2405.12169
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+In this paper we introduce and study the so-called continuous $K$-theory for a certain class of "large" stable $\infty$-categories, more precisely, for dualizable presentable categories. For compactly generated categories, the continuous $K$-theory is simply the usual (non-connective) $K$-theory of the full subcategory of compact objects. More generally, we show that any localizing invariant of small stable $\infty$-categories can be uniquely extended to a localizing invariant of dualizable categories. We compute the continuous $K$-theory for categories of sheaves on locally compact Hausdorff spaces. Using the special case for sheaves on the real line, we give an alternative proof of the theorem of Kasprowski and Winges \cite{KW19} on the commutation of $K$-theory with infinite products for small stable $\infty$-categories. We also study the general theory of dualizable categories. In particular, we give an "explicit" proof of Ramzi's theorem \cite{Ram24a} on the $ω_1$-presentability of the category of dualizable categories. Among other things, we prove that dualizability is equivalent to "flatness" in the category of presentable stable categories.
