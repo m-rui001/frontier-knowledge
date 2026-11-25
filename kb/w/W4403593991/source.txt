@@ -1,0 +1,12 @@
+TITLE: Relative Langlands Duality
+ARXIV_CAT: math.RT (arXiv official)
+ARXIV_ID: 2409.04677
+VENUE: arXiv (Cornell University) (2024)
+TYPE: article
+CITED: 108
+DOI: https://doi.org/10.48550/arxiv.2409.04677
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+We propose a duality in the relative Langlands program. This duality pairs a Hamiltonian space for a group $G$ with a Hamiltonian space under its dual group $\check{G}$, and recovers at a numerical level the relationship between a period on $G$ and an $L$-function attached to $\check{G}$; it is an arithmetic analog of the electric-magnetic duality of boundary conditions in four-dimensional supersymmetric Yang-Mills theory.
