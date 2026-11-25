@@ -1,0 +1,11 @@
+TITLE: The SCIP Optimization Suite 9.0
+ARXIV_CAT: math.OC (arXiv official primary_category)
+VENUE: arXiv (Cornell University) (2024)
+TYPE: article
+CITED: 367
+DOI: https://doi.org/10.48550/arxiv.2402.17702
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+The SCIP Optimization Suite provides a collection of software packages for mathematical optimization, centered around the constraint integer programming (CIP) framework SCIP. This report discusses the enhancements and extensions included in the SCIP Optimization Suite 9.0. The updates in SCIP 9.0 include improved symmetry handling, additions and improvements of nonlinear handlers and primal heuristics, a new cut generator and two new cut selection schemes, a new branching rule, a new LP interface, and several bug fixes. The SCIP Optimization Suite 9.0 also features new Rust and C++ interfaces for SCIP, new Python interface for SoPlex, along with enhancements to existing interfaces. The SCIP Optimization Suite 9.0 also includes new and improved features in the LP solver SoPlex, the presolving library PaPILO, the parallel framework UG, the decomposition framework GCG, and the SCIP extension SCIP-SDP. These additions and enhancements have resulted in an overall performance improvement of SCIP in terms of solving time, number of nodes in the branch-and-bound tree, as well as the reliability of the solver.
