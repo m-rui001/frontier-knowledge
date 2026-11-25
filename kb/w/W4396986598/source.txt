@@ -1,0 +1,10 @@
+TITLE: Quantum computing with Qiskit
+VENUE: arXiv (2024)
+TYPE: article
+CITED: 2319
+DOI: https://doi.org/10.48550/arxiv.2405.08810
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+We describe Qiskit, a software development kit for quantum information science. We discuss the key design decisions that have shaped its development, and examine the software architecture and its core components. We demonstrate an end-to-end workflow for solving a problem in condensed matter physics on a quantum computer that serves to highlight some of Qiskit's capabilities, for example the representation and optimization of circuits at various abstraction levels, its scalability and retargetability to new gates, and the use of quantum-classical computations via dynamic circuits. Lastly, we discuss some of the ecosystem of tools and plugins that extend Qiskit for various tasks, and the future ahead.
