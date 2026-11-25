@@ -1,0 +1,12 @@
+TITLE: XiHe: A Data-Driven Model for Global Ocean Eddy-Resolving Forecasting
+ARXIV_CAT: physics.ao-ph (arXiv official)
+ARXIV_ID: 2402.02995
+VENUE: arXiv (Cornell University) (2024)
+TYPE: article
+CITED: 135
+DOI: https://doi.org/10.48550/arxiv.2402.02995
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+The leading operational Global Ocean Forecasting Systems (GOFSs) use physics-driven numerical forecasting models that solve the partial differential equations with expensive computation. Recently, specifically in atmosphere weather forecasting, data-driven models have demonstrated significant potential for speeding up environmental forecasting by orders of magnitude, but there is still no data-driven GOFS that matches the forecasting accuracy of the numerical GOFSs. In this paper, we propose the first data-driven 1/12° resolution global ocean eddy-resolving forecasting model named XiHe, which is established from the 25-year France Mercator Ocean International's daily GLORYS12 reanalysis data. XiHe is a hierarchical transformer-based framework coupled with two special designs. One is the land-ocean mask mechanism for focusing exclusively on the global ocean circulation. The other is the ocean-specific block for effectively capturing both local ocean information and global teleconnection. Extensive experiments are conducted under satellite observations, in situ observations, and the IV-TT Class 4 evaluation framework of the world's leading operational GOFSs from January 2019 to December 2020. The results demonstrate that XiHe achieves stronger forecast performance in all testing variables than existing leading operational numerical GOFSs including Mercator Ocean Physical SYstem (PSY4), Global Ice Ocean Prediction System (GIOPS), BLUElinK OceanMAPS (BLK), and Forecast Ocean Assimilation Model (FOAM). Particularly, the accuracy of ocean current forecasting of XiHe out to 60 days is even better than that of PSY4 in just 10 days. Additionally, XiHe is able to forecast the large-scale circulation and the mesoscale eddies. Furthermore, it can make a 10-day forecast in only 0.35 seconds, which accelerates the forecast speed by thousands of times compared to the traditional numerical GOFSs.
