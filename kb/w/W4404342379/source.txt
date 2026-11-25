@@ -1,0 +1,12 @@
+TITLE: Orb: A Fast, Scalable Neural Network Potential
+ARXIV_CAT: cond-mat.mtrl-sci (arXiv official)
+ARXIV_ID: 2410.22570
+VENUE: arXiv (Cornell University) (2024)
+TYPE: article
+CITED: 303
+DOI: https://doi.org/10.48550/arxiv.2410.22570
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+We introduce Orb, a family of universal interatomic potentials for atomistic modelling of materials. Orb models are 3-6 times faster than existing universal potentials, stable under simulation for a range of out of distribution materials and, upon release, represented a 31% reduction in error over other methods on the Matbench Discovery benchmark. We explore several aspects of foundation model development for materials, with a focus on diffusion pretraining. We evaluate Orb as a model for geometry optimization, Monte Carlo and molecular dynamics simulations.

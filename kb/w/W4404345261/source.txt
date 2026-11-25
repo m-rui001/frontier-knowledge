@@ -1,0 +1,12 @@
+TITLE: PatternBoost: Constructions in Mathematics with a Little Help from AI
+ARXIV_CAT: math.CO (arXiv official)
+ARXIV_ID: 2411.00566
+VENUE: arXiv (Cornell University) (2024)
+TYPE: article
+CITED: 74
+DOI: https://doi.org/10.48550/arxiv.2411.00566
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+We introduce PatternBoost, a flexible method for finding interesting constructions in mathematics. Our algorithm alternates between two phases. In the first ``local'' phase, a classical search algorithm is used to produce many desirable constructions. In the second ``global'' phase, a transformer neural network is trained on the best such constructions. Samples from the trained transformer are then used as seeds for the first phase, and the process is repeated. We give a detailed introduction to this technique, and discuss the results of its application to several problems in extremal combinatorics. The performance of PatternBoost varies across different problems, but there are many situations where its performance is quite impressive. Using our technique, we find the best known solutions to several long-standing problems, including the construction of a counterexample to a conjecture that had remained open for 30 years.
