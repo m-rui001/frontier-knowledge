@@ -1,0 +1,13 @@
+TITLE: Fractional Differential Equations
+VENUE: MDPI Books 2025；DOI 10.3390/books978-3-7258-4742-6
+TYPE: book
+CITED: 20452
+AUTHORS: (详见原书；MDPI 出版)
+URL: https://doi.org/10.3390/books978-3-7258-4742-6
+PAGES: 全文未获取（MDPI 403）；仅有 OpenAlex 摘要
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源——以下全部出自摘要):
+============================================================
+In recent times, researchers across various fields have become interested in the topic of fractional calculus based on integrals and derivatives of fractional order. This area has numerous and widespread applications in fields of science and engineering, including wave and fluid dynamics, mathematical biology, financial systems, structural dynamics, robotics, and artificial intelligence, among others. Therefore, fractional models have become relevant in the context of phenomena with memory effects, in place of the conventional reliance on ordinary or partial differential equations. Fractional calculus offers superior tools for addressing time-dependent effects compared to integer-order calculus, which forms the foundation of most mathematical systems. As a result, fractional calculus is crucial to modeling real-life problems, and finding mathematical solutions is a great challenge in this regard.
+
+FULL TEXT: 未获取（MDPI 页面 403，未使用影子图书馆）。按 BRIEF 规则降级为"仅摘要级转述"。摘要未给出作者、章节、具体方程或定理，本篇不补充外部技术细节，只就摘要给出的概念（分数阶、记忆效应、应用领域、求解挑战）做梳理与点评。

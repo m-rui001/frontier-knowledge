@@ -1,0 +1,25 @@
+TITLE: CogVLM: Visual Expert for Pretrained Language Models
+VENUE: arXiv 2311.03079；ACL 2024；DOI 10.52202/079017-3860
+TYPE: conference paper / preprint
+CITED: 1380
+AUTHORS: Weihan Wang, Qingsong Lv, Wenmeng Yu, Wenyi Hong, Ji Qi, Yan Wang, Junhui Ji, Zhuoyi Yang, Lei Zhao, Song XiXuan, ... (清华 / 智谱 AI)
+URL: https://arxiv.org/abs/2311.03079
+PAGES: arXiv HTML v1 全文已抓取（文本 6.2 万字符）
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+We introduce CogVLM, a powerful open-source visual language foundation model. Different from the popular shallow alignment method which maps image features into the input space of language model, CogVLM bridges the gap between the frozen pretrained language model and image encoder by a trainable visual expert module in the attention and FFN layers. As a result, CogVLM enables deep fusion of vision language features without sacrificing any performance on NLP tasks. CogVLM-17B achieves state-of-the-art performance on 10 classic cross-modal benchmarks, including NoCaps, Flicker30k captioning, RefCOCO, RefCOCO+, RefCOCOg, Visual7W, GQA, ScienceQA, VizWiz VQA and TDIUC, and ranks the 2nd on VQAv2, OKVQA, TextVQA, COCO captioning, etc., surpassing or matching PaLI-X 55B.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文表格)
+============================================================
+- 核心方法：不同于浅层对齐（BLIP-2 式把图像特征映射到语言模型输入空间），CogVLM 在冻结的预训练语言模型的注意力层与 FFN 层各加一个可训练的"视觉专家"(visual expert, VE)模块，实现视觉语言特征的深度融合，同时不牺牲原语言模型的 NLP 能力。当输入无图像时，因原语言模型参数冻结，行为与原始语言模型一致。
+- 参数：CogVLM-17B 由 Vicuna-7B 训练而来（视觉专家使总参数增至约 17B）。视觉编码器用预训练 EVA2-CLIP-E（去掉最后一层，因其专为 [CLS] 对比学习聚合）；MLP adapter 为两层 MLP + SwiGLU。
+- 性能：在 14 个经典跨模态基准上达到 SOTA 或第二，10 个为 SOTA（NoCaps、Flickr30k captioning、RefCOCO/+/g、Visual7W、GQA、ScienceQA、VizWiz VQA、TDIUC），VQAv2/OKVQA/TextVQA/COCO captioning 排第二，超越或匹配 PaLI-X 55B（参数量远大于它）。
+- SFT 数据：来自 LLaVA-Instruct、LRV-Instruction、LLaVAR 和一个自建数据集，共约 50 万条 VQA 对。作者指出 LLaVA-Instruct 由纯语言 GPT-4 生成管线产生，错误不可避免，并对其做了纠错。
+- 消融表（NoCaps / Flickr30k / RefCOCO / RefCOCO+ / 某指标，数值来自消融表）：
+  LLM+MLP Adapter 6.9B：140.3 / 118.5 / 56.8 / 44.7 / 78.9
+  VE-full every 4th layer 1.7B：138.7 / 117.4 / 58.9 / 44.1 / 77.6
+  VE-FFN every layer 4.4B：140.0 / 118.7 / 58.2 / 45.1 / 78.6
+  From LLM (random init) 6.6B：138.0 / ...
+- 视觉专家用"从 LLM 权重初始化"的方式（Init method: From LLM vs Random init），随机初始化效果较差。
+- 代码与权重：github.com/THUDM/CogVLM

@@ -2128,5 +2128,25 @@
   "first": "1",
   "last": "12",
   "type": "article"
+ },
+ "W4415795395": {
+  "first": "1",
+  "last": "20",
+  "type": "conference"
+ },
+ "W4405114800": {
+  "first": "1",
+  "last": "30",
+  "type": "survey"
+ },
+ "W4391289318": {
+  "first": "1",
+  "last": "15",
+  "type": "review"
+ },
+ "W2787959293": {
+  "first": "1",
+  "last": "300",
+  "type": "book"
  }
 }

@@ -1,0 +1,24 @@
+TITLE: A Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT
+VENUE: ACM Computing Surveys (2025)；arXiv 2303.04226；DOI 10.1145/3704262
+TYPE: survey (期刊版 2025，预印本 2023)
+CITED: 1555
+AUTHORS: (详见原文；综述作者组)
+URL: https://arxiv.org/abs/2303.04226
+PAGES: arXiv HTML v1 全文已抓取（文本 17.8 万字符）
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+Recently, Artificial Intelligence Generated Content (AIGC) has gained significant attention from society, especially with the rise of Generative AI (GAI) techniques such as ChatGPT, GPT-4, DALL-E-3, and Sora. AIGC involves using AI models to create digital content, such as images, music, and natural language, with the goal of making the content creation process more efficient and accessible. Large-scale models have become the foundation of AIGC systems.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文结构)
+============================================================
+- 自我定位：自称首个对 AIGC 和 AI 增强生成过程给出正式定义与全面综述的工作；以往综述只聚焦单一角度（自然语言生成、图像生成、多模态机器学习生成）。
+- 分类框架（第4章 Generative AI）：
+  * 单模态模型：生成式语言模型（Decoder-only、Encoder-Decoder）；视觉生成模型（GAN、VAE、Flow、Diffusion）。
+  * 多模态模型：视觉-语言生成（编码器/解码器）；文本-音频生成（text-audio、text-music）；文本-图生成（text-to-KG、KG-to-text、语义解析、text-to-molecule）；文本-代码生成（文本条件代码生成、交互式编程系统）。
+- 基础技术（第3章）：基础模型（Transformer、预训练语言模型）、RLHF、计算（硬件、分布式训练、云计算）。
+- 应用（第5章）：聊天机器人、艺术、音乐、代码、教育。
+- 效率（第6章）：提示学习（传统提示、上下文学习）、预训练基础模型的效率、模型压缩。
+- 可信与责任（第7章）：安全（事实性 factuality、毒性 toxicity）、隐私（成员推断 membership inference、数据抽取 data extraction）。
+- 第8章开放问题与未来方向；附录 A 按语言/视觉/视觉语言/文本音频/文本图/文本代码分领域整理进展。
+- 时间背景：预印本 2023-03，覆盖从 GAN 到 ChatGPT 的脉络；文中提到 stable diffusion（Stability.AI 2022）、GPT-4、DALL-E-3、Sora 等。期刊版挂 ACM Computing Surveys 2025。
