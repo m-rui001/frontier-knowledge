@@ -1,0 +1,12 @@
+TITLE: Skillful joint probabilistic weather forecasting from marginals
+ARXIV_CAT: cs.LG (arXiv official)
+ARXIV_ID: 2506.10772
+VENUE: arXiv (Cornell University) (2025)
+TYPE: article
+CITED: 118
+DOI: https://doi.org/10.48550/arxiv.2506.10772
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Machine learning (ML)-based weather models have rapidly risen to prominence due to their greater accuracy and speed than traditional forecasts based on numerical weather prediction (NWP), recently outperforming traditional ensembles in global probabilistic weather forecasting. This paper presents FGN, a simple, scalable and flexible modeling approach which significantly outperforms the current state-of-the-art models. FGN generates ensembles via learned model-perturbations with an ensemble of appropriately constrained models. It is trained directly to minimize the continuous rank probability score (CRPS) of per-location forecasts. It produces state-of-the-art ensemble forecasts as measured by a range of deterministic and probabilistic metrics, makes skillful ensemble tropical cyclone track predictions, and captures joint spatial structure despite being trained only on marginals.
