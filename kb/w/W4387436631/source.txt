@@ -1,0 +1,20 @@
+TITLE: SmoothLLM: Defending Large Language Models Against Jailbreaking Attacks
+VENUE: arXiv 2310.03684 (cs.CL)；NeurIPS 2023
+TYPE: preprint / conference
+CITED: 748
+AUTHORS: Alexander Robey 等（ Princeton / 合作组）
+URL: https://arxiv.org/abs/2310.03684
+PAGES: arXiv HTML v1 全文已抓取（文本 13.2 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+We introduce SmoothLLM, a defense against jailbreaking attacks for LLMs. SmoothLLM leverages the observation that adversarial suffixes are fragile to character-level perturbations. It randomly perturbs multiple copies of a given input prompt and aggregates the resulting predictions to detect adversarial prompts. SmoothLLM reduces the attack success rates (ASRs) of seven LLMs—Llama2, Vicuna, GPT-3.5, GPT-4, Claude-1, Claude-2, and PaLM-2—to below 1%; for Llama2 and Vicuna this is nearly 100-fold and 50-fold reduction relative to undefended models. SmoothLLM provides certified robustness guarantees and does not require access to model weights, applying to both open- and closed-source LLMs.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 核心观察：对抗后缀(adversarial suffixes,如GCG生成)对字符级扰动脆弱——随机插入q%字符、随机交换q%字符、随机改动连续q%宽度的字符块,攻击就失效。
+- 方法：把输入提示复制多份,每份做随机字符扰动,送进LLM,聚合结果(多数表决)判断是否有害——即随机化防御。
+- 结果：7个LLM(Llama2/Vicuna/GPT-3.5/GPT-4/Claude-1/Claude-2/PaLM-2)的ASR降到<1%;Llama2近100倍、Vicuna近50倍下降。
+- 理论：给出防御成功概率的闭式表达式,certified robustness guarantees(认证鲁棒性)。
+- 优势：不需访问模型权重,适用于闭源LLM;满足防御的desiderata;文中讨论了攻击vs防御的查询效率、对SmoothLLM的攻击(GCG能否攻破)。
+- 对照：困惑度过滤/改写输入/对抗训练等候选防御;对抗训练因算力不可行。

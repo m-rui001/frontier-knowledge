@@ -1,0 +1,20 @@
+TITLE: Quantifying Language Models' Sensitivity to Spurious Features in Prompt Design
+VENUE: arXiv 2310.11324 (cs.CL)；ICLR 2024
+TYPE: preprint / conference
+CITED: 773
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2310.11324
+PAGES: arXiv HTML v1 全文已抓取（文本 9.6 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Careful choices in formatting few-shot examples during in-context learning introduce spurious biases that may lead to significantly different conclusions in model performance. The sensitivity to formatting choices that we discover across widely-used open-source models suggests that future research would benefit from reporting a performance spread over reasonable variation in prompt formats, in addition to mean performance. We focus on LLM sensitivity to a quintessential class of meaning-preserving design choices: prompt formatting. Several widely used open-source LLMs are extremely sensitive to subtle changes in prompt formatting in few-shot settings, with performance differences of up to 70 accuracy points across formats and models. Results on tasks can be reversed just by choosing different formats.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 关注：few-shot上下文学习中"保持语义"的提示格式选择(格式、标点、示例排列等)引入的虚假特征(spurious features)。
+- 关键数字：格式选择导致性能差异最高超70个准确率点;20%的任务在所有LLaMA-2设置下spread≥15准确率点,所有Falcon设置下≥9点;有的任务结论会因格式不同而被逆转(reversed)。
+- 方法：在"非对抗用户可能合理选择"的格式空间上评估;提出FormatSpread——快速探索提示格式空间的方法(受梯度无关prompt engineering工作启发),避免线性增加n个格式的全量评估成本。
+- 发现：4.3小提示变化导致大性能差异;4.4提示格式是prompt embedding的可识别变换;4.5 FormatSpread。
+- 任务含:把段落分入性别/职业/种族/宗教四类刻板印象或反刻板印象。
+- 建议:报告模型性能时除均值外,应报告合理格式变化下的性能spread。

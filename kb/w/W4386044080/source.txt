@@ -1,0 +1,21 @@
+TITLE: WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct
+VENUE: arXiv 2308.09583 (cs.LG)
+TYPE: preprint
+CITED: 793
+AUTHORS: (详见原文；微软 / 合作组)
+URL: https://arxiv.org/abs/2308.09583
+PAGES: arXiv HTML v1 全文已抓取（文本 8.8 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文，出处层级：论文正文):
+============================================================
+We present WizardMath, a Large Language Model fine-tuned from Llama-2 with an enhanced mathematical reasoning performance via reinforcement learning. We introduce Evol-Instruct tailored for math, a method to evolve the mathematical instruction data to increase the quantity and difficulty. We then train an instruction reward model (IRM) and a process-supervised reward model (PRM), the former indicating the quality of the evolved instruction and the latter receiving feedback for each step in the solution. With reinforcement learning via PPO using these rewards, WizardMath achieves state-of-the-art results.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文表格)
+============================================================
+- 方法：数学版Evol-Instruct(进化指令,增加数量与难度)+指令奖励模型IRM(评估进化指令质量)+过程监督奖励模型PRM(对解题每一步给反馈)+PPO强化学习。
+- 训练细节：把原始数学指令(GSM8k+MATH)进化8轮,数据从1.5万增至9.6万;最终奖励 r = r^I · r^A(指令奖励×答案奖励的乘积);过程监督依赖ChatGPT评估解题每一步正确性,无需专业人工标注。
+- 表格1列头确认:Model/Params/GSM8k/MATH,pass@1%,greedy decoding+CoT设置。基线LLaMA2:7B 14.6/2.5、13B 28.7/3.9、70B 56.8/13.5;闭源GPT-4 92.0/42.5、ChatGPT 80.8/34.1。括号内为WizardMath相对同规模基线的提升。
+- 表格结果(GSM8K / MATH pass@1%)：WizardMath 7B 54.9(+3.3)/10.7(+7.7)；13B 63.9(+35.2)/14.0(+10.1)；70B 81.6(+24.8)/22.7(+9.2)。
+- 对照(部分)：MPT 7B 6.8/3.0；30B 15.2/3.1；其它开源模型。括号内为相对基线提升。
+- 基准：GSM8K、MATH(及子主题)。
+- 意义：把过程监督PRM与指令进化结合用于数学推理RL,早期将RL用于数学的代表工作之一。

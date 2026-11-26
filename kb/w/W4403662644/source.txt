@@ -1,0 +1,21 @@
+TITLE: Show-o: One Single Transformer to Unify Multimodal Understanding and Generation
+VENUE: arXiv 2408.12528 (cs.CV)
+TYPE: preprint
+CITED: 743
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2408.12528
+PAGES: arXiv HTML v1 全文已抓取（文本 7.3 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+We present Show-o, a unified transformer that unifies multimodal understanding and generation. Unlike fully autoregressive models, Show-o unifies autoregressive and (discrete) diffusion modeling to adaptively handle inputs and outputs of various and mixed modalities. The unified model flexibly supports a wide range of vision-language tasks including visual question-answering, text-to-image generation, text-guided inpainting/extrapolation, and mixed-modality generation. Across various benchmarks, it demonstrates comparable or superior performance to existing individual models with an equivalent or larger number of parameters.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文表格):
+============================================================
+- 核心：单个Transformer统一多模态理解与生成;不同于全自回归模型,统一自回归(文本token)与离散扩散(图像)建模,自适应处理不同/混合模态的输入输出。
+- 支持任务：视觉问答、文生图、文本引导的修复/外推(inpainting/extrapolation)、混合模态生成。
+- Tokenization：图像离散化;文本自回归建模,图像patch/像素用离散扩散。
+- 训练：统一训练流水线。
+- 评测：理解用POPE/MME/Flickr30k/VQAv2/GQA/MMMU;生成用MSCOCO上的FID、GenEval(按SD3设置)。
+- 表格片段(理解,列POPE/MME/Flickr30k/VQAv2/GQA/MMMU)：LLaVA-v1.5 7B 85.9/1510.7/-/78.5/62.0/35.4;InstructBLIP 13B 78.9/1212.8/-/-/49.5/-;对照含理解专用模型与生成专用模型(Stable Diffusion等)。
+- 结论：在相当或更少参数下,达到或超过同等规模的专用模型。

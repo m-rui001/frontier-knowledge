@@ -1,10 +1,10 @@
 {
- "method": "路线2批7：arXiv全文优先，领域多样（ViT机制/认知架构/稀疏自编码/路由）",
+ "method": "路线2批8：arXiv全文优先，领域多样（数学RL/鲁棒评测/安全/多模态）",
  "source": "meta/usable.json 未写 arXiv 高引条目",
  "layer_sizes": {
   "cs": 4
  },
  "queue": [],
  "excluded": [],
- "completed_note": "路线2批7：4篇arXiv全文（ViT机制/认知架构/稀疏自编码/路由），INDEX 589→593"
+ "completed_note": "路线2批8：4篇arXiv全文（数学RL/鲁棒评测/安全/多模态），INDEX 593→597"
 }
