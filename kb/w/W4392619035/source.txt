@@ -1,0 +1,12 @@
+TITLE: SaulLM-7B: A pioneering Large Language Model for Law
+ARXIV_CAT: cs.CL (arXiv official)
+ARXIV_ID: 2403.03883
+VENUE: arXiv (Cornell University) (2024)
+TYPE: article
+CITED: 299
+DOI: https://doi.org/10.48550/arxiv.2403.03883
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+In this paper, we introduce SaulLM-7B, a large language model (LLM) tailored for the legal domain. With 7 billion parameters, SaulLM-7B is the first LLM designed explicitly for legal text comprehension and generation. Leveraging the Mistral 7B architecture as its foundation, SaulLM-7B is trained on an English legal corpus of over 30 billion tokens. SaulLM-7B exhibits state-of-the-art proficiency in understanding and processing legal documents. Additionally, we present a novel instructional fine-tuning method that leverages legal datasets to further enhance SaulLM-7B's performance in legal tasks. SaulLM-7B is released under the MIT License.
