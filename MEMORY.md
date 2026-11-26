@@ -1240,7 +1240,7 @@ ul` 也删不掉。已在 `.gitignore` 里写一行 `nul` 绕开。
 - HF 账号 m-rui（孟祥瑞），代理 7897 可用；token 在 E:/api.txt（勿提交）。
 - 统一入口 dataset：`m-rui/llm-corpus-hub`（19 个语料总目录，4 类：论文笔记/代码语料/文本文学/推理链）。
 - 已完整镜像 16 个 dataset：frontier-knowledge-notes(1129文件/204万汉字)、figure-as-code(1071)、ib-koopman-uq-reasoning-chains(284)、repo-note-virtual-sensors(623)、identifiability-leakage-principal-angles(381)、zai-huan(311)、typst_reference(735)、pdfonly-stem(3020)、stem-md-corpus(8258)、guoling-research-notes(365)、babeltele(1300)、math-tex2typst(11710)、galgame-script-corpus(1113/主体850个Zh剧本)、arxiv-stem-zh-corpus(556)、Translate(119)、hub(2)。
-- **待镜像（超大库，代理断流/下载中断）**：typst-industry(5.8GB,上传卡21%)、physics-typst-corpus(747MB,zip下载IncompleteRead)。暂以 GitHub 源仓库提供，hub README 已标注。
+- **两个超大库已通过"只传文本语料"策略完成镜像**：typst-industry 原5.8GB→只传文本/源码226MB（1791文件，排除PDF/tar.gz等可重建产物）、physics-typst-corpus 原747MB→GitHub API逐文件下文本语料52MB（1200文件）。关键洞见：这些库的PDF/png/tar.gz是可重建产物，语料核心只有.typ/.tex/.md/.json/.bib，排除二进制后体量骤降10倍，代理可稳定传输。hub README 已全部标为已镜像。
 - 用户明确：SillyTavern-Content、scientific-ml-notes **不是语料库**（已从 hub 移除）；Translate **是语料库**（已收）。
 - 用户强调：**画图/转写代码也是语料**（figure-as-code、math-tex2typst 在 hub 里独立为"代码语料"类别，与文本语料平级）。
 - 上传技术要点：小库用 `HfApi.upload_folder`（秒传）；含二进制的文件需 `.gitattributes` LFS 规则；PDF/EPUB 用 `upload_large_folder`（走 Xet/LFS，大库慢且易断）；HF 拒绝"被判定二进制"的 commit（如含 null 字节的 html）。galgame 用本地 D:/mxrlib/galgame-script-corpus（比 GitHub 新），Translate 用 E:/Translate/out（EPUB）+ 文档，排除 work_*/scratch/_bak 缓存。
