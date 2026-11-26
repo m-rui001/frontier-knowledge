@@ -1,10 +1,10 @@
 {
- "method": "路线2批8：arXiv全文优先，领域多样（数学RL/鲁棒评测/安全/多模态）",
+ "method": "路线2批9：arXiv全文优先，视觉主题多样（3D/表征/推理/生成对齐）",
  "source": "meta/usable.json 未写 arXiv 高引条目",
  "layer_sizes": {
-  "cs": 4
+  "cs.CV": 4
  },
  "queue": [],
  "excluded": [],
- "completed_note": "路线2批8：4篇arXiv全文（数学RL/鲁棒评测/安全/多模态），INDEX 593→597"
+ "completed_note": "路线2批9：4篇arXiv全文（3D/表征/多模态推理/生成对齐），INDEX 597→601"
 }

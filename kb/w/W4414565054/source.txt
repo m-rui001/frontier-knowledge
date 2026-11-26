@@ -1,0 +1,19 @@
+TITLE: Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models
+VENUE: arXiv 2503.06749 (cs.CV)
+TYPE: preprint
+CITED: 811
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2503.06749
+PAGES: arXiv HTML v1 全文已抓取（文本 6.3 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+DeepSeek-R1-Zero has demonstrated the emergence of reasoning capabilities in LLMs purely through RL. Inspired by this, we explore how RL can enhance reasoning in MLLMs. However, direct RL training struggles to activate complex reasoning in MLLMs. We propose Vision-R1 with a cold-start initialization and Progressive Thinking Suppression Training (PTST), using GRPO with a hard formatting result reward on a 10K multimodal math dataset. We construct a 200K multimodal CoT cold-start dataset (Vision-R1-cold) via modality bridging and data filtering. Experiments show an average improvement of ~6% across multimodal reasoning benchmarks; Vision-R1-7B achieves 73.5% on MathVista, only 0.4% below OpenAI O1.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 问题:直接RL难激活多模态大模型(MLLM)的复杂推理(不像纯文本LLM)。
+- 方法:(1)冷启动:modality bridging(模态桥接)把高质量视觉信息融入文本描述,生成Pseudo-CoT,过滤得到20万条多模态CoT数据(Vision-R1-cold);(2)PTST(Progressive Thinking Suppression Training,渐进思维抑制训练)缓解冷启动后的overthinking优化难题;(3)GRPO + 硬格式结果奖励,在1万条多模态数学数据上训练。
+- 结果:多个多模态推理基准平均提升约6%;Vision-R1-7B在MathVista达73.5%,仅比OpenAI O1低0.4%。
+- 表格基准:MMStar/ChartQA/MME-sum/HallBench/MathVista/MathVerse/MM-Math;对照Llama-3.2-11B-V、Mulberry-Llama-11B、LLaVA-CoT-11B等。
+- 洞察:简单描述缺视觉信息致DeepSeek-R1混淆幻觉;modality bridging的详细描述把视觉信息融入推理。代码github.com/Osilly/Vision-R1。

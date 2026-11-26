@@ -1,0 +1,20 @@
+TITLE: Revisiting Feature Prediction for Learning Visual Representations from Video
+VENUE: arXiv 2404.08471 (cs.CV)；CVPR 2024；FAIR at Meta
+TYPE: preprint / conference
+CITED: 870
+AUTHORS: (详见原文；Meta FAIR，含 Yann LeCun 相关 JEPA 工作线)
+URL: https://arxiv.org/abs/2404.08471
+PAGES: arXiv HTML v1 全文已抓取（文本 10.2 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+This paper explores feature prediction as a stand-alone objective for unsupervised learning from video and introduces V-JEPA, a collection of vision models trained solely using a feature prediction objective, without pretrained image encoders, text, negative examples, reconstruction, or other sources of supervision. Models are trained on 2 million videos from public datasets and evaluated on downstream image and video tasks. Learning by predicting video features leads to versatile representations that perform well on both motion- and appearance-based tasks without adapting model parameters (frozen backbone). Our largest model, a ViT-H/16 trained only on videos, obtains 81.9% on Kinetics-400, 72.2% (something).
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 核心问题:特征预测作为从视频无监督学习的独立目标有多有效?V-JEPA:只用特征预测目标,不用预训练图像编码器/文本/负样本/重建/人工标注/像素级重建。
+- 数据:200万公开视频;模型族V-JEPA(不同规模)。
+- 结果:特征预测学到通用表示,在运动与外观任务上都好,冻结backbone即可(无需调参)。最大ViT-H/16仅用视频训练,Kinetics-400达81.9%、Something-Something-v2达72.2%、ImageNet1K达77.9%(全部冻结backbone评估)。
+- 关键发现:(1)图像特征充分——冻结评估(attentive probing)下特征预测优于像素预测,全微调下相当,且训练schedule短得多;(2)特征预测比像素预测label-efficient(标签效率高);(3)视频训练的模型在图像任务上也强,DINOv2等SOTA图像模型在基于外观任务上出色。
+- 对照:像素预测方法OmniMAE/VideoMAE/Hiera(用像素重建损失);不同评测协议(frozen/attentive probing vs full fine-tuning)。
+- 意义:JEPA路线的代表,证明"在表示空间预测"优于"在像素空间重建"。

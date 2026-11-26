@@ -1,0 +1,22 @@
+TITLE: Depth Anything 3: Recovering the Visual Space from Any Views
+VENUE: arXiv 2511.10647 (cs.CV)
+TYPE: preprint
+CITED: 892
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2511.10647
+PAGES: arXiv HTML v1 全文已抓取（文本 8.3 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Given a set of visual inputs, we aim to recover the 3D geometry of the scene, with or without known camera poses. Depth Anything 3 (DA3) formulates geometric reconstruction as a dense prediction task: for N input images, the model outputs N corresponding depth maps and ray maps, pixel-aligned with each input, which can be fused into accurate point clouds, high-fidelity 3D Gaussians and geometry. With minimal modeling, DA3 yields two key insights: a single plain transformer (e.g., vanilla DINO encoder) suffices as backbone without architectural specialization, and a singular depth-ray prediction target suffices. DA3 significantly outperforms VGGT in multi-view geometry and pose accuracy; with monocular inputs, it also surpasses Depth Anything 2 while matching its detail and robustness.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 核心:从任意视角(单目/多目,已知或未知相机位姿)恢复3D几何。把几何重建表述为稠密预测:输入N张图,输出N张depth map + ray map(逐像素对齐),融合成点云/3D Gaussian/几何。
+- 两个洞见:(1)单个朴素Transformer(如vanilla DINO encoder)足够,无需架构特化;(2)单一的depth-ray预测目标足够。
+- 从ray map推导相机参数(depth-ray representation)。
+- 应用:pose-conditioned与pose-adaptive的前馈3D Gaussian Splatting(3DGS)。
+- Teacher-Student:构建teacher模型,教DA3、教单目模型、教metric模型。
+- 新基准Visual Geometry Benchmark:评估pose/几何/渲染质量。
+- 结果:多目几何与位姿精度显著超VGGT;单目超Depth Anything 2且保持细节与鲁棒性。
+- 分析:depth-ray表示充分性、单Transformer充分性、Dual-DPT head、teacher监督、pose conditioning、运行时间等消融。

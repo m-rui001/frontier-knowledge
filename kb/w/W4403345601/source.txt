@@ -1,0 +1,20 @@
+TITLE: Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think
+VENUE: arXiv 2410.06940 (cs.CV)；ICLR 2025
+TYPE: preprint / conference
+CITED: 708
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2410.06940
+PAGES: arXiv HTML v1 全文已抓取（文本 10.2 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+We argue that a main bottleneck in training large diffusion models for generation lies in effectively learning good representations. Training can be made easier by incorporating high-quality external visual representations, rather than relying solely on the generative objective. We introduce REPA (Representation Alignment), which aligns the internal representations of diffusion transformers with those from powerful self-supervised encoders such as DINOv2. This simple regularization significantly accelerates training and improves generation quality. With classifier-free guidance and the guidance interval, REPA achieves state-of-the-art FID=1.42.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文表格):
+============================================================
+- 核心:扩散Transformer(DiT/SiT)训练瓶颈在于表示学习;REPA把其内部表示与自监督编码器(如DINOv2-g)表示对齐,作为正则化,显著加速训练并提升生成质量。
+- 观察:预训练SiT虽有语义(线性探针可测),但与DINOv2表示对齐度低(语义gap);REPA后仅8层就大幅提升对齐;对齐改善后生成表示质量也提升。
+- 训练效率表(FID,ImageNet):SiT-XL/2 675M/400K迭代=17.2;+REPA 675M/150K=13.6;SiT-XL/2 675M/7M=8.3;+REPA 675M/400K=7.9;+REPA 1M=6.4;+REPA 4M=5.9。即REPA用远少迭代达到更好FID(如4M→400K级别改善)。
+- 最优:FID=1.42(classifier-free guidance + guidance interval),SOTA。
+- 对齐目标:自监督表示(DINOv2等),附录描述预训练视觉编码器。
+- 意义:跨接自监督表示学习与生成模型,让diffusion训练更容易。
