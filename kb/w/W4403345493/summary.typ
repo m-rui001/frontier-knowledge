@@ -4,10 +4,10 @@
   src: "Borjan Geshkovski、Hugo Koubbi、Yury Polyanskiy、Philippe Rigollet · arXiv 2410.06833",
   url: "https://doi.org/10.48550/arxiv.2410.06833",
   meta: "被引 74",
-  ratio: "原文 30 页 → 本篇 4 页（约 2/15）",
+  ratio: "原文 30 页 → 本篇 3 页（约 1/10）",
 )[
 这是一篇研究 Transformer 内部动力学的数学论文。它把自注意力建模成单位球面上的「交互粒子系统」——这是 Transformer 的一个玩具模型。作者证明了一个此前被猜想（GLPR24）的现象：动态亚稳态——虽然粒子在无限长时间后会坍缩成单一簇，但它们会在「多簇构型」附近被困住指数级长的时间。借助梯度流的解释，作者把这个结果与 Otto 和 Reznikoff 关于梯度流慢运动的框架（源自粗化与 Allen-Cahn 方程）联系起来。最后还探索了指数级亚稳态期之后的动力学——在适当的时间重标定下，能量在有限时间内达到全局最大，呈「阶梯状」profile，轨迹表现出「鞍点到鞍点」的行为。
-] [
+
 = 之前卡在哪
 
 自注意力是 Transformer 的核心机制——而 Transformer 是当代 LLM 的架构基础。理解自注意力的动力学，对理解 Transformer 如何工作有根本意义。
