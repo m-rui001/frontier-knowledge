@@ -1,11 +1,10 @@
 {
- "method": "路线2批4：只挑有开放获取链接的条目，保证全文质量",
- "source": "meta/usable.json 未写条目，oa_url非空或arXiv，按引用降序",
+ "method": "路线2批5：只挑arXiv高引，保证全文；领域多样（数学推理/长上下文/评测/多智能体）",
+ "source": "meta/usable.json 未写 arXiv 条目按引用降序",
  "layer_sizes": {
-  "cs": 3,
-  "math": 1
+  "cs": 4
  },
  "queue": [],
  "excluded": [],
- "completed_note": "路线2批4：只挑有OA链接条目，4篇全部全文写就，INDEX 577→581"
+ "completed_note": "路线2批5：4篇arXiv全文（数学推理/长上下文/评测/多智能体），INDEX 581→585"
 }

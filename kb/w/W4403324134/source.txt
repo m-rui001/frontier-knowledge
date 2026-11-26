@@ -1,0 +1,20 @@
+TITLE: GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models
+VENUE: arXiv 2410.05229 (cs.LG)
+TYPE: preprint
+CITED: 940
+AUTHORS: Iman Mirzadeh 等（Apple / 研究合作组）
+URL: https://arxiv.org/abs/2410.05229
+PAGES: arXiv HTML v1 全文已抓取（文本 6.8 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Large Language Models (LLMs) have sparked interest in their formal reasoning capabilities, particularly in mathematics. The GSM8K benchmark is widely used to assess the mathematical reasoning of models on grade-school-level questions. While the performance of LLMs on GSM8K has significantly improved in recent years, it remains unclear whether their mathematical reasoning capabilities have genuinely advanced, raising questions about the reliability of the reported metrics. To address these concerns, we conduct a large-scale study on several state-of-the-art open and closed models. To overcome the limitations of existing evaluations, we introduce GSM-Symbolic, an improved benchmark created from symbolic templates that allow for the generation of a diverse set of questions. GSM-Symbolic enables more controllable evaluations, providing key insights and more reliable metrics for measuring the reasoning capabilities of models. Our findings reveal that LLMs exhibit noticeable variance when responding to different instantiations of the same question. Specifically, the performance of all models declines when only the numerical values in the question are altered in the GSM-Symbolic benchmark. Furthermore, we investigate the fragility of mathematical reasoning in these models and demonstrate that their performance significantly deteriorates as the number of clauses in a question increases. We hypothesize that these models are not capable of genuine logical reasoning; instead, they attempt to replicate the reasoning steps observed in their training data. When we add a single clause that appears relevant to the question, we observe significant performance drops (up to 65%) across all state-of-the-art models, even though the added clause does not contribute to the reasoning chain needed to reach the final answer.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文表格)
+============================================================
+- 模型：开源 2B 到 27B 多款；闭源 GPT-4o-mini、GPT-4o、o1-mini、o1-preview。
+- GSM-Symbolic：从符号模板生成多样化问题，可控评估。发现：仅改数值，所有模型性能下降；问题子句越多，性能越差。
+- 表格片段（某 GSM 变体列，数值±标准差）：GPT-4o 95.2/95.0/94.4(±1.62)/94.9(±1.87)/93.9(±2.59)/88.0(±3.43)/63.1(±4.53)；o1-mini 95.1/93.0/94.9(±1.49)/94.5(±1.58)/94.3(±2.57)/89.1(±3.56)/66.0(±4.60)；o1-preview 94.9 起。列对应不同难度/变体（原文表格）。
+- GSM-NoOp：加入看似相关但实则无关的信息，所有 SOTA 模型性能最多下降 65%。揭示模型辨别相关信息能力的缺陷。
+- 核心假设：当前 LLM 不具备真正的逻辑推理，而是复现训练数据里见过的推理步骤。
+- 附录：A.4 简单任务微调能否帮难任务；A.5 o1-preview/o1-mini 结果。

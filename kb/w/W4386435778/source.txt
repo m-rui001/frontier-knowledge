@@ -1,0 +1,21 @@
+TITLE: YaRN: Efficient Context Window Extension of Large Language Models
+VENUE: arXiv 2309.00071 (cs.CL)；ICLR 2024
+TYPE: preprint / conference
+CITED: 888
+AUTHORS: Wenlong Peng, Alireza Zandifar 等（jquesnelle 等）
+URL: https://arxiv.org/abs/2309.00071
+PAGES: arXiv HTML v1 全文已抓取（文本 4.6 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+YaRN (Yet another RoPE extensioN method) is a compute-efficient method to extend the context window of such models, requiring 10x less tokens and 2.5x less training steps than previous methods. Using YaRN, we show that LLaMA models can effectively utilize and extrapolate to context lengths much longer than their original pre-training would allow, while also surpassing previous state-of-the-art at context window extension. In addition, we demonstrate that YaRN enables models trained on limited context to extrapolate far beyond the limited context of a fine-tuning dataset. We publish the checkpoints of Llama 2 7B/13B fine-tuned using YaRN with 64k and 128k context windows.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文)
+============================================================
+- 问题：Transformer LLM 的上下文窗口受位置编码限制；直接外推到超过预训练长度的序列效果差。RoPE 是主流位置编码。
+- 相关方法演进：位置插值 PI（Position Interpolation，在预训练范围内插值位置索引+少量微调）；NTK-aware 插值（考虑高频信息丢失）；NTK-by-parts 插值（考虑相对局部距离丢失）；Dynamic NTK（动态缩放）；YaRN（提高长距离上的平均最小余弦相似度）。
+- YaRN 组成：把 NTK-by-parts（3.2）与 attention 温度缩放（3.4，把注意力 logits 乘 t>1 逆转熵降低）结合，在训练与推理阶段都用。
+- 效率：比之前方法少需 10 倍 token、少 2.5 倍训练步数。
+- 模型与结果：Llama 2 7B/13B（以及 70B）微调到 64k 与 128k 上下文；滑动窗口困惑度（S=256）在 Proof-pile 上评估十篇 128k 文档；发布的 checkpoint 在 github.com/jquesnelle/yarn。
+- 温度缩放原理：因 RoPE 编码为旋转矩阵，可通过缩放 θ 的长度实现等效于 attention 温度 t>1 的效果。
+- 关键洞察：熵随上下文增长而降低是跨模型/数据的普遍现象（在 7b/13b/70b Llama2 上验证），YaRN 逆转这一趋势。

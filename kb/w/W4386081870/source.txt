@@ -1,0 +1,22 @@
+TITLE: AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents
+VENUE: arXiv 2308.10848 (cs.AI)；ICLR 2024
+TYPE: preprint / conference
+CITED: 899
+AUTHORS: Qingyun Wu 等（Penn State / 合作组）
+URL: https://arxiv.org/abs/2308.10848
+PAGES: arXiv HTML v1 全文已抓取（文本 8 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Recent studies have shown that Large Language Models (LLMs) are capable of simulating human behavior and demonstrating remarkable abilities as autonomous agents. However, in real-world scenarios, complex tasks such as software development, consulting, and game playing might require cooperation among individuals to achieve better effectiveness. AgentVerse is a framework to facilitate multi-agent collaboration, where a group of AI agents work together to solve complex tasks. Experiments demonstrate that AgentVerse framework can effectively deploy multi-agent groups that outperform a single agent. Furthermore, we delve into the emergence of social behaviors among individual agents within a group during collaborative task accomplishment. In view of these behaviors, we discuss some possible strategies to leverage positive ones and mitigate negative ones.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文)
+============================================================
+- 框架：把群体解决问题拆成四阶段：(1) Expert Recruitment（专家招募，据当前进度调整专家agent）；(2) Collaborative Decision-Making（协作决策，招募的agent讨论制定策略）；(3) Action Execution（执行）；(4) Evaluation（评估）。循环迭代。
+- 通信结构：横向通信(horizontal)与纵向通信(vertical)两种；软件开发案例中采用纵向结构。
+- 模型：GPT-3.5-Turbo-0613 与 GPT-4-0613。
+- 任务：需要对话、数学计算、逻辑推理、编码能力的任务；案例研究含软件开发、咨询、Minecraft 游戏。
+- 软件开发案例：招募三名评审角色——software engineer、UX designer、software tester；多agent组确保覆盖软件开发各方面。
+- 涌现行为（Minecraft 中）：(1) volunteer behaviors（主动帮同伴，提升团队效率）；(2) conformity behaviors（在批评下调整偏离行为以对齐共同目标）；还讨论了负面行为及缓解策略。
+- 实验：定量分析 AgentVerse 多agent组优于单agent；案例研究更复杂真实应用。
+- 附录：定量实验配置、Minecraft 实验细节、prompts、定性实验样例。

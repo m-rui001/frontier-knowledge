@@ -1,0 +1,23 @@
+TITLE: GAIA: a benchmark for General AI Assistants
+VENUE: arXiv 2311.12983 (cs.AI)；ICLR 2024
+TYPE: preprint / conference
+CITED: 744
+AUTHORS: Grégoire Mialon 等（Meta / 合作组；通讯 gmialon@meta.com）
+URL: https://arxiv.org/abs/2311.12983
+PAGES: arXiv HTML v1 全文已抓取（文本 8.7 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+We introduce GAIA, a benchmark for General AI Assistants. GAIA's questions are conceptually simple for humans yet challenging for most advanced AIs: we show that human respondents obtain 92% vs. 15% for GPT-4 equipped with plugins. This notable performance disparity contrasts with the recent trend of LLMs outperforming humans on tasks requiring professional skills in e.g. law or chemistry. GAIA's philosophy departs from the current trend in AI benchmarks such as MMLU or Hellaswag, which are nearing saturation due to rapid LLM improvement possibly combined with data contamination. GAIA comprises 466 questions and their answers; we release the questions while retaining answers to 300 of them to power a leaderboard. Questions require a combination of reasoning, web browsing, and tool-use proficiency, organized in three levels of increasing difficulty.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文)
+============================================================
+- 核心对照：人类答卷者 92% vs GPT-4 配插件 15%。与"LLM 在法律/化学等专业任务上超过人类"的趋势相反。
+- 规模：466 个问题及答案；公开题目，保留 300 题答案用于排行榜。
+- 对比基准饱和：GPT-4 在 MMLU 上 86.4%；非专业人类在该基准只有 34.5%，专家级人类估计 89.8%；Hellaswag 也接近饱和。归因于 LLM 快速进步+可能的数据污染。
+- 设计哲学：问题对人类概念上简单，对 AI 困难；考察推理、网页浏览、工具使用的组合。
+- 三级难度：level 1/2/3 递增。
+- 能力覆盖：要求多步推理、工具调用、浏览、多模态（部分题目含附件）。
+- 评估与讨论：闭源助手的可复现性、静态vs动态基准、生成模型的统一评估、部分vs全自动化的讨论。
+- 局限（第6章）：缺失的评估、成本问题、依赖网络的挑战。
+- 日期标注：文中 † date: August 24, 2026（预印本版本日期字段）；代码 github。
