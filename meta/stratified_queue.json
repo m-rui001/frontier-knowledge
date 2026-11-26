@@ -1,13 +1,12 @@
 {
- "method": "路线2批13：arXiv全文优先，领域多样（虚假信息/科研agent/经济/数学理论）",
+ "method": "路线2批14：arXiv全文优先，领域多样（机器人策略/具身agent/自动驾驶/脑科学）",
  "source": "meta/usable.json 未写 arXiv 高引条目",
  "layer_sizes": {
-  "social": 1,
-  "eval": 1,
-  "econ": 1,
-  "math": 1
+  "robotics": 2,
+  "driving": 1,
+  "neuro": 1
  },
  "queue": [],
  "excluded": [],
- "completed_note": "路线2批13：4篇arXiv全文（虚假信息/科研agent评测/算法合谋/扩散收敛理论），INDEX 613→617"
+ "completed_note": "路线2批14：4篇arXiv全文（机器人策略/具身agent/自动驾驶/脑电），INDEX 617→621"
 }

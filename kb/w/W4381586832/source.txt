@@ -1,0 +1,20 @@
+TITLE: RoboCat: A Self-Improving Foundation Agent for Robotic Manipulation
+VENUE: arXiv 2306.11706 (cs.RO)；Nature Machine Intelligence 2023
+TYPE: preprint / journal
+CITED: 313
+AUTHORS: (详见原文；DeepMind)
+URL: https://arxiv.org/abs/2306.11706
+PAGES: arXiv HTML v1 全文已抓取（文本 16.8 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+We propose RoboCat, a self-improving foundation agent for vision-based robotic manipulation, instantiated as a large transformer sequence model. Inspired by foundation models, we aim for a generalist agent that can perform a wide range of tasks and adapt to new ones. Given a version of this generalist agent, it can adapt to new tasks with 100–1000 demonstrations, and be deployed to generate much more data for a given task. The resulting trajectories are added to the training dataset for the next iteration, increasing the generalist's repertoire and improving performance on other tasks.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 方法:RoboCat=自改进基础agent,视觉机器人操作,大型Transformer序列模型(自回归建模观察-动作序列);目标=通用agent跨多任务跨不同机器人(共享观察与动作空间)。
+- 适配:给定一版通用agent,用100-1000条演示即可适配新任务;部署后为给定任务自生成大量数据;轨迹加入训练数据供下一轮迭代,扩技能库并提升其它任务表现——自我改进闭环。
+- 真实部署:用奖励模型做成功检测;用policy pools做自主重置(autonomous resets)。
+- 实验:overall性能/generalisation与adaptation/自改进(微调+自生成数据)/消融;对比VFM-based agents,few-shot微调用显著更少数据学习。
+- 任务族:举物/搭建结构/插拔物体/NIST-i任务等。
+- 意义:把基础模型范式(通用+适配+自改进)引入机器人操作。

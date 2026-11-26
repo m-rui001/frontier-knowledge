@@ -1,0 +1,20 @@
+TITLE: CBraMod: A Criss-Cross Brain Foundation Model for EEG Decoding
+VENUE: arXiv 2412.07236 (cs.AI)；AAAI 2025
+TYPE: preprint / conference
+CITED: 163
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2412.07236
+PAGES: arXiv HTML v1 全文已抓取（文本 14.2 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Early EEG decoding methods rely on supervised learning, limited to specific tasks and datasets, hindering performance and generalizability. With LLMs' success, EEG foundation models emerged, but challenges remain: (1) most employ full EEG modeling, modeling spatial and temporal dependencies among all patches together, ignoring that these dependencies are heterogeneous due to EEG's unique structure; (2) limited generalizability across downstream BCI tasks due to varying EEG formats. We propose CBraMod with a criss-cross transformer backbone that models spatial and temporal dependencies separately through two parallel attention mechanisms, plus an asymmetric conditional positional encoding scheme adaptable to diverse EEG formats. CBraMod is pretrained on a very large EEG corpus through patch-based masked EEG reconstruction, and achieves state-of-the-art across up to 10 downstream BCI tasks (12 public datasets).
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 问题:早期EEG解码靠监督学习受限于任务/数据;已有EEG基础模型两挑战:(1)full EEG modeling把空时依赖一起建模,忽略EEG空时依赖异质;(2)因EEG格式多样,跨下游BCI任务泛化有限。
+- 方法CBraMod:criss-cross transformer骨干,两条并行注意力分别建模空间与时间依赖;非对称条件位置编码(asymmetric conditional positional encoding)适应多样EEG格式;patch-based masked EEG reconstruction预训练。
+- 预训练数据TUEG:14,987受试者/26,846会话/27,062小时;40+通道配置,多数256Hz;存在数据污染需清洗。
+- 评估:多达10个下游BCI任务,12个公开数据集(含TUEV事件分类/TUAB异常检测,与BIOT/LaBraM一致设置);SOTA。
+- 消融:axial attention优于full attention但不如criss-cross;证明分开建模空时依赖的价值。
+- 代码github.com/wjq-learning/CBraMod。

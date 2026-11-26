@@ -1,0 +1,20 @@
+TITLE: EMMA: End-to-End Multimodal Model for Autonomous Driving
+VENUE: arXiv 2410.23262 (cs.RO)；Waymo
+TYPE: preprint
+CITED: 388
+AUTHORS: (详见原文；Waymo LLC)
+URL: https://arxiv.org/abs/2410.23262
+PAGES: arXiv HTML v1 全文已抓取（文本 8.3 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+We introduce EMMA, an End-to-end Multimodal Model for Autonomous driving. Built on a multimodal LLM foundation, EMMA directly maps raw camera sensor data into driving-specific outputs: planner trajectories, perception objects, and road graph elements. EMMA maximizes utility of world knowledge from pretrained LLMs by representing all non-sensor inputs (navigation instructions, ego status) and outputs (trajectories, 3D locations) as natural language text. This lets EMMA jointly process various driving tasks in a unified language space and generate outputs via task-specific prompts. Empirically, EMMA achieves state-of-the-art motion planning on nuScenes and competitive results on Waymo Open Motion Dataset (WOMD), and competitive camera-primary 3D object detection on Waymo Open Dataset (WOD). Co-training with planner trajectories, object detection, and road graph yields improvements across all three domains. Limitations: processes only small number of image frames, no accurate 3D sensing (LiDAR/radar), computationally expensive.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 方法:EMMA=端到端多模态自动驾驶模型,建在多模态LLM基座上,把原始摄像头数据直接映射到驾驶输出(规划轨迹/感知物体/道路图元素);所有非传感输入(导航指令/自车状态)与输出(轨迹/3D位置)都表示为自然语言文本,在统一语言空间联合处理多任务,用任务特定prompt生成各任务输出。
+- 输出:规划轨迹表示为BEV空间未来路点集合{(x_t,y_t)}。
+- 结果:nuScenes运动规划SOTA;WOMD有竞争力;Waymo Open Dataset上camera-primary 3D物体检测有竞争力;共训练规划+检测+道路图三任务,三域均提升。
+- CoT:内部数据集上用chain-of-thought推理做端到端规划。
+- 局限:只能处理少量图像帧;不含LiDAR/radar等精确3D传感;计算昂贵。
+- 意义:把LLM世界知识引入端到端自动驾驶,多任务统一语言空间。

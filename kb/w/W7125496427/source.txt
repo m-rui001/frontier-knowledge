@@ -1,0 +1,19 @@
+TITLE: Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning
+VENUE: arXiv 2601.16163 (cs.RO)；NVIDIA
+TYPE: preprint
+CITED: 493
+AUTHORS: (详见原文；NVIDIA)
+URL: https://arxiv.org/abs/2601.16163
+PAGES: arXiv HTML v1 全文已抓取（文本 8.9 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Video generation models demonstrate remarkable ability to capture complex physical interactions and scene evolution. To leverage their spatiotemporal priors, robotics works have adapted video models for policy learning but introduce complexity via multiple post-training stages and new architectural components. We introduce Cosmos Policy, a simple approach for adapting a large pretrained video model by fine-tuning it to incorporate different modalities enabling visuomotor control and planning. Robot actions are encoded as latent frames within the video model's latent diffusion process, harnessing pretrained priors to capture complex action distributions. Cosmos Policy also generates future state images and values. As a direct policy it achieves 98.5% and 67.1% average success rates on LIBERO and RoboCasa, and the highest score on real-world bimanual tasks, outperforming diffusion policies trained from scratch, video model-based policies, and state-of-the-art VLA models.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 方法:Cosmos Policy——把预训练视频生成模型微调成视觉运动控制+规划;动作编码为视频模型latent diffusion过程中的latent frames,复用预训练时空先验与核心学习算法捕捉复杂动作分布;同时生成未来状态图像与value(期望累积奖励)。
+- 两种模式:direct policy(无规划)与基于模型规划(用未来状态与value预测)。给定rollout数据,可从经验中refine世界模型与value函数,用模型规划达更高成功率。
+- 结果:LIBERO仿真基准98.5%平均成功率,RoboCasa 67.1%平均成功率;真实世界双臂操作任务最高平均分;超过从零训练的diffusion policies、video model-based policies、SOTA视觉语言动作(VLA)模型。
+- 对比:用同一机器人演示数据微调的各方法。
+- 意义:简化视频模型适配机器人流程(单阶段微调、无新架构组件),把生成模型的物理先验用于策略。
