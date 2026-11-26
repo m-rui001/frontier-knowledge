@@ -1,0 +1,24 @@
+TITLE: A Survey on Large Language Models for Code Generation
+VENUE: ACM Computing Surveys 2026；arXiv 2406.00515
+TYPE: survey
+CITED: 1521
+AUTHORS: (详见原文；香港科技大学广州等)
+URL: https://arxiv.org/abs/2406.00515
+PAGES: arXiv HTML v1 全文已抓取（文本 21.7 万字符）
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+Large Language Models (LLMs) have garnered remarkable advancements across diverse code-related tasks, known as Code LLMs, particularly in code generation that generates source code with LLM from natural language descriptions. This burgeoning field has captured significant interest from both academic researchers and industry professionals due to its practical significance in software development, e.g., GitHub Copilot. Despite the active exploration of LLMs for a variety of code tasks, either from the perspective of natural language processing (NLP) or software engineering (SE) or both, there is a noticeable absence of a comprehensive and up-to-date literature review dedicated to LLM for code generation. In this survey, we aim to bridge this gap by providing a systematic literature review that serves as a valuable reference for researchers investigating the cutting-edge progress in LLMs for code generation. We introduce a taxonomy to categorize and discuss the recent developments in LLMs for code generation, covering aspects such as data curation, latest advances, performance evaluation, and real-world applications. In addition, we present a historical overview of the evolution of LLMs for code generation and offer an empirical comparison using the widely recognized HumanEval and MBPP benchmarks to highlight the progressive enhancements in LLM capabilities for code generation. We identify critical challenges and promising opportunities regarding the gap between academia and practical development. Furthermore, we have established a dedicated resource website (https://codellm.github.io) to continuously document and disseminate the most recent advances in the field.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文表格与段落)
+============================================================
+- 分类框架(taxonomy)：数据整理(data curation)、最新进展、性能评估、真实应用；另给历史演进概述。资源网站 codellm.github.io。
+- 评测基准：HumanEval 与 MBPP 为主；还有 HumanEval Plus。
+- 具体数字（均出自正文）：
+  * WizardCoder（在 StarCoder 基座上微调）HumanEval pass@1 达 57.3%，超过当时所有开源 Code LLM，也超过 Claude 和 Bard。
+  * Magicoder 用 OSS-INSTRUCT 数据合成法；MagicoderS-CL-7B 用 75k 条合成指令数据、gpt-3.5-turbo-1106 作生成器，在 HumanEval Plus 上 pass@1 66.5%，略胜 ChatGPT 的 65.9%。
+  * 有工作（Zhou et al. 2024）不用 RL 与人类偏好建模，在 43% 评测案例上达到或超过 GPT-4；对 Bard 58%、对 DaVinci003 65%。
+  * 表格片段（参数量 / HumanEval pass@1 / 另两项）：OctoCoder 15.5B/46.2；PaLM-Coder 540B/36/88.4；CodeGeeX2 6B/35.9/62.6/88.3；InstructCodeT5+ 16B/35.0/54.5/77.9；CodeGen-NL 16.1B/14.24/23.46/38.33；CodeGen-Multi 16.1B/18.32/32.07/50.8；CodeGen-Mono 16.1B/29.x。
+  * 34B 模型某行：48.8/76.8/93.0。
+- 代表性模型：StarCoder、Code LLaMA、DeepSeek-Coder、CodeGemma（代码专用）；GPT 系列（通用）。
+- 主题：指令微调、合成数据及其偏见、对齐、学术与工业落地差距。

@@ -1,12 +1,11 @@
 {
- "method": "路线2批3：工程/数学教材与国际测试标准，摘要实质内容充分，全文受限做摘要级",
- "source": "meta/usable.json 未写高引条目",
+ "method": "路线2批4：只挑有开放获取链接的条目，保证全文质量",
+ "source": "meta/usable.json 未写条目，oa_url非空或arXiv，按引用降序",
  "layer_sizes": {
-  "engineering": 1,
-  "math": 1,
-  "environment": 1
+  "cs": 3,
+  "math": 1
  },
  "queue": [],
  "excluded": [],
- "completed_note": "路线2批3：弹性稳定/共形场论/FET测试3篇（全摘要级），INDEX 574→577"
+ "completed_note": "路线2批4：只挑有OA链接条目，4篇全部全文写就，INDEX 577→581"
 }

@@ -1,0 +1,24 @@
+TITLE: Logs with Zeros? Some Problems and Solutions
+VENUE: arXiv 2212.06080 (econ.EM)；后发表于期刊（Chen & Roth）
+TYPE: 方法论文
+CITED: 1456
+AUTHORS: Jiafeng Chen (Harvard Business School / Harvard Economics), Jonathan Roth (Brown University Economics)
+URL: https://arxiv.org/abs/2212.06080
+PAGES: arXiv HTML v1 全文已抓取（文本 4.6 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Researchers frequently estimate the average treatment effect (ATE) in logs, which has the desirable property that its units approximate percentages. When the outcome takes on zero values, researchers often use alternative transformations (e.g., log(1+Y), arcsinh(Y)) that behave like log(Y) for large values of Y, and interpret the units as percentages. In this paper, we show that ATEs for transformations other than log(Y) cannot be interpreted as percentages, at least if one imposes the seemingly reasonable requirement that a percentage does not depend on the original scaling of the outcome (e.g. dollars versus cents). We first show that if m(y) is a function that behaves like log(y) for large values of y and the treatment affects the probability that Y=0, then the ATE for m(Y) can be made arbitrarily large or small in magnitude by re-scaling the units of Y. Moreover, we show that any parameter of the form θ_g = E[g(Y(1),Y(0))] where g(y1,y0)=c·log(y1/y0)+d cannot be both point-identified and scale-invariant when g is well-defined for zero-valued outcomes. The paper then discusses recommendations: normalized treatment effects, directly valuing intensive versus extensive margin, or separating the two margins.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文)
+============================================================
+- 设定：结果变量 Y 可能为 0（如收入、消费、企业规模）；研究者想估计对数平均处理效应（log ATE），因为它的单位近似百分比、好解释。
+- 问题：log(0) 无定义，研究者改用在大 Y 时行为像 log(Y) 的替代变换——log(1+Y)、arcsinh(Y)、IHS 变换——并把它们的 ATE 单位仍当作百分比解释。
+- 核心定理1：若 m(y) 在大 y 时像 log(y) 增长，且处理影响了 Y=0 的概率（即 extensive margin 被影响），则 m(Y) 的 ATE 可以通过单纯改变 Y 的计量单位（如美元改成分）变得任意大或任意小。
+- 核心定理2：任何形如 θ_g = E[g(Y(1),Y(0))]、其中 g(y1,y0)=c·log(y1/y0)+d 的参数，只要 g 在 Y=0 处有定义，就不可能同时满足点识别(point-identified)与尺度不变(scale-invariant)。因为 log(0) 无定义，尺度不变性和点识别不可兼得。
+- 例子：培训对收入的影响；若"无培训也有正收入的人，培训后仍为正收入"（P(Y(1)=0,Y(0)>0)=0），论证可简化；否则存在两个 extensive margins。
+- Poisson 回归的伪似然：Y|D ~ Pois(exp(α+βD)) 估计 e^β = E[Y(1)]/E[Y(0)] = θ_ATE% + 1，但这一识别依赖特定条件。
+- 建议（第4章）：(1) normalized treatment effects（标准化处理效应）；(2) 直接对 intensive margin 与 extensive margin 分别赋值；(3) 把两个边际分开报告。
+- 尺度敏感性量化：论文第2章专门量化变换对尺度的敏感性；第3章推广到其它 ATE。
+- 重要旁注：arcsinh(Y) 与 log(1+Y) 的尺度依赖性是其固定变换本身的属性，不是估计方法的问题。
+- 许可：CC BY 4.0。

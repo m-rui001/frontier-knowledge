@@ -1,0 +1,25 @@
+TITLE: Explainability for Large Language Models: A Survey
+VENUE: ACM Computing Surveys；arXiv 2309.01029；DOI 10.1145/3639372
+TYPE: survey
+CITED: 1455
+AUTHORS: (详见原文；综述作者组)
+URL: https://arxiv.org/abs/2309.01029
+PAGES: arXiv HTML v1 全文已抓取（文本 13.6 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Large language models (LLMs) have demonstrated impressive capabilities in natural language processing. However, their internal mechanisms are still unclear and this lack of transparency poses unwanted risks for downstream applications. Therefore, understanding and explaining these models is crucial for elucidating their behaviors, limitations, and social impacts. In this article, we introduce a taxonomy of explainability techniques and provide a structured overview of methods for explaining Transformer-based language models. We categorize techniques based on the training paradigms of LLMs: traditional fine-tuning-based paradigm and prompting-based paradigm. For each paradigm, we summarize the goals and dominant approaches for generating local explanations of individual predictions and global explanations of overall model knowledge. We also discuss metrics for evaluating generated explanations, and discuss how explanations can be leveraged to debug models and improve performance. Lastly, we examine key challenges and emerging opportunities for explanation techniques in the era of LLMs in comparison to conventional machine learning models.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文)
+============================================================
+- 分类框架：按 LLM 训练范式分两大类——传统微调范式(fine-tuning-based)与提示范式(prompting-based)；每类下再分局部解释(单个预测)与全局解释(整体模型知识)。
+- 四大解释方法流（微调范式下）：特征归因(feature attribution)、注意力(attention-based)、基于样例(example-based)、自然语言解释(natural language explanation)。
+  * 特征归因：LIME（在实例附近采样训练代理模型做局部近似）、SHAP（把特征当合作博弈的玩家，满足局部准确性/一致性/缺失性等性质）。
+  * 注意力：用注意力权重标示输入重要性；但学界对"注意力权重能否作为解释"有长期争论（attention is not explanation 一类）。
+  * 基于样例：用相似训练样例或原型解释（含可视化/基于函数/基于 probing 三类，probing 多用于全局解释）。
+  * 自然语言解释：让模型生成 rationale（理由）；争议核心是缺乏成熟评估标准。
+- 全局解释：probing-based 方法（用探针分类器从表示里读出语法等信息）；关于探针是学到语法还是只学到任务的争论（Lin et al. 2019 vs Kunz & Kuhlmann 2020）。
+- 评测：两条核心标准——plausibility（合理性：解释对人来说是否可信）与 faithfulness（忠实性：解释是否真实反映模型内部机制）。两者常被混淆，论文强调区分。
+- 应用：用解释来 debug 模型、改进性能。
+- 挑战（第6章）：没有 ground truth 的解释评估、涌现能力的来源（模型视角与数据视角）、LLM 时代解释技术的新机会。
+- 涉及模型：BERT、GPT-3、GPT-4、LLaMA-2、Claude 等。

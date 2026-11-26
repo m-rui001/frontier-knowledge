@@ -1,0 +1,22 @@
+TITLE: VM-UNet: Vision Mamba UNet for Medical Image Segmentation
+VENUE: arXiv 2402.02491（2024）
+TYPE: preprint / conference
+CITED: 1486
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2402.02491
+PAGES: arXiv HTML v1 全文已抓取（文本 3.3 万字符）
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+In the medical image segmentation domain, CNN-based models and Transformer-based models have demonstrated remarkable performance. However, both of them have inherent limitations: CNN-based models are constrained by their local receptive field, hindering their ability to capture long-range information; Transformer-based models, though good at global information, suffer from quadratic computational complexity. Recently, State Space Models (SSMs) have emerged as a promising architecture that not only captures long-range interactions but also maintains linear computational complexity. In this paper, leveraging state space models, we propose a U-shape architecture model for medical image segmentation, named Vision Mamba UNet (VM-UNet). Specifically, the Visual State Space (VSS) block is introduced as the foundation block to capture extensive contextual information, and an asymmetrical encoder-decoder structure is constructed. We conduct comprehensive experiments on the ISIC17, ISIC18, and Synapse datasets, and the results indicate that VM-UNet performs competitively in medical image segmentation tasks. To our best knowledge, this is the first medical image segmentation model constructed based on the pure SSM-based model.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文表格)
+============================================================
+- 架构：纯 SSM（状态空间模型）构建的 U 形分割网络，第一个纯 SSM 医学分割模型。核心块 VSS（Visual State Space），其中 SS2D 是核心操作；非对称编码器-解码器（encoder 用 VSS block，decoder 用融合模块）；编码器/解码器权重用 ImageNet-1k 预训练的 VMamba-S 初始化。
+- 损失：二分类用 BceDice（BCE+Dice），多分类用 CeDice（CE+Dice）。
+- 数据集：ISIC17（训练1500/测试650）、ISIC18（训练1886/测试808）皮肤镜图像；Synapse（30例腹部CT、3779张轴位图、8种器官；18训练/12测试）。图像resize：ISIC 256×256，Synapse 224×224。
+- 训练：batch32、AdamW、初始lr 1e-3、CosineAnnealingLR(max 50 iter, min 1e-5)、300 epochs、单卡 RTX A6000。
+- 指标：mIoU、DSC、Acc、Sen、Spe（ISIC）；DSC、HD95（Synapse）。
+- 结果（ISIC18 或 ISIC17 主表，VM-UNet）：mIoU 81.35 / DSC 89.71 / Acc 94.91 / Spe 96.13 / Sen 91.12（该行为 ISIC18 表，VM-UNet 在 mIoU/DSC/Acc 上最优）。对照 Att-UNet 78.43/87.91/94.13；UTNetV2 78.97/88.25/94.32；SANet 79.52/88.59/94.39；TransFuse 80.63/89.27/94.66；MALUNet 80.25/89.04/94.62。
+- Synapse：VM-UNet 比首个纯 Transformer 模型 Swin-UNet 在 DSC 上高 1.95%、HD95 上低 2.34mm。
+- 参数量：VM-UNet 约 30M；作者指出其受预训练权重影响显著，并称其为最基础的 baseline 形式，留有压缩空间。

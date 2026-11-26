@@ -2163,5 +2163,25 @@
   "first": "1",
   "last": "50",
   "type": "standard"
+ },
+ "W7125135101": {
+  "first": "1",
+  "last": "30",
+  "type": "survey"
+ },
+ "W4414243662": {
+  "first": "1",
+  "last": "8",
+  "type": "conference"
+ },
+ "W4389773814": {
+  "first": "1",
+  "last": "15",
+  "type": "article"
+ },
+ "W4390490761": {
+  "first": "1",
+  "last": "25",
+  "type": "survey"
  }
 }
