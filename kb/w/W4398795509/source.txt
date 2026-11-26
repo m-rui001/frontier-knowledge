@@ -1,0 +1,27 @@
+TITLE: Euclid: I. Overview of the Euclid mission
+VENUE: Astronomy & Astrophysics (2025)；arXiv 2405.13491；DOI 10.1051/0004-6361/202450810
+TYPE: article (任务概览)
+CITED: 1370
+AUTHORS: Euclid Collaboration (Y. Mellier 等，大型合作组)
+URL: https://doi.org/10.1051/0004-6361/202450810
+PAGES: arXiv HTML v1 全文已抓取（文本 76 万字符）
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+The current standard model of cosmology successfully describes a variety of measurements, but the nature of its main ingredients, dark matter and dark energy, remains unknown. Euclid is a medium-class mission in the Cosmic Vision 2015–2025 programme of the European Space Agency (ESA) that will provide high-resolution optical imaging, as well as near-infrared imaging and spectroscopy, over about 14 000 deg2 of extragalactic sky. In addition to accurate weak lensing and clustering measurements that probe structure formation over half of the age of the Universe, its primary probes for cosmology, these exquisite data will enable a wide range of science. This paper provides a high-level overview of the mission, summarising the survey characteristics, the various data-processing steps, and data products. We also highlight the main science objectives and expected performance.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文)
+============================================================
+- 发射：2023年7月1日，Falcon-9 火箭从卡纳维拉尔角发射，进入日地系统第二拉格朗日点(L2)轨道。热稳定、无遮挡视场。
+- 任务定位：ESA Cosmic Vision 2015-2025 计划的中型任务。
+- 巡天面积：约 14000 平方度河外天空。
+- 巡天时长：6 年轨道维护用肼燃料 137.5 kg（含转移修正、轨道维持与处置入日心墓地轨道）；处置需 Δv 达 10 m/s。
+- 望远镜：三镜消像散 Korsch 型，主镜 1.2 m，有效集光面积 0.9926 平方米；仪器间共同视场约 0.54 平方度；像质极好（衍射极限）。
+- 科学目标：约 15 亿个星系的形状测量用于弱引力透镜绘制物质分布；结合地面观测与近红外测光确定光度红移。光谱红移覆盖过去 80 亿年以上的宇宙膨胀史与大尺度结构增长。
+- 主要探针：弱透镜与星系聚类的 3×2pt 统计；探测宇宙年龄一半以来的结构形成；约束暗能量、修正引力、中微子质量。
+- 光谱：数千万个 Hα 发射体，用于研究恒星形成率与恒星质量的关系（星系主序）到 z~1、几个太阳质量每年。
+- 对比：DESI 将测约 4000 万星系红移；LSST 多波段重复成像南天。
+- 系统学要求：乘性偏置不确定度 < 2×10^-3，加性偏置 < 1.5×10^-4。
+- 数据处理：光度红移估计、星系分类、SED 建模、VIS PSF 模型、形状测量、光谱聚类统计、弱透镜收敛图、星系团表；分层数据发布。
+- 仪器：VIS（可见光成像）、NISP（近红外测光与光谱）。
+- 论文结构：巡天策略（宽巡天/深巡天）、数据处理、科学就绪数据产品、宇宙学参数约束的预期性能验证。

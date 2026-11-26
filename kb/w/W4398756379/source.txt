@@ -1,0 +1,18 @@
+TITLE: YOLOv8: A Novel Object Detection Algorithm with Enhanced Performance and Robustness
+VENUE: IEEE ADICS 2024 会议论文；DOI 10.1109/adics58448.2024.10533619
+TYPE: conference paper
+CITED: 2960
+AUTHORS: (OpenAlex 元数据未提供完整作者列表)
+URL: https://doi.org/10.1109/adics58448.2024.10533619
+PAGES: 全文未获取；仅有 OpenAlex 摘要
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+In recent years, the You Only Look Once (YOLO) series of object detection algorithms have garnered significant attention for their speed and accuracy in real-time applications. This paper presents YOLOv8, a novel object detection algorithm that builds upon the advancements of previous iterations, aiming to further enhance performance and robustness. Inspired by the evolution of YOLO architectures from YOLOv1 to YOLOv7, as well as insights from comparative analyses of models like YOLOv5 and YOLOv6, YOLOv8 incorporates key innovations to achieve optimal speed and accuracy. Leveraging attention mechanisms and dynamic convolution, YOLOv8 introduces improvements specifically tailored for small object detection, addressing challenges highlighted in YOLOv7. Additionally, the integration of voice recognition techniques enhances the algorithm's capabilities for video-based object detection, as demonstrated in YOLOv7. The proposed algorithm undergoes rigorous evaluation against state-of-the-art benchmarks, showcasing superior performance in terms of both detection accuracy and computational efficiency. Experimental results on various datasets confirm the effectiveness of YOLOv8 across diverse scenarios, further validating its suitability for real-world applications. This paper contributes to the ongoing advancements in object detection research by presenting YOLOv8 as a versatile and high-performing algorithm, poised to address the evolving needs of computer vision systems.
+
+FULL TEXT: 未获取（IEEE 会议论文，开放获取版本未找到）。按 BRIEF 规则，本篇降级为"仅摘要级转述"，ratio 已标注。
+
+身份存疑说明（编辑注，非论文内容）：
+- 摘要称该方法用"注意力机制、动态卷积、语音识别用于视频目标检测"，与 Ultralytics 官方发布的 YOLOv8（anchor-free 检测头、C2f 模块、解耦分类与回归头）的技术描述不一致。
+- 摘要称"语音识别增强视频目标检测，如 YOLOv7 所示"，但已知的 YOLOv7 工作中并无以此著称的路线。
+- 因此本篇不应被当作官方 YOLOv8 的技术说明引用；正文对此有明确辨析。被引 2960 数字来自 OpenAlex，其准确性同样未在全文核对。

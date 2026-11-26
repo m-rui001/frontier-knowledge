@@ -1,12 +1,12 @@
 {
- "method": "arXiv primary_category 一级 archive 分层；承接上一队列，剩余已映射高引条目优先；层内按引用降序",
- "source": "meta/usable.json ∩ meta/arxiv_categories.json \\ 已完成",
+ "method": "路线2：放宽到 usable 里工程/理科类高引条目（含综述、教材、任务概览），领域多样优先",
+ "source": "meta/usable.json 未写条目，按引用降序，跨领域选4篇",
  "layer_sizes": {
-  "cs": 1,
-  "eess": 1,
-  "math": 1
+  "cs": 2,
+  "engineering": 1,
+  "physics": 1
  },
  "queue": [],
  "excluded": [],
- "completed_note": "第二队列3篇已完成：W4401306886 Llama3 / W47171462 自适应控制教材 / W639809503 函数环商环讲义；INDEX 563→566"
+ "completed_note": "路线2批1：4篇工程/理科高引条目完成，INDEX 566→570"
 }

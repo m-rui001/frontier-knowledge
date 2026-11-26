@@ -1,0 +1,22 @@
+TITLE: Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands
+VENUE: Science (2024)；DOI 10.1126/science.adm9474
+TYPE: article
+CITED: 1488
+AUTHORS: Hao Chen, Cheng Liu, Jian Xu, Aidan Maxwell, Wei Zhou, Yi Yang, Qilin Zhou, Abdulaziz S. R. Bati, ... Sjoerd Hoogland, Tobin Filleter, Mercouri G. Kanatzidis, Bin Chen, Zhijun Ning, Edward H. Sargent
+URL: https://doi.org/10.1126/science.adm9474
+PAGES: 投稿手稿全文（Oxford ORA PDF 已抓取，40KB 文本）
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+Inverted (pin) perovskite solar cells (PSCs) afford improved operating stability in comparison to their nip counterparts but have lagged in power conversion efficiency (PCE). The energetic losses responsible for this PCE deficit in pin PSCs occur primarily at the interfaces between the perovskite and the charge-transport layers. Additive and surface treatments that use passivating ligands usually bind to a single active binding site: This dense packing of electrically resistive passivants perpendicular to the surface may limit the fill factor in pin PSCs. We identified ligands that bind two neighboring lead(II) ion (Pb2+) defect sites in a planar ligand orientation on the perovskite. We fabricated pin PSCs and report a certified quasi-steady state PCE of 26.15% and 24.74% for 0.05- and 1.04-square centimeter illuminated areas, respectively. The devices retain 95% of their initial PCE following 1200 hours of continuous 1 sun MPP operation at 65 C.
+
+FULL TEXT KEY NUMBERS (投稿手稿正文，出处层级：论文正文与图注)
+============================================================
+- 配体设计：比较苯磺酸盐类配体——BZS、4-甲基苯磺酸盐(4CH3-BZS)、4-氯苯磺酸盐(4Cl-BZS)。4CH3-BZS 与 4Cl-BZS 长度分别为 6.14 和 6.37（埃）。
+- 构型：垂直取向(Conf-perp)和平行取向(Conf-para)。计算形成能发现 BZS 和 4CH3-BZS 偏好垂直，而 4Cl-BZS 因 Cl 基团提供额外 Pb2+ 表面结合、实现双位点 Pb2+ 钝化，偏好平行构型。
+- 荧光与准费米能级分裂(QFLS)：4Cl-BZS 处理薄膜 PLQY 提升（对照 20% 起），对应约 20 mV 的 QFLS 提升；完整器件堆叠(FTO/SAMs/perovskite/C60，SAMs 为 2PACz 与 Me-4PACz 混合)的 PLQY 从对照 0.6% 升到 4Cl-BZS 的 5%，对应 QFLS 从 1.1 V 升到 1.17 V。
+- 载流子寿命(TRPL)：4Cl-BZS 处理薄膜加权平均寿命 3.0 μs，对照 0.6 μs。
+- 器件性能：认证准稳态 PCE 26.15%（0.05 cm²）和 24.74%（1.04 cm²）。组合处理后 4Cl-BZS 器件 PCE 从 26.3% 升到 26.9%，VOC 1.18 V，填充因子 FF 86.2%，短路电流密度 JSC 26.4 mA/cm²。
+- 稳定性：65°C、连续 1 sun 最大功率点(MPP)运行 1200 小时后保持初始 PCE 的 95%。
+- 机理：主要提升来自开路电压 VOC；4Cl-BZS 相比 BZS 和 4CH3-BZS 有更高 FF，归因于增强的电荷提取。
+- 带隙取自 pin PSC 的外量子效率(EQE)谱。

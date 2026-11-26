@@ -1,0 +1,21 @@
+TITLE: Adapted large language models can outperform medical experts in clinical text summarization
+VENUE: Nature Medicine (2024)；DOI 10.1038/s41591-024-02855-5
+TYPE: article
+CITED: 1418
+AUTHORS: (详见原文；Nature Medicine 2024 临床总结研究)
+URL: https://doi.org/10.1038/s41591-024-02855-5
+PAGES: Research Square 预印本全文（PDF 已抓取，107KB 文本）
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+Sifting through vast textual data and summarizing key information from electronic health records (EHR) imposes a substantial burden on how clinicians allocate their time. Although large language models (LLMs) have shown immense promise in natural language processing (NLP) tasks, their efficacy on a diverse range of clinical summarization tasks has not yet been rigorously demonstrated. In this work, we apply domain adaptation methods to eight LLMs, spanning six datasets and four distinct clinical summarization tasks: radiology reports, patient questions, progress notes, and doctor-patient dialogue. Our thorough quantitative assessment reveals trade-offs between models and adaptation methods in addition to instances where recent advances in LLMs may not improve results. Further, in a clinical reader study with ten physicians, we show that summaries from our best-adapted LLMs are preferable to human summaries in terms of completeness and correctness. Our ensuing qualitative analysis highlights challenges faced by both LLMs and human experts. Lastly, we correlate traditional quantitative NLP metrics with reader study scores to enhance our understanding of how these metrics align with physician preferences. Our research marks the first evidence of LLMs outperforming human experts in clinical text summarization across multiple tasks.
+
+FULL TEXT KEY CONTENT (Research Square 预印本正文，出处层级：论文正文表格与图注)
+============================================================
+- 规模：8 个 LLM、6 个数据集、4 类临床总结任务——放射报告(radiology reports)、患者提问(patient questions)、病程记录(progress notes)、医患对话(doctor-patient dialogue)。
+- 领域适配方法：上下文学习(in-context learning, ICL)、QLoRA 微调、医学指令微调(如 Med-Alpaca，基于 Alpaca 用医学问答指令再微调)。
+- 评估的开源/闭源模型：GPT-4、GPT-3.5、FLAN-T5、FLAN-UL2、Llama-2、Vicuna、Med-Alpaca、FLAN-T5+QLoRA 等。
+- 自动指标：BLEU、ROUGE-L、BERTScore、MEDCON（概念相似度）。Table 1 给出温度参数影响，例如 MEDCON 在温度 0.1/0.5/0.9 下为 28.2/27.5/下降。
+- 临床 reader study：10 位医师参与，对模型摘要与人类摘要做盲法、随机顺序的 A/B 比较；三个评价维度——完整性(completeness)、正确性(correctness)、简洁性(conciseness)。结论：最佳适配模型的摘要在完整性与正确性上优于人类摘要。
+- 关键发现：模型与适配方法之间存在权衡；某些情形下更新的 LLM 未必带来结果改善；定量 NLP 指标与医师偏好的对齐程度被专门分析。
+- 意义：声称首次证明 LLM 在多个临床文本总结任务上超越人类专家。
