@@ -1,0 +1,12 @@
+TITLE: SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model
+ARXIV_CAT: cs.CL (arXiv official)
+ARXIV_ID: 2502.02737
+VENUE: arXiv (Cornell University) (2025)
+TYPE: article
+CITED: 806
+DOI: https://doi.org/10.48550/arxiv.2502.02737
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+While large language models have facilitated breakthroughs in many applications of artificial intelligence, their inherent largeness makes them computationally expensive and challenging to deploy in resource-constrained settings. In this paper, we document the development of SmolLM2, a state-of-the-art "small" (1.7 billion parameter) language model (LM). To attain strong performance, we overtrain SmolLM2 on ~11 trillion tokens of data using a multi-stage training process that mixes web text with specialized math, code, and instruction-following data. We additionally introduce new specialized datasets (FineMath, Stack-Edu, and SmolTalk) at stages where we found existing datasets to be problematically small or low-quality. To inform our design decisions, we perform both small-scale ablations as well as a manual refinement process that updates the dataset mixing rates at each stage based on the performance at the previous stage. Ultimately, we demonstrate that SmolLM2 outperforms other recent small LMs including Qwen2.5-1.5B and Llama3.2-1B. To facilitate future research on LM development as well as applications of small LMs, we release both SmolLM2 as well as all of the datasets we prepared in the course of this project.
