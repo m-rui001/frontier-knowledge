@@ -1,12 +1,12 @@
 {
- "method": "路线2批2：usable工程/理科高引，跨领域4篇",
- "source": "meta/usable.json 未写条目按引用降序，领域多样",
+ "method": "路线2批3：工程/数学教材与国际测试标准，摘要实质内容充分，全文受限做摘要级",
+ "source": "meta/usable.json 未写高引条目",
  "layer_sizes": {
-  "cs": 2,
-  "environment": 1,
-  "math": 1
+  "engineering": 1,
+  "math": 1,
+  "environment": 1
  },
  "queue": [],
  "excluded": [],
- "completed_note": "路线2批2：CogVLM/AIGC综述/塑料废物/分数阶方程4篇完成，INDEX 570→574"
+ "completed_note": "路线2批3：弹性稳定/共形场论/FET测试3篇（全摘要级），INDEX 574→577"
 }

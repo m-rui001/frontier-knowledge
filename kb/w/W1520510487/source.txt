@@ -1,0 +1,13 @@
+TITLE: Conformal Field Theory
+VENUE: 专著教材（2024 版）；OpenAlex 元数据未给出 DOI/出版社
+TYPE: book
+CITED: 2207
+AUTHORS: (OpenAlex 元数据未提供；经典共形场论教材的新版)
+URL: (OpenAlex 未记录)
+PAGES: 全文未获取；仅有 OpenAlex 摘要
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源——以下全部出自摘要):
+============================================================
+Filling an important gap in the literature, this comprehensive text develops conformal field theory from first principles. The treatment is self-contained, pedagogical, and exhaustive, and includes a great deal of background material on quantum field theory, statistical mechanics, Lie algebras and affine Lie algebras. The many exercises, with a wide spectrum of difficulty and subjects, complement and in many cases extend the text. The text is thus not only an excellent tool for classroom teaching but also for individual study. Intended primarily for graduate students and researchers in theoretical high-energy physics, mathematical physics, condensed matter theory, statistical physics, the book will also be of interest in other areas of theoretical physics and mathematics. It will prepare the reader for original research in this very active field of theoretical and mathematical physics.
+
+FULL TEXT: 未获取。按 BRIEF 规则降级为"仅摘要级转述"。摘要未给出作者、具体章节、公式或定理，本篇不补充外部技术细节，只就摘要给出的信息（从第一原理展开、自洽教学、背景材料范围、习题、目标读者）做梳理与点评。

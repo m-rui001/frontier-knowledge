@@ -1,0 +1,13 @@
+TITLE: Theory of Elastic Stability: Analysis and Sensitivity
+VENUE: CRC Press / Taylor & Francis 2024；DOI 10.1201/9781003578659
+TYPE: book（专著教材）
+CITED: 2228
+AUTHORS: Luis A. Godoy
+URL: https://doi.org/10.1201/9781003578659
+PAGES: 全文未获取（出版社付费墙）；仅有 OpenAlex 摘要
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源——以下全部出自摘要):
+============================================================
+This book gives a unified presentation of the field of stability. Buckling and post-buckling states are studied on the basis of total potential energy of structural systems. Emphasis is placed throughout the text on post-buckling analysis and behaviour. The sensitivity of buckling and post-buckling states to changes in design parameters is also discussed as well as changes due to imperfections and damage.
+
+FULL TEXT: 未获取（出版社付费墙，未使用影子图书馆）。按 BRIEF 规则降级为"仅摘要级转述"。摘要未给出具体公式、算例或章节，本篇不补充外部技术细节，只就摘要给出的概念（总势能、屈曲与后屈曲、设计参数敏感性、缺陷与损伤）做梳理与点评。
