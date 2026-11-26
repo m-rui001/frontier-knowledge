@@ -1,0 +1,20 @@
+TITLE: EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations
+VENUE: arXiv 2306.12059 (cs.LG)；ICLR 2024
+TYPE: preprint / conference
+CITED: 418
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2306.12059
+PAGES: arXiv HTML v1 全文已抓取（文本 9.5 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Equivariant graph neural networks have shown great promise for modeling 3D atomistic systems, but are limited to small degrees of equivariant representations due to computational complexity. We investigate whether these architectures scale to higher degrees. Starting from Equiformer, we replace SO(3) convolutions with eSCN convolutions for efficient higher-degree equivariant convolution, and propose three architectural improvements: attention re-normalization, separable S2 activation, and separable layer normalization. EquiformerV2 outperforms previous SOTA on the large-scale OC20 dataset by up to 12%, and when used in AdsorbML for adsorption energy calculations, achieves the highest success rate with 2x reduction in DFT calculations for comparable accuracy.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 问题:等变图神经网络适合建模3D原子系统,但因计算复杂度只能用到低阶(l)等变表示;能否scaling到高阶?
+- 方法:从Equiformer出发,(1)用eSCN卷积替代SO(3)卷积——先按相对位置向量旋转irreps特征再做SO(2)线性操作,实现高效高阶等变卷积;(2)三项架构改进:attention re-normalization、separable S² activation、separable layer normalization。
+- 数据OC20(Open Catalyst 2020):核心任务S2EF(Structure-to-Energy-Forces,预测结构能量与每原子力,用能量/力MAE评估);"All"集1.34亿训练结构跨56种元素,"MD"集3800万结构;还有IS2RS/IS2RE任务。
+- 结果:OC20上超此前SOTA最多12%;用于AdsorbML做吸附能计算,达最高成功率,且达到相当精度只需此前方法一半(2×减少)的DFT计算。
+- 消融:在较小S2EF-2M子集做;研究更高阶表示、注意力归一化等的贡献。
+- 意义:高阶等变表示可扩展到大规模原子模拟,加速催化剂发现。

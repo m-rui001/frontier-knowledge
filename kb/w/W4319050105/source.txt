@@ -1,0 +1,21 @@
+TITLE: Improving and generalizing flow-based generative models with minibatch optimal transport
+VENUE: arXiv 2302.00482 (cs.LG)
+TYPE: preprint
+CITED: 766
+AUTHORS: (详见原文；含 Yann LeCun 相关流匹配工作线)
+URL: https://arxiv.org/abs/2302.00482
+PAGES: arXiv HTML v1 全文已抓取（文本 9.7 万字符）
+
+ABSTRACT (原文摘要，逐字来自 OpenAlex 元数据):
+============================================================
+Continuous normalizing flows (CNFs) are an attractive generative modeling technique, but they have been held back by limitations in their simulation-based maximum likelihood training. We introduce the generalized conditional flow matching (CFM) technique, a family of simulation-free training objectives for CNFs. CFM features a stable regression objective like that used to train the stochastic flow in diffusion models but enjoys the efficient inference of deterministic flow models. In contrast to both diffusion models and prior CNF training algorithms, CFM does not require the source distribution to be Gaussian or require evaluation of its density. A variant of our objective is optimal transport CFM (OT-CFM), which creates simpler flows that are more stable to train and lead to faster inference, as evaluated in our experiments. Furthermore, we show that when the true OT plan is available, our OT-CFM method approximates dynamic OT. Training CNFs with CFM improves results on conditional and unconditional generation tasks, such as inferring single cell dynamics, unsupervised image translation, and Schrödinger bridge inference.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 背景:连续归一化流(CNF)用神经ODE定义分布间可逆映射,生成高效,但训练靠基于模拟的最大似然(需求解ODE),昂贵不稳。
+- CFM(条件流匹配):simulation-free训练目标,像扩散那样用稳定回归目标训练随机流,但推理是确定性流(快);不要求源分布是高斯、不求其密度。
+- 算法:采样z~q(z),t~U(0,1),x~p_t(x|z),最小化||v_θ(t,x)-u_t(x|z)||²(回归到目标向量场)。
+- OT-CFM:用minibatch最优传输构造配对,创建更简单的流,训练更稳、推理更快;真实OT plan可得时近似dynamic OT。
+- 其它变体:FM from Gaussian/Simplified CFM/Schrödinger Bridge CFM/降方差(跨batch平均)。
+- 结果:OT与更快收敛(降目标方差/更快训练推理)、单细胞插值、SB-CFM复现Schrödinger bridge flows;energy-based CFM;OT-CFM用于无监督翻译。任务含单细胞动力学、无监督图像翻译、SB推断。
+- 意义:让流匹配成为扩散之外的另一条生成建模主线(后续Stable Diffusion 3、视频生成都走流匹配)。

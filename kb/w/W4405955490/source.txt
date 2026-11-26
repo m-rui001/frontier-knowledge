@@ -1,0 +1,19 @@
+TITLE: TradingAgents: Multi-Agents LLM Financial Trading Framework
+VENUE: arXiv 2412.20138 (cs.FI / q-fin)
+TYPE: preprint
+CITED: 364
+AUTHORS: (详见原文；UCLA / MIT 等)
+URL: https://arxiv.org/abs/2412.20138
+PAGES: arXiv HTML v1 全文已抓取（文本 10.4 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Existing LLM financial trading efforts focus on single agents or multi-agent frameworks gathering data independently. Multi-agent systems' potential to replicate real-world trading firms' collaborative dynamics remains underexplored. TradingAgents proposes a stock trading framework inspired by trading firms, with LLM-powered agents in specialized roles: fundamental, sentiment, and technical analysts, researchers with bullish and bearish perspectives who debate, a risk management team monitoring exposure, and traders synthesizing insights. This collaborative, debate-driven dynamic improves backtest performance while mitigating hallucinations. Extensive experiments show superiority over baselines in cumulative returns, Sharpe ratio, and maximum drawdown.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 框架:模拟真实交易公司的协作动态;角色包括基本面分析师、情绪分析师、技术分析师;研究团队分看多(Bullish)与看空(Bearish)两组,多轮辩论评估风险与收益;风险管理团队监控敞口;交易员综合辩论与历史数据做决策。
+- 通信:结构化输出用于常规沟通,自然语言用于辩论;模拟动态协作交易环境。
+- 回测评估:股票AAPL/GOOGL/AMZN;指标CR(累计收益%)/ARR(年化收益%)/SR(夏普比率)/MDD(最大回撤%);基线含Market B&H(买入持有,AAPL CR -5.23%等)。
+- 结果:相对最优baseline在CR/SR/MDD上有显著提升;强调explainability(决策可解释,给出情绪分数与日期等依据)。
+- 意义:把多智能体角色分工+辩论引入金融交易,兼顾性能与可解释。

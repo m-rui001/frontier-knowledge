@@ -1,11 +1,13 @@
 {
- "method": "路线2批10：arXiv全文优先，领域多样（3D生成/自调试/评测/机器人）",
+ "method": "路线2批11：arXiv全文优先，领域多样（生成理论/脑科学/材料/金融agent）",
  "source": "meta/usable.json 未写 arXiv 高引条目",
  "layer_sizes": {
-  "cs": 3,
-  "robotics": 1
+  "cs": 1,
+  "neuro": 1,
+  "materials": 1,
+  "finance": 1
  },
  "queue": [],
  "excluded": [],
- "completed_note": "路线2批10：4篇arXiv全文（3D生成/自调试/评测/机器人），INDEX 601→605"
+ "completed_note": "路线2批11：4篇arXiv全文（生成理论/脑电/材料/金融），INDEX 605→609"
 }

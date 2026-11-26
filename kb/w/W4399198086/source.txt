@@ -1,0 +1,20 @@
+TITLE: Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI
+VENUE: arXiv 2405.18765 (q-bio.NC)；ICLR 2024
+TYPE: preprint / conference
+CITED: 588
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2405.18765
+PAGES: arXiv HTML v1 全文已抓取（文本 8.7 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Current deep learning models in brain-computer interaction (BCI) are typically designed for specific datasets and applications, limiting model scale and generalizability. Inspired by LLMs, we propose a unified foundation model for EEG called Large Brain Model (LaBraM). LaBraM enables cross-dataset learning by segmenting EEG signals into EEG channel patches. Vector-quantized neural spectrum prediction trains a semantically rich neural tokenizer encoding continuous raw EEG patches into compact neural codes. We pre-train neural Transformers by predicting original neural codes for masked EEG channel patches. LaBraMs are pre-trained on about 2,500 hours of EEG from around 20 datasets and validated on downstream tasks: abnormal detection, event type classification, emotion recognition, and gait prediction, outperforming all compared SOTA methods.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 问题:BCI深度学习模型多为特定数据集/任务设计,规模小、泛化差;EEG数据格式多样(电极数不匹配、样本长度不等、任务设计各异、信噪比低)。
+- 方法LaBraM:把EEG切成channel patches实现跨数据集学习;vector-quantized neural spectrum prediction训练neural tokenizer,把连续原始EEG patch编码成紧凑neural codes;再用掩码预测(预测被mask的EEG channel patch的原始neural code)预训练Transformer(类比MLM)。
+- 规模:约2500小时EEG、约20个数据集预训练;LaBraM-Base在TUAB/TUEV等下游超所有对比SOTA。
+- 下游任务与数据:TUAB异常检测(23通道/256Hz/409,455个10秒样本/二分类);TUEV事件类型分类(6类,SPSW/GPED/PLED等);情绪识别、步态预测。
+- 对照:与SOTA方法比,LaBraM-Base在各指标优于所有baseline,尤以TUEV多分类突出。
+- 意义:把LLM的预训练范式(分词+掩码重建+规模)迁移到EEG/BCI。
