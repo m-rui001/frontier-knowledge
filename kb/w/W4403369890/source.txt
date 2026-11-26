@@ -1,0 +1,12 @@
+TITLE: A Sharp Convergence Theory for The Probability Flow ODEs of Diffusion Models
+ARXIV_CAT: cs.LG (arXiv official)
+ARXIV_ID: 2408.02320
+VENUE: arXiv (Cornell University) (2024)
+TYPE: article
+CITED: 80
+DOI: https://doi.org/10.48550/arxiv.2408.02320
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+Diffusion models, which convert noise into new data instances by learning to reverse a diffusion process, have become a cornerstone in contemporary generative modeling. In this work, we develop non-asymptotic convergence theory for a popular diffusion-based sampler (i.e., the probability flow ODE sampler) in discrete time, assuming access to $\ell_2$-accurate estimates of the (Stein) score functions. For distributions in $\mathbb{R}^d$, we prove that $d/\varepsilon$ iterations -- modulo some logarithmic and lower-order terms -- are sufficient to approximate the target distribution to within $\varepsilon$ total-variation distance. This is the first result establishing nearly linear dimension-dependency (in $d$) for the probability flow ODE sampler. Imposing only minimal assumptions on the target data distribution (e.g., no smoothness assumption is imposed), our results also characterize how $\ell_2$ score estimation errors affect the quality of the data generation processes. In contrast to prior works, our theory is developed based on an elementary yet versatile non-asymptotic approach without the need of resorting to SDE and ODE toolboxes.
