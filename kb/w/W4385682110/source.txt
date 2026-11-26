@@ -1,0 +1,20 @@
+TITLE: Nearly d-Linear Convergence Bounds for Diffusion Models via Stochastic Localization
+VENUE: arXiv 2308.03686 (stat.ML)
+TYPE: preprint（理论论文）
+CITED: 207
+AUTHORS: Joe Benton, Arnaud Doucet, George Deligiannidis（Oxford / ENS Ulm）
+URL: https://arxiv.org/abs/2308.03686
+PAGES: arXiv HTML v1 全文已抓取（文本 10.6 万字符）
+
+ABSTRACT (原文摘要，逐字来自正文):
+============================================================
+Diffusion models are a powerful method for generating approximate samples from high-dimensional data distributions. Several recent results have provided polynomial bounds on the convergence rate of such models, assuming L²-accurate score estimators. However, up until now the best known such bounds were either superlinear in the data dimension or required strong smoothness assumptions. We provide the first convergence bounds which are linear in the data dimension (up to logarithmic factors) assuming only finite second moments of the data distribution. We show that diffusion models require at most Õ(d log²(1/δ)/ε²) steps to approximate an arbitrary data distribution on ℝ^d corrupted with Gaussian noise of variance δ to within ε² in Kullback–Leibler divergence. Our proof builds on Girsanov-based methods, with a refined treatment of the discretization error of the reverse SDE based on stochastic localization.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 问题:扩散模型生成高维数据分布的采样,理论收敛界此前要么在数据维度d上超线性、要么需强光滑性假设。
+- 本文贡献:首个在数据维度上近似线性(差对数因子)的收敛界,且只假设数据分布有有限二阶矩(弱假设)。
+- 主定理:至多Õ(d·log²(1/δ)/ε²)步,可把被方差δ高斯噪声污染的任意ℝ^d分布逼近到KL散度ε²以内。
+- 方法:Girsanov定理方法(路径间KL界)+对逆SDE离散误差的精细处理(基于stochastic localization随机定位工具)。
+- 背景:概率流ODE的离散化收敛工作提示ODE采样器迭代复杂度优于SDE;score estimation误差界(OAS23)。扩散模型与随机定位的等价性(附录A)。
+- 意义:把扩散采样理论界从超线性降到近线性,且假设极弱,更贴近高维真实场景。

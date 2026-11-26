@@ -1,0 +1,20 @@
+TITLE: ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery
+VENUE: arXiv 2410.05080 (cs.AI)；NeurIPS 2024 Datasets & Benchmarks
+TYPE: preprint / benchmark
+CITED: 284
+AUTHORS: (详见原文；OSU 等)
+URL: https://arxiv.org/abs/2410.05080
+PAGES: arXiv HTML v1 全文已抓取（文本 18.4 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+There is a growing trend of developing language agents towards full automation of scientific discovery. To assess whether agents can fully automate scientific discovery, it must be able to complete all essential tasks in the workflow. We call for rigorous assessment of agents on individual tasks in a scientific workflow before making bold claims on end-to-end automation. We present ScienceAgentBench, a benchmark evaluating language agents for data-driven scientific discovery. To ensure scientific authenticity, we extract 102 tasks from 44 peer-reviewed publications in four disciplines.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 规模:102个任务,来自44篇同行评审论文,四个学科(生物信息学/计算化学/地理信息科学/心理学与认知神经科学);初收110任务丢弃4个(执行时间长/环境复杂)等。
+- 任务 heterogeneity:细胞图像(Bioinformatics)/分子活性可视化(Comp Chemistry)/洪水风险地图(GIS)/EEG时间序列(Psych & Cognitive Neuroscience)。
+- 评估:采样3个响应取平均分算成功率(SR);rubric-based评估(用GPT-4o起草细粒度rubric);指标SR(成功率)/CBS/VER/Cost。
+- 框架:Direct Prompting/CodeAct/OpenHands/self-debug等;With/Without Knowledge(专家提供知识)。
+- 核心结果:三次尝试下最佳agent仅独立解决32.4%任务,给专家知识34.3%;基线Llama-3.1-Instruct-70B无知识SR 5.9/CBS81.5/VER29.x。
+- 结论:当前语言agent尚不能自动化数据驱动发现的任务或端到端研究流程;但对 augmenting 人类科学家生产力有潜力。

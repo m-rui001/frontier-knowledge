@@ -1,0 +1,20 @@
+TITLE: Can LLM-Generated Misinformation Be Detected?
+VENUE: arXiv 2309.13788 (cs.CL)；IEEE S&P 2024
+TYPE: preprint / conference
+CITED: 283
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2309.13788
+PAGES: arXiv HTML v1 全文已抓取（文本 21 万字符）
+
+ABSTRACT (原文摘要，逐字来自 OpenAlex 元数据):
+============================================================
+The advent of LLMs has made a transformative impact. However, the potential that LLMs such as ChatGPT can be exploited to generate misinformation poses a serious concern to online safety and public trust. A fundamental question: will LLM-generated misinformation cause more harm than human-written misinformation? We tackle this from the perspective of detection difficulty. We build a taxonomy of LLM-generated misinformation, categorize and validate real-world methods for generating it. Through extensive empirical investigation, we discover that LLM-generated misinformation can be harder to detect for humans and detectors compared to human-written misinformation with the same semantics, suggesting more deceptive styles and potentially more harm.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文表格):
+============================================================
+- 三个研究问题RQ1:LLM如何被用于生成虚假信息(分类法:types/domains/sources/intents/errors);RQ2:人类能否检测;RQ3:检测器能否检测。
+- 与越狱攻击的联系:生成虚假信息的方法与jailbreak相关。
+- 人类评估(Table3,指标Success Rate%检测成功率,数值越高=越容易识别):10位评估者,人写虚假信息与ChatGPT生成虚假信息的平均检测成功率对比。Average行:40.7/9.6/21.8/33.2/38.4/24.2/21.4/34.3(不同类别/领域),总体ChatGPT生成虚假信息检测成功率低于人写的。
+- 核心结论:同等语义下,LLM生成虚假信息对人类与检测器都更难识别,风格更具欺骗性,潜在危害更大。
+- 检测器:LLM检测器(GPT-3.5/GPT-4零样本)与监督训练检测器对比。
+- 对策:从LLM生命周期角度讨论反制措施。

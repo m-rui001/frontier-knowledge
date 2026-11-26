@@ -1,0 +1,21 @@
+TITLE: Algorithmic Collusion by Large Language Models
+VENUE: arXiv 2404.00806 (econ.GN)
+TYPE: preprint
+CITED: 220
+AUTHORS: (详见原文；经济学/竞争政策研究组)
+URL: https://arxiv.org/abs/2404.00806
+PAGES: arXiv HTML v1 全文已抓取（文本 9 万字符）
+
+ABSTRACT (原文摘要，逐字来自正文与元数据):
+============================================================
+The rise of algorithmic pricing raises concerns of algorithmic collusion. We conduct experiments with algorithmic pricing agents based on LLMs, specifically GPT-4. We find that (1) LLM-based agents are adept at pricing tasks, (2) in oligopoly settings, LLM-based pricing agents quickly and autonomously reach supracompetitive prices and profits, to the detriment of consumers, and (3) variation in seemingly innocuous phrases in LLM instructions ("prompts") substantially influences the degree of supracompetitive pricing. We develop novel techniques for behavioral analysis of LLMs and uncover price-war concerns as a contributing factor. Results extend to auction settings. Our findings uncover unique regulatory challenges for LLM-based pricing agents.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 背景:企业越来越用算法自动定价;竞争监管机构担心定价算法以类合谋方式抬高价格、损害消费者(有理论/实验/实证支持)。
+- 实验:用基于LLM(尤其GPT-4)的定价agent做实验。
+- 三发现:(1)LLM agent擅长定价任务;(2)寡头(oligopoly)设置下,LLM定价agent快速自发达到supercompetitive(高于竞争水平)的价格与利润,损害消费者;(3)提示词里看似无害的措辞变化会显著影响合谋程度。
+- 方法:开发了新的LLM行为分析技术,揭示"价格战担忧"是促使合谋的一个因素。
+- 扩展:结果延伸到拍卖(auction)设置。
+- 结论:对LLM定价agent乃至更广的AI定价agent的监管提出独特挑战;需反垄断关注。
+- 技术细节:GPT-4版本/temperature/解析/重试行为/LLM查询格式;定价提示与拍卖提示模板(附录)。LLM是随机算法,对称agent行为也不完全相同。

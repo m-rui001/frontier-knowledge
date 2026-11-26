@@ -1,11 +1,13 @@
 {
- "method": "路线2批12：arXiv全文优先，领域多样（3D重建/具身仿真/GUI agent/PINN）",
+ "method": "路线2批13：arXiv全文优先，领域多样（虚假信息/科研agent/经济/数学理论）",
  "source": "meta/usable.json 未写 arXiv 高引条目",
  "layer_sizes": {
-  "cs": 3,
-  "physics": 1
+  "social": 1,
+  "eval": 1,
+  "econ": 1,
+  "math": 1
  },
  "queue": [],
  "excluded": [],
- "completed_note": "路线2批12：4篇arXiv全文（3D重建/具身仿真/GUI agent/PINN），INDEX 609→613"
+ "completed_note": "路线2批13：4篇arXiv全文（虚假信息/科研agent评测/算法合谋/扩散收敛理论），INDEX 613→617"
 }
