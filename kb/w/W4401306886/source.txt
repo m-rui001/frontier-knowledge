@@ -1,0 +1,30 @@
+TITLE: The Llama 3 Herd of Models
+VENUE: arXiv preprint (2407.21783)
+TYPE: preprint
+CITED: 29897
+AUTHORS: Grattafiori, Aaron, Abhimanyu Dubey, Jauhri, Abhinav, Pandey, Abhinav, Kadian, Abhishek, Al-Dahle, Ahmad, Letman, Aiesha, Akhil Mathur, Schelten, Alan, Vaughan, Alex, Yang, Amy, Angela Fan
+URL: https://arxiv.org/abs/2407.21783
+PAGES: 80 (arXiv HTML v1 全文已抓取)
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+Modern artificial intelligence (AI) systems are powered by foundation models. This paper presents a new set of foundation models, called Llama 3. It is a herd of language models that natively support multilinguality, coding, reasoning, and tool usage. Our largest model is a dense Transformer with 405B parameters and a context window of up to 128K tokens. This paper presents an extensive empirical evaluation of Llama 3. We find that Llama 3 delivers comparable quality to leading language models such as GPT-4 on a plethora of tasks. We publicly release Llama 3, including pre-trained and post-trained versions of the 405B parameter language model and our Llama Guard 3 model for input and output safety. The paper also presents the results of experiments in which we integrate image, video, and speech capabilities into Llama 3 via a compositional approach. We observe this approach performs competitively with the state-of-the-art on image, video, and speech recognition tasks. The resulting models are not yet being broadly released as they are still under development.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文 Table 2 等，出处层级：论文正文表格):
+============================================================
+- 模型族：Llama 3.1 三档 8B / 70B / 405B；旗舰 405B 稠密 Transformer，126 层，模型维度 16384，FFN 维度 53248，128 个注意力头（KV 头 8 个），上下文 128K token。
+- 预训练数据：约 15T token（Llama 2 为 1.8T），多语言；加 28K token 精选非英语语种改善压缩率与下游表现且不影响英语分词。
+- RoPE base frequency 提到 500000 支持长上下文。
+- 算力：405B 最多 16K 张 H100，每张 700W TDP、80GB HBM3，Meta Grand Teton 平台。
+- 峰值学习率：8B 3e-4，70B 1.5e-4，405B 8e-5。
+- Table 2 列顺序：Llama3 8B / Gemma2 9B / Mistral 7B / Llama3 70B / Mixtral 8x22B / GPT3.5 Turbo / Llama3 405B / Nemotron4 340B / GPT-4(0125) / GPT-4o / Claude3.5 Sonnet
+  MMLU 5-shot:        69.4 / 72.3 / 61.1 / 83.6 / 76.9 / 70.7 / 87.3 / 82.6 / 85.1 / 89.1 / 89.9
+  HumanEval 0-shot:   72.6 / 54.3 / 40.2 / 80.5 / 75.6 / 68.0 / 89.0 / 73.2 / 86.6 / 90.2 / 92.0
+  GSM8K 8-shot CoT:   84.5 / 76.7 / 53.2 / 95.1 / 88.2 / 81.6 / 96.8 / 92.3 / 94.2 / 96.1 / 96.4
+  MATH 0-shot CoT:    51.9 / 44.3 / 13.0 / 68.0 / 54.1 / 43.1 / 73.8 / 41.1 / 64.5 / 76.6 / 71.1
+  GPQA 0-shot CoT:    32.8 / - / 28.8 / 46.7 / 33.3 / 30.8 / 51.1 / - / 41.4 / 53.6 / 59.4
+  ARC Challenge:      83.4 / 87.6 / 74.2 / 94.8 / 88.7 / 83.7 / 96.9 / 94.6 / 96.4 / 96.7 / 96.7
+  IFEval:             80.4 / 73.6 / 57.6 / 87.5 / 72.7 / 69.9 / 88.6 / 85.1 / 84.3 / 85.6 / 88.0
+  BFCL(tool use):     76.1 / - / 60.4 / 84.8 / - / 85.9 / 88.5 / 86.5 / 88.3 / 80.5 / 90.2
+- 后训练：SFT + 拒绝采样 + DPO，迭代式；安全用 Llama Guard 3 输入输出分类。
+- 多模态：组合式（compositional）接入图像/视频/语音，未广泛发布；论文称 competitively with SOTA。

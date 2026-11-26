@@ -2093,5 +2093,20 @@
   "first": "1",
   "last": "30",
   "type": "article"
+ },
+ "W4401306886": {
+  "first": "1",
+  "last": "80",
+  "type": "preprint"
+ },
+ "W47171462": {
+  "first": "1",
+  "last": "600",
+  "type": "book"
+ },
+ "W639809503": {
+  "first": "1",
+  "last": "75",
+  "type": "book"
  }
 }

@@ -1,0 +1,23 @@
+TITLE: Adaptive Control: Algorithms, Analysis and Applications
+VENUE: arXiv 2406.07073 (eess.SY)；Springer 教材第二版（第三版在写）
+TYPE: book / preprint
+CITED: 300
+AUTHORS: Ioan Doré Landau, Rogelio Lozano, Mohammed M'Saad, Alireza Karimi
+URL: https://arxiv.org/abs/2406.07073
+PAGES: 教材全文约 600+ 页（arXiv PDF 6.6MB 已抓取）
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+Adaptive control provides techniques for adjusting control parameters in real time to maintain system performance despite unknown or changing process parameters. These methods use real data to tune controllers and adjust plant models or controller parameters. The field has progressed significantly since the 1970s, helped by digital computers. Early applications offered essential feedback, and theoretical advances solved many basic problems. This book comprehensively treats adaptive control, guiding readers from basic problems to analytical solutions with practical applications. Presenting a unified view is challenging due to various design steps and applications. However, a coherent presentation of basic techniques is now possible. The book uses a discrete-time approach to reflect the role of digital computers and shares practical experiences and understanding of different control designs. Mathematical aspects of synthesizing and analyzing algorithms are emphasized, though they alone may not solve practical problems. The book includes applications of control techniques but stresses that a solid mathematical understanding is crucial for creatively applying them to new challenges.
+
+FULL TEXT KEY CONTENT (arXiv PDF 正文，出处层级：教材正文第1章等)
+============================================================
+- 定义：自适应控制=一套实时自动调整控制器参数的技术，在对象动态模型参数未知和/或时变时，达到或维持期望的控制性能。
+- 两种工况：(1)参数未知但恒定（某工作区内）——自适应是自动整定，效果随时间消失（vanishing adaptation），工况变化需重启；(2)参数不可预测地时变——如机械臂/传动的负载变化、DC-DC变换器的负载、绕线机卷筒惯量时变、非线性系统的工作点变化导致线性化模型变化——自适应长期起作用（non-vanishing / continuous adaptation）。
+- 基本假设（Fundamental Hypothesis）：对对象模型参数的任何可能取值，存在一个固定结构与复杂度的控制器，只要取合适的控制器参数值就能达到规定性能。因此自适应环的任务仅是搜索"好"的控制器参数；对象与控制器都假定线性。作者强调：自适应控制器不是无需对象先验知识的黑箱；先验知识用于规定可达性能、控制器结构与复杂度、设计方法选择。
+- 自适应 vs 鲁棒：鲁棒控制对一族对象模型（标称模型+不确定性域）给出满意性能；若不确定性域太大、性能无法覆盖全部参数变化，就需要自适应叠加。两者互补——鲁棒设计搭自适应可拓宽工作域、改善性能；用鲁棒控制器做自适应系统的底座也能大幅改善自适应性能。教材用三阶对象例子（二阶环节阻尼0.2、自然频率1→0.6 rad/s + 一阶高频环节，t=150 时刻阻尼突变）做对照。
+- 基本方案：开环自适应、直接自适应（模型参考自适应 MRAS，基于输出误差）、间接自适应（在线参数估计，把估计值当真值算控制器参数，"确定性等价"）、闭环迭代辨识与控制器重设计、多模型切换自适应、自适应调节、扰动前馈自适应补偿。
+- 参数自适应算法通用形式：θ^(t+1) = θ^(t) + F(t) φ(t) ε(t+1)，θ为估计参数向量、F为自适应增益、φ为观测/回归向量、ε为预测误差。
+- 数据预处理：用 RLS 研究残差预测误差方差随 nA+nB 的变化曲线，理论上有明显拐点后水平段；实践中因噪声拐点不干净。
+- 应用实例：热镀锌镀层厚度的开环自适应、磷酸干燥炉的直接自适应、柔性传动的间接与多模型自适应、主动振动控制的自适应调节与扰动前馈补偿。
+- 历史注记：Feldbaum(1965)把自适应控制表述为随机控制（对偶控制）；Whitaker等(1958)在飞机控制中提出模型参考自适应；Kalman(1958)在数字过程控制中引入间接自适应；Butchart&Shakcloth(1966)、Parks(1966)用Lyapunov函数综合稳定MRAS并指出正实性作用；Landau(1969a,b)用超稳定性/无源性把MRAS表示为等效反馈系统；Åström&Wittenmark(1973)提出"自校正"(self-tuning)。

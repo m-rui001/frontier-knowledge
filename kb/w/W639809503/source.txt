@@ -1,0 +1,27 @@
+TITLE: Rings of Quotients of Rings of Functions
+VENUE: arXiv 2403.04079 (math.GN)；1965 年 IAS 研讨班讲义 2024 年再版
+TYPE: preprint / 再版专著
+CITED: 91
+AUTHORS: N. J. Fine, L. Gillman, J. Lambek（再版编辑 Michael Barr, Robert Raphael）
+URL: https://arxiv.org/abs/2403.04079
+PAGES: 约 75 页（arXiv PDF 1MB 已抓取）
+
+ABSTRACT (原文摘要，唯一可信的具体数字来源):
+============================================================
+From the original PREFACE: The rings of quotients recently introduced by Johnson and Utumi are applied to the ring C(X) of all continuous real-valued functions on a completely regular space X. Let Q(X) denote the maximal ring of quotients of C(X); then Q(X) may be realized as the ring of all continuous functions on the dense open sets of X (modulo an obvious equivalence relation). In special cases (e.g., for metric X), Q(X) reduces to the classical ring of quotients of C(X) (formed with respect to the regular elements), but in general, the classical ring is only a proper subring of Q(X).
+
+FULL TEXT KEY CONTENT (arXiv PDF 正文，出处层级：原文前言与第1章)
+============================================================
+- 再版说明：这些讲义印行 40 年（结果公布 45 年），结果被广泛使用但原版早已绝版。原版无版权声明、无商业利用可能，故编辑决定再版并免费开放。Fine 教授 1995 年去世，未能联系其遗孀或女儿。2021 年补记：Science Citation Index 列出 91 篇文献引用本文，其中 22 篇发表于最近十年。
+- 原前言：1960 作者在普林斯顿高等研究院开始此项工作，结果公布于 Notices AMS 1960、1961 的摘要 576-219、61T-27、61T-28。1965 年 5 月完稿。
+- 经典商环 Qcl(A)：c/d 的等价类，d 是非零因子（non-zero-divisor）。
+- Johnson-Utumi-Findlay-Lambek 推广：把 c/d 看成定义在理想 (d) 上的同态 (dx)→cx，即从 Hom(d) 取直极限；进一步把主理想 (d) 换成任意"稠密"理想 D，取 Hom(D) 的直极限。
+- 稠密（rationally dense）理想：在 A 中零化子仅为 0 的理想。主理想 (d) 稠密当且仅当 d 是非零因子。包含稠密子环的子环仍稠密；稠密理想与稠密子环的乘积稠密；两个稠密理想的交稠密。
+- 大理想（large）：与每个非零理想（等价于每个非零主理想）有非零交。稠密理想必大。A 半素（semi-prime，无非零幂零元）当且仅当每个大理想稠密。
+- 商环/有理扩张定义：B⊇A 同单位元，对每个 b∈B，b^{-1}A={a∈A: ba∈A} 在 B 中稠密。等价地，对每个非零 b∈B，存在 a∈A 使 ba∈A 且 ba≠0。没有真有理扩张的环叫有理完备；对半素交换环，这等同于自注入（self-injective）。
+- C(X)：完全正则空间 X 上全体连续实值函数环。Q(X) 表示 C(X) 的极大商环，可实现为 X 的稠密开集上全体连续函数（模一个显然的等价关系）。度量空间等特殊情形下 Q(X) 退化为经典商环；一般情形经典商环只是 Q(X) 的真子环。
+- Q(X) 上可加自然度量（但 Q(X) 一般不成拓扑环）；完成化记为 Q(X) 上面带横线者。C(X) 的完成化是 C(βX)（βX 为 Stone-Čech 紧化）。定理链：C(βX) 是 C(X) 的商环故 Q(C(X))=Q(C(X))；Q(X) 是拓扑环；Q(X)=Q(X)（完成化）；Q(X) 是 Q(X) 的极大商环。
+- Q(X) 也可实现为 X 的稠密 Gδ 集上的连续函数环（模等价关系）。
+- 极大理想空间：K 为 Q(X) 的极大理想空间，紧且 extremally disconnected，并与 Q(X)、Q(X) 完成化、Q(X) 的极大理想空间同胚；也与 E(Q(X))（幂等元布尔环）的极大理想空间同胚，E(Q(X))=E(Q(X))；该布尔环同构于 X 的正则开集布尔代数 B(X)，故 K 与 B(X) 的极大理想空间同胚。推论：K 对所有无孤立点的可分度量空间 X 相同。K 还可实现为 X 的稠密开集 U 的空间 U、稠密开集 V 的空间 V、稠密 Gδ 集 S 的空间 S 的逆极限。
+- 副产品：给出 Stone-Nakano 定理（C(X) 作为格条件完备当且仅当 X extremally disconnected）和 Artin 定理（形式实域中在每种全序下都为正的元素是平方和）的新证明。
+- 全书 11 章：交换环商环 / C(X) 与 C(X) 的商环 / 各种商环的相等性 / Q(X) 上的运算 / C[S] 与 C[S] 的极大理想空间 / C(X) 子代数的极大理想空间 / 不变范数 / 拟实环 / α-环 / 正则 α-环 / 布尔代数。
