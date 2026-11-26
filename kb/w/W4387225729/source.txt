@@ -1,0 +1,20 @@
+TITLE: Vision Transformers Need Registers
+VENUE: arXiv 2309.16588 (cs.CV)；ICLR 2024
+TYPE: preprint / conference
+CITED: 821
+AUTHORS: Timothée Darcet, Maxime Oquab, Julien Ponceau, Nicolas Dardou 等（Meta / Inria / Sorbonne）
+URL: https://arxiv.org/abs/2309.16588
+PAGES: arXiv HTML v1 全文已抓取（文本 4.5 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文，出处层级：论文正文):
+============================================================
+Transformers trained with large-scale self-supervised learning, such as DINOv2, exhibit artifacts in their feature maps. These artifacts correspond to high-norm tokens appearing during inference, primarily in low-informative background regions of images, which are repurposed for internal computations. We propose a simple yet effective solution based on providing the model with additional tokens, called registers, that can serve as containers for these computations. Adding registers leads to smoother feature maps and attention maps with interpretable behavior. This simple fix enables better performance in downstream visual processing tasks, notably unsupervised object discovery, and enables models of all sizes to learn interpretable attention maps, similar to the original DINO method.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文)
+============================================================
+- 现象：大 ViT（DINOv2、DeiT-III、CLIP 等）特征图出现高范数离群 token，主要在低信息背景区；这些 token 几乎不含局部信息，却携带全局信息，被模型"征用"作内部计算。
+- 假设与修复：给模型额外加 register tokens（寄存器token）作为这些计算的容器；加后特征图和注意力图更平滑、可解释。
+- 对象发现(Object discovery)：用 LOST 等方法评估，加 register 显著改善无监督对象发现。
+- 开销：加 16 个 register 使前向计算成本最多增 6%；常用 4 个 register 时增幅 <2%；参数增量可忽略。
+- 验证模型：DeiT-III、CLIP、DINOv2，监督与自监督 ViT；class token 上离群token准确率远高于普通token，说明其存全局信息。
+- 影响：该 fix 被后续视觉基础模型广泛采纳。

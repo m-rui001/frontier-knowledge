@@ -1,0 +1,21 @@
+TITLE: Cognitive Architectures for Language Agents
+VENUE: arXiv 2309.02427 (cs.AI)；TMLR 2024
+TYPE: survey / conceptual framework
+CITED: 817
+AUTHORS: Theodore R. Sumers, Shunyu Yao, Karthik Narasimhan, Thomas L. Griffiths（Princeton / OpenAI）
+URL: https://arxiv.org/abs/2309.02427
+PAGES: arXiv HTML v1 全文已抓取（文本 11.2 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Large language models (LLMs) have shown remarkable capabilities, but a unified framework for building agents on top of them is lacking. We draw on the rich history of agent design in symbolic AI to develop a blueprint for a new wave of cognitive language agents. We show that LLMs have many of the same properties as production systems, and that recent efforts to improve grounding or reasoning mirror the development of cognitive architectures built around production systems. We then propose Cognitive Architectures for Language Agents (CoALA), a conceptual framework to systematize diverse methods for LLM-based reasoning, grounding, learning, and decision making as instantiations of language agents. CoALA organizes an agent's memory into discrete modules and divides its action space into external and internal actions.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文)
+============================================================
+- CoALA框架：把语言智能体的记忆组织成离散模块；动作空间分为外部动作(与环境交互:控制机器人/与人交流/浏览网页,通过grounding)与内部动作(推理/检索/学习)。
+- 记忆模块：working memory(工作记忆)、长期记忆(含episodic情节/semantic语义/procedural程序性)。
+- 动作类型：grounding actions(接地,外部)、retrieval actions(检索,从记忆)、reasoning actions(推理,如Self-Critique/Selection-Inference)、learning actions(学习,更新记忆/参数)。
+- 决策：LLM调用输出字符串，解析成动作空间执行；一次调用可产生多个动作(返回答案/调用函数/发出电机命令)。prompt chaining如Self-Critique、Selection-Inference被视作控制流。
+- 类比：LLM类似符号AI的production system(产生式系统);经典例子Soar架构(产生式存长期记忆,按前提匹配工作记忆执行)。认知架构传统:显式实例化perception/memory/planning以实现灵活理性实时行为。
+- 案例研究与actionable insights；讨论安全(学习修改权重的高风险)、用更小模型做特定推理的未来方向。
+- 意义:为碎片化的LLM agent研究提供统一概念框架。

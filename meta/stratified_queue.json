@@ -1,11 +1,10 @@
 {
- "method": "路线2批6：arXiv全文优先，领域多样（扩散RL/LLM纠错/奖励设计/基因组）",
+ "method": "路线2批7：arXiv全文优先，领域多样（ViT机制/认知架构/稀疏自编码/路由）",
  "source": "meta/usable.json 未写 arXiv 高引条目",
  "layer_sizes": {
-  "cs": 3,
-  "bio": 1
+  "cs": 4
  },
  "queue": [],
  "excluded": [],
- "completed_note": "路线2批6：4篇arXiv全文（扩散RL/纠错/奖励设计/基因组），INDEX 585→589"
+ "completed_note": "路线2批7：4篇arXiv全文（ViT机制/认知架构/稀疏自编码/路由），INDEX 589→593"
 }

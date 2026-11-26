@@ -1,0 +1,19 @@
+TITLE: RouteLLM: Learning to Route LLMs with Preference Data
+VENUE: arXiv 2406.18665 (cs.CL)
+TYPE: preprint
+CITED: 770
+AUTHORS: Isaac Ong, Amjad Almahairi 等（LMSYS / 合作组）
+URL: https://arxiv.org/abs/2406.18665
+PAGES: arXiv HTML v1 全文已抓取（文本 5.5 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+The choice of which LLM to use involves a trade-off between performance and cost. More powerful models are effective but expensive; less capable models are more cost-effective. We propose several efficient router models that dynamically select between a stronger and a weaker LLM during inference, aiming to optimize the cost-quality balance. We develop a training framework leveraging human preference data and data augmentation. Evaluation on widely-recognized benchmarks shows our approach significantly reduces costs—by over 2 times in certain cases—without compromising response quality.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文)
+============================================================
+- 成本背景：GPT-4平均约$24.7/百万token,Mixtral-8x7B约$0.24/百万token(相差约100倍);每百万输出token:Llama-3-70b $1 vs GPT-4-0613 $60(60x),Haiku $1.25 vs Opus $75(60x);总体可省高达50x。
+- 方法：训练router在强/弱两个LLM间动态选择;用人类偏好数据+数据增强。
+- 指标：CPT(call-performance threshold,达到目标性能所需调用强模型的比例),图1右CPT(50%)≈37%;APG(average performance gain)。PGR(performance gap to...)。
+- 评估：MT-Bench、GSM8K(作为OOD分布外评测);router优于随机baseline;数据增强改善MT-Bench上的router性能。
+- 结论:某些情况成本降低超2倍而不损质量。

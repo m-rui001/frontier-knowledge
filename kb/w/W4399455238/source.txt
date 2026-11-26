@@ -1,0 +1,21 @@
+TITLE: Scaling and evaluating sparse autoencoders
+VENUE: arXiv 2406.04093 (cs.LG)；OpenAI
+TYPE: preprint
+CITED: 813
+AUTHORS: Leo Gao 等（OpenAI）
+URL: https://arxiv.org/abs/2406.04093
+PAGES: arXiv HTML v1 全文已抓取（文本 9.7 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Sparse autoencoders (SAEs) provide a promising unsupervised approach for extracting interpretable features from a language model by reconstructing activations from a sparse bottleneck layer. Since language models learn many concepts, autoencoders need to be very large to recover all relevant features. However, studying the properties of autoencoder scaling is difficult due to the need to balance reconstruction and sparsity objectives and the presence of dead latents. We propose using k-sparse autoencoders to directly control sparsity, simplifying tuning and improving reconstruction-sparsity scaling. We study scaling laws for reconstruction loss and feature recovery, and show that our approach matches or outperforms ReLU autoencoders. To demonstrate scalability, we train a 16 million latent autoencoder on GPT-4 activations for 40 billion tokens. We release code and autoencoders for open-source models, as well as a visualizer.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文)
+============================================================
+- 方法：用k-sparse autoencoder(TopK激活)直接控制稀疏度(K个最大激活保留),替代ReLU自编码器;简化调节、改善重构-稀疏权衡;TopK防止activation shrinkage(激活收缩),支持progressive recovery(渐进恢复)。
+- 死神经元(dead latents)问题:TopK配合特定初始化/采样可避免;附录专门讨论recurring dense features in GPT-2 small。
+- 缩放定律:研究latent数量、计算量C与重构损失L(C)、收敛L(N)、不可约损失、特征恢复的关系;jointly fitting sparsity L(N,K);subject model size L_s(N)。
+- 评估:下游损失(downstream loss)、用1D探针恢复已知特征、为特征找简单解释、解释重构、消融效应的稀疏性。
+- 规模演示:在GPT-4激活上训练1600万latent的SAE,用400亿token(40 billion)。
+- 开源:代码、开源模型的SAE、可视化工具(sae-viewer)。github.com/openai/sparse_autoencoder。
+- 背景:稀疏编码源于Olshausen&Field1996;SAE用于找特征(Cunningham/Bricken/Templeton)和circuits(Marks)。
