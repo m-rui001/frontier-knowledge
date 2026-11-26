@@ -1,10 +1,11 @@
 {
- "method": "路线2批9：arXiv全文优先，视觉主题多样（3D/表征/推理/生成对齐）",
+ "method": "路线2批10：arXiv全文优先，领域多样（3D生成/自调试/评测/机器人）",
  "source": "meta/usable.json 未写 arXiv 高引条目",
  "layer_sizes": {
-  "cs.CV": 4
+  "cs": 3,
+  "robotics": 1
  },
  "queue": [],
  "excluded": [],
- "completed_note": "路线2批9：4篇arXiv全文（3D/表征/多模态推理/生成对齐），INDEX 597→601"
+ "completed_note": "路线2批10：4篇arXiv全文（3D生成/自调试/评测/机器人），INDEX 601→605"
 }

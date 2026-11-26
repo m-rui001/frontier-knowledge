@@ -1,0 +1,20 @@
+TITLE: Teaching Large Language Models to Self-Debug
+VENUE: arXiv 2304.05128 (cs.CL)；ICLR 2023；Google
+TYPE: preprint / conference
+CITED: 974
+AUTHORS: Xinyun Chen 等（Google）
+URL: https://arxiv.org/abs/2304.05128
+PAGES: arXiv HTML v1 全文已抓取（文本 17 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+We propose Self-Debugging, which teaches a large language model to debug its predicted program via few-shot demonstrations. We demonstrate Self-Debugging can teach the model to perform rubber duck debugging: without any feedback on code correctness or error messages, the model explains its code line by line, then fixes bugs based on the explanation. We also explore debugging with execution feedback (unit tests) and code explanation. Self-Debugging improves performance across text-to-SQL (Spider), code translation (TransCoder), and text-to-Python (MBPP).
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文表格):
+============================================================
+- 三种调试方式:(1)Simple Feedback(简单反馈);(2)Unit Tests UT(单元测试反馈);(3)Code Explanation/code explanation(代码逐行解释,rubber duck debugging)。
+- Rubber duck debugging:不给任何代码正确性或错误信息反馈,模型逐行解释自己的代码,再根据解释找bug并修复。
+- 关键结果MBPP text-to-Python(pass@1):Codex基线80.4,Simple 89.3,UT 91.6,UT+Explanation 92.5。
+- TransCoder对照:无debug基线44.5(PaLM 51.8/PaLM-Coder 55.1),本工作Codex 80.4→UT 91.6→UT+Expl 92.5。
+- Spider(text-to-SQL,无单元测试验证):Self-Debugging with code explanation一致提升基线2-3%,提升预测质量。
+- 方法:用few-shot示范教模型调试;有执行反馈用单元测试结果,无反馈用代码解释。

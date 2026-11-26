@@ -1,0 +1,21 @@
+TITLE: ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate
+VENUE: arXiv 2308.07201 (cs.CL)；ICLR 2024
+TYPE: preprint / conference
+CITED: 967
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2308.07201
+PAGES: arXiv HTML v1 全文已抓取（文本 5.8 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Using LLMs as evaluators is promising but single-agent approaches show instability and bias. Drawing inspiration from human evaluation best practices where multiple annotators collaborate, we propose ChatEval, a multi-agent debate framework for LLM-based evaluation. Multiple agents with diverse role prompts discuss and debate the quality of responses, reaching a collective judgment. Experiments on FairEval and Topical-Chat show ChatEval delivers superior accuracy and agreement with human assessment. We find diverse role prompts are essential; same role descriptions lead to degraded performance.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 核心:多智能体辩论用于LLM评测;受人类多标注者协作启发,多个带不同角色prompt的agent讨论辩论后给出集体判断。
+- 模型:GPT家族(GPT-4、ChatGPT/GPT-3.5-turbo),温度设0保证可复现。
+- 基准:FairEval(开放问答评测)、Topical-Chat(对话响应生成)。
+- 指标:accuracy(相对人类标注的正确分类比例)、Kappa相关系数(考虑偶然一致的一致度)。以人类标注为gold。
+- 实验设置:3个agent、2轮讨论、diverse role prompts;对比one-by-one/其它通信策略(对ChatGPT,one-by-one更有效)。
+- 关键发现:多样化角色prompt(不同persona) essential;用相同角色描述会degrade性能;多agent缓解Degeneration-of-Thought(DOT)问题。
+- 分析:角色prompt重要性、通信策略、角色数量与讨论轮数的影响、定性分析。

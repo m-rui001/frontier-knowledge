@@ -1,0 +1,20 @@
+TITLE: RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation
+VENUE: arXiv 2410.07864 (cs.RO)；ICLR 2025；清华大学
+TYPE: preprint / conference
+CITED: 790
+AUTHORS: (详见原文；清华大学等)
+URL: https://arxiv.org/abs/2410.07864
+PAGES: arXiv HTML v1 全文已抓取（文本 11 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Bimanual manipulation is essential in robotics, yet developing foundation models is extremely challenging due to the complexity of coordinating two robot arms (leading to multi-modal action distributions) and the scarcity of training data. We present Robotics Diffusion Transformer (RDT), a diffusion foundation model for bimanual manipulation. RDT uses diffusion models to represent multi-modality, with a scalable Transformer handling heterogeneous multi-modal inputs and capturing nonlinearity and high-frequency details of robot actions. We pretrain on the largest collection of multi-robot datasets to date, scaling to 1.2B parameters—the largest diffusion-based foundation model for robotic manipulation. We fine-tune on a self-created multi-task bimanual dataset with over 6K episodes. Experiments show RDT outperforms baselines by 56% in success rates across challenging tasks, with zero-shot and few-shot (1-5 shots) generalizability.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 问题:双臂操作(bimanual)对基础模型极难——协调两臂导致多模态动作分布,且训练数据稀缺。
+- 方法:RDT(Robotics Diffusion Transformer),扩散模型表示多模态动作;可扩展Transformer处理异构多模态输入(不同机器人形态/相机观测),捕捉机器人动作的非线性与高频细节。
+- 规模:在迄今最大的多机器人数据集集合上预训练,扩展到12亿参数(1.2B),当时最大的机器人操作扩散基础模型;数据清洗(去重复/失败episode/空图/错误速度/过短轨迹)。
+- 数据:DROID大规模多任务数据集(76K轨迹/564场景,Franka Panda 7-DoF,腕部+外部RGB-D,控制频率3Hz)等;自采多任务双臂数据集6K+ episodes做微调。
+- 结果:真实机器人实验,成功率相对基线提升56%;对未见物体/场景/指令/技能有零样本与少样本(1-5 shots)泛化能力;能完成long-horizon双臂任务。
+- 意义:把扩散基础模型扩展到双臂操作这一难题。

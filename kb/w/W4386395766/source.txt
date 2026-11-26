@@ -1,0 +1,20 @@
+TITLE: MVDream: Multi-view Diffusion for 3D Generation
+VENUE: arXiv 2308.16512 (cs.CV)；ICLR 2024
+TYPE: preprint / conference
+CITED: 985
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2308.16512
+PAGES: arXiv HTML v1 全文已抓取（文本 6 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+We propose MVDream, a multi-view diffusion model able to generate geometrically consistent multi-view images from a given text prompt. By leveraging image diffusion models pretrained on large-scale web datasets and a multi-view dataset rendered from 3D objects, MVDream achieves both the generalizability of 2D diffusion and the consistency of 3D data. It can be applied as a multi-view prior for 3D generation via Score Distillation Sampling, greatly improving the stability of existing 2D-lifting methods by solving the 3D consistency problem.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 核心:多视图扩散模型,从文本提示生成几何一致的多视图图像;兼顾2D扩散的泛化性与3D数据的一致性。
+- 架构:在预训练文生图UNet上做两处小改动:(1)把自注意力块从2D改成3D实现跨视图连接;(2)给每个视图加camera embedding到时间嵌入。
+- 数据:用3D物体渲染的多视图数据集,CLIP score过滤后约35万物体;归一化到中心,随机相机距离采样。与LAION数据联合训练(表格对比有/无LAION)。
+- 应用:作为多视图先验用于3D生成,通过SDS(Score Distillation Sampling)优化3D表示(threestudio的隐式volume:多分辨率hash-grid+MLP预测密度与RGB);解决2D-lifting方法的3D一致性问题,提升稳定性。
+- 表格:FID/IS/CLIP指标;训练数据N/A参考值FID14.75/IS31.31;多视图扩散无LAION联合时FID33.41/IS12.76等。
+- 意义:把2D扩散强先验引入3D,用多视图一致性约束缓解Janus(多面)问题。
