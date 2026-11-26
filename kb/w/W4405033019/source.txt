@@ -1,0 +1,20 @@
+TITLE: Large Language Model-Brained GUI Agents: A Survey
+VENUE: arXiv 2411.18279 (cs.AI)
+TYPE: survey
+CITED: 258
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2411.18279
+PAGES: arXiv HTML v1 全文已抓取（文本 44 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+The advent of LLMs has catalyzed a transformative wave in AI, paving the way foragents that use graphical user interfaces (GUIs) as a primary means of interaction. This paper presents a comprehensive survey of LLM-brained GUI agents, exploring historical evolution, core components, and advanced techniques. We address research questions on existing GUI agent frameworks, collection and utilization of data for training specialized large action models, evaluation metrics and benchmarks, and emerging applications. Through detailed analysis, this survey identifies key research gaps and outlines a roadmap for future advancements.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 分类框架(taxonomy Figure18):frameworks/data/models/evaluation/applications五类,作为梳理领域的blueprint。
+- 研究问题RQ:历史发展轨迹/核心组件与先进技术/主要框架/训练专用大行动模型的数据/评测指标与基准/新兴应用/研究空白与路线图。
+- 基准:WebArena、Mind2Web、OSWorld(可扩展真实计算机环境,支持Linux/Windows/macOS/Web;369个Ubuntu任务、43个Windows任务等,执行式评估);VisualAgentBench。
+- 方法与结果:Search-Agent基于搜索的算法,在WebArena等基准成功率最高提升39%;WebPilot双优化;WebDreamer用LLM做基于模型的规划(模拟并评估动作及多步结果)。
+- 主题:GUI agent=让LLM通过GUI(网页/桌面)操作完成任务;grounding动作产生实际影响;多模态LLM;数据收集与轨迹;大行动模型(large action models)。
+- 意义:首个系统梳理LLM驱动的GUI agent的综述。

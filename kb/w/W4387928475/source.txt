@@ -1,0 +1,20 @@
+TITLE: Habitat 3.0: A Co-Habitat for Humans, Avatars and Robots
+VENUE: arXiv 2310.13724 (cs.RO)；ICLR 2024
+TYPE: preprint / conference
+CITED: 372
+AUTHORS: (详见原文；Meta AI 等)
+URL: https://arxiv.org/abs/2310.13724
+PAGES: arXiv HTML v1 全文已抓取（文本 12.6 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+We present Habitat 3.0: a simulation platform for studying collaborative human-robot tasks in home environments. Habitat 3.0 offers contributions across three dimensions: (1) Accurate humanoid simulation, addressing challenges in modeling complex deformable bodies and diverse appearances and motions while ensuring high simulation speed; (2) Humanoid behavior models from real human motion data to produce realistic social behaviors; (3) A suite of human-robot collaboration tasks: Social Navigation (finding and following a humanoid at safe distance) and Social Rearrangement (collaborative object rearrangement). We 'lift' well-studied navigation and rearrangement tasks from single-agent to human-assistive settings.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 定位:研究家庭环境中人机协作任务的仿真平台;三个维度贡献:精确humanoid仿真(可变形身体/多样外观动作+高速)、从真实人类运动数据得humanoid行为模型、人机协作任务套件。
+- 场景与机器人:用Habitat Synthetic Scenes Dataset(HSSD),Boston Dynamics Spot机器人;37训练/12验证/10测试场景。
+- 任务:Social Navigation(机器人找并跟随humanoid保持安全距离)、Social Rearrangement(机器人与humanoid协作重排物体);把导航与重排从单agent提升到human-assistive设置。
+- 指标:S(成功)/SPS/F等。
+- 挑战:真实人类协作实验成本高、标准化难;仿真平台的挑战包括可变形人体建模、外观动作多样性、高仿真速度。
+- 意义:为人机协作的具身AI研究提供基准平台,开启social embodied agents方向。

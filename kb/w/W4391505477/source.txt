@@ -1,0 +1,20 @@
+TITLE: PirateNets: Physics-informed Deep Learning with Residual Adaptive Networks
+VENUE: arXiv 2402.00326 (physics.comp-ph)；JMLR
+TYPE: preprint / journal
+CITED: 218
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2402.00326
+PAGES: arXiv HTML v1 全文已抓取（文本 11.4 万字符）
+
+ABSTRACT (原文摘要，逐字来自 OpenAlex 元数据):
+============================================================
+While physics-informed neural networks (PINNs) have become a popular framework for forward and inverse problems governed by PDEs, their performance degrades when larger and deeper architectures are employed. Our study identifies the root of this counter-intuitive behavior: the use of MLP architectures with unsuitable initialization schemes, which result in poor trainability of the network derivatives and ultimately unstable minimization of the PDE residual loss. We introduce Physics-informed Residual Adaptive Networks (PirateNets), a novel architecture to facilitate stable and efficient training of deep PINN models. PirateNets leverage a novel adaptive residual connection allowing networks to be initialized as shallow networks that progressively deepen during training. We show this initialization scheme encodes appropriate inductive biases for a given PDE system. Empirical evidence shows PirateNets are easier to optimize and gain accuracy from increased depth, achieving state-of-the-art results across benchmarks.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 问题:PINN用更深更宽的MLP反而性能下降(反直觉);根因=MLP的初始化让网络导数(trainability of derivatives)差,导致PDE残差损失最小化不稳。PDE残差涉及网络的高阶导数,普通初始化对此不友好。
+- PINN相关顽疾:spectral bias(频谱偏置)、unbalanced back-propagated gradients(反向梯度不平衡)、causality violation(因果违背);已有对策Fourier特征网络/自适应权重/因果与课程训练。
+- 方法PirateNets:新型自适应残差连接,让网络初始化为浅层,训练中逐渐加深(progressive deepening);初始化方案能把与给定PDE系统匹配的inductive bias编码进架构。
+- 概念:MLP derivative networks(网络对输入的k阶时空导数)。
+- 结果:更易优化,能从显著增加的深度中获得精度提升,多个基准SOTA。
+- 意义:解决PINN"深了反而差"的问题,让深度PINN可用。

@@ -1,0 +1,20 @@
+TITLE: LRM: Large Reconstruction Model for Single Image to 3D
+VENUE: arXiv 2311.04400 (cs.CV)；ICLR 2024
+TYPE: preprint / conference
+CITED: 747
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2311.04400
+PAGES: arXiv HTML v1 全文已抓取（文本 8.5 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Imagine if we could instantly create a 3D shape from a single image of an arbitrary object. Unlike prior methods limited to category-specific datasets like ShapeNet, LRM adopts a highly scalable transformer-based architecture with 500 million learnable parameters to directly predict a neural radiance field (NeRF) from the input image. We train end-to-end on massive multi-view data containing around 1 million objects, including synthetic renderings from Objaverse and real captures from MVImgNet. The combination of high-capacity model and large-scale data enables high generalizability and high-quality 3D reconstruction from in-the-wild images.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 方法:单图到3D的前馈大模型;用预训练DINO作图像编码器,图像→triplane transformer解码器直接回归NeRF(triplane表示),无后优化。
+- 规模:5亿可学习参数transformer;端到端在约100万物体的多视图数据训练(Objaverse合成渲染+MVImgNet真实采集)。区别于此前限于ShapeNet类别特定方法。
+- 速度(单张A100):image-to-triplane前馈1.14秒,从triplane-NeRF查询384×384×384点1.14秒,Marching Cubes提mesh 1.91秒,无需post-optimization。
+- 评估:PSNR/CLIP-Similarity/SSIM/LPIPS(渲染新视角);消融在较小模型上做因最终模型训练成本高。
+- 泛化:对各类in-the-wild测试输入高质量重建;未来方向=扩大模型与数据规模。
+- 意义:数据驱动的3D大模型,类比LLM的scaling思路应用到单图3D重建。

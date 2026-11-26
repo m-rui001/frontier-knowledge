@@ -1,13 +1,11 @@
 {
- "method": "路线2批11：arXiv全文优先，领域多样（生成理论/脑科学/材料/金融agent）",
+ "method": "路线2批12：arXiv全文优先，领域多样（3D重建/具身仿真/GUI agent/PINN）",
  "source": "meta/usable.json 未写 arXiv 高引条目",
  "layer_sizes": {
-  "cs": 1,
-  "neuro": 1,
-  "materials": 1,
-  "finance": 1
+  "cs": 3,
+  "physics": 1
  },
  "queue": [],
  "excluded": [],
- "completed_note": "路线2批11：4篇arXiv全文（生成理论/脑电/材料/金融），INDEX 605→609"
+ "completed_note": "路线2批12：4篇arXiv全文（3D重建/具身仿真/GUI agent/PINN），INDEX 609→613"
 }
