@@ -1,0 +1,20 @@
+TITLE: Eureka: Human-Level Reward Design via Coding Large Language Models
+VENUE: arXiv 2310.12931 (cs.RO)；ICLR 2024 杰出论文
+TYPE: preprint / conference
+CITED: 698
+AUTHORS: Yecheng Jason Ma, William Liang, Guanzhi Wang 等（NVIDIA / UT Austin / 合作组）
+URL: https://arxiv.org/abs/2310.12931
+PAGES: arXiv HTML v1 全文已抓取（文本 13.6 万字符）
+
+ABSTRACT (原文摘要，关键数字逐句来自正文):
+============================================================
+Reward design remains an open problem. We present Eureka, a human-level reward design algorithm powered by LLMs. Eureka exploits zero-shot generation, code-writing, and in-context improvement capabilities of LLMs such as GPT-4 to perform evolutionary optimization over reward code. The resulting rewards are used to acquire complex skills via RL. Without task-specific prompting or pre-defined reward templates, Eureka generates reward functions that outperform human-designed rewards. Across 10 distinct robots and 29 tasks in Isaac Gym, Eureka outperforms human experts on 83% of tasks, leading to an average normalized improvement of 52%. Eureka also enables a gradient-free in-context learning approach to RLHF, incorporating human inputs to improve reward quality and safety.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文)
+============================================================
+- 核心：用LLM(GPT-4)写代码形式的奖励函数，对奖励代码做进化式优化，再用RL训练策略获得复杂技能(如灵巧转笔)。
+- 环境：Isaac Gym模拟器，10种不同机器人、29个任务；含9个原始Isaac Gym环境(四足/双足/四旋翼/协作臂/灵巧手等形态)加上新环境。
+- 关键机制 reward reflection：基于策略训练统计生成奖励质量的文字总结，用于自动、有针对性地编辑奖励；支持零样本奖励和迭代改进。
+- 结果：无需任务特定提示或预定义奖励模板；在83%任务上超过人类专家，平均归一化提升52%。
+- 扩展：无梯度的上下文RLHF方法，纳入人类输入改善奖励质量与安全性。
+- 意义：把LLM的代码能力用于机器人奖励工程这一长期人力瓶颈。

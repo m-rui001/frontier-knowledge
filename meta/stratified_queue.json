@@ -1,10 +1,11 @@
 {
- "method": "路线2批5：只挑arXiv高引，保证全文；领域多样（数学推理/长上下文/评测/多智能体）",
- "source": "meta/usable.json 未写 arXiv 条目按引用降序",
+ "method": "路线2批6：arXiv全文优先，领域多样（扩散RL/LLM纠错/奖励设计/基因组）",
+ "source": "meta/usable.json 未写 arXiv 高引条目",
  "layer_sizes": {
-  "cs": 4
+  "cs": 3,
+  "bio": 1
  },
  "queue": [],
  "excluded": [],
- "completed_note": "路线2批5：4篇arXiv全文（数学推理/长上下文/评测/多智能体），INDEX 581→585"
+ "completed_note": "路线2批6：4篇arXiv全文（扩散RL/纠错/奖励设计/基因组），INDEX 585→589"
 }

@@ -1,0 +1,20 @@
+TITLE: CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing
+VENUE: arXiv 2305.11738 (cs.CL)；ICLR 2024；微软亚洲研究院 / 清华
+TYPE: preprint / conference
+CITED: 739
+AUTHORS: Zhibin Gou, Zhihong Shao, Yeyun Gong, Yelong Shen 等
+URL: https://arxiv.org/abs/2305.11738
+PAGES: arXiv HTML v1 全文已抓取（文本 21 万字符）
+
+ABSTRACT (原文摘要，关键数字逐句来自正文):
+============================================================
+CRITIC is a framework that allows LLMs, which are essentially black-box systems, to verify and iteratively self-correct their outputs using external tools. LLMs sometimes hallucinate facts, generate flawed code, or create offensive content. Unlike these models, humans typically use external tools to cross-check and refine initial content, like using a search engine for fact-checking or a code interpreter for debugging. Inspired by this, CRITIC first lets the LLM critique its own output, then uses the feedback from tools to revise. Key result: CRITIC achieves 7.7 F1 improvements across three QA tasks, 5.7% absolute gains on GSM8k, and a 79.2% reduction in toxicity probability. Findings highlight that relying solely on self-correction without external feedback may result in marginal improvements or even degraded performance.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文)
+============================================================
+- 框架：冻结的LLM先用工具验证自己的输出(critique)，再据反馈迭代修改(revision)。工具包括搜索引擎(事实核查)、代码解释器/计算器(程序与数学)、自身作为毒性评估器。
+- 关键发现：纯自我纠错(无外部反馈)效果微弱甚至变差——ChatGPT和Text-Davinci-003在验证自己结果时不可靠；外部反馈是自我改进的关键。
+- 任务与指标：自由问答(EM/F1,每数据集随机抽500验证样本,含TriviaQA/HotpotQA等)、数学程序合成(GSM8K)、毒性降低(ToxiGen)。
+- 结果：三个QA任务平均7.7 F1提升;GSM8K绝对提升5.7%;毒性概率降低79.2%。
+- 对照baseline：vanilla few-shot、chain-of-thought、ReAct(作者用自家search API复现,因原setup泛化差)、CRITIC w/o Tool(去掉工具)。
+- 代码:github.com/microsoft/ProphetNet/tree/master/CRITIC。

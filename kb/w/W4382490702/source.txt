@@ -1,0 +1,20 @@
+TITLE: DNABERT-2: Efficient Foundation Model and Benchmark For Multi-Species Genome
+VENUE: arXiv 2306.15006 (q-bio.GN)；ICLR 2024
+TYPE: preprint / conference
+CITED: 633
+AUTHORS: Zhihan Zhou 等（UC Santa Cruz / 合作组）
+URL: https://arxiv.org/abs/2306.15006
+PAGES: arXiv HTML v1 全文已抓取（文本 7.5 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Decoding the linguistic intricacies of the genome is a crucial problem in biology, and pre-trained foundation models such as DNABERT and Nucleotide Transformer (NT) have made significant strides. Existing works have largely hinged on k-mer, fixed-length permutations of A, T, C, G, which suffer from limitations. We introduce DNABERT-2, a refined genome foundation model that adapts an efficient tokenizer and employs multiple strategies to overcome input length constraints, reduce time and memory expenditure, and enhance model capability. We also identify the absence of a comprehensive standardized benchmark for genome understanding and propose Genome Understanding Evaluation (GUE), a comprehensive multi-species genome classification dataset amalgamating 28 distinct datasets across 7 tasks, with input lengths ranging from 70 to 1000. Experiments show DNABERT-2 achieves competitive performance with greater efficiency.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文表格)
+============================================================
+- 核心改进1：用Byte Pair Encoding(BPE)替代k-mer分词。BPE是统计压缩算法，通过迭代合并语料中最常见的共现基因组片段来构造token，克服k-mer固定长度局限并提升效率。
+- 核心改进2：用ALiBi(Attention with Linear Biases)位置编码克服输入长度约束；多种策略降低时间与内存开销。
+- 基准GUE：28个数据集、7类任务、多物种，输入长度70到1000；任务含启动子检测、核心启动子检测、转录因子结合位点、剪接位点等。
+- 表格对照（某指标列）：human 69.67/33.55/44.14/37.15/30.87/24.06；NT-500M-1000g 72.52/39.37/45.58/40.45/31.05/26.16；NT-2500M-1000g 74.61/44.08/50.86/43.10/30.28/30.87；NT-2500M-multi 78.77/56.20/61.99/55.30/36.49/40.34；DNABERT-2 78.27/52.57/56.88/50.52/31.13/36.27；DNABERT-2♦(变体)。
+- 结论：DNABERT-2 以更少参数和算力达到与大规模NT模型相当的表现，强调效率。
+- 意义：把NLP的分词与位置编码经验系统迁移到基因组基础模型。

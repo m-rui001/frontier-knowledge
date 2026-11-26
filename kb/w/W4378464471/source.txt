@@ -1,0 +1,20 @@
+TITLE: Training Diffusion Models with Reinforcement Learning
+VENUE: arXiv 2305.13301 (cs.LG)；ICLR 2024
+TYPE: preprint / conference
+CITED: 824
+AUTHORS: Kevin Black, Michael Janner, Yilun Du, Ilya Kostrikov, Sergey Levine（UC Berkeley）
+URL: https://arxiv.org/abs/2305.13301
+PAGES: arXiv HTML v1 全文已抓取（文本 6 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文，出处层级：论文正文):
+============================================================
+We propose a reinforcement learning algorithm, denoising diffusion policy optimization (DDPO), for optimizing diffusion models on downstream objectives that are difficult to express via prompting, such as image compressibility, and those derived from human feedback, such as aesthetic quality. We describe how posing denoising as a multi-step decision-making problem enables a class of policy gradient algorithms that are more effective than alternative reward-weighted likelihood approaches. Empirically, DDPO adapts text-to-image diffusion models to objectives such as compressibility and aesthetic quality. Finally, we show DDPO can improve prompt-image alignment using feedback from a vision-language model without additional data collection or human annotation.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文)
+============================================================
+- 核心方法 DDPO：把去噪过程表述为多步决策问题(MDP)，用策略梯度优化扩散模型；比 reward-weighted likelihood(RWR)等替代方法更有效。
+- 任务：图像可压缩性(compressibility)、美学质量(aesthetic quality,来自人类反馈)、提示-图像对齐(prompt-image alignment,来自视觉语言模型反馈)。
+- 美学预测器：在 CLIP embedding 上的线性模型，用人类图像评分(1-10分，高分多为艺术品)训练——构成 RLHF。
+- 关键洞察：似然不是视觉质量的可靠代理；严格优化似常导致图像质量变差，故应直接优化下游目标。
+- 方法细节：去噪当作多步MDP，策略梯度(DDPO)、reward-weighted regression(RWR)对照；有 reward normalization、CFG training、JPEG编码等实现细节；测试了45种常见动物的prompt泛化。
+- 结论：DDPO 能在不需额外数据收集或人工标注下，用视觉语言模型反馈改善提示-图像对齐。项目页 rl-diffusion.github.io。
