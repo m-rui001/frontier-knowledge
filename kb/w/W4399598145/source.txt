@@ -1,0 +1,12 @@
+TITLE: Hydra-MDP: End-to-end Multimodal Planning with Multi-target Hydra-Distillation
+ARXIV_CAT: cs.CV (arXiv official)
+ARXIV_ID: 2406.06978
+VENUE: arXiv (Cornell University) (2024)
+TYPE: article
+CITED: 350
+DOI: https://doi.org/10.48550/arxiv.2406.06978
+PAGES: unknown
+
+ABSTRACT:
+============================================================
+We propose Hydra-MDP, a novel paradigm employing multiple teachers in a teacher-student model. This approach uses knowledge distillation from both human and rule-based teachers to train the student model, which features a multi-head decoder to learn diverse trajectory candidates tailored to various evaluation metrics. With the knowledge of rule-based teachers, Hydra-MDP learns how the environment influences the planning in an end-to-end manner instead of resorting to non-differentiable post-processing. This method achieves the $1^{st}$ place in the Navsim challenge, demonstrating significant improvements in generalization across diverse driving environments and conditions. More details by visiting \url{https://github.com/NVlabs/Hydra-MDP}.
