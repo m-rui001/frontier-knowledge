@@ -1,0 +1,38 @@
+TITLE: A generative model for inorganic materials design (MatterGen)
+VENUE: Nature 639, 624–632 (2025)；DOI 10.1038/s41586-025-08628-5；Microsoft Research
+TYPE: journal article (open access)
+CITED: 1221
+AUTHORS: (详见原文；Microsoft Research / 微软)
+URL: https://www.nature.com/articles/s41586-025-08628-5
+FULL TEXT: Nature HTML 全文已抓取（.tmp/matgen.txt，5.8 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+The design of functional materials with desired properties is essential for energy storage,
+catalysis and carbon capture. Generative models accelerate materials design by directly generating
+new materials given property constraints, but current methods have a low success rate in proposing
+stable crystals or satisfy only a limited set of constraints. We present MatterGen, a model that
+generates stable, diverse inorganic materials across the periodic table and can be fine-tuned to
+steer generation towards a broad range of property constraints. Compared with previous generative
+models, structures produced by MatterGen are more than twice as likely to be new and stable, and
+more than ten times closer to the local energy minimum. After fine-tuning, MatterGen generates
+stable, new materials with desired chemistry, symmetry and mechanical, electronic and magnetic
+properties. As a proof of concept, we synthesize one generated structure and measure its property
+value to be within 20% of our target.
+
+FULL TEXT KEY NUMBERS（正文，出处层级：论文正文）:
+============================================================
+- 方法：MatterGen，基于扩散的生成模型；联合扩散原子类型(atom types)、坐标(coordinates)、
+  周期性晶格(periodic lattice)——逐步精化生成晶体结构。引入 adapter 模块，支持按目标化学组成、
+  对称性、标量性质微调。
+- SUN 指标：Stable、Unique、Novel（稳定/唯一/新颖）；用 1024 个 MatterGen 样本、1000 个基线样本计算。
+- 对照：DiffCSP、CDVAE、P-G-SchNet、G-SchNet、FTCP；MatterGen-MP 是只在 MP-20（较小数据集）
+  上训练的版本，用来与同数据下的基线公平比较。
+- 结果：相比 CDVAE 与 DiffCSP，MatterGen-MP 生成的 SUN 结构多 60%，生成结构到 DFT 弛豫后
+  的平均 RMSD 低 50%。整体（大数据集版）比先前模型：新且稳定的可能性超 2 倍，
+  距局部能量最小点近超 10 倍。
+- 微调能力：按化学组成、对称性、力学（体模量 target 50/100/150/200 GPa）、电子、磁学性质生成。
+  过滤流程：唯一性/新颖性 → MatterSim+DFT 的 energy-above-hull 稳定性 → MatterSim 声子稳定性
+  → 是否含氧。
+- 实验验证：合成一个生成结构，实测性质在目标值 20% 以内（proof of concept）。
+- 意义：向材料设计的基础生成模型迈进一步。

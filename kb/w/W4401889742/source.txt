@@ -1,0 +1,28 @@
+TITLE: Recurrent Neural Networks: A Comprehensive Review of Architectures, Variants, and Applications
+VENUE: Information (MDPI) 15(9), 517 (2024)；DOI 10.3390/info15090517
+TYPE: survey (open access)
+CITED: 1207
+AUTHORS: (详见原文)
+URL: https://www.mdpi.com/2078-2489/15/9/517
+DATA SOURCE: **摘要级转述**。MDPI PDF 返回 403，Semantic Scholar 官方摘要已抓取。不补外部细节、不编造数字。
+
+ABSTRACT（原文摘要，逐句来自 Semantic Scholar 收录的官方摘要）:
+============================================================
+Recurrent neural networks (RNNs) have significantly advanced machine learning by enabling
+effective processing of sequential data. This paper provides a comprehensive review of RNNs and
+their applications, highlighting advancements in architectures, such as long short-term memory
+(LSTM) networks, gated recurrent units (GRUs), bidirectional LSTM (BiLSTM), echo state networks
+(ESNs), peephole LSTM, and stacked LSTM. The study examines applications in natural language
+processing, speech recognition, time series forecasting, autonomous vehicles, and anomaly
+detection. It also discusses recent innovations, such as the integration of attention mechanisms
+and the development of hybrid models combining RNNs with convolutional neural networks (CNNs) and
+transformer architectures. This review aims to provide researchers and practitioners with a
+comprehensive overview of the current state and future directions of RNN research.
+
+可确认的事实（来自摘要，出处层级：原文摘要）:
+============================================================
+- 覆盖的架构：LSTM、GRU、BiLSTM、ESN（回声状态网络）、peephole LSTM、stacked LSTM。
+- 应用领域：NLP、语音识别、时间序列预测、自动驾驶、异常检测。
+- 近期创新：注意力机制与 RNN 结合；RNN 与 CNN、Transformer 的混合模型。
+- 定位：为研究者与从业者提供 RNN 研究现状与未来方向的综述。
+- 注意：摘要未给出任何数值指标或基准比较，本篇不补编数字。

@@ -1,0 +1,37 @@
+TITLE: How Is ChatGPT's Behavior Changing Over Time?
+VENUE: Harvard Data Science Review (2024)；DOI 10.1162/99608f92.5317da47
+TYPE: journal article
+CITED: 1103
+AUTHORS: Shunyuan Zheng, Brian Goda, Allen Yuan, Zhensu Chen, David Lo 等
+URL: https://hdsr.mitpress.mit.edu/pub/y95zitmz
+DATA SOURCE: **摘要级转述**。MIT Press PDF 返回 403，Semantic Scholar / OpenAlex 官方摘要已抓取。不补外部细节、不编造数字。
+
+ABSTRACT（原文摘要，逐句来自 OpenAlex 倒排索引还原）:
+============================================================
+GPT-3.5 and GPT-4 are the two most widely used LLM services. However, when and how these models
+are updated over time is opaque. We evaluate the March 2023 and June 2023 versions of GPT-3.5 and
+GPT-4 on several diverse tasks: 1) math problems, 2) sensitive/dangerous questions, 3) opinion
+surveys, 4) multi-hop knowledge-intensive questions, 5) generating code, 6) US Medical License
+tests, and 7) visual reasoning. We find that the performance and behavior of both GPT-3.5 and
+GPT-4 can vary greatly over time. For example, GPT-4 (March 2023) was reasonable at identifying
+prime vs. composite numbers (84% accuracy) but GPT-4 (June 2023) was poor on these same questions
+(51% accuracy). This is partly explained by a drop in GPT-4's amenity to follow chain-of-thought
+prompting. GPT-3.5 was much better in June than in March on this task. GPT-4 became less willing
+to answer sensitive questions and opinion survey questions in June than in March. GPT-4 performed
+better at multi-hop questions in June than in March, while GPT-3.5's performance dropped.
+Both had more formatting mistakes in code generation in June than in March. We provide evidence
+that GPT-4's ability to follow user instructions has decreased over time. The behavior of the
+"same" LLM service can change substantially in a short time, highlighting the need for continuous
+monitoring of LLMs.
+
+可确认的事实（来自摘要，出处层级：原文摘要）:
+============================================================
+- 被测版本：GPT-3.5 与 GPT-4 的 2023 年 3 月版与 6 月版。
+- 七类任务：数学题、敏感/危险问题、观点调查、多跳知识密集问题、代码生成、美国医师执照考试、
+  视觉推理。
+- 具体数字：质数/合数判断，GPT-4(3月) 84% → GPT-4(6月) 51%；GPT-3.5 同任务 6 月远好于 3 月。
+- 变化方向：GPT-4 在 6 月更不愿回答敏感问题与观点调查；多跳问题更好；代码格式错误更多。
+  GPT-3.5 多跳问题下降。
+- 解释：GPT-4 遵循思维链提示的意愿下降，是多项漂移的部分原因；作者提供证据表明
+  GPT-4 遵循用户指令的能力随时间下降。
+- 结论：同一个 LLM 服务的行为能在短时间内大幅改变，需要持续监测。

@@ -1,13 +1,13 @@
 {
- "method": "技术批2：可解释AI/蛋白质设计/ML公平性/引力波目录",
+ "method": "技术批3：LLM行为漂移/RNN综述/材料生成模型/SHAP实践",
  "source": "meta/usable.json 技术类带OA全文池",
  "layer_sizes": {
-  "explain": 1,
-  "bio": 1,
-  "fairness": 1,
-  "astro": 1
+  "nlp": 1,
+  "dl": 1,
+  "materials": 1,
+  "xai": 1
  },
  "queue": [],
  "excluded": [],
- "completed_note": "技术批2：XAI/蛋白设计/公平性/引力波，INDEX 647→651"
+ "completed_note": "技术批3：材料生成/ChatGPT漂移/RNN综述/SHAP指南（3篇摘要级），INDEX 651→655"
 }

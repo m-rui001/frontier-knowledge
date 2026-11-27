@@ -1,0 +1,30 @@
+TITLE: Practical guide to SHAP analysis: Explaining supervised machine learning model predictions in drug development
+VENUE: Clinical and Translational Science (Wiley) 2024；DOI 10.1111/cts.70056
+TYPE: tutorial / practical guide
+CITED: 1154
+AUTHORS: (详见原文)
+URL: https://onlinelibrary.wiley.com/doi/10.1111/cts.70056
+DATA SOURCE: **摘要级转述**。Wiley PDF 返回 403，Semantic Scholar 官方摘要已抓取。不补外部细节、不编造数字。
+
+ABSTRACT（原文摘要，逐句来自 Semantic Scholar 收录的官方摘要）:
+============================================================
+Despite increasing interest in using AI and ML models for drug development, effectively
+interpreting their predictions remains a challenge, limiting their impact on clinical decisions.
+We address this by providing a practical guide to SHapley Additive exPlanations (SHAP), a popular
+feature-based interpretability method that can be integrated into supervised ML models to gain
+deeper understanding of predictions, enhancing transparency and trustworthiness. This tutorial
+focuses on applying SHAP to standard ML black-box models for regression and classification. We
+provide an overview of various visualization plots and their interpretation, available software
+for implementing SHAP, and highlight best practices and special considerations when dealing with
+binary endpoints and time-series models. We also apply it to inherently explainable regression
+models. Finally, we discuss limitations and ongoing advancements addressing current drawbacks.
+
+可确认的事实（来自摘要，出处层级：原文摘要）:
+============================================================
+- 定位：SHAP 的实践教程（practical guide / tutorial），面向药物研发场景。
+- SHAP = SHapley Additive exPlanations，基于特征的可解释性方法，可嵌入监督学习模型。
+- 内容：回归与分类两类黑箱模型上的 SHAP 应用；多种可视化图及其解读；可用软件实现；
+  二分类终点（binary endpoints）与时间序列模型的特殊注意事项与最佳实践。
+- 另将 SHAP 应用于本身可解释的回归模型作对照。
+- 讨论局限与正在推进的改进。
+- 注意：摘要无具体数值或实验比较，本篇不补编数字。
