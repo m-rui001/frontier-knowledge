@@ -1,0 +1,20 @@
+TITLE: LlaSMol: Advancing Large Language Models for Chemistry with a Large-Scale, Comprehensive, High-Quality Instruction Tuning Dataset
+VENUE: arXiv 2402.09391 (cs.CL)
+TYPE: preprint
+CITED: 188
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2402.09391
+PAGES: arXiv HTML v1 全文已抓取（文本 9.4 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+While LLMs such as GPT-4 exhibit remarkable capabilities on NLP tasks, existing work shows their performance on chemistry tasks is discouragingly low. We demonstrate our developed LLMs achieve very strong results on a comprehensive set of chemistry tasks, outperforming GPT-4 across all tasks by a substantial margin and approaching SoTA task-specific models. The key is a large-scale, comprehensive, high-quality instruction tuning dataset SMolInstruct, containing 14 meticulously selected chemistry tasks and over three million high-quality samples.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 问题:GPT-4等LLM在化学任务上表现很低;理解SMILES(分子的文本表示)有门槛;已有微调工作仍远落后专用SoTA。
+- 核心:SMolInstruct数据集=14个精选化学任务+超300万高质量样本,用于指令微调;基于它训练LlaSMol模型。
+- 任务:名称转换(NC,I2S/S2I/I2F)、分子描述、化学反应、性质预测、逆合成(retrosynthesis)等14类;SMILES文本表示。
+- 结果:LlaSMol在所有任务上大幅超过GPT-4,接近任务专用SoTA模型(STOUT/Uni-Mol/MolT5/RDKit等)。
+- 对照模型:GPT-4/Galactica/Llama2/CodeLlama/Mistral/Molinst及任务专用非LLM模型。
+- 意义:证明数据(大规模高质量指令集)是把LLM适配到专业领域的关键;化学作为文本化(SMILES)可LLM化。

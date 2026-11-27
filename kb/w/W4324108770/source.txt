@@ -1,0 +1,20 @@
+TITLE: Decomposed Diffusion Sampler for Accelerating Large-Scale Inverse Problems
+VENUE: arXiv 2303.05754 (cs.LG / eess.IV)
+TYPE: preprint
+CITED: 130
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2303.05754
+PAGES: arXiv HTML v1 全文已抓取（文本 10.1 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+We introduce Decomposed Diffusion Sampling (DDS), a scalable diffusion sampler for inverse problems. The diffusion sampling process is decomposed into a "denoised" component obtained by projecting the sample onto the clean data manifold, and a "noise" component that induces a transition to the next lower-level noisy manifold with stochastic noise. We prove that, under conditions on the clean data manifold, the conjugate gradient (CG) update for imposing conditioning from the denoised signal belongs to the clean manifold, resulting in much faster and more accurate diffusion sampling. Combined with a CG-based conditioning strategy that keeps the sample on the clean manifold during intermediate steps, DDS yields better performance with much-reduced sampling time (20~50 NFE, ×80~200 acceleration). The method is applicable regardless of parameterization (VE, VP).
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 方法DDS:可扩展的扩散采样器,用于大规模逆问题;把扩散采样过程分解为(a)"去噪"分量=把样本投影到干净数据流形(clean data manifold)上,(b)"噪声"分量=加随机噪声转移到下一层更噪的流形。
+- 理论:DDS证明在干净数据流形条件下,用共轭梯度(CG)施加条件约束的更新仍属于干净数据流形,从而使采样更快更准;正交性对VP有尺度因子、对VE精确。
+- 效果:配合CG条件化策略(保证中间步样本留在干净流形),DDS以大大缩短的采样时间得到更好性能:20~50 NFE(函数评估次数),加速80~200倍。
+- 适用性:与参数化无关(VE/VP均可)。
+- 应用:加速MRI重建、3D CT重建等医学影像逆问题(测量过程需要欠采样加速)。
+- 意义:把"条件化"与"采样"解耦并用几何解释(CG更新沿流形),让扩散模型能用于大规模逆问题。

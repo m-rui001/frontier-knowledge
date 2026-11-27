@@ -1,0 +1,20 @@
+TITLE: ClimODE: Climate and Weather Forecasting with Physics-informed Neural ODEs
+VENUE: arXiv 2404.10024 (cs.LG)；ICLR 2024
+TYPE: preprint / conference
+CITED: 138
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2404.10024
+PAGES: arXiv HTML v1 全文已抓取（文本 7.2 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+State-of-the-art climate and weather prediction relies on numerical models; recent deep learning forecasters (FourCastNet, Pangu-Weather etc.) are built on data-driven backbones (ViT, UNet, autoencoders) but overlook fundamental physical dynamics and do not offer uncertainty estimates. We address these with ClimODE, a spatiotemporal continuous-time process implementing the key principle of advection from statistical mechanics: weather changes due to spatial movement of quantities over time. ClimODE models precise weather evolution with value-conserving dynamics, and enables estimating prediction uncertainty. Our approach outperforms existing data-driven methods in global and regional forecasting with an order-of-magnitude smaller parameterization, establishing a new state of the art.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 方法ClimODE:物理信息神经ODE;把统计力学的平流方程(advection)作为核心原理——天气变化源于量随时间的空间移动;value-conserving动力学精确建模天气演化;连续时间时空过程。
+- 实现:用method of lines(MOL)把PDE离散化为位置特异的常微分方程组;速度场(flow velocity)由网络学习;局部效应(local convolutions)与全局效应(attention)分别建模。
+- 数据:WeatherBench预处理ERA5数据集,5.625°分辨率,6小时增量;K=5个量:地面温度t2m、大气温度t、位势z、地面风u10/v10;输入为(H,W)网格帧,5K量通道+C嵌入通道。
+- 结果:全球与区域预报均超已有数据驱动方法,参数量小一个数量级(order of magnitude smaller parameterization),新SOTA;且能给出预测的不确定性估计。
+- 对照:FourCastNet/Pangu-Weather等ViT/UNet/自编码器骨干的纯数据驱动模型。
+- 意义:物理结构(平流+守恒)先验可让模型又小又准,还能给出不确定性。

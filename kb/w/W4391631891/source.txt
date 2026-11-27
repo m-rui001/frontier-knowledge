@@ -1,0 +1,19 @@
+TITLE: Large Language Models to Enhance Bayesian Optimization
+VENUE: arXiv 2402.03921 (cs.LG)
+TYPE: preprint
+CITED: 181
+AUTHORS: (详见原文；Cambridge 等)
+URL: https://arxiv.org/abs/2402.03921
+PAGES: arXiv HTML v1 全文已抓取（文本 8.4 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Bayesian optimization (BO) is a powerful approach for optimizing complex, expensive-to-evaluate black-box functions, notably hyperparameter tuning, but balancing exploration and exploitation remains delicate. We present LLAMBO, integrating LLMs within BO. We frame the BO problem in natural language, enabling LLMs to iteratively propose promising solutions conditioned on historical evaluations. We explore how contextual understanding, few-shot learning, and domain knowledge of LLMs enhance components of model-based BO. LLAMBO is effective at zero-shot warmstarting, and improves surrogate modeling and candidate sampling, especially early in search when observations are sparse.
+
+FULL TEXT KEY CONTENT (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 方法LLAMBO:把BO问题用自然语言表述,让LLM根据历史评估迭代提出有希望的候选解;用LLM的上下文理解/少样本学习/领域知识增强基于模型的BO各组件。
+- 三个组件:(1)Warmstarting BO(零样本热启动,用LLM先验知识给初始点);(2)Surrogate modeling(判别式与生成式代理模型);(3)Sampling of candidate points(候选点采样)。
+- 结果:LLAMBO在零样本热启动有效;改进代理建模与候选采样,尤其在观测稀疏的早期搜索阶段;NRMSE/R²随样本数变化上,LLAMBO在所有样本数上预测更优,尤其少样本时;normalized regret在n=5时各方法regret升高(未探索区不确定大)。
+- 洞见:LLM擅长在少量数据时用领域知识,恰好补BO早期数据稀疏的短板。
+- 意义:把LLM的世界知识注入BO,改善冷启动与小样本阶段。
