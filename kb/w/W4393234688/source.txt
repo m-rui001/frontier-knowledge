@@ -1,0 +1,32 @@
+TITLE: High-threshold and low-overhead fault-tolerant quantum memory
+VENUE: Nature 627, 778–782 (2024)；DOI 10.1038/s41586-024-07107-7
+TYPE: journal article (open access)
+CITED: 1245
+AUTHORS: (详见原文；Google Quantum AI 等)
+URL: https://www.nature.com/articles/s41586-024-07107-7
+FULL TEXT: Nature HTML 全文已抓取（.tmp/qmem_htm.txt，6.4 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+The accumulation of physical errors prevents the execution of large-scale algorithms in current
+quantum computers. QEC encodes k logical qubits onto n physical qubits so physical errors are
+suppressed. QEC becomes realizable once the physical error rate is below a threshold depending
+on the code, syndrome circuit and decoder. We present an end-to-end QEC protocol implementing
+fault-tolerant memory based on a family of low-density parity-check (LDPC) codes. Our approach
+achieves an error threshold of 0.7% for the standard circuit-based noise model, on par with the
+surface code that for 20 years was the leading code in threshold. The syndrome measurement cycle
+for a length-n code requires n ancillary qubits and a depth-8 circuit with CNOT gates,
+initializations and measurements. Required qubit connectivity is a degree-6 graph composed of two
+edge-disjoint planar subgraphs. We show 12 logical qubits can be preserved for nearly 1 million
+syndrome cycles using 288 physical qubits, assuming physical error rate 0.1%, whereas the surface
+code would require nearly 3,000 physical qubits.
+
+FULL TEXT KEY NUMBERS（正文，出处层级：论文正文）:
+============================================================
+- 纠错码：一族 LDPC（低密度奇偶校验）码，端到端容错存储协议。
+- 错误阈值 0.7%（标准基于电路的噪声模型），与统治 20 年的表面码相当。
+- 综合测量周期：长度 n 的码需 n 个辅助量子比特、深度 8 的电路（CNOT + 初始化 + 测量）。
+- 连接度：6 度图，由两个边不相交的平面图组成——这是把高连接度 LDPC 落到平面硬件上的关键。
+- 开销对比（逻辑错误率目标）：12 个逻辑量子比特保存近 100 万个综合测量周期，物理错误率 0.1%
+  假设下，LDPC 方案只需 288 个物理量子比特；表面码需近 3000 个——约 10 倍开销差距。
+- 意义：把低开销容错量子存储带进近期硬件可及范围。

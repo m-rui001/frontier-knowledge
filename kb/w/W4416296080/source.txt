@@ -1,0 +1,34 @@
+TITLE: Instruction Tuning for Large Language Models: A Survey
+VENUE: ACM Computing Surveys (2025)；DOI 10.1145/3777411；arXiv 2308.10792v10
+TYPE: survey (open access)
+CITED: 1423
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2308.10792
+FULL TEXT: arXiv HTML v10 已抓取（.tmp/itsurvey.txt，19.2 万字符）
+
+ABSTRACT / 定义（原文，逐句来自正文）:
+============================================================
+Instruction tuning refers to the process of further training LLMs on a dataset consisting of
+(instruction, output) pairs in a supervised fashion, which bridges the gap between the
+next-word prediction objective of LLMs and the users' objective of having LLMs adhere to human
+instructions.
+
+FULL TEXT KEY CONTENT（arXiv HTML v10 正文，出处层级：论文正文）:
+============================================================
+- 涵盖范围（目录）：方法论（指令数据集构造 / SFT）；数据集（人工构造：Natural Instructions、
+  P3、xP3、Flan 2021、LIMA、Super-Natural Instructions、Dolly、OpenAssistant；蒸馏合成：
+  Alpaca、WizardLM/Evol-Instruct、Orca/Orca-2、Baize、任务特定蒸馏；自我改进合成：SPIN、
+  instruction back-translation；推理数据集：PRM800K、O1-Journey、MathGenie、DeepSeekMath）；
+  指令微调模型（InstructGPT、BLOOMZ、Flan-T5、Alpaca、Vicuna、GPT-4-LLM、Claude、WizardLM、
+  ChatGLM2、LIMA 及 OPT-IML 175B / Dolly2 12B / Falcon-Instruct 40B / Guanaco 7B 等）；
+  多模态指令微调（MULTIINSTRUCT、PMC-VQA、LAMM、Vision-Flan、LLaVA 13B、InstructBLIP 1.2B 等）；
+  领域特定（对话/意图分类/信息抽取/情感等）；评测；低资源微调；挑战。
+- instruction 的 7 个组成部分：title、definition、things to avoid、emphasis/caution、prompt、
+  positive example、negative example；instances = (input, output) 对。
+- SFT 的挑战（原文）：(1)  crafting high-quality instructions properly covering target behaviors
+  非平凡——现有指令数据集在数量、多样性、创造性上受限；(2) 成本上升。
+- 低资源数据实验（Gupta et al. 2023，119 个 SuperNI 任务）：单任务 STL 设定下，只用 25% 下游
+  训练数据的 SFT 模型超过这些任务上的 SOTA；多任务 MTL 设定下，仅 6% 下游训练数据即可达到 SOTA。
+- 评测：HELM 提出 top-down taxonomy，把 ACL2022 所有任务编成 task space，再按场景（如语言）与
+  指标（如准确率）切分。WB-Score 与人类投票评分对比。
+- 意义：把预训练 LLM 的"下一词预测"目标与用户"让 LLM 遵守人类指令"的目标之间的鸿沟补上。

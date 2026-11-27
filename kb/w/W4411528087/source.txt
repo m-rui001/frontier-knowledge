@@ -1,0 +1,37 @@
+TITLE: DPM-Solver++: Fast Solver for Guided Sampling of Diffusion Probabilistic Models
+VENUE: Machine Intelligence Research 22, 730–751 (2025)；Springer / DOI 10.1007/s11633-025-1562-4；arXiv 2211.01095
+TYPE: journal article (open access)
+CITED: 1293
+AUTHORS: Cheng Lu, Yuhao Zhou, Fan Bao, Jianfei Chen, Chongxuan Li, Jun Zhu (清华大学等)
+URL: https://arxiv.org/abs/2211.01095
+FULL TEXT: arXiv HTML v3 已抓取（.tmp/dpmpp_arx.txt，11.1 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+DPMs have achieved impressive success in high-resolution image synthesis, especially in large-scale
+text-to-image. Guided sampling usually needs a large guidance scale for best sample quality. The
+commonly-used fast sampler is DDIM, a first-order diffusion ODE solver that generally needs 100
+to 250 steps. Recent high-order solvers speed up sampling without guidance, but their effectiveness
+for guided sampling has not been well-tested. We demonstrate previous high-order fast samplers
+suffer from instability and even become slower than DDIM as guidance scale grows. We propose
+DPM-Solver++, a high-order solver for guided sampling: solves diffusion ODE with data prediction
+model and adopts thresholding to keep solutions matching training data distribution. A multistep
+variant reduces effective step size to address instability. DPM-Solver++ generates high-quality
+samples in only 15 to 20 steps for pixel-space and latent-space guided DPMs.
+
+FULL TEXT KEY NUMBERS（正文，出处层级：论文正文）:
+============================================================
+- 背景：DDIM（一阶 ODE solver）在无引导采样需 100–250 步；专用高阶 solver 在无引导下 10–20 步，
+  但在引导采样（guided sampling，大 guidance scale s）上失效。
+- 核心发现：以往高阶 fast sampler 在引导尺度变大时出现不稳定，样本质量崩坏，甚至比 DDIM 更慢。
+- 方法 DPM-Solver++：
+  (1) 用 data prediction model x_θ 替代 noise prediction ε_θ 求解扩散 ODE——等价表示但更稳；
+  (2) 引入 thresholding（动态阈值法，Saharia et al. 2022b 的 dynamic thresholding）让解保持在
+      训练数据分布内，缓解 train-test mismatch；
+  (3) multistep 变体（DPM-Solver++(2M)，二阶多步）通过减小有效步长解决不稳定问题；
+      另有单步版 DPM-Solver++(2S)（二阶单步）。对 k≥3 阶，大引导尺度下不稳定，故聚焦二阶。
+- 结果：pixel-space 与 latent-space DPM 的引导采样仅需 15–20 步得到高质量样本（图 1 展示 15 步）。
+- 实验：ImageNet 256×256，FID 对 NFE 曲线，引导尺度 s=8.0/4.0/2.0（pixel）、s=7.5（latent）；
+  对比 DDIM、PNDM(2阶)、DPM-Solver-3(3阶)、DEIS-1/2、DDIM(thresholding)。
+- 理论：附录 A 给出收敛阶保证（convergence order）。
+- 代码 github.com/LuChengTHU/dpm-solver。

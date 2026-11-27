@@ -1,0 +1,32 @@
+TITLE: Structured information extraction from scientific text with large language models
+VENUE: Nature Communications 15, 1418 (2024)；DOI 10.1038/s41467-024-45563-x
+TYPE: journal article (open access)
+CITED: 1427
+AUTHORS: (详见原文)
+URL: https://www.nature.com/articles/s41467-024-45563-x
+FULL TEXT: Nature HTML 全文已抓取（.tmp/sciextract_htm.txt，9.4 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Extracting structured knowledge from scientific text remains a challenging task for ML models.
+We present a simple approach to joint named entity recognition and relation extraction, and
+demonstrate how pretrained LLMs (GPT-3, Llama-2) can be fine-tuned to extract useful records of
+complex scientific knowledge. We test three representative tasks in materials chemistry: linking
+dopants and host materials, cataloging metal-organic frameworks (MOFs), and general
+composition/phase/morphology/application extraction. Records are extracted from single sentences
+or entire paragraphs, output as plain English sentences or structured JSON objects.
+
+FULL TEXT KEY NUMBERS (正文，出处层级：论文正文):
+============================================================
+- 方法：联合 NER+RE（命名实体识别+关系抽取）， seq2seq 微调预训练 LLM；输出为英文句子或 JSON。
+- 三任务：host-dopant（掺杂剂-主体材料关联）、MOF（金属有机框架编目）、general（成分/相/形貌/应用）。
+- 指标 NERRE（联合抽取的 precision/recall/F1，exact word-match 为下界指标）：
+  - host-dopant：Llama-2 最高 precision 0.836 / recall 0.807 / F1 0.821，比 GPT-3 的 F1 高 13%。
+  - general：formulae-application 关系 F1 = 0.537；formula-acronym / formula-description 更低。
+  - MOF：name-application F1 = 0.573；name-guest species F1 = 0.616。
+  - general 与 MOF 任务的 exact-match F1 普遍比 host-dopant 低约 30%。
+  - Llama-2 的 NERRE 分数平均比 GPT-3 低 20–30%（除 host-dopant 外 GPT-3 全面占优）。
+- 评测口径：exact word-match 是下界——人工读输出发现模型常提取到正确信息但措辞/记号略有差异，
+  被严格匹配判错；例：Bi2Te3 vs Bi2Se3 在 Jaro-Winkler(0.977) 与 char-BLEU-4(0.858) 上极近，
+  但化学式完全不同，作者按错误计（化学语义优先于文本相似度）。
+- 无微调的 LLM 可作 alternative——以精度换取可及性（Supplementary Discussion 6）。
