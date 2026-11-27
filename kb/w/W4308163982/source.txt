@@ -1,0 +1,40 @@
+TITLE: An optimal control perspective on diffusion-based generative modeling
+VENUE: arXiv 2211.01364 (cs.LG)；维也纳大学 / Zuse Institute Berlin / Meta AI
+TYPE: preprint（后发表于 TMDS 等）
+CITED: 96
+AUTHORS: Julius Berner, Lorenz Richter, Karen Ullrich
+URL: https://arxiv.org/abs/2211.01364
+PAGES: arXiv HTML v1 全文已抓取（文本 9.6 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+We establish a connection between stochastic optimal control and generative models based on
+SDEs such as recently developed diffusion probabilistic models. We derive a
+Hamilton–Jacobi–Bellman (HJB) equation governing the evolution of the log-densities of the SDE
+marginals. This perspective transfers methods from optimal control theory to generative
+modeling: (1) the evidence lower bound (ELBO) is a direct consequence of the verification
+theorem from control theory; (2) we develop a novel diffusion-based method for sampling from
+unnormalized densities — a problem frequently occurring in Bayesian statistics and
+computational physics, chemistry, and biology. Unlike related approaches, our method allows
+more flexibility in choosing the initial distribution and reference SDE, enabling the
+incorporation of prior knowledge.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 视角统一：连续时间下扩散模型（SMLD、DDPM、及作为特例的 normalizing flows）都可由 SDE
+  框架描述；本文再把它接到随机最优控制与偏微分方程上。
+- 理论一（HJB 方程）：推导出支配底层 SDE 边缘分布对数密度演化的 Hamilton–Jacobi–Bellman 方程；
+  经 Hopf–Cole 变换可进一步连接。
+- 理论二（ELBO = 验证定理推论）：控制论中著名的 verification theorem 可直接推出扩散模型的
+  ELBO；比较 (55)(56) 可见 ELBO 等价于"负控制成本"，是生成模型负对数似然的下界
+  （初始条件 Y_0^u ~ D）。
+- 理论三（与去噪分数匹配的联系）：2.3 节把该目标与 denoising score matching objective 相连。
+- 方法（从非归一化密度采样）：2.4 节给出扩散式新算法——从仅知未归一化密度（如能量
+  模型/Boltzmann 分布）中采样，常见于贝叶斯统计与计算物理/化学/生物。相比已有方法
+  （[10,11,12]，含 Richter 博士论文与 Path Integral Sampler, ICLR 2022），本方法允许
+  更灵活地选择初始分布与参考 SDE，可注入先验知识；[11][12] 要求 X_0 为 Dirac delta 分布。
+- 数值实验（概念验证 proof of concept，图 1）：从高维多峰分布采样；实现设置 T=1、
+  f=-2x、σ=2I（推理 SDE 对应 Ornstein-Uhlenbeck 过程，Y_T|Y_0 ~ N）；
+  采样用 Euler–Maruyama 格式；u≠u* 时可用重要性采样校正次优近似（代价是方差增大）；
+  ELBO 梯度用高阶自适应求解器高效计算（adjoint 法）。
+- 作者声明：进一步实验与比较留作未来工作——本文贡献在理论框架与概念验证，非大规模基准。

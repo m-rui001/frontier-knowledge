@@ -1,0 +1,43 @@
+TITLE: Decoding Natural Images from EEG for Object Recognition (NICE)
+VENUE: arXiv 2308.13234 (cs.HC)；清华大学
+TYPE: preprint
+CITED: 134
+AUTHORS: Yonghao Song, Bingchuan Liu, Xiang Li, Nanlin Shi, Yijun Wang, Xiaorong Gao (清华大学 / 中科院半导体所)
+URL: https://arxiv.org/abs/2308.13234
+PAGES: arXiv HTML v1 全文已抓取（文本 5.8 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+EEG is a brain signal known for high time resolution and moderate SNR. Whether natural images
+can be decoded from EEG has been a hot issue. We propose a self-supervised framework (NICE) to
+learn image representations from EEG signals: image and EEG encoders extract features from
+paired image stimuli and EEG responses; contrastive learning aligns the two modalities by
+constraining their similarity. Two plug-in-play modules capture spatial correlations before
+the EEG encoder. Our approach achieves state-of-the-art results on the most extensive EEG-image
+dataset, with top-1 accuracy 15.6% and top-5 42.8% in 200-way zero-shot tasks. Extensive
+experiments on temporal, spatial, spectral, and semantic aspects demonstrate good biological
+plausibility.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 数据：THINGS / THINGS-data（Hebart et al.），迄今最大的 EEG-图像配对数据集；
+  10 名受试者；评测为 200-way zero-shot 图像分类（top-1/top-5）。
+- 框架 NICE（Natural Image Contrast EEG）：图像编码器 + EEG 编码器分别提特征；
+  对比学习约束配对的图像与 EEG 嵌入相似，而非用监督标签分类。
+- 图像编码器对比：ResNet-50（ImageNet-1k 预训练）、ViT-B/16（ImageNet-21k 预训练 +
+  ImageNet-1k 微调）、CLIP-ViT-L/14（4 亿图文对预训练）。CLIP 因预训练数据量最大而
+  取得最高结果；ViT 也表现好。
+- EEG 编码器：TSConv（时序卷积）；对比 EEGNet、Conformer 等已有 EEG 模型。
+- 两个 plug-in-play 模块（EEG 编码器之前捕捉电极间空间相关性）：
+  self-attention（NICE-SA）与 graph attention（NICE-GA）——图注意力把每个电极视为节点、
+  与其它所有电极相连，用注意力系数加权聚合。
+- 结果：subject-dependent 设定下平均 top-1 15.6% / top-5 42.8%（10 名受试者平均；
+  随机水平 0.5%/2.5%）；subject-independent（leave-one-subject-out）设定下 NICE 系列仍达
+  top-1 约 7.6% / top-5 22.8% 量级，BraVL（多模态对比方法）仅 1.8%/7.0%。
+- 生物学合理性分析：时间（temporal）、空间（spatial）、频谱（spectral，alpha/beta 等频段）、
+  语义相似度四个维度，解释与神经科学知识一致。
+- 统计检验：Wilcoxon Signed-Rank Test。
+- 训练细节：每受试者分别训练；batch 1000（图像特征预提取）；TSConv k=40、m1=25、m2=51、
+  s2=5；Adam，lr=0.0002。
+- 意义：为视觉脑机接口提供新路径；用对比学习对齐脑信号与图像嵌入，避免监督学习
+  只能处理有限类别的问题。

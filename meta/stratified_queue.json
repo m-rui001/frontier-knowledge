@@ -1,12 +1,12 @@
 {
- "method": "路线2批18：arXiv全文优先；含跨本体VLA/知识驱动驾驶/灵巧操作数据/LLM认知模型",
- "source": "meta/usable.json 未写 arXiv 高引条目",
+ "method": "路线2批19：arXiv全文优先（池内仅剩6篇有arXiv），跨域收尾",
+ "source": "meta/usable.json 未写条目中有 arXiv 者",
  "layer_sizes": {
-  "robotics": 2,
-  "driving": 1,
-  "cogsci": 1
+  "chem": 1,
+  "neuro": 1,
+  "math": 2
  },
  "queue": [],
  "excluded": [],
- "completed_note": "路线2批18：4篇（跨本体VLA/知识驱动驾驶/灵巧操作数据/LLM认知模型），INDEX 633→637"
+ "completed_note": "路线2批19：4篇（对接泛化/EEG解码/最优控制视角/时变协变量DiD），INDEX 637→641。可用池内有arXiv条目已接近耗尽（剩2篇）"
 }

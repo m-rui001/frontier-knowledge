@@ -1,0 +1,47 @@
+TITLE: Deep Confident Steps to New Pockets: Strategies for Docking Generalization (DockGen / Confidence Bootstrapping)
+VENUE: arXiv 2402.18396；ICLR 2024
+TYPE: preprint / conference
+CITED: 152
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2402.18396
+PAGES: arXiv HTML v1 全文已抓取（文本 8.0 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Blind docking with ML models (e.g. DiffDock) samples candidate poses via a diffusion model and
+ranks them with a confidence model. Existing methods train/test on PDBBind with a time-based
+split, which measures memorization of known pockets rather than generalization. We propose
+DockGen, a new benchmark that tests generalization across protein domains; with it we show
+existing ML docking methods poorly predict binding poses on unseen pockets. We analyze the
+scaling laws of DiffDock w.r.t. architecture size and training data: increasing both yields new
+SOTA, but with current data and compute this trend alone may not close the generalization gap.
+We propose Confidence Bootstrapping, a self-training scheme inspired by MCTS: fine-tune
+directly on protein-ligand complexes from unseen domains without access to their structural
+data, driven by the interaction between a diffusion model rolling out samples and a confidence
+model scoring them. On DockGen, fine-tuned models improve from 9.8% to 24.0% success rate
+overall, above 30% in half of the protein domains.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 旧评测的问题：多数 ML 对接方法用 PDBBind（PDB 结晶结构精选集），按时间切分——2019 年前
+  入库的作训练/验证、2019 年的作测试。这测的是"对已知口袋的记忆"，不是跨蛋白域的泛化。
+- DockGen：新基准，测跨蛋白域的泛化能力；它显示现有 ML 对接方法在未见结合口袋上预测很差。
+- DiffDock 的 scaling 律：同时增大架构规模与训练数据能取得新 SOTA；但以当前数据与算力，
+  单靠这条趋势可能无法填补泛化鸿沟。
+- 数据增强细节：从 MOAD 增加的训练数据对口袋多样性贡献有限（新数据仍落在同一蛋白域簇内），
+  因此设计了 vdM（van der Mer）启发的辅助训练任务——用蛋白侧链作替代配体生成合成对接姿态，
+  以提高口袋多样性。
+- Confidence Bootstrapping：受蒙特卡洛树搜索启发的自训练方案——在无法获得结构数据的未见域
+  蛋白-配体复合物上直接微调；机制是扩散模型 rollout 采样与置信模型打分之间的互动——置信模型的
+  反馈改变 score model 权重，从而更新早期扩散步的似然，把扩散模型推向生成"高置信度"姿态。
+  作用：弥合扩散模型与置信模型在未见靶点上的泛化差距。
+- 结果（DockGen）：小高效版 DiffDock 逐蛋白簇微调后，整体成功率 9.8% → 24.0%，
+  且一半蛋白域超过 30%。
+- DiffDock-L 版本：DockGen 上 7.1% → 22.6%，超过最佳搜索式方法的 17.5%；
+  且在 PDBBind 与 PoseBusters 测试集上达到 SOTA 盲对接性能。
+- 局限（作者自陈）：部分蛋白簇经 bootstrapping 后准确率仅提升到约 10%；还有三个簇在
+  bootstrapping 前后都选不出好姿态。用 oracle 置信模型的实验（附录 E.2）显示：未来若改进
+  score 或 confidence 模型，bootstrapping 还能进一步获益。
+- 附录含：与强化学习的对比（含避免过度优化 overoptimization）、PoseBusters 基准、
+  温度=0 / t sampling / 从 p_train 移除样本等消融、计算成本、模型架构（score model 与
+  confidence model）。

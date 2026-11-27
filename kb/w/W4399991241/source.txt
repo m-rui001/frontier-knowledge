@@ -1,0 +1,44 @@
+TITLE: Difference-in-Differences with Time-Varying Covariates in the Parallel Trends Assumption
+VENUE: arXiv 2406.15288 (econ.EM)；University of Georgia 等
+TYPE: preprint
+CITED: 73
+AUTHORS: Carolina Caetano, Brantly Callaway, Stroud Payne, Hugo Rodrigues
+URL: https://arxiv.org/abs/2406.15288
+PAGES: arXiv HTML v1 全文已抓取（文本 18.4 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+We study difference-in-differences identification and estimation strategies where the parallel
+trends assumption holds after conditioning on time-varying covariates and/or time-invariant
+covariates. Our first main contribution is to point out a number of weaknesses of commonly used
+two-way fixed effects (TWFE) regressions in this context. In addition to issues related to
+multiple periods and variation in treatment timing, TWFE relies on linearity conditions on the
+propensity score that are hard to rationalize. Our second contribution is a regression
+adjustment approach and a doubly robust estimand for the ATT: consistent if either the outcome
+regression model or the propensity score model is correctly specified.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 设定：平行趋势在"给定时变协变量和/或时不变协变量"后成立；未处理潜在结果的自然动机模型为
+  Y_it(0) = g_t(Z_i, X_it) + η_i + v_it，故 ΔY_it(0) = g_t(Z_i,X_it) − g_{t−1}(Z_i,X_{i,t−1}) + Δv_it。
+- 第一贡献（TWFE 的弱点）：在此经验研究中极常见的情境下，研究者多用 TWFE 回归；本文指出其
+  多处弱点——除"多期与处理时点变化"（已有文献已指出）外，还包括：结果依赖倾向得分对 ΔX 的
+  线性性条件，而在本文考虑的情境中该线性性很难合理化（作者称为 hidden linearity bias）。
+- 维数问题：条件平行趋势中出现的协变量维度可显著大于协变量个数 k——最多达 𝒯 × k
+  （𝒯 为时期数）。这意味着"对 ΔX 做线性倾向得分"在实践中更难成立。
+- 第二贡献（新估计）：一个回归调整方法 + ATT 的双稳健（doubly robust）估计量——
+  只要结果回归模型或倾向得分模型之一正确指定即一致（与 Sant'Anna & Zhao (2020) 在时不变
+  协变量情形的论证类似）；该双稳健估计量也可用于 double/debiased machine learning 框架
+  （倾向得分与结果回归可用现代 ML 方法估计，参见 Chernozhukov et al. 2018）。
+- 关键假设：Assumption 2 = 对 X_{t*}、X_{t*−1} 与 Z 的条件平行趋势；该假设隐含排除
+  "坏控制"（bad controls，即受处理影响的时变协变量，详见 companion paper Caetano et al. 2023）；
+  Assumption 3 = 标准 overlap 条件。另隐含 SUTVA 与 no-anticipation。
+- 文献定位：此前含协变量的平行趋势工作多限于时不变协变量，或把某个处理前时点的时变协变量
+  当作时不变处理（Abadie 2005；Bonhomme & Sauder 2011；Sant'Anna & Zhao 2020；
+  Callaway & Sant'Anna 2021）。本文重点关注真正的时变情形。
+- 应用示例：Example 1 为 stand-your-ground laws（Cheng & Hoekstra 2013）——州级数据、
+  利用各州立法时点差异识别政策效应；研究者常把州人口等协变量纳入以比较"人口相近"的州。
+- 实现：新估计方法在 R 包 pte 中实现（github.com/bcallaway11/pte）。
+- 说明：本文与 companion paper "Difference-in-differences with bad controls"（Caetano,
+  Callaway, Payne, Rodrigues 2023）共同取代了早期工作 "Difference-in-differences with
+  time-varying covariates"（2021）。
