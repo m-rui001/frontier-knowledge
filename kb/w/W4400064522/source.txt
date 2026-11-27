@@ -1,0 +1,44 @@
+TITLE: Efficient Evolutionary Search Over Chemical Space with Large Language Models (MolLEO)
+VENUE: arXiv 2406.16976 (cs.NE)；ICLR 2025；Georgia Tech / Toronto / Vector / MIT 等
+TYPE: preprint / conference
+CITED: 75
+AUTHORS: Haorui Wang, Marta Skreta, Cher-Tian Ser, Wenhao Gao, Lingkai Kong, Felix Streith-Kalthoff, Chenru Duan, Yuchen Zhuang, Yue Yu, Yanqiao Zhu, Yuanqi Du 等
+URL: https://arxiv.org/abs/2406.16976
+PAGES: arXiv HTML v1 全文已抓取（文本 9.8 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Molecular discovery, formulated as optimization, is computationally challenging because
+objectives can be non-differentiable. Evolutionary Algorithms (EAs) traverse chemical space via
+random mutations and crossovers, requiring many expensive objective evaluations. We incorporate
+chemistry-aware LLMs into EAs: redesigning crossover and mutation operations using LLMs trained
+on large chemical corpora. Extensive empirical studies on commercial and open-source models
+(GPT-4, BioT5, MolSTM) across property optimization, molecular rediscovery, and structure-based
+drug design show LLM+EAs outperform all baselines in single- and multi-objective settings,
+improving both final solution quality and convergence speed, thereby reducing required
+objective evaluations. Code: github.com/zoom-wang112358/MOLLEO
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 思路：进化算法（EA）用随机突变与交叉搜索化学空间，黑箱目标（不可微、昂贵 oracle）导致
+  大量无效评估；MolLEO 把"变异"与"交叉"两个遗传操作改由化学 LLM 完成——LLM 基于化学知识
+  生成"更像专家改法"的新分子，而非随机扰动。
+- 三个 LLM 变体：MolLEO(GPT-4)、MolLEO(BioT5)、MolLEO(MolSTM)。
+- 任务：property optimization（QED 药物相似性；PMO 三个蛋白任务 DRD2 多巴胺受体、
+  GSK3β、JNK3）；molecular rediscovery（thiothixene 等）；multi-property optimization
+  （Perindopril/Ranolazine/Sitagliptin 再发现 + LogP 疏水性 + TPSA 渗透性）；
+  structure-based drug design（EGFR docking、deco_hop、scaffold_hop）。
+- 对照：REINVENT、Graph GA、GP BO。
+- 主表（oracle 调用 1000/2000/4000 后 top-10 平均分）：
+  QED：REINVENT 0.941 / Graph GA 0.940 / GP BO 0.937 / MolLEO(MolSTM) 0.937 /
+       MolLEO(BioT5) 0.937 / MolLEO(GPT-4) 0.948±0.004（最高）；
+  JNK3：0.783 / 0.553 / 0.564 / 0.643 / 0.728 / 0.790±0.027（GPT-4 最高）；
+  DRD2：0.945 / 0.964 / 0.923 / 0.975 / 0.981±0.002（BioT5 最高）/ 0.968；
+  GSK3β：0.865 / 0.788 / 0.851 / 0.898（MolSTM 最高）/ 0.889 / 0.863。
+- 发现：MolLEO(BioT5) 一般优于 MolLEO(MolSTM)（编辑后 fitness 提升的分子比例更高，
+  附录 C.1）；deco_hop 与 scaffold_hop 任务上开源模型收益小——推测因未在分子描述上训练。
+  BioT5（开源）总分接近 GPT-4 且免费。
+- 其它消融：offspring 数量、retrieval-augmented search、GPT-3.5 vs GPT-4、不同规则、
+  prompt 选择影响、GPT-4 在 active learning 框架中的表现、多目标多样性分析。
+- 意义：把 LLM 当"化学感知的遗传算子"而非独立生成器，与 EA 结构互补；降低昂贵 oracle
+  的调用次数。

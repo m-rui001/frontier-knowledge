@@ -1,0 +1,43 @@
+TITLE: From Benchmarks to the Bench: Preference, Correspondence and Selectivity in Bidirectional Drug-Target Screening
+VENUE: arXiv 2611.26369 (2026-11，新论文，被引 0)
+TYPE: preprint
+CITED: 0
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2611.26369
+PAGES: arXiv HTML v1 全文已抓取（文本 6.7 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+DTI models can rank vast numbers of drug–target pairs, but limited experimental capacity
+restricts testing to few candidates. We compared bidirectional recommendations of 13 released
+systems across 711 molecular structures of FDA-approved drugs and 614 human proteins. For the
+same target or drug, pairs of models produced completely disjoint Top-10 molecule and protein
+lists in 77.8% and 70.1% of comparisons. Where recommendations overlapped, agreement largely
+reflected recurring preferences for the same candidates. Published inhibition measurements for
+79 molecules × 65 kinases (KIRHub subset) revealed some systems enrich active candidates, yet
+their hit yields change little when recommendations are matched to different drugs/targets,
+whereas other systems lose substantially more hits. Some former systems also rarely ranked both
+molecules and kinases correctly when two drugs favoured different kinases. Retraining the same
+architecture on the same data with different random seeds: similar test performance, but mean
+pairwise Top-10 overlap ≈ 2 candidates. The study moves DTI evaluation beyond benchmark
+performance to whether predictions can guide meaningful experimental decisions.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 尺度：13 个已发布 DTI 系统、两两构成 78 对；共同目录 = 711 个 FDA 批准药物分子结构 +
+  614 个人类蛋白；双向（分子选择/蛋白选择）比较共 47,892 次分子选择 + 55,458 次蛋白选择。
+- 不相交率：同一 query 下，系统对的 Top-10 列表完全不相交——分子选择 77.8%、蛋白选择 70.1%。
+  即多数情况下换一个系统，同一预算下的十个候选全换。
+- 虚假一致：即便 Top-10 有重叠，部分系统间的一致主要反映"对同一批候选的固定偏好"——
+  把完整推荐列表跨 query 重新分配后，一致仍大量保持（说明一致来自候选偏好而非查询理解）。
+- 实验对照：KIRHub（Kinase Inhibitor Repurposing Hub）子集中 79×65 全部分子-激酶对的
+  已发表单浓度抑制测量。发现：一些系统确实富集活性候选，但其命中产率（hit yield）在推荐被
+  "错配"到不同药物或靶点时几乎不变——说明它排出的名单与查询内容弱相关；另一些系统错配时
+  损失大量命中。
+- 选择性盲区：一些"富集"系统在"两种药物偏好不同激酶"的测试中，极少同时把分子与激酶排对——
+  即识别活性与正确排序选择性配对是两种不同能力，前者达标不代表后者。
+- 可复现性：同一架构、同一数据切分、同一编码器、同一训练目标，仅换随机种子重训——
+  测试集表现相似，但在独立筛选目录上的两两 Top-10 平均重叠只有约 2 个候选；
+  在该目录与激酶面板的重叠部分，没有任何种子在平均 hit yield 上有明确优势。
+- 结论性主张：DTI 评测应从"基准分数"转向"预测能否指导有意义的实验决策"（筛选/重定位/
+  靶点识别/选择性探针开发对名单的要求不同）。

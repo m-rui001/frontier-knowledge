@@ -1,12 +1,10 @@
 {
- "method": "路线2批19：arXiv全文优先（池内仅剩6篇有arXiv），跨域收尾",
- "source": "meta/usable.json 未写条目中有 arXiv 者",
+ "method": "路线2批20：arXiv池收尾（最后2篇）",
+ "source": "meta/usable.json",
  "layer_sizes": {
-  "chem": 1,
-  "neuro": 1,
-  "math": 2
+  "chem": 2
  },
  "queue": [],
  "excluded": [],
- "completed_note": "路线2批19：4篇（对接泛化/EEG解码/最优控制视角/时变协变量DiD），INDEX 637→641。可用池内有arXiv条目已接近耗尽（剩2篇）"
+ "completed_note": "路线2批20（终）：arXiv池收尾2篇（MolLEO/DTI评测批判），INDEX 641→643。**有arXiv条目已全部耗尽，后续需用户决策路线**"
 }
