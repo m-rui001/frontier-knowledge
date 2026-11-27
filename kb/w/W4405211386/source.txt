@@ -1,0 +1,40 @@
+TITLE: Beware of Metacognitive Laziness: Effects of Generative AI on Learning Motivation, Processes, and Performance
+VENUE: British Journal of Educational Technology (Wiley) 2025；DOI 10.1111/bjet.13544；arXiv 2412.09315
+TYPE: journal article (open access)
+CITED: 1601
+AUTHORS: Yizhou Fan, Luzhen Tang, Huixiao Le, Kejie Shen, Shufang Tan, Yueying Zhao, Yuan Shen, Xinyu Li, Dragan Gasevic（北京大学 / Monash / 之江实验室）
+URL: https://arxiv.org/abs/2412.09315
+FULL TEXT: arXiv PDF v1 已抓取并用 pypdf 提取（.tmp/metacog_full.txt，9.9 万字符，43 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+With technological and educational innovation, learners obtain support from agents such as teachers,
+peers, education technologies, and recently generative AI such as ChatGPT. The concept of hybrid
+intelligence is nascent, and how learners benefit from a symbiotic relationship with AI, human
+experts and intelligent systems is still unknown. We conducted a randomised experimental study
+comparing learners' motivation, self-regulated learning (SRL) processes and performance on a
+writing task among groups supported by different agents: ChatGPT (AI group), chat with a human
+expert, writing analytics tools, and no extra tool. A total of 117 university students were
+recruited; multi-channel learning, performance and motivation data were collected and analysed.
+
+RESULTS（正文摘要逐条）:
+============================================================
+1) 各组在任务后内在动机（post-task intrinsic motivation）上无差异。
+2) 各组在自我调节学习（SRL）过程的频率与序列上存在显著差异。
+3) ChatGPT 组在作文分数提升上表现更好，但其知识增益（knowledge gain）与迁移（transfer）
+   无显著差异。
+结论：在动机无差异的前提下，不同支持仍导致不同的 SRL 过程，最终产生差异化表现。
+作者提示：ChatGPT 类 AI 可能促进学习者对技术的依赖，并诱发"元认知惰性"（metacognitive laziness）。
+主张反对"AI 取代教师"，提倡人机共生的混合智能。
+关键词：ChatGPT；GenAI；Hybrid Intelligence；Learning Analytics；Experimental Study。
+
+FULL TEXT KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 理论背景：SRL（自我调节学习）的核心是元认知（Flavell 1979 的"thinking about thinking"）；
+  元认知策略（目标设定、自我监控、自我评价，Zimmerman 2008）对有效学习至关重要。
+- 方法：实验室随机实验；117 名大学生；四组——ChatGPT、人类专家对话、写作分析工具、无工具；
+  写作任务；采集多渠道学习过程数据、表现数据、动机数据。
+- 分析：用学习分析比较各组 SRL 过程模型；识别"关键变化"（转移概率差异 >10%）以定位
+  元认知活动（orientation 定向、planning 计划、monitoring 监控、evaluation 评价）的差异。
+- 概念贡献：metacognitive laziness（元认知惰性）——AI 让学习者跳过自我调节的关键环节。
+- 局限方向：实验室环境、单一写作任务、样本 117。

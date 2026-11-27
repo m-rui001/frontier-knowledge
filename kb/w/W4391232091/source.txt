@@ -1,0 +1,38 @@
+TITLE: Roadmapping the next generation of silicon photonics
+VENUE: Nature Communications 15, 2266 (2024)；DOI 10.1038/s41467-024-44750-0
+TYPE: perspective / roadmapping (open access)
+CITED: 1169
+AUTHORS: (详见原文；Intel 等)
+URL: https://www.nature.com/articles/s41467-024-44750-0
+FULL TEXT: Nature Communications HTML 全文已抓取（.tmp/photonics.txt，10.4 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Silicon photonics has developed into a mainstream technology driven by advances in optical
+communications. The current generation has led to a proliferation of integrated photonic devices
+from thousands to millions, mainly as communication transceivers for data centers. Products in
+sensing and computing are around the corner. What will it take to increase silicon photonics from
+millions to billions of units shipped? What will the next generation look like? What are the
+common threads in the integration and fabrication bottlenecks, and which emerging technologies can
+solve them? This perspective charts generational trends, drawing parallels from CMOS generational
+definitions. It identifies crucial challenges for CMOS-foundry-compatible devices, circuits,
+integration and packaging, and challenges critical to next-generation systems and applications in
+communication, signal processing and sensing.
+
+FULL TEXT KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 路线图（借鉴 CMOS 代数定义）：PIC 于 1985 引入，SOI 低损耗波导 1991–92；随后进入
+  SSI 时代（1–10 器件/PIC，高速 pn 结调制器、光电探测器、III-V 激光器异质集成）。
+  MSI 时代（10–500 器件）：Mach-Zehnder 调制器（MZM）在数据中心 IMDD 收发器中商用成功，
+  单波长与多波长。LSI 时代（500–10,000 器件）：LIDAR、图像投影、光交换、光计算、
+  可编程电路、多路生物传感器；VLSI（>10,000 器件）原型已演示。
+- 目标：从百万台到十亿台出货。关键挑战：CMOS 代工厂兼容的器件、电路、集成、封装；
+  通信、信号处理、传感三领域系统级挑战。
+- 集成瓶颈：晶圆级测试（grating coupler 低插入损耗但偏振/温度敏感）、激光器异质集成
+  （die-to-wafer 键合用 known-good dies 提升良率；wafer-to-wafer 因 SOI 200/300mm 与
+  调制器 150mm 尺寸不匹配浪费）、CTE 失配、键合良率。
+- 热管理：金属加热器/掺杂波导热光效应 1–10 μs 响应，功耗大、产生热串扰，限制 LSI/VLSI 扩展。
+- 能源效率指标：光接收器 0.7 pJ/bit（65nm CMOS duobinary sampling）；SiGe 雪崩接收器
+  fJ/bit 能效；Ge/Si 雪崩光电二极管 340 GHz 增益带宽积。
+- 应用：CPO（共封装光学）成功依赖硅光子学；高性能计算扩展、分解式计算。
+- 现状：光电子与电子 IC（EIC）并存，系统层面几乎 100% 由数据通信主导。

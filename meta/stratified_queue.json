@@ -1,13 +1,12 @@
 {
- "method": "技术批3：LLM行为漂移/RNN综述/材料生成模型/SHAP实践",
+ "method": "技术批4：元认知惰性/LLM实践综述/硅光子学/反铁磁",
  "source": "meta/usable.json 技术类带OA全文池",
  "layer_sizes": {
+  "edu": 1,
   "nlp": 1,
-  "dl": 1,
-  "materials": 1,
-  "xai": 1
+  "photonics": 1,
+  "physics": 1
  },
  "queue": [],
- "excluded": [],
- "completed_note": "技术批3：材料生成/ChatGPT漂移/RNN综述/SHAP指南（3篇摘要级），INDEX 651→655"
+ "excluded": []
 }
