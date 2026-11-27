@@ -1,0 +1,47 @@
+TITLE: EgoDex: Learning Dexterous Manipulation from Large-Scale Egocentric Video
+VENUE: arXiv 2505.11709 (cs.CV)；Apple
+TYPE: preprint
+CITED: 276
+AUTHORS: Ryan Hoque*, Peide Huang*, David J. Yoon*, Mouli Sivapurapu, Jian Zhang (Apple)
+URL: https://arxiv.org/abs/2505.11709
+PAGES: arXiv HTML v1 全文已抓取（文本 6.0 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Imitation learning for manipulation has a well-known data scarcity problem. Unlike natural
+language and 2D computer vision, there is no Internet-scale corpus for dexterous manipulation.
+One appealing option is egocentric human video, a passively scalable data source. However,
+existing large-scale datasets such as Ego4D do not have native hand pose annotations and do not
+focus on object manipulation. We use Apple Vision Pro to collect EgoDex: 829 hours of 30 FPS
+video and paired skeletal data, totaling 90 million frames and 338,000 task demonstrations
+across 194 tabletop manipulation tasks — the largest and most diverse dexterous human
+manipulation dataset to date.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 规模：829 小时 30 FPS 视频 + 配对骨架数据；共 9,000 万帧；338,000 条任务演示；
+  194 个桌面操作任务。
+- 相对现有数据集：比次大数据集多近一个数量级的数据量，任务多样性也更高；同时具备语言标注、
+  相机外参、灵巧（手部）标注。
+- 采集硬件：Apple Vision Pro（visionOS 2）；高分辨率高帧率 passthrough + 宽视场，
+  采集者可像用自己眼睛一样无阻碍观察环境。
+- 视角/模态：30 FPS 1080p 第一视角视频 + 骨架；骨架为上半身 3D 位置与朝向
+  （含头、肩、臂，以及每只手 25 个关节）。
+- 关键性质：(1) 被动可扩展（passively scalable）——不像遥操作需要刻意投入采集成本；
+  (2) 以人手作为共同本体（common embodiment），不像遥操作数据只兼容特定机器人硬件。
+- 任务类型重点：覆盖超出 pick-and-place 的灵巧行为（捏、旋、装配等），"assemble" 这类词
+  在不同物体与任务下对应完全不同的行为。
+- 多样性侧重：行为多样性（而非场景多样性）；场景限于桌面环境，作者建议用图像到图像的
+  生成式数据增强引入场景多样性。
+- 动作表示（benchmark 默认）：每个手腕的 3D 位置 + 6D 朝向 + 每个指尖的 3D 位置——
+  同时捕捉双臂灵巧性。
+- 数据切分：留出 1% 作为固定 held-out 测试集，其余 99% 可用于训练与验证。基准完全可复现
+  （固定训练/测试集）。
+- 评测：因自然人类运动轨迹预测本身是多模态的，评价指标需考虑多模态（如平均距离、最终距离）。
+- 基线结果：加入视觉目标（visual goal）把平均距离降低 22%、最终距离降低 53%——
+  视觉目标为预测轨迹终点提供"锚"，缓解多模态问题。
+- 模型容量：中等规模足够——默认 200M 参数；训练 5 亿参数的更大 Dec+BC 模型作对比。
+- 时间窗：长程难任务可设 H = 90 帧（3 秒）。
+- 许可：CC-by-NC-ND 公开。
+- 下游用途：机器人（策略学习）、感知、视频生成与世界模型。
+- 说明：此前 EgoMimic 只收集手腕位置；PH2D 曾用 EgoDex 的 3% 子集做人类到机器人的成功迁移。

@@ -1,0 +1,43 @@
+TITLE: X-VLA: Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model
+VENUE: arXiv 2510.10274 (cs.RO)；AIR, Tsinghua University
+TYPE: preprint
+CITED: 315
+AUTHORS: Jinliang Zheng, Jianxiong Li, Zhihao Wang, ... Tai Wang, Xianyuan Zhan 等 (清华 AIR / 北大)
+URL: https://arxiv.org/abs/2510.10274
+PAGES: arXiv HTML v1 全文已抓取（文本 10.7 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Successful generalist VLA models rely on effective training across diverse robotic platforms
+with large-scale, cross-embodiment, heterogeneous datasets. To leverage the heterogeneity, we
+propose a novel Soft Prompt approach with minimally added parameters: separate sets of
+learnable embeddings for each distinct data source serve as embodiment-specific prompts.
+X-VLA is a neat flow-matching-based VLA architecture relying exclusively on soft-prompted
+standard Transformer encoders. Evaluated across 6 simulation benchmarks (incl. one autonomous
+driving bench) and 3 real-world robots, X-VLA-0.9B simultaneously achieves SOTA performance.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 问题：跨本体异构数据的分布偏移——本体特异动作空间、相机设置、视觉域、任务分布，导致训练不稳定、
+  语义错位。naive 混训导致退化（消融可见）。
+- Soft Prompt：为每个数据源引入独立可学习嵌入（借鉴 prompt learning / meta-learning），
+  吸收本体与环境特异性；参数增量极小。
+- 架构：flow-matching 目标；标准自注意力 Transformer 堆叠；两条流解耦——
+  主视觉语言流（固定机位 + 指令）用预训练 Florence-Large 编码器；腕部视图（噪声大、变化快）
+  用共享视觉骨干单独编码；本体感知状态 R_t 与流匹配动作 token A_t 及时间嵌入 T 融合后经
+  轻量线性层早期融合。
+- 两阶段训练：Phase I 预训练——290K episodes，来自 Droid、Robomind、Agibot，
+  七个平台、五种机械臂（单臂到双臂），backbone 与 soft prompts 在 flow-matching 目标下联合优化；
+  Phase II 域适配——为新域引入新 soft prompts，骨干冻结。
+- 消融路径（预训练验证误差 / 适配成功率 Simpler-WidowX）：
+  baseline 0.053 / 64.6% → +soft-prompt 0.041 / 73.8% → +scaling up 0.032 / 89.6%
+  → +two-step adaptation 0.032 / 95.8%。
+- 仿真主表（X-VLA-0.9B vs 既有各方法 SOTA 最大值）：
+  Simpler VM 80.4（SOTA 78.0）、Simpler VA 75.7（72.7）、LIBERO 95.8（71.9）、
+  Calvin Spatial 98.2 / Object 98.6 / Goal 97.8 / Long 97.6（SOTA 98.4/98.8/97.9/94.5）、
+  Calvin Avg 98.1（97.1）、RoboTwin Avg 4.43（4.53，略低于 FLOWER）、
+  VLABench 70.0 / 39.0 / 51.1（46.4/16.4/39.7）、NAVSIM PDMS 87.3（81.7）。
+  对照模型规模从 0.1B（Octo）到 9B（UniVLA），含 π0 (3B)、OpenVLA-OFT (7B)、GR00T-N1 (3B)。
+- 真机：3 种本体（简单操作 / 灵巧操作 / PEFT 快速适配）。
+- 另附 Soft-FOLD：高质量布料折叠数据集 + 灵巧操作模型（附录 F）。
+- 失败尝试（附录 E）：若干吸收异构性的替代设计（HPT 式投影、语言提示等）效果不如 soft prompt。

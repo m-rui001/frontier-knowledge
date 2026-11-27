@@ -1,0 +1,42 @@
+TITLE: DiLu: A Knowledge-Driven Approach to Autonomous Driving with Large Language Models
+VENUE: arXiv 2309.16292 (cs.RO)；上海人工智能实验室
+TYPE: preprint
+CITED: 306
+AUTHORS: Licheng Wen, Daocheng Fu, Xin Li, Xinyu Cai, Tao Ma, Pinlong Cai, Min Dou, ... (Shanghai AI Laboratory / ECNU / CUHK 等)
+URL: https://arxiv.org/abs/2309.16292
+PAGES: arXiv HTML v1 全文已抓取（文本 4.3 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+We propose DiLu, a knowledge-driven autonomous driving system with LLMs, comprising a Memory
+module, a Reasoning module, and a Reflection module, enabling decision-making based on
+common-sense knowledge and continuous evolution. Extensive experiments prove DiLu's ability to
+accumulate experience and a significant advantage in generalization over reinforcement
+learning-based methods. DiLu can directly acquire experiences from real-world datasets,
+highlighting its potential for practical autonomous driving systems. To our knowledge, we are
+the first to instill knowledge-driven capability into autonomous driving from the perspective
+of how humans drive.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 三个模块：
+  (1) Memory（记忆）：存储过往驾驶场景的经验，含决策等信息，用自然语言文本表示。
+  (2) Reasoning（推理）：观察环境得到场景描述 → prompt generator 把当前场景描述与从 Memory
+      检索出的相似情形的 few-shot 经验组合成提示 → 送入 out-of-the-box LLM → decision decoder
+      解码 LLM 回应得到动作；该过程迭代进行。
+  (3) Reflection（反思）：对决策做精炼，把精炼后的决策更新回 Memory——形成持续演化闭环。
+- 关键量：无 few-shot 经验时，out-of-the-box LLM 在复杂闭环驾驶任务上无法做精确推理。
+- 环境：Highway-env 高速公路场景；三种设置 lane-4-density-2、lane-5-density-2.5、lane-5-density-3，
+  每种 10 个不同 seed 测试场景。成功率 SR 定义 = 30 个决策帧内无任何碰撞。
+- 与 RL 对照（GRAD）：仅用 40 条记忆的 DiLu 在 lane-4-density-2 上达 70% SR；
+  GRAD 训练 60 万 episodes 收敛到 69% SR。GRAD 多数失败源于来不及刹车撞上前车——
+  RL 倾向拟合环境而忽略类人驾驶知识。
+- 迁移实验：两者都只在 lane-4-density-2 上优化，迁移到 lane-5-density-2.5 与 lane-5-density-3。
+  在最复杂的 lane-5-density-3 上，DiLu 无额外优化仍保持 35% SR，而 GRAD 性能下降 85%
+  ——说明 DiLu 累积的经验可泛化到新环境，RL 易过拟合训练环境。
+- 跨域经验迁移：各建两个各含 20 条经验的 Memory 模块，分别来自 (1) Highway-env、(2) CitySim
+  （真实世界车辆轨迹数据集）。在 lane-4-density-2 与 lane-5-density-3 上评测：相比无任何先验经验
+  的系统，CitySim 贡献的知识提升了 DiLu 表现；且向更拥堵环境迁移时，来自真实数据的记忆
+  比环境中累积的记忆鲁棒性更强。
+- 意义：首个从"人类如何驾驶"视角把知识驱动能力注入自动驾驶的工作；经验以语言存储 → 环境无关、
+  可直接从真实数据集获取。

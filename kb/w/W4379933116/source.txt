@@ -1,0 +1,39 @@
+TITLE: Turning large language models into cognitive models (CENTaUR)
+VENUE: arXiv 2306.03917 (cs.CL)；Nature Human Behaviour 2024；马普所生物控制论
+TYPE: preprint / journal
+CITED: 133
+AUTHORS: Marcel Binz, Eric Schulz (MPRG Computational Principles of Intelligence, MPI Biological Cybernetics, Tübingen)
+URL: https://arxiv.org/abs/2306.03917
+PAGES: arXiv HTML v1 全文已抓取（文本 3.9 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+LLMs excel at many tasks but often show unhuman-like characteristics. We ask whether LLMs can
+be turned into cognitive models. After finetuning on data from psychological experiments, these
+models offer accurate representations of human behavior, even outperforming domain-specific
+cognitive models. Extensive model simulations confirm finetuned LLMs show human-like behavioral
+characteristics. Embeddings from such models contain information sufficient to capture
+individual differences. A model finetuned on two tasks predicts human behavior on a third,
+hold-out task.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 背景：GPT-3 在序贯决策任务中过度利用（exploitation）、缺乏精致探索策略，且几试后停止改进，
+  与人类继续学习相反。问题：能否通过微调把 LLM 变成认知模型？
+- 方法 CENTaUR：给 LLM 文本化的心理学实验描述 → 提取嵌入 → 在嵌入上微调一个线性层预测人类选择。
+  底座 LLaMA 65B（最大版）。名字取自半人半兽的神话生物。
+- 两个决策范式：decisions from descriptions（choices13k 数据集，Erev et al. 2017）；
+  decisions from experience（horizon task）。
+- 拟合优度（负对数似然 NLL）：
+  LLaMA 未微调接近随机水平——choices13k NLL = 96248.5；horizon NLL = 46211.4。
+  CENTaUR：choices13k NLL = 48002.3（领域专用 BEAST 模型为 49448.1）；
+  horizon NLL = 25968.6（Gershman 2018 混合模型更低）。
+  ——CENTaUR 在 choices13k 上超过领域专用模型。
+- 行为模拟（regret = 最优奖励与所选动作奖励之差）：
+  choices13k：CENTaUR 1.35 (SE 0.01) ≈ 人类 1.24 (SE 0.01)，LLaMA 1.85；
+  horizon：CENTaUR 2.38 (SE 0.01) ≈ 人类 2.33 (SE 0.05)，LLaMA 7.21。
+- 个体差异：模型嵌入包含捕捉被试个体差异所需的信息。
+- 保留任务泛化：用 choices13k 与 horizon 两个任务联合微调的模型，能预测第三个未见任务上
+  的人类选择（描述式与经验式混合的决策任务）。
+- 意义：证明可以把 LLM 变成人类学习与决策的领域通用模型（domain-general cognitive model）；
+  与此前 LLM 嵌入预测语言行为与神经激活的工作（Schrimpf et al. 2021 等）互补。
