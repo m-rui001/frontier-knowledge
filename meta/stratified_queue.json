@@ -1,12 +1,13 @@
 {
- "method": "技术批1（路线3）：改用 usable.json 内带OA全文的非arXiv技术论文，领域分散",
- "source": "meta/usable.json 技术类带 OA 全文未写条目（2423篇池）",
+ "method": "技术批2：可解释AI/蛋白质设计/ML公平性/引力波目录",
+ "source": "meta/usable.json 技术类带OA全文池",
  "layer_sizes": {
-  "nlp": 2,
-  "sampling": 1,
-  "quantum": 1
+  "explain": 1,
+  "bio": 1,
+  "fairness": 1,
+  "astro": 1
  },
  "queue": [],
  "excluded": [],
- "completed_note": "技术批1（路线3）：转用usable内带OA全文的非arXiv技术论文池（2423篇），INDEX 643→647"
+ "completed_note": "技术批2：XAI/蛋白设计/公平性/引力波，INDEX 647→651"
 }

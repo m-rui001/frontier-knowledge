@@ -1,0 +1,41 @@
+TITLE: Generalized Biomolecular Modeling and Design with RoseTTAFold All-Atom
+VENUE: Science 384, eadl2528 (2024)；DOI 10.1126/science.adl2528
+TYPE: journal article
+CITED: 1295
+AUTHORS: (详见原文；David Baker 团队 / 华盛顿大学)
+URL: https://www.science.org/doi/10.1126/science.adl2528
+DATA SOURCE: **仅摘要级转述**。Science 全文返回 403，无合法 OA 全文，Semantic Scholar 摘要已抓取（见下）。不补外部细节、不编造数字。
+
+ABSTRACT（原文摘要，逐句来自 Semantic Scholar 收录的官方摘要）:
+============================================================
+Although AlphaFold2 and RoseTTAFold have transformed structural biology by enabling high-accuracy
+protein structure modeling, they are unable to model covalent modifications or interactions with
+small molecules and other non-protein molecules that can play key roles in biological function.
+Here we describe RoseTTAFold All-Atom (RFAA), a deep network capable of modeling full biological
+assemblies containing proteins, nucleic acids, small molecules, metals, and covalent modifications,
+given the sequences of the polymers and the atomic bonded geometry of the small molecules and
+covalent modifications. Following training on structures of full biological assemblies in the PDB,
+RFAA has comparable protein structure prediction accuracy to AF2, excellent performance in CAMEO
+for flexible backbone small molecule docking, and reasonable prediction accuracy for protein
+covalent modifications and assemblies of proteins with multiple nucleic acid chains and small
+molecules which, to our knowledge, no existing method can model simultaneously. By fine-tuning on
+diffusive denoising tasks, we develop RFdiffusion All-Atom (RFdiffusionAA), which generates
+binding pockets by directly building protein structures around small molecules and other
+non-protein molecules. Starting from random distributions of amino acid residues surrounding
+target small molecules, we design and experimentally validate proteins that bind the cardiac
+disease therapeutic digoxigenin, the enzymatic cofactor heme, and optically active bilin molecules
+with potential for expanding the range of wavelengths captured by photosynthesis. We anticipate
+RFAA and RFdiffusionAA will be widely useful for modeling and designing complex biomolecular systems.
+
+可确认的事实（来自摘要，出处层级：原文摘要）:
+============================================================
+- RFAA 建模对象：蛋白 + 核酸 + 小分子 + 金属 + 共价修饰构成的完整生物组装体。
+  输入 = 聚合物序列 + 小分子/共价修饰的原子成键几何。
+- 训练数据：PDB 中完整生物组装体结构。
+- 性能（摘要定性表述）：蛋白结构预测精度与 AF2 相当；CAMEO 柔性骨架小分子对接表现优秀；
+  对蛋白共价修饰、多核酸链+小分子复合物的预测精度"reasonable"，且称此前无方法能同时建模这些。
+- RFdiffusionAA：在扩散去噪任务上微调，围绕小分子直接构建蛋白结构生成结合口袋；
+  从目标小分子周围随机氨基酸残基分布出发设计蛋白。
+- 实验验证结合的小分子：地高辛（digoxigenin，心脏疾病治疗药）、血红素（heme，酶辅因子）、
+  胆色素（bilin，光学活性，有扩展光合作用捕获波长范围的潜力）。
+- 注意：摘要未给出具体数值指标（如成功率百分比、RMSD），本篇不补编任何数字。

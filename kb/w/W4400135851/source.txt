@@ -1,0 +1,29 @@
+TITLE: A Perspective on Explainable Artificial Intelligence Methods: SHAP and LIME
+VENUE: Advanced Intelligent Systems (Wiley) 2024；DOI 10.1002/aisy.202400304；arXiv 2305.02012
+TYPE: commentary / perspective
+CITED: 1360
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2305.02012
+FULL TEXT: arXiv HTML v1 已抓取（.tmp/xai.txt，2.5 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+XAI methods have emerged to convert the black box of ML models into a more digestible form.
+These methods help communicate how the model works, with the aim of making models more
+transparent and increasing end-user trust in their output. SHAP and LIME are two widely used XAI
+methods, particularly with tabular data. In this commentary, we discuss the way the
+explainability metrics of these two methods are generated and propose a framework for
+interpretation of their outputs, highlighting their weaknesses and strengths.
+
+FULL TEXT KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 类型：commentary/perspective，非新算法——分析 SHAP 与 LIME 两种事后解释方法的指标如何生成，
+  提出一个解释其输出的框架，点出强弱。
+- 背景：ML 在生物/医学/经济/教育成功，但复杂性带来理解障碍——模型如何工作、为何做某决策、
+  哪些特征最影响输出、对结果有多大把握。
+- 关键词：XAI、assumptions、interpretability。
+- SHAP：基于 Shapley 值（合作博弈论），给每个特征分配对预测的边际贡献；加性归因。
+- LIME：Local Interpretable Model-agnostic Explanations——在单个预测的邻域拟合一个可解释的
+  局部代理模型。
+- 两者特别常用于表格数据。
+- 主张：解释方法本身带着假设，输出需要放到框架里解读，不能当成模型"真实理由"的直接读数。

@@ -1,0 +1,35 @@
+TITLE: Fairness in Machine Learning: A Survey
+VENUE: ACM Computing Surveys (2023)；DOI 10.1145/3616865；arXiv 2010.04053
+TYPE: survey (open access)
+CITED: 1260
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2010.04053
+FULL TEXT: arXiv HTML v1 已抓取（.tmp/fair.txt，15.9 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+When ML technologies are used in contexts affecting citizens, companies and researchers need
+confidence that there will not be unexpected social implications, such as biases resulting in
+discrimination. We give an introduction to fairness in ML, summarize approaches to measure it
+within a standardized notation, discuss trade-offs, and define a two-dimensional taxonomy of
+approach categories.
+
+FULL TEXT KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 三大非歧视标准（基于评分 R、敏感属性 S、目标 Y）：
+  Independence: R ⟂ S（统计/人口均等、disparate impact）——不考虑群体固有差异；
+  Separation: R ⟂ S | Y（equalized odds、equal opportunity）——条件于真实结果 Y；
+  Sufficiency: Y ⟂ S | R（test fairness、well-calibration）——条件于评分 R。
+- 不可能性结果：若 S 与 Y 不独立，Independence 与 Sufficiency 不能同时成立（Chouldechova、
+  Kleinberg 等）；对多个受保护群体同时校准、或同时使用多个公平标准，已被证明不可能
+  （文献 66/167/188/130/189/223/212/164）；低误差与校准是竞争目标（223）。
+- 公平定义无统一标准：作者明确写"there is no universal means to measure fairness"，
+  且目前无清晰指南说哪个指标"最好"。
+- 群体公平指标示例：demographic/statistical parity、disparate impact、accuracy equality、
+  equalized odds（同时考虑 TPR 与 FPR 相等）、equal opportunity、test fairness、well calibration、
+  balance for positive/negative class、Bayesian fairness、counterfactual fairness、generalized
+  entropy index。
+- 分类法：二维——预处理(pre-processing)/训练中(in-processing)/后处理(post-processing) × 群体/个体。
+  预处理认为数据本身有偏；后处理常对不同群体设不同阈值以平衡 TPR/FPR。
+- 公平与准确率的权衡：提高公平常导致整体准确率下降，需分析给定场景下可达的 trade-off。
+- 符号：y∈{0,1} 真实值，ŷ 预测值，s=Pr(ŷ_i=1) 预测分，g_i/g_j 受保护属性分组标识。

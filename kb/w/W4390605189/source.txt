@@ -1,0 +1,40 @@
+TITLE: GWTC-2.1: Deep extended catalog of compact binary coalescences observed by LIGO and Virgo during the first half of the third observing run
+VENUE: Phys. Rev. D 109, 022001 (2024)；arXiv 2108.01045；LIGO-Virgo Collaboration
+TYPE: journal article / 数据目录 (open access)
+CITED: 1212
+AUTHORS: LIGO Scientific Collaboration and Virgo Collaboration (R. Abbott et al.)
+URL: https://arxiv.org/abs/2108.01045
+FULL TEXT: arXiv PDF v1 已抓取并用 pypdf 提取（.tmp/gwtc2.txt，23.4 万字符，46 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+The second Gravitational-Wave Transient Catalog reported on 39 compact binary coalescences
+observed by Advanced LIGO and Virgo between 1 April 2019 and 1 October 2019. Here we present
+GWTC-2.1, which reports a deeper list of candidate events over the same period. We analyze the
+final version of strain data with improved calibration and better subtraction of excess noise.
+We employ three matched-filter search pipelines for candidate identification and estimate the
+probability of astrophysical origin for each candidate. While GWTC-2 used a false alarm rate
+threshold of 2 per year, GWTC-2.1 includes 1201 candidates passing a false alarm rate threshold
+of 2 per day. We calculate source properties of a subset of 44 high-significance candidates with
+probability of astrophysical origin > 0.5; 36 were reported in GWTC-2.
+
+FULL TEXT KEY NUMBERS（正文，出处层级：论文正文）:
+============================================================
+- 时段：O3a，2019-04-01 15:00 UTC 至 2019-10-01 15:00 UTC。
+- GWTC-2 报告 39 个致密双星并合事件；GWTC-2.1 用最终版应变数据（改进校准、更好地扣除
+  过量噪声）做更深的分析。
+- 三个匹配滤波搜索流水线：GstLAL、PyCBC、MBTA（MBTA 首次报告归档搜索结果）；此前 GWTC-2
+  只有 GstLAL 纳入 Virgo 数据，本次三条流水线都分析三个探测器数据。
+- 误报率阈值：GWTC-2 用每年 2 次；GWTC-2.1 纳入 1201 个满足每天 2 次的候选。
+- 高显著候选：44 个天体物理起源概率 p_astro > 0.5 的事件算源性质；其中 36 个已在 GWTC-2 报告，
+  8 个是新增。
+- 质量范围：若 8 个新候选都是天体物理起源，明确识别为双黑洞（两成员均 ≥ 3 太阳质量）的
+  事件总质量范围从 GW190924_021846 的约 9–14 太阳质量扩展到 GW190426_190642 的约 182 太阳质量。
+- 质量间隙：GW190403_051519 与 GW190426_190642 的主星落在配对不稳定超新星（PISN）理论
+  预言的质量间隙内。
+- 质量比：新增两个高度不对称质量比事件（GW190403_051519、GW190917_114630，90% 概率下
+  质量比分别小于 0.65 和 0.44）。
+- 自旋：8 个新事件中 2 个的有效自旋 chi_eff > 0（90% 可信度），没有双星在同等显著性下
+  与 chi_eff < 0 一致。另有一个质量符合中子星-黑洞双星（NSBH）的新候选，但无法排除次星
+  是低质量黑洞。
+- 更新 GWTC-1 中此前所有双黑洞事件的源性质；给出双黑洞与双中子星并合率的更新估计。
