@@ -1,12 +1,13 @@
 {
- "method": "路线2批16：arXiv全文优先；含1篇可疑条目辨析（Banana Bridge）",
+ "method": "路线2批17：arXiv全文优先，领域多样（视频生成预训练/元科学基准/脑解码/离散扩散）",
  "source": "meta/usable.json 未写 arXiv 高引条目",
  "layer_sizes": {
-  "physics": 1,
-  "robotics": 2,
-  "driving": 1
+  "video": 1,
+  "metascience": 1,
+  "neuro": 1,
+  "math": 1
  },
  "queue": [],
  "excluded": [],
- "completed_note": "路线2批16：4篇（含1篇元数据污染辨析），INDEX 625→629"
+ "completed_note": "路线2批17：4篇arXiv全文（视频生成预训练/复现基准/脑解码/离散引导），INDEX 629→633"
 }

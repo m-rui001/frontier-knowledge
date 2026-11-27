@@ -1,0 +1,42 @@
+TITLE: CORE-Bench: Fostering the Credibility of Published Research Through a Computational Reproducibility Agent Benchmark
+VENUE: arXiv 2409.11363；Princeton 等
+TYPE: preprint
+CITED: 187
+AUTHORS: (详见原文；Princeton University 等)
+URL: https://arxiv.org/abs/2409.11363
+PAGES: arXiv HTML v1 全文已抓取（文本 10.4 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Computational reproducibility — the ability to reproduce a study's results using its authors'
+data and code — is fundamental to science, yet studies across psychology, economics, medicine,
+political science, life sciences, geoscience and computer science document severe shortcomings.
+We ask: can AI agents automate computational reproducibility? CORE-Bench comprises 270 tasks
+derived from 90 papers across computer science, social science, and medicine with Python or R
+codebases, curated from CodeOcean.com. We verified each repository was locally reproducible and
+created three tasks at different difficulty levels. CORE-Agent (adapted AutoGPT) with GPT-4o
+achieves 22.2% pass@1 on CORE-Bench-Hard vs 6.7% for vanilla AutoGPT.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 基准规模：270 个任务，来自 90 篇论文，覆盖计算机科学、社会科学、医学，Python 或 R 代码库；
+  全部从 CodeOcean.com 精选，每个仓库都经验证可本地复现；每条仓库按可得信息的多少造
+  三个难度层级（Easy/Medium/Hard）的任务。
+- CodeOcean 原数据：含多学科、多语言 capsule；按 10 条筛选标准选出子集（并非所有真实论文都满足）。
+- 工程贡献：把复现任务的运行时间从 20 多天压到几小时，方法是在数百台并行虚拟机上运行，并保证
+  硬件访问标准化、防止 agent 篡改基准。
+- 主结果（测试集，pass@1）：CORE-Agent + GPT-4o 在 CORE-Bench-Hard 上 22.2%；
+  AutoGPT + GPT-4o 仅 6.7%。pass@3 达 31.1%（GPT-4o）与 26.7%（GPT-4o-mini）；
+  GPT-4o-mini pass@1 为 15.6%。
+- 可靠性指标 pass^k（k 次中全部成功）：GPT-4o 在 Hard 上 pass^1 = 22.22%、pass^3 = 8.89%；
+  GPT-4o-mini pass^1 = 15.56%、pass^3 = 6.67%——说明 agent 的随机性使其难以稳定复现。
+- 准确率随难度单调下降（符合预期）。CORE-Agent 三次运行取置信区间，最优 agent 各难度 CI 均低于 5 个百分点；
+  GPT-4o-mini 的 CI 明显更大，说明其可靠性更差。
+- 书面问题显著易于视觉问题：CORE-Bench-Easy 上 GPT-4o 的 CORE-Agent 视觉题正确率 59.26%，
+  书面题 87.88%。
+- 语言差异：Python 任务远比 R 任务容易（R 环境安装耗时远长于 Python）；计算机科学任务多为 Python，
+  可能因此显得可复现性最好。
+- 成本：成功任务的成本约 $0.54，失败任务 $2.59——失败往往是撞到成本上限后仍无进展；
+  提高成本上限后 agent 仍常卡住。更强模型在更低 token 预算下取得更高准确率。
+- 失败模式：难以从多文件输出中检索结果；安装依赖常超时；在多文件输出时容易抓错图。
+- 结论：需要更好的 guardrail（护栏）才能安全部署 agent；通用 agent 只需少量任务特定改造即可显著提升。

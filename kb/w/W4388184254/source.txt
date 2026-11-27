@@ -1,0 +1,40 @@
+TITLE: Brain decoding: toward real-time reconstruction of visual perception
+VENUE: arXiv 2310.19812 (eess.IV)；FAIR, Meta
+TYPE: preprint
+CITED: 144
+AUTHORS: Yohann Benchetrit, Hubert Banville, Jean-Rémi King (FAIR, Meta)
+URL: https://arxiv.org/abs/2310.19812
+PAGES: arXiv HTML v1 全文已抓取（文本 5.4 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Existing generative decoding approaches have mainly been applied to fMRI, whose temporal
+resolution is limited by blood flow and typically yields one snapshot of brain activity every
+two seconds — a timescale that challenges clinical use, e.g. for brain-computer interfaces.
+Magnetoencephalography (MEG), in contrast, records neural activity at the millisecond scale.
+We propose an approach that decodes visual perception from MEG in real time, retrieving and
+generating images from brain activity. Image retrievals and generations both suggest that MEG
+signals primarily contain high-level visual features, whereas the same approach applied to 7T
+fMRI also recovers low-level features — consistent with MEG's lower spatial resolution
+(~cm) versus 7T fMRI (~mm).
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 数据：Hebart et al. (2023) MEG 数据集。272 个 MEG 径向梯度计通道，原始 1200 Hz 降采样至
+  120 Hz，按通道中心化并在超过 ±5 标准误处截断；按刺激起始 -500 ms 至 1000 ms 分段（epoch），
+  并按起始至刺激前的均值做基线校正。
+- 规模：原切分含 22,248 张唯一呈现图像；测试集为 200 个类别各 12 张重复图像，即每受试者
+  2,400 次试次。
+- 评测集：small test set = 200 张图（top-5 随机水平 2.5%）；large test set = 200 类 × 12 张
+  = 2,400 张图（top-5 随机水平 0.21%）。
+- 检索性能：多种图像嵌入都能取得好的检索效果——VGG-19（监督学习）top-5 70.33 ± 2.80%；
+  CLIP-Vision（图文对齐）68.66 ± 2.84%；DINOv2（自监督）68.00 ± 2.86%
+  （标准误在图像级指标上平均后计算）。最佳潜表示在小/大测试集上分别约 70% 与 13%。
+- 时间分辨：准确率一般在图像出现（onset）与消失（offset）之后立即达峰；0.5 秒区间为图像呈现期。
+- 生成侧：从 CLIP 与 AutoKL 潜变量生成图像；CLIP 头目标降到 CLIP-Vision 的 CLS token。
+- 对比 7T fMRI：同一流程用于 7T fMRI 能较好地重建低层特征；MEG 只主要恢复高层语义特征
+  （物体类别），这与 MEG 空间分辨率（约厘米）远低于 7T fMRI（约毫米）一致。
+- 训练细节：λ ∈ {0, 0.25, 0.5, 0.75, 1.0} 扫参，按大测试集 top-5 精度选模型。
+- 伦理/实用约束：被试同意不仅是法律要求，更是技术前提——被试从事干扰任务（如倒数）时解码性能
+  严重下降。
+- 意义：向"实时解码人脑连续展开的视觉过程"迈出一步（MEG 毫秒级 vs fMRI 两秒级）。

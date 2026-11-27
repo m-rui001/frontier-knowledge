@@ -1,0 +1,41 @@
+TITLE: Unleashing Large-Scale Video Generative Pre-training for Robot Manipulation (GR-1)
+VENUE: arXiv 2312.13139 (cs.RO)；ByteDance Research
+TYPE: preprint
+CITED: 358
+AUTHORS: Hongtao Wu, Ya Jing, Chilam Cheang, Guangzeng Chen, Jiafeng Xu, Xinghang Li, Minghuan Liu, Hang Li, Tao Kong (ByteDance Research)
+URL: https://arxiv.org/abs/2312.13139
+PAGES: arXiv HTML v1 全文已抓取（文本 6.3 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+We extend the effectiveness of generative pre-trained models to visual robot manipulation.
+We introduce GR-1, a straightforward GPT-style model for multi-task language-conditioned visual
+robot manipulation. GR-1 takes as inputs a language instruction, a sequence of observation
+images, and a sequence of robot states; it predicts robot actions as well as future images in
+an end-to-end manner. GR-1 is pre-trained on a large-scale video dataset then finetuned on
+robot data. On the CALVIN benchmark, GR-1 improves the success rate from 88.9% to 94.9%.
+In zero-shot unseen scene generalization, GR-1 improves from 53.3% to 85.4%. Real robot
+experiments also outperform baselines and show strong generalization to unseen scenes and
+objects. First evidence that a unified GPT-style transformer augmented with large-scale video
+generative pre-training generalizes to multi-task visual robot manipulation.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 预训练目标：给定语言描述 l 与视频帧序列 o_{t-h:t}，预测未来帧 o_{t+Δt}——视频生成式预训练。
+- 预训练数据：Ego4D（第一视角人-物交互），3500+ 小时，每个片段 3 秒 + 自然语言标注。
+- 结构：因果 Transformer，12 层 12 头，hidden 384；总参数 195M，可训练仅 46M；
+  冻结 CLIP 文本编码器与 MAE 图像编码器。
+- 输出：动作（三层 MLP，双头：手臂 + 夹爪）+ 未来图像（生成头）。
+- CALVIN ABCD→D（成功率 1–5 连续任务 / Avg.Len）：
+  GR-1 0.949/0.896/0.844/0.789/0.731，Avg.Len 4.21；
+  HULC 0.889/0.733/0.587/0.475/0.383，3.06；RT-1 2.45；MT-R3M 2.08；MCIL 0.40。
+  即成功率 88.9%→94.9%，Avg.Len 3.06→4.21。
+- ABC→D：GR-1 0.854/0.712/0.596/0.497/0.401，Avg.Len 3.06；
+  vs HULC 0.67、RT-1 0.90、MT-R3M 0.93。
+- 数据效率：仅用 10% 数据训练，GR-1 首步成功率 77.8%（Avg.Len 约 2.4），最佳基线 66.8%
+  （HULC 1.11、RT-1 0.34、MT-R3M 0.61）。
+- 零样本未见场景泛化：成功率 53.3%→85.4%。
+- 真机实验：端到端物体搬运与关节物体操作（抽屉/滑块/灯泡/旋钮等），GR-1 多数任务 90%+，
+  显著超过基线（部分任务基线仅 34.8–45.3%）；对未见场景与未见物体泛化强。
+- 对照：R3M（同为 Ego4D 预训练但只做表示）封装为 MT-R3M，同量可训参数——生成式预训练
+  （GR-1）优于纯表示预训练（MT-R3M）。

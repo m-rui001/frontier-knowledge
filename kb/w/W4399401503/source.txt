@@ -1,0 +1,43 @@
+TITLE: Unlocking Guidance for Discrete State-Space Diffusion and Flow Models
+VENUE: arXiv 2406.01572 (cs.LG)；MIT / Microsoft Research 等
+TYPE: preprint
+CITED: 142
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2406.01572
+PAGES: arXiv HTML v1 全文已抓取（文本 18.7 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+Diffusion and flow models on continuous state-spaces can be guided toward desired properties
+via classifier guidance or classifier-free guidance, a key advantage for scientific applications
+(e.g. conditioning protein sequence generation on binding affinity). But in discrete
+state-spaces, the Bayes-rule normalizing constant has S^D terms (D dimensions, cardinality S),
+rendering guidance generally intractable. We introduce Discrete Guidance (DG), a principled
+approach for predictor guidance (PG) and predictor-free guidance (PFG) in discrete state-spaces
+based on CTMCs. Key insight: continuous-time noising with independent dimensions implies at most
+one dimension jumps at any instant, so the normalizing sum has only D×(S−1)+1 terms. A
+Taylor-approximated guidance reduces cost from O(D×S) to O(1) forward passes with matched
+quality. Empirical validation: image modeling (CIFAR-10), small-molecule generation, enhancer
+DNA design, and guiding inverse-folding protein models toward stability.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 问题：连续空间引导用贝叶斯定理组合无条件密度 p(x) 与分类器/回归似然 p(y|x)；离散空间中
+  D 维、每维基数 S 时归一化常数含 S^D 项——因为不加约束时任何状态可从任何状态到达，不可处理。
+- 核心洞察：CTMC 连续时间加噪下各维独立 → 两维同时跳变的概率为零 → 速率矩阵非零项只有
+  D×(S−1)+1 项 → 引导分母的和从 S^D 降为 D×(S−1)+1 项，变得可处理。
+- 温度：用似然比的逆温度 γ 调节引导强度（与连续空间一致）。
+- Taylor 近似引导：从 D×(S−1)+1 次前向降到 1 次，guide-adjusted rates 从 O(D×S) 到 O(1)；
+  与精确引导样本质量相当（小分子实验验证）。
+- 图像（CIFAR-10，5 万样本）：CTDD 基线 IS 8.74 / FID 8.10；CTDD-DG (T=0.5) IS 8.91 /
+  FID 7.86；CTDD-DG (T=0.3) IS 9.09 / FID 9.04。
+- 小分子生成：验证 DG 按目标性质条件化表现符合预期；精确与 Taylor 近似采样质量匹配。
+- 增强子 DNA 设计：沿用 Stark et al. 设定，104k 条长度 500 的序列、81 种细胞类型类别；
+  评测用 oracle 分类器（干净数据训练）计算 class-conditional FBD（Fréchet Biological Distance）
+  与平均目标类概率；DG-PG 相比 DirFM-CG（把分类器得分投影到单纯形切平面的连续式方法）
+  在目标类概率更高、FBD 更低上更优。
+- 蛋白质逆折叠 + 稳定性引导：以结构 c 为条件生成序列 x，再用从公开实验数据训练的稳定性
+  回归预测器引导 ΔΔG ≥ 0 的稳定序列——目标是在不破坏"正确折叠"概率的前提下提升预测稳定性。
+- 对比对象：DiGress（离散时间离散扩散，归一化常数仍不可处理需额外近似）、DirFM-CG
+  （连续式分类器引导需投影到单纯形切平面）、Frey et al.（连续潜空间 Langevin MCMC）。
+- 意义：首次给出离散状态空间扩散/流模型的原理性引导框架；对科学应用（分子/序列设计）通用。
