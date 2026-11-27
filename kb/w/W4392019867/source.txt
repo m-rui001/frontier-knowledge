@@ -1,0 +1,42 @@
+TITLE: VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning
+VENUE: arXiv 2402.13243 (cs.CV)；华中科技大学 + 地平线
+TYPE: preprint
+CITED: 349
+AUTHORS: Shaoyu Chen, Bo Jiang, Hao Gao, Bencheng Liao, Qing Xu, Qian Zhang, Chang Huang, Wenyu Liu, Xinggang Wang (HUST / Horizon Robotics)
+URL: https://arxiv.org/abs/2402.13243
+PAGES: arXiv HTML v1 全文已抓取（文本 4.4 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+VADv2 takes multi-view image sequences as input in a streaming manner, transforms sensor data
+into environmental token embeddings, outputs the probabilistic distribution of action, and
+samples one action to control the vehicle. Only with camera sensors, VADv2 achieves
+state-of-the-art closed-loop performance on the CARLA Town05 benchmark, significantly
+outperforming all existing methods. It runs stably in a fully end-to-end manner, even without
+the rule-based wrapper. Key idea: planning's uncertainty and non-deterministic nature make
+deterministic regression inadequate — the feasible solution space is non-convex, and
+deterministic modeling outputs an "in-between" unsafe action or collapses to the dominant
+trajectory in the data (e.g. always stop or go straight).
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+- 概率规划：把连续规划动作空间离散化为一个"规划词表" V = {a^i}，N 默认 4096。
+  离散化方法 = 从驾驶演示中收集全部轨迹，用"最远轨迹采样"（furthest trajectory sampling）
+  选出 N 条代表轨迹作词表；每条轨迹都采样自真实演示，故天然满足自车运动学约束。
+  每个动作表示为路点序列 a = (x1,y1,...,xT,yT)。
+- 训练：不是只监督正样本，而是对词表中所有候选算分布损失（Distribution Loss），监督信号更丰富。
+- 推理：闭环时每步取最高概率动作，用 PID 控制器转成转向/油门/刹车；可输出多模态规划结果，
+  易与规则/优化方法结合；真机实践建议 top-K 采样 + 规则包装过滤 + 基于优化的后处理。
+- 数据：CARLA 官方自动驾驶 agent 在 Town03/04/06/07/10 随机生成路线收集，2Hz 采样，
+  约 300 万帧训练数据；每帧保存 6 路环视图像、交通信号、其它参与者信息、自车状态。
+- Town05 Long 闭环结果：Drive Score 85.1，Route Completion 98.4，Infraction Score 0.87。
+  相比此前 SOTA（同时用摄像头+LiDAR）Drive Score 提升 9.0；相比此前纯摄像头最佳方法
+  提升达 16.8。
+- 消融（Town05 Long 开环，L2 距离 m / 碰撞率 %，1s/2s/3s）：
+  无任何辅助（ID1）L2 = 1.415/2.310/3.153，碰撞 0.698/0.755/0.746；
+  加入分布损失+冲突损失+agent/map/交通元素/图像 token 后（ID3）L2 = 0.089/0.190/0.327，
+  碰撞 0.015/0.047/0.085；逐步加到 ID7 全模型 L2 = 0.082/0.169/0.290，
+  碰撞 0.000/0.010/0.039。
+- 结构化损失项：Distribution Loss（分布）、Conflict Loss（冲突）、Agent Token、Map Token、
+  Traffic Element Token、Image Token。
+- 传感器：仅摄像头（6 路环视），不用 LiDAR。

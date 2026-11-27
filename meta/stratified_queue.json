@@ -1,13 +1,12 @@
 {
- "method": "路线2批15：arXiv全文优先，领域多样（贝叶斯优化/化学/气候/采样理论）",
+ "method": "路线2批16：arXiv全文优先；含1篇可疑条目辨析（Banana Bridge）",
  "source": "meta/usable.json 未写 arXiv 高引条目",
  "layer_sizes": {
-  "decision": 1,
-  "chem": 1,
-  "climate": 1,
-  "math": 1
+  "physics": 1,
+  "robotics": 2,
+  "driving": 1
  },
  "queue": [],
  "excluded": [],
- "completed_note": "路线2批15：4篇arXiv全文（贝叶斯优化/化学/气候/采样理论），INDEX 621→625"
+ "completed_note": "路线2批16：4篇（含1篇元数据污染辨析），INDEX 625→629"
 }

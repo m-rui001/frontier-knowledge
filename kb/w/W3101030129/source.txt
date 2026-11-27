@@ -1,0 +1,48 @@
+TITLE (usable.json 声称): The Banana Bridge - The Unitary Kinematic Solution to the Hubble Tension and the 1.618 x 137 Master Law
+TITLE (oa_url 实际指向的全文): Milky Way Cepheid Standards for Measuring Cosmic Distances and Application to Gaia DR2: Implications for the Hubble Constant
+VENUE: arXiv 1804.10655v1 [astro-ph.CO]，2018-04-27
+TYPE: preprint（已发表 ApJS）
+CITED: 686（索引引用数；对应真实论文）
+AUTHORS: Adam G. Riess, Stefano Casertano, Wenlong Yuan, Lucas Macri, Beatrice Bucciarelli, Mario G. Lattanzi, John W. MacKenty, … (STScI / JHU / INAF / TAMU)
+DOI (usable.json 记录): https://doi.org/10.5281/zenodo.19098596
+URL (实际抓取): https://arxiv.org/abs/1804.10655
+PAGES: arXiv HTML v1 全文已抓取（文本 6.7 万字符）
+
+【元数据错配说明 — 重要】
+============================================================
+usable.json 中该条目的标题为 "The Banana Bridge — The Unitary Kinematic Solution to the
+Hubble Tension and the 1.618 x 137 Master Law"，DOI 指向 Zenodo 预印本仓库。该标题的措辞
+（"Banana Bridge"、"Unitary Kinematic Solution"、"1.618 x 137 Master Law"——黄金比例乘精细
+结构常数的数字命理学组合）是典型的非学术/边缘主张特征：以单一"主定律"宣称解决重大物理难题。
+但该条目登记的 oa_url 指向 arXiv:1804.10655，其全文是 Riess et al. 2018 关于 Gaia DR2 造父
+变星视差零点与哈勃常数的严肃高引论文。两者主题仅共享"哈勃张力"这一关键词，内容无任何关系。
+本条按"元数据污染样本"处理：正文写真实可获取的 arXiv 全文，并在点评中说明错配事实，不做任何
+"Banana Bridge"内容的转述（无可靠全文，不编造）。
+
+ABSTRACT (真实论文，逐句来自正文):
+============================================================
+We use the new Gaia DR2 parallaxes and HST photometry to simultaneously constrain the
+cosmic distance scale and to measure the DR2 parallax zeropoint offset appropriate for
+Cepheids. We find the latter to be −46 ± 13 μas (or ±6 μas for a fixed distance scale),
+higher than found from quasars. The precision of the distance scale from DR2 has been
+reduced by a factor of 2.5 because of the need to independently determine the parallax
+offset. The best-fit distance scale is 1.006 ± 0.033, relative to the scale from R16 with
+H0 = 73.24 km/s/Mpc, and is inconsistent with the scale needed to match the Planck 2016
+CMB data combined with ΛCDM at the 2.9σ level. Including the DR2 parallaxes with all prior
+distance-ladder data raises the current tension between the late and early Universe route
+to the Hubble constant to 3.8σ (99.99%).
+
+FULL TEXT KEY NUMBERS (arXiv 1804.10655v1 正文，出处层级：论文正文):
+============================================================
+- H0 基准（R16 距离阶梯）= 73.24 ± 1.7 km/s/Mpc。
+- Gaia DR2 视差零点偏移测定 = −46 ± 13 μas；若固定距离尺度则为 ±6 μas；大于由类星体得到的估计。
+- 最佳拟合距离尺度 = 1.006 ± 0.033（相对 R16 的尺度）——即 DR2 与 R16 在 0.6% 水平一致。
+- 与 Planck 2016 CMB + ΛCDM 所需尺度不一致，达 2.9σ。
+- 纳入 DR2 视差与全部既有距离阶梯数据后，晚期/早期宇宙两条 H0 路线的张力升至 3.8σ（99.99%）。
+- 因必须独立确定视差零点，DR2 距离尺度的精度下降 2.5 倍。
+- 样本：50 颗具有 HST 测光的银河系造父变星；造父变星视差范围 0.2–1 mas（打破 α 与视差零点的退化）。
+- Gaia 最终预期视差精度 5–10 μas，可将距离阶梯第一阶的贡献限制在 0.5%。
+- 光度校准的 5 个独立检验源：NGC 4258 脉泽、LMC 食双星、较近 MW 造父变星视差等。
+- 每观测平均测光误差 5 millimag；HST 差分测光可规避零点与透过率系统误差（否则给 H0 带来 ~2–3% 系统不确定度，接近目标精度的两倍）。
+- 排除项：ℓ-Car 因 DR2 视差大得不合理（8 mas）被剔除；G>6 mag 的造父变星 8 颗中 7 颗落在 1σ 内，G<6 mag 的一致性明显变差。
+- 银河系造父变星是 Type Ia 超新星宿主星系（D<50 Mpc）标定的关键中间阶。

@@ -1,0 +1,49 @@
+TITLE: Latent Action Pretraining from Videos (LAPA)
+VENUE: arXiv 2410.11758 (cs.RO)；ICLR 2025；UW / NVIDIA / MSR / KAIST
+TYPE: preprint / conference
+CITED: 322
+AUTHORS: Seonghyeon Ye, Joel Jang, Byeongguk Jeon, Sejune Joo, Jianwei Yang, Baolin Peng, Ajay Mandlekar, Reuben Tan, Yu-Wei Chao, Bill Yuchen Lin, Lars Liden, Kimin Lee, Jianfeng Gao, Luke Zettlemoyer, Dieter Fox, Minjoon Seo
+URL: https://arxiv.org/abs/2410.11758
+PAGES: arXiv HTML v1 全文已抓取（文本 9.2 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+VLA models require action labels typically collected by human teleoperators during
+pretraining, which significantly limits possible data sources and scale. We propose a method to
+learn from internet-scale videos that do not have robot action labels. We first train an action
+quantization model leveraging a VQ-VAE-based objective to learn discrete latent actions between
+image frames, then pretrain a latent VLA model to predict these latent actions from
+observations and task descriptions, and finally finetune the VLA on small-scale robot
+manipulation data to map from latent to robot actions. Our method significantly outperforms
+existing techniques that train robot manipulation policies from large-scale videos, and
+outperforms the state-of-the-art VLA model trained with robotic action labels on real-world
+manipulation tasks that require language conditioning.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+三阶段流程：
+(1) 动作量化：VQ-VAE 目标学习相邻帧之间的离散潜动作；用 NSVQ（noise substitution vector
+    quantization）避免 VQ-VAE 常见的梯度坍塌；潜动作表示为 |C| 码本词表上的 s 个 token 序列。
+(2) 潜动作预训练：训练 latent VLA 从观察与任务描述预测这些潜动作 token——不需要任何机器人动作标签。
+(3) 动作微调：在小规模机器人操作数据上把潜动作映射到真实机器人动作。
+基座 VLM：7B Large World Model（LWM-Chat-1M）。
+微调设置：冻结视觉编码器，解冻 LLM 全部参数；重新初始化动作头（因策略模型 7B 很大，重初始化后
+下游表现更好）。
+
+主要数字：
+- Language Table：用 181k 轨迹预训练，再用 1k 条动作标注轨迹（0.5%）微调。LAPA 大幅超过
+  Scratch，缩小与 ActionVLA（用动作标签预训练）的差距；并超过 UniPi 与 VPT。UniPi 在长程任务上
+  的扩散规划常出错；VPT 用同一 VLM 基座但仍不如 LAPA，证明潜动作本身有效。
+- SIMPLER 环境：4 个任务，从 SIMPLER 收集 100 条轨迹微调（每任务 25 条）。UniPi 显著落后
+  （其 IDM 在只有 100 条动作标注轨迹时无法准确预测 7 自由度连续动作，常在步数上限内抓不到物体）。
+- 真实世界桌面操作（7 自由度 Franka + 14 自由度双臂）：每任务 150 条轨迹、15 个物体。
+  三个预训练源：Bridgev2、Open-X、Something-Something v2。
+  双臂 14-DoF 跨本体实验（Open-X 中无双臂数据）：LAPA 30.21% vs OpenVLA 26.04% 平均成功率
+  ——LAPA 完全不用动作标签预训练，仍略胜。
+- 预训练效率（Open-X 版最佳模型）：8×H100 训练 34 小时、batch 128，共 272 H100-hours；
+  OpenVLA 需 21,500 A100-hours、batch 2048。按 H100 对 A100 约 2–3 倍加速折算，LAPA 预训练
+  效率高出约 30–40 倍，性能仍更优。
+- 学习人类操作视频：用 Something-Something v2（人类手部操作视频，无机器人本体）预训练也能
+  学到更好的操作先验，说明网络原始人类视频对机器人预训练有潜在价值。
+- 局限：双臂绝对成功率仍低（30% 量级），抓取（grasp）动作因每条轨迹只出现一两次、150 条标注
+  轨迹不足以覆盖多样物体；作者建议引入双臂人类操作视频。

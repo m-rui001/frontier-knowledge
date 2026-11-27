@@ -1,0 +1,42 @@
+TITLE: Vision-Language Foundation Models as Effective Robot Imitators (RoboFlamingo)
+VENUE: arXiv 2311.01378 (cs.RO)；ICLR 2024
+TYPE: preprint / conference
+CITED: 393
+AUTHORS: Xinghang Li, Minghuan Liu, Hanbo Zhang, ... (ByteDance Research / Tsinghua / SJTU)
+URL: https://arxiv.org/abs/2311.01378
+PAGES: arXiv HTML v1 全文已抓取（文本 5.9 万字符）
+
+ABSTRACT (原文摘要，逐句来自正文):
+============================================================
+We propose RoboFlamingo, built upon the open-source VLM OpenFlamingo. Unlike prior works,
+RoboFlamingo utilizes pre-trained VLMs for single-step vision-language comprehension, models
+sequential history information with an explicit policy head, and is slightly fine-tuned by
+imitation learning on language-conditioned manipulation datasets. This decomposition requires
+only a minimal amount of data to adapt to downstream manipulation tasks, and offers
+flexibility for open-loop control and deployment on low-performance platforms. Benefiting from
+vision-language pretraining, RoboFlamingo achieves state-of-the-art performance with a large
+margin and generalizes well to zero-shot settings and environments.
+
+FULL TEXT KEY NUMBERS (arXiv HTML v1 正文，出处层级：论文正文):
+============================================================
+基准 CALVIN（Composing Actions from Language and Vision），指标为连续完成 1–5 个指令任务的成功率
+与平均完成长度 Avg.Len（满分 5）：
+
+- ABCD(Lang) → D：RoboFlamingo 0.964 / 0.896 / 0.824 / 0.740 / 0.660，Avg.Len = 4.09；
+  HULC(Lang) 0.892/0.701/0.548/0.420/0.335，Avg.Len = 2.90；RT-1 0.844/0.617/0.438/0.323/0.227，
+  Avg.Len = 2.45；HULC(Full) 3.06；MCIL 0.40。
+- ABC(Lang) → D（更难的视觉泛化设定）：RoboFlamingo 0.824/0.619/0.466/0.331/0.235，Avg.Len = 2.48；
+  RT-1 0.533/0.222/0.094/0.038/0.013，Avg.Len = 0.90；HULC 0.67；MCIL 0.31。
+- Enriched 指令设定：Ours 0.720/0.480/0.299/0.211/0.144，Avg.Len 1.85；Ours(freeze-emb)
+  0.737/0.530/0.385/0.275/0.192，Avg.Len 2.12；HULC 1.82；RT-1 0.86。
+- 结构：总参数/LLM 参数/可训练参数 —— M-3b(MPT) 3B/1B/1B；G-4b(GPT-NeoX) 4B/3B/1B；
+  L-9b(LLaMA) 9B/7B/1B；M-9b(MPT)。即只训练 ~1B 的策略头与适配层，VLM 主体基本冻结。
+- 全量 CALVIN 数据下模型规模消融 Avg.Len：M-3b 3.94 → M-3b-IFT（指令微调）4.09；
+  G-4b 3.67 → G-4b-IFT 3.79；L-9b 2.79；M-9b 3.97。小模型与大模型竞争力相当。
+- 数据稀缺时规模效应反转：仅用 10% 语言标注数据（约为全量数据的 0.1%），Avg.Len 为
+  M-3b 0.05、M-3b-IFT 0.13、G-4b 0.48、G-4b-IFT ...，大模型显著更强。
+- 视觉语言能力对照：M-3b COCO 77.3 / VQAv2 45.8；M-3b-IFT 82.7/45.7；G-4b 81.8/49.0；
+  M-9b 89.0/54.8。
+- 冻结指令嵌入层（freeze-emb）显著缓解同义句带来的性能波动，Enriched 设定下 Avg.Len 1.85→2.12。
+- 其它结论：策略头（policy head）容量不足会限制下游任务表现；VL 预训练对下游机器人任务不可或缺；
+  jump step 演示数据缺失会导致性能下降，用含 jump step 的演示重训可缓解。
