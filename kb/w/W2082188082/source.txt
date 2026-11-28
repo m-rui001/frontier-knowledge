@@ -1,0 +1,29 @@
+TITLE: The missense of smell: functional variability in the human odorant receptor repertoire
+VENUE: Nature Neuroscience 17, 114–120 (2014)；DOI 10.1038/nn.3598；PMC3990440
+TYPE: journal article (open access)
+CITED: 399
+AUTHORS: (详见原文；人类嗅觉遗传学团队)
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC3990440/
+FULL TEXT: PMC HTML 全文已抓取（.tmp/smell.txt，6 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Humans have approximately 400 intact odorant receptors, but each individual has a unique set of
+genetic variations leading to variation in olfactory perception. We used a heterologous assay to
+determine how often genetic polymorphisms in odorant receptors alter receptor function. We
+identified agonists for 18 odorant receptors and found that 63% of the receptors examined had
+polymorphisms that altered in vitro function. On average, two individuals differ functionally at
+over 30% of their odorant receptor alleles. To show these in vitro results are relevant to
+perception, we verified that variations in OR10G4 genotype explain over 15% of variation in
+perceived intensity and over 10% of variation in perceived valence for the high-affinity agonist
+guaiacol, but do not explain phenotypic variation for the lower-affinity agonists vanillin and
+ethyl vanillin.
+
+KEY NUMBERS（正文，出处层级：论文正文）:
+============================================================
+- 人类约 400 个完整嗅觉受体（基因组约 800 个嗅觉受体基因）。
+- 找到 18 个嗅觉受体的激动剂；所检受体中 63% 存在改变体外功能的多态性。
+- 平均而言，两个个体在超过 30% 的嗅觉受体等位基因上功能不同。
+- OR10G4 基因型解释高亲和力激动剂愈创木酚（guaiacol）感知强度变异的 15% 以上、
+  效价（valence）变异的 10% 以上；对低亲和力激动剂香草醛、乙基香草醛的表型变异无解释力。
+- 方法：异源表达测定（heterologous assay）判定受体功能；基因型-感知关联验证。

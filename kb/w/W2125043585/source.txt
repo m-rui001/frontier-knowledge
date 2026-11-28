@@ -1,0 +1,23 @@
+TITLE: Skilled reaching relies on a V2a propriospinal internal copy circuit
+VENUE: Nature 508(7496):357–363；在线 2014-02-02，纸刊 2014-04-17；doi:10.1038/nature13021
+TYPE: journal article (research)；PMC4230338 / NIHMS555954 / PMID 24487617
+CITED: 399
+AUTHORS: Eiman Azim, Juan Jiang, Bror Alstermark, Thomas M. Jessell（哥伦比亚大学；于默奥大学）
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC4230338/
+FULL TEXT: .tmp/v2a.txt（作者稿全文，含图注、扩展数据图、扩展数据表、方法、补充视频说明与参考文献）
+
+ABSTRACT（原文摘要，逐句来自作者稿）:
+============================================================
+The precision of skilled forelimb movement has long been presumed to rely on rapid feedback corrections triggered by internally-directed copies of outgoing motor commands – but the functional relevance of inferred internal copy circuits has remained unclear. One class of spinal interneurons implicated in the control of mammalian forelimb movement, cervical propriospinal neurons (PNs), has the potential to convey an internal copy of pre-motor signals through dual innervation of forelimb-innervating motor neurons and pre-cerebellar neurons of the lateral reticular nucleus. We have examined whether the PN internal copy pathway functions in the control of goal-directed reaching. In mice, PNs include a genetically-accessible subpopulation of cervical V2a interneurons, and their targeted ablation perturbs reaching while leaving intact other elements of forelimb movement. Moreover, optogenetic activation of the PN internal copy branch recruits a rapid cerebellar feedback loop that modulates forelimb motor neuron activity and severely disrupts reaching kinematics. Our findings implicate V2a PNs as the focus of an internal copy pathway assigned to the rapid updating of motor output during reaching behavior.
+
+KEY NUMBERS（正文、图注、扩展数据与统计段，按出处层级排列）:
+============================================================
+- 电生理鉴定（图1）：颈段 C3/C4/C6 记录，逆向刺激同侧外侧网状核（20–100 微安）与 C7 腹角（40 微安）加碰撞检验，n=12；网状核刺激在前肢运动神经元诱发单突触兴奋性突触后电位，起始潜伏期 1.24（自传入电位算 0.54）±0.13 毫秒标准差，起点方差 0.008±0.006 毫秒平方，n=29；38 个运动神经元中 76% 纯兴奋、16% 纯抑制、8% 混合；网状脊髓束刺激潜伏期 1.18（自传入电位算 0.68）±0.16 毫秒，n=34；网状脊髓束到固有脊髓神经元的单突触反应自第三个传入电位起 0.43±0.17 毫秒，碰撞 n=17，记录 n=14。
+- 解剖（图2）：Chx10-Cre 与 Rosa-lsl-tdTomato 杂交鼠，颈段 C3/C4 注射腺相关病毒后 82%±7% 标准误的 tdT 阳性二型甲神经元被转导（n=2）；外侧网状核与 C7/C8 胆碱乙酰转移酶阳性运动神经元均见谷氨酸能阳性、荧光阳性终扣；逆行示踪与跨突触示踪显示颈段中间平面存在三类共标细胞，超过 30% 的荧光阳性二型甲神经元带网状核逆行标记；胸段与腰段注射几乎不标记网状核。
+- 行为范式：食物剥夺至原体重 80–90%；目标颗粒 20 毫克、直径 3 毫米；箱高 20 厘米、宽 8 厘米、长 19.5 厘米，开口宽 0.9 厘米、高 9 厘米；颗粒置于开口前 1 厘米、偏左 0.45 厘米的凹坑；每天 20 分钟或 20 次成功，先到为准；约 50–75% 小鼠被选入；野生型多次尝试成功率 37.0%±10.4% 标准差（n=13），日间成功率的标准差为 10.2%±4.1%（n=13）。
+- 三维运动学：两台高速相机约 80 度夹角，500 帧每秒，1280×1024；25 赫兹低通滤波，重采样至 1000 赫兹；剔除起始 Z 距离低于 13 毫米（消融实验，157 次中剔 18 次）或 15.25 毫米（光遗传实验，282 次中剔 22 次）的试次；每只鼠每条件约 12–17 次有效试次；按 11 毫米距离阈值分伸相与抓相；14 项运动学参数在野生型成功与失败试次间未检出系统差异（n=7，双侧配对 t 检验）；选择 37.0% 个体差异大的原因见扩展数据图 2。
+- 消融（图4、扩展数据图3）：C3–T1 注射腺相关病毒，83%±0.3% 标准误（n=2）的二型甲神经元共表达白喉毒素受体与荧光蛋白；给 400 纳克白喉毒素 7 天后，84%±9%（n=2）的 C3–T1 神经元与网状核荧光轴突被清除；行为组为 n=3 消融、n=4 对照；多次尝试成功率自 41.3%±8.3% 标准误降至 20.7%±6.7%，组×毒素交互 F(1,5)=6.67、P=0.049，事后 Bonferroni P<0.05；严格运动学检测中消融后无成功试次；伸相方向逆转约六倍增加、平均速度约两倍下降、时长约两倍增加（交互 F(2,10)=8.315、P=0.008；F(2,10)=15.37、P=0.0009；F(2,10)=19.03、P=0.0004），抓相均不显著（P=0.55、0.40、0.12）；趾展幅（第2与第4指最大距离）P=0.78（n=3 与 n=4）；水平梯错误率 P=0.13，错踩类型 P=0.19、0.56、0.09（n=3 与 n=3）。
+- 光遗传标定（图5）：颈段照射激活 69.2% 的固有脊髓神经元（n=9/13）；网状核内光刺激激活 8/21 具有小脑投射的网状核神经元；同一批细胞在网状核电刺激下必出逆行动作电位，而在末梢光刺激下 0/31 出现逆行电位（对照 0/3）；对照组光刺激无激活（0/14 神经元）。
+- 光遗传行为（图6、扩展数据图6）：n=5 光遗传鼠、n=4 对照鼠；多次尝试成功率无光 35.7%±6.5% 标准误、有光 18.3%±3.8%，组×光照交互 F(1,7)=8.65、P=0.02，事后 Bonferroni P<0.001；严格运动学检测中有光期无成功试次；伸相方向逆转约 4.5 倍（交互 F(2,19)=5.24、P=0.02），抓相不显著（P=0.09）；远离颗粒时间、最小距离、远离峰值速度、速度标准差、峰值加减速与加速度标准差均显著上升（P=0.03、0.008、0.002、小于0.0001、0.001、小于0.0001、小于0.0001）；趾展幅 P=0.10。
+- 环路生理（图6e,f、扩展数据图7、8）：末梢光照诱发运动神经元多突触兴奋性突触后电位，起始 4.18±0.75 毫秒标准差，起点方差 0.28±0.35 毫秒平方（n=11）；胞体光照诱发单突触电位，起始 2.60±0.20 毫秒，方差 0.014±0.009（n=3）；网状核神经元单突触激活起始 0.87±0.10 毫秒，方差 0.009±0.006（n=9），与运动神经元抖动相差约 30 倍；记录场电位 n=27（网状核光照）与 n=8（颈段光照）；损伤小脑下脚（n=4）或全切小脑（n=1）后场电位面积平均减少 56%±8.8% 标准差（正文称最多约 65%），P=0.001，n=5，配对 t 检验；最短潜伏期 3.6–4.7 毫秒成分被消除，残余反应 onset 延迟约 1–3 毫秒；损伤未改变网状核神经元的光诱激活（n=2）。
+- 统计口径：显著性水平 P<0.05；消融比较用双因素重复测量方差分析（同一小鼠前后配对），光遗传运动学因并非所有鼠都有无光成功试次而用双因素方差分析，干预后成功试次（仅对照组存在）被排除在运动学统计之外；多重比较用 Bonferroni 与 Tukey 校正。

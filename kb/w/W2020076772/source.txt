@@ -1,0 +1,26 @@
+TITLE: The role of the reflection fraction in constraining black hole spin
+VENUE: Monthly Notices of the Royal Astronomical Society Letters, 2014, MNRAS 000, 1–6；doi:10.1093/mnrasl/slu125；arXiv:1408.2347v1 [astro-ph.HE]（2014 年 8 月 11 日）
+TYPE: journal article (open access, arXiv 预印本)
+CITED: 400
+AUTHORS: Thomas Dauser（班贝格施特恩瓦特天文台 / 埃尔朗根天体粒子物理中心）, Javier A. García（哈佛—史密森天体物理中心）, Michael L. Parker, A. C. Fabian（剑桥大学天文研究所）, J. Wilms
+URL: https://arxiv.org/abs/1408.2347
+FULL TEXT: arXiv 全文已抓取（.tmp/reflection.txt，正文 6 页，含公式 1–2、图 1–5 图注与参考文献）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+In many active galaxies, the X-ray reflection features from the innermost regions of the accretion disc are relativistically distorted. This distortion allows us to measure parameters of the black hole such as its spin. The ratio in flux between the direct and the reflected radiation, the so-called reflection fraction, is determined directly from the geometry and location of primary source of radiation. We calculate the reflection fraction in the lamp post geometry in order to determine its maximal possible value for a given value of black hole spin. We show that high reflection fractions in excess of 2 are only possible for rapidly rotating black holes, suggesting that the high spin sources produce the strongest relativistic reflection features. Using simulations we show that taking this constraint into account does significantly improve the determination of the spin values. We make software routines for the most popular X-ray data analysis packages available that incorporate these additional constraints.
+
+KEY NUMBERS（论文正文、公式与图注，出处层级：论文正文）:
+============================================================
+- 反射分数定义（式 1）：R := f_AD / f_INF = (cos δ_in − cos δ_out) / (1 + cos δ_out)。f_AD 为落到吸积盘的光子比例，f_INF 为逃到无穷远的比例；δ_in、δ_out 为光子打在盘内缘与外缘的张角。假设静止、各向同性的主源。
+- 非相对论极限：无限延展的吸积盘给出 R = 1，一半光子到无穷远、一半被盘反射。该定义与 pexrav 等模型的覆盖因子同形，但电离盘的相对论反射与远距中性反射的 R 不可直接比较；本文的 R 按定义不含远距反射成分。
+- 灯笼杆几何：点状、各向同性源位于黑洞自转轴上；源的尺度以引力半径 r_g = GM/c² 计。已有观测只给出源须位于 10 r_g 以内的粗略紧致性判据。
+- 源高的两个方向：源贴近黑洞时强烈的光子束化使得到达无穷远的光子减少，同时内盘半径变大，R 反而变小；源高于约 10 r_g 时相对论效应退场，R 收敛到非相对论极限。因此存在依赖自旋的最大值 Rmax。
+- 式 2（经验拟合）：h_Rmax(a) = (1.89 a² − 10.86 a + 10.07) × (1 + 9.41 × 10⁻⁴ / log(a))；对 a < 0.975 精度优于 0.1%。自旋更高时源落在事件视界上，改取 h(Rmax) = 1 + √(1 − a²)。
+- 图 3 左：a 低时 Rmax 只略高于 1，a 高时 Rmax 陡升；摘要明确 R > 2 只可能出现在快速自转的黑洞。图 3 右固定 a = 0.998 而变动盘内缘，内半径增大时 Rmax 迅速下降——自旋的主要光谱效应正是定出最内稳定圆轨道（ISCO）的位置。
+- 排除判据：a < 0.5 时 Rmax < 1.5；若拟合同时要求低自旋与显著更高的反射分数，该解在物理上难以成立。盘被截断到几个引力半径之外时，R 至多略大于 1，因此截断盘拟合与大的反射分数不相容。
+- 图 5 模拟：XMM-Newton 的 EPIC-pn 探测器、100 ks 曝光；Δχ² = 1 对应 1σ。输入模型 TBABS × RELXILL，0.3–10 keV 流量 10⁻¹² erg s⁻¹ cm⁻²，光子指数 Γ = 2，氢柱密度 10²⁰ cm⁻²，发射率指数 3，a = 0.97，倾角 30°，电离参数 ξ = 100 erg cm s⁻¹，铁丰度为太阳的三倍。真实 R = 2 时，忽略 Rmax 约束的拟合给出错误自旋 a ≈ 0.55；加上约束后既排除非物理解，也收紧误差。
+- 观测对照：Walton 等（2013）研究 25 个「裸活动星系核」，反射强度强烈集中在 1 附近，与理论预言吻合。唯一极端个例是 1H0707−495，R = 275 而 a > 0.994，当时处于特别低的状态，直接幂律连续谱难以约束。
+- 倾角限制：蒙特卡洛模拟（Suebsuwong 等 2006）显示更大的测得 R 只在倾角约 85° 以上出现；这种极端倾角下内区反射特征会被抹平，且很可能被尘埃环遮蔽，不适合活动星系核内区观测。
+- 测量建议：用 20–40 keV 的无特征康普顿隆起量 R；15 keV 以上光电吸收可忽略，元素丰度对 R 影响很小，但远距反射仍会干扰。作者把新约束写进 RELXILL 模型，反射分数可固定为灯笼杆理论预言值，也可独立拟合。
+- 选择偏差：低自旋（或小自旋、高源高）同时意味着更弱的反射成分和更不显著的相关相对论展宽，宽发射特征更难探测；标准吸积盘理论中辐射效率随自旋升高，流量限样本本身也已偏向高自旋。
