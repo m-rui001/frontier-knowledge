@@ -1,0 +1,24 @@
+TITLE: Vif hijacks CBF-β to degrade APOBEC3G and promote HIV-1 infection（维夫蛋白劫持 CBF-β 降解 APOBEC3G 并促进艾滋病病毒感染）
+VENUE: Nature, 2011 Dec 21, 481(7381): 371–375；doi:10.1038/nature10693；作者稿 PMC 上线 2013 Jan 19；PMCID: PMC3310910；NIHMSID: NIHMS358186；PMID: 22190037
+TYPE: journal article (open access, 作者 manuscript；正文 5 页 + 图 1–4 与图注、方法摘要、补充材料与参考文献)
+CITED: 400
+AUTHORS: Stefanie Jäger, Dong Young Kim, Judd F Hultquist, Keisuke Shindo, Rebecca S LaRue, Eunju Kwon, Ming Li, Brett D Anderson, Linda Yen, David Stanley, Cathal Mahon, Joshua Kane, Kathy Franks-Skiba, Peter Cimermancic, Alma Burlingame, Andrej Sali, Charles S Craik, Reuben S Harris, John D Gross, Nevan J Krogan（并列第一：Jäger、Kim、Hultquist；通讯：Harris、Gross、Krogan。加州大学旧金山分校、明尼苏达大学、格拉德斯通研究所）
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC3310910/
+FULL TEXT: PMC 作者稿全文已抓取（.tmp/vif.txt，含摘要、引言、图 1–4 正文与图注、方法摘要、补充材料说明与参考文献）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Restriction factors, such as the retroviral complementary DNA deaminase APOBEC3G, are cellular proteins that dominantly block virus replication. The AIDS virus, human immunodeficiency virus type 1 (HIV-1), produces the accessory factor Vif, which counteracts the host’s antiviral defence by hijacking a ubiquitin ligase complex, containing CUL5, ELOC, ELOB and a RING-box protein, and targeting APOBEC3G for degradation. Here we reveal, using an affinity tag/purification mass spectrometry approach, that Vif additionally recruits the transcription cofactor CBF-β to this ubiquitin ligase complex. CBF-β, which normally functions in concert with RUNX DNA binding proteins, allows the reconstitution of a recombinant six-protein assembly that elicits specific polyubiquitination activity with APOBEC3G, but not the related deaminase APOBEC3A. Using RNA knockdown and genetic complementation studies, we also demonstrate that CBF-β is required for Vif-mediated degradation of APOBEC3G and therefore for preserving HIV-1 infectivity. Finally, simian immunodeficiency virus (SIV) Vif also binds to and requires CBF-β to degrade rhesus macaque APOBEC3G, indicating functional conservation. Methods of disrupting the CBF-β–Vif interaction might enable HIV-1 restriction and provide a supplement to current antiviral therapies that primarily target viral proteins.
+
+KEY NUMBERS（论文正文与图注，出处层级：论文正文）:
+============================================================
+- 背景量级：泛素为 8.6 千道尔顿；同一底物上以 K48 连接方式连上四个以上泛素后，通常由 26 号蛋白酶体降解。泛素化经 E1、数十种 E2、数百种 E3 逐级传递。人类免疫缺陷病毒一型的 Vif、Vpu、Vpr 分别劫持以 CUL5、CUL1、CUL4A 为骨架的 cullin-RING 连接酶，降解 APOBEC3 家族、BST2（tetherin）与一个尚未确定的限制因子。
+- 互作组筛选：对全部 18 个人类免疫缺陷病毒加工蛋白与多蛋白做亲和标签纯化质谱，在羧基端融合 2×Strep 与 3×Flag；Vif 既瞬时转染人胚肾 293 细胞，也建成四环素诱导稳定表达的人 Jurkat T 细胞系，分别用抗 Strep 与抗 Flag 纯化。用 MiST 评分从两类细胞数据中找到 24 组 Vif 与人蛋白互作，其中 7 组在两类细胞同时出现；17 组经免疫共沉淀独立验证。已知组分 CUL5、ELOB、ELOC 在列；RING 盒蛋白只检出 RBX2 过阈值，未检出早期报道的 RBX1。另发现自噬相关 AMRA1、SQSTM 与转录抑制复合物 NCOR1／HDAC3／GPS2／TBL1R（后者仅见于 T 细胞）。未检到内源 A3G，作者归因于其在两种细胞系中表达弱且被 Vif 加速降解。
+- 双纯化定组成：以 Vif–2×Strep 搭配 CUL5–、A3G–或 CBF-β–3×Flag 做串联亲和纯化，三次重复；洗脱液均含 CUL5、ELOB、ELOC、RBX2 与 CBF-β，单次纯化中出现的其他因子未进入。以 CBF-β 为饵做双纯化，同样带回 CUL5、ELOB、ELOC、RBX2。免疫沉淀 CUL5 血凝素标签或 ELOB 血凝素标签时，只有加入 Vif 才能拉下内源 CBF-β，说明招募依赖 Vif。慢病毒免疫缺陷病毒与人免疫缺陷病毒的 Vif 都能免疫共沉淀 CBF-β；互补实验用绿色荧光蛋白与人免疫缺陷病毒 Nef 作特异性对照。
+- 体外重建：不带 CBF-β 的起初纯化产物聚集且无活性（凝胶过滤与自泛素化活性判定，文中列为未展示数据）。全长 Vif、ELOB、ELOC 与 CBF-β 共表达纯化后，与重组 CUL5／RBX2 形成稳定单分散的六蛋白复合物（CRL5–Vif–CBF-β）；凝胶过滤中按 1.5 当量加入 Vif 底物接头。固定化组氨酸标签 A3G 与 A3A 的下拉实验显示：含 Vif、CBF-β、ELOBC 的四蛋白接头只结合 A3G，不结合对 Vif 耐受的 A3A。
+- 酶活与链型：用 UBE2R1（人 CDC34a，形成 K48 链）与 UBCH5b（形成混合链）两种 E2 测活。六蛋白复合物在 UBE2R1 下对 A3G 生成高分子量 K48 多聚泛素链，对 A3A 不生成；甲泛素与 K48R 泛素底物显示 A3G 上至少两个位点被修饰，野生型与仅含 K48 的泛素产生长链。复合物也有自泛素化活性，底物加入只轻微改变。所用 CUL5 经 NEDD8 修饰，因为体内降解 A3G 依赖该修饰。作者指出体内也可能由两个 E2 分工完成单泛素化引发与链延伸，但未排除其他 E2。
+- 敲低与回补：恒定量 Vif 转入表达乱序短发夹核糖核酸或 CBF-β 特异短发夹核糖核酸的人胚肾 293T 细胞，CBF-β 耗竭组 Vif 稳态水平比对照低三倍；2.5 微摩尔蛋白酶体抑制剂 MG132 可逆转，说明缺失 CBF-β 时 Vif 降解加快。前病毒质粒表达与回补质粒的实验得到类似结果。
+- 感染性实验：在 CBF-β 稳定敲低的人胚肾 293T 克隆中生产有复制能力、Vif 完好的病毒，衣壳水平相当时 Vif 水平很低；回补 CBF-β 后 Vif 回升，细胞与病毒颗粒内 A3G 下降，病毒感染性上升；无 A3G 时无论 CBF-β 与 Vif 水平如何，感染性无差别。回补呈剂量依赖。多载体 HIV-绿色荧光蛋白系统结论一致（图 3c）。感染性实验均为三次重复，报均值与标准差。病毒产生细胞中的 Vif／CBF-β 互作另有免疫共沉淀验证。
+- 跨物种保守性：猴免疫缺陷病毒 mac239 株的 Vif 同样结合并依赖 CBF-β 才能降解恒河猴 A3G、维持感染性。与人类免疫缺陷病毒 Vif 相反，CBF-β 存在时猴病毒 Vif 稳态水平更低，作者认为可能具功能意义，也可能源于在人细胞中表达猴源蛋白的异源体系。
+- 模型与推论：Vif 劫持通常与人 RUNX 类 DNA 结合蛋白形成异二聚体的转录辅因子 CBF-β，既帮助 Vif 折叠／稳定，又充当复合物成核因子，使底物结合与多聚泛素化得以进行。作者提出打断 CBF-β 与 Vif 的相互作用可能同时释放多种 APOBEC3 的限制潜力，其抗病毒思路优于只针对 A3G 与 Vif 界面的策略，可视为现有以病毒蛋白为靶点的疗法的补充。
+- 方法口径：A3A 与 A3G 以 c-Myc／组氨酸双标签从人胚肾 293 细胞纯化；病毒实验用有人免疫缺陷病毒 IIIB 前病毒 DNA 构建体（含或不含 Vif）或 HIV-GFP 报告系统；短发夹构建体为 Open Biosystems 的 RHS4346（对照）与 RHS4430-99161432（靶向 CBF-β）；CBF-β 互补脱氧核糖核酸按 NM_001755.2 从 CEM T 细胞系逆转录聚合酶链式反应克隆。

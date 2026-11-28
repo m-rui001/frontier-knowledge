@@ -1,0 +1,23 @@
+TITLE: A steep-slope transistor based on abrupt electronic phase transition
+VENUE: Nature Communications 6, 7812 (2015)；正式发表 2015 年 8 月 7 日；doi:10.1038/ncomms8812；开放获取（CC BY 4.0）
+TYPE: journal article (open access)；实验与器件物理
+CITED: 390（Nature 文章页实时计数；任务元数据记为约 400）；25k Accesses；104 Altmetric
+AUTHORS: Nikhil Shukla, Arun V. Thathachary, Ashish Agrawal, Hanjong Paik, Ahmedullah Aziz, Darrell G. Schlom, Sumeet Kumar Gupta, Roman Engel-Herbert, Suman Datta。单位：宾夕法尼亚州立大学电气工程系、康奈尔大学材料科学与工程系、康奈尔纳米科学 Kavli 研究所、宾州州立材料科学与工程系。通讯作者 Suman Datta。
+URL: https://doi.org/10.1038/ncomms8812 ； https://www.nature.com/articles/ncomms8812
+FULL TEXT: Nature 文章页 HTML 全文已抓取（.tmp/steep.txt；有效正文见 .tmp/steep_clean.txt）。含摘要、Introduction、Results（Experimental demonstration and operation principle；Internal amplification；Low-voltage n-type and p-type hyper-FET operation）、Discussion、图 1–4 图注、完整参考文献、作者贡献与版权声明。补充材料（Supplementary Figures 1–5、Supplementary Table、Supplementary Notes 1–5，PDF 927 kb）未包含在抓取文本中，凡涉及补充材料的论断一律不写细节。
+ABSTRACT（原文摘要，逐句来自全文）:
+============================================================
+Collective interactions in functional materials can enable novel macroscopic properties like insulator-to-metal transitions. While implementing such materials into field-effect-transistor technology can potentially augment current state-of-the-art devices by providing unique routes to overcome their conventional limits, attempts to harness the insulator-to-metal transition for high-performance transistors have experienced little success. Here, we demonstrate a pathway for harnessing the abrupt resistivity transformation across the insulator-to-metal transition in vanadium dioxide (VO2), to design a hybrid-phase-transition field-effect transistor that exhibits gate controlled steep ('sub-kT/q') and reversible switching at room temperature. The transistor design, wherein VO2 is implemented in series with the field-effect transistor's source rather than into the channel, exploits negative differential resistance induced across the VO2 to create an internal amplifier that facilitates enhanced performance over a conventional field-effect transistor. Our approach enables low-voltage complementary n-type and p-type transistor operation as demonstrated here, and is applicable to other insulator-to-metal transition materials, offering tantalizing possibilities for energy-efficient logic and memory applications.
+KEY NUMBERS（论文正文与图注，出处层级：论文正文）:
+============================================================
+- 玻尔兹曼极限：室温下漏源电流每变化十倍，栅压至少要变化 60 mV；根源是热电压 kT/q（k 玻尔兹曼常数，T 温度，q 电子电荷）。亚阈值摆幅 S 写作 kT/(ηq)，η 大于 1 即突破该极限。
+- 二氧化钒相变：约 340 K 处发生绝缘体—金属转变，电阻率变化幅度可达五个数量级；文中引用 Qazilbash 等 2007 年的红外光谱与纳米成像工作作为 Mott 转变证据。
+- 首个小器件（图 2）：两端 VO2 器件长度 4 μm、宽度 2 μm，与商用硅 n 型金氧半场效应晶体管串联；该晶体管栅长 100 μm、沟道宽 100 μm。全部测量在室温 T = 300 K 完成。
+- 工作机理：栅压升高使 MOSFET 沟道电阻下降，电流到达临界值 I_IMT 后 VO2 骤变为金属态、漏源电流突增；回扫时电流降到 I_MIT（I_MIT 大于 I_IMT）后变回绝缘态。迟滞宽度定义为 V_GS,IMT − V_GS,MIT。
+- 内部放大：VO2 阻值突降带来电流增量 ΔI_DS 与其上压降减少 ΔV_NDR，形成负微分电阻；MOSFET 上的有效栅压 V_GS′ = V_GS − V_VO2，压降减少等于把 V_GS′ 抬高 ΔV_NDR。关态时 V_VO2 大，显著压低 I_DS,OFF；开态 VO2 为金属态、压降小，I_DS,ON 几乎不受影响。等效共源电路里跨导由 g_m 放大为 βg_m（β 大于 1），只在相变附近的栅压窗口成立。
+- 摆幅测量限制：电流跳变极陡，提取到的 S 受电压分辨率 1 mV 限制；正向与反向栅压扫描都出现 S 小于 60 mV/decade。图 2d 的输出曲线显示良好的电流饱和，文中指出这是相变发生在沟道的传统设计难以做到的（金属态无法维持漏端耗尽区）。
+- n 型低压器件（图 3）：200 nm 长、1 μm 宽的 VO2 与三鳍 In0.7Ga0.3As 量子阱鳍式晶体管串联，栅长 500 nm；在匹配关态电流的前提下，0.8 V 栅压窗口内开态电流约高 20%。
+- p 型低压器件（图 4）：200 nm 长、1 μm 宽的 VO2 与二百鳍 p 型锗量子阱鳍式晶体管串联，栅长 5000 nm；在匹配关态电流的前提下，负 0.5 V 栅压窗口内开态电流约高 60%。两端 VO2 器件在正负电压极性下都可逆翻转，这是与 p 沟道集成的前提。
+- 讨论中列出的工程关卡：单片异质集成、缩小占用面积、抑制自热、降低 MOSFET 与 VO2 的接触电阻、降低关态漏电、减小迟滞、互补结构实现满摆幅。
+- 时间线：2015 年 1 月 30 日收稿，6 月 14 日接收，8 月 7 日发表；文章页列出的同期相关方向包括隧穿场效应晶体管、负电容、莫特晶体管与离子液体栅。
+- 边界：正文未给出迟滞宽度的具体数值、未给出 β 的定量值、未给出开关速度、未展示单片集成样品；这些均属补充材料或未报告内容，笔记不作数值推断。

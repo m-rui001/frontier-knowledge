@@ -1,0 +1,23 @@
+TITLE: Generation and Electric Control of Spin-Coupled Valley Current in WSe2
+VENUE: arXiv:1403.2696（2014 年 3 月）；预印本，正文 10 页、参考文献与图注至第 17 页，另含补充信息 10 页；OpenAlex 记为 preprint
+TYPE: preprint (open access)；实验与理论合作的凝聚态/自旋电子学论文
+CITED: 约 400（任务元数据；正文未含引用计数，无法在全文内核对）
+AUTHORS: Hongtao Yuan, Xinqiang Wang, Biao Lian, Haijun Zhang, Xianfa Fang, Bo Shen, Gang Xu, Yong Xu, Shou-Cheng Zhang, Harold Y. Hwang, Yi Cui。单位：斯坦福大学 Geballe 先进材料实验室、SLAC 国家加速器实验室斯坦福材料与能源科学研究所、北京大学物理学院人工微结构与介观物理国家重点实验室、量子物质协同创新中心。通讯作者 Harold Y. Hwang 与 Yi Cui；前三位作者同等贡献。
+URL: https://arxiv.org/abs/1403.2696
+FULL TEXT: arXiv 全文已抓取（.tmp/spinvalley.txt；有效正文见 .tmp/spinvalley_clean.txt）。含摘要、正文第 1–10 页（引言、器件与圆偏振光致电流测量、栅压调控、入射几何对照、对称性理论、Methods）、图 1–5 图注、40 条参考文献，以及补充信息第 1–10 页（图 S1–S5、Notes 1–5）。补充材料中部分公式因文本抽取丢失，仅有文字论证可用；凡公式细节缺失处不作推断。
+ABSTRACT（原文摘要，逐句来自全文）:
+============================================================
+The valley degree of freedom in layered transition-metal dichalcogenides (MX2) provides the opportunity to extend functionalities of novel spintronics and valleytronics devices. Due to spin splitting induced by spin-orbital coupling (SOC), the non-equilibrium charge carrier imbalance between two degenerate and inequivalent valleys to realize valley/spin polarization has been successfully demonstrated theoretically and supported by optical experiments. However, the generation of a valley/spin current by the valley polarization in MX2 remains elusive and a great challenge. Here, within an electric-double-layer transistor based on WSe2, we demonstrated a spin-coupled valley photocurrent whose direction and magnitude depend on the degree of circular polarization of the incident radiation and can be further greatly modulated with an external electric field. Such room temperature generation and electric control of valley/spin photocurrent provides a new property of electrons in MX2 systems, thereby enabling new degrees of control for quantum-confined spintronics devices.
+KEY NUMBERS（论文正文、图注与补充信息，出处层级：论文正文）:
+============================================================
+- 器件：机械剥离的 2H-WSe2 单晶薄片置于二氧化硅/硅片，钛/金电极构成沟道（长几毫米），旁置大面积金pad作侧栅并与样品电绝缘；滴涂 DEME-TFSI 离子凝胶形成电双层晶体管（EDLT）。
+- 光学：1064 nm 固体激光器，光子能量 1.16 eV，低于 WSe2 间接带隙，意在避开价带到导带的直接激发、让光电流只来自表面累积层；光斑直径 500 μm，打在两电极中间。四分之一波片转动角 φ 按 P_circ = sin 2φ 调制圆偏振度；斩波器 233 Hz，锁相放大提取同频信号。全部光电流测量在室温完成，线性响应区至少延伸到第 0.5 W 量级。
+- 电流分解（正文与补充图 2）：j_y = C sin 2φ + L sin 4φ + A。C sin 2φ 是圆偏振光致电流（CPGE），L sin 4φ 是线偏振光致电流（LPGE），A 与偏振无关。CPGE 幅度写作 j_CPGE = η γ I sin θ sin 2φ，η 为吸收率，γ 为与自旋、轨道和对称性相关的矩阵元，I 为光强，θ 为入射角。改变光的左右旋，j_CPGE 反向。
+- 角度几何：固定入射面为 x-z 平面时，j_CPGE 随入射角 θ 出现峰值，中心约在 θ = 60°（图 2c）；把入射面转到 y-z 平面（方位角 φ_inc = 90°）后光电流完全消失（图 4d），因电极恰落在散射面内；正入射（θ = 0）时电流可忽略，被绕法线的旋转对称性禁戒（图 4f）。全部图 4 数据在栅压 0.3 V 测得。这组几何对照被作者用来论证：参与光电流的角动量极化垂直于电子动量，即自旋与谷锁定。
+- 背景扣除：固定偏振扫光斑跨过两电极，光电流换极性但在样品中心 y = 0 处仍有有限值；若只是热梯度造成的对称光热电效应，中心处净电流应为零（图 2b）。
+- 栅压调控：栅压 V_G 从 0 扫到 1.1 V，j_CPGE 从几十皮安升到几千皮安，幅度提高到零偏时的两数量级以上（图 3 与补充图 S5）；多个样品可重复。补充信息说明液栅在室温下呈双极性输运，U 形转移曲线，零偏附近仍有体材料的残余 n 型导电；减薄薄片可降低关态电流但无法改善 CPGE，因为反演对称性破缺只发生在薄片表面。
+- 栅压窗口限制：为避免电化学反应，偏压限制在 ±2 V，处在 DEME-TFSI 约 ±3 V 的化学势窗口内。
+- 能带与对称性：体相 2H-WSe2 由两层以 π 旋转堆叠，单层 D3h 对称；双层与体相因联合反演与时间反演对称而自旋简并。外加垂直电场破坏反演对称与镜面反射，使导带出现塞曼型自旋劈裂；补充计算取三晶胞自由 Standing 薄膜，外场 E_ex 分别为 0、0.03、0.05 eV/Å，显示劈裂随场增大。导带底在 Γ—K 线上的 Λ 点而非 Γ 点；Γ 点处 Rashba 型面内自旋极化极小，且最低导带比导带底高约 1.5 eV，作者据此排除 Γ 点 Rashba 机制。布里渊区 k_z = 0 面有六个 Λ 电子口袋。
+- 理论要点：无外场时，镜面与镜面滑移对称性令各跃迁通道的跃迁振幅只有实分量或纯虚分量，三个高导带通道各自不贡献净电流；加外场后镜面对称破缺，两个能级相近的态混合，使振幅同时出现实部与纯虚部，满足非零净电流条件。此机制为纯轨道效应，无需自旋轨道耦合；加入自旋轨道耦合后，相反自旋的跃迁振幅不等，纯谷极化电流变成部分自旋极化的谷电流，且自旋极化方向垂直于电流。理论预言自旋电流正比于外场的平方（E_ex² 量级）。
+- 计算参数：VASP，PBE 广义梯度近似，动能截断 450 eV，体相 k 网格 12×12×6，晶格常数与原子位置取实验值，外场用沿 (001) 方向的偶极势模拟。
+- 边界：正文未给出 CPGE 电流随栅压的定量拟合函数、未给出自旋极化度数值、未给出器件开关时间或谷寿命；引用计数只见于任务元数据。
