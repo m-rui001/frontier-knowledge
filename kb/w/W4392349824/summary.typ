@@ -1,4 +1,4 @@
-#import "typst/lib.typ": digest
+#import "../../../typst/lib.typ": digest
 
 #digest(
   title: "抗生素耐药性：影响、挑战与未来展望",

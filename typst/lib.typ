@@ -39,7 +39,7 @@
     first-line-indent: (amount: 2em, all: true),
   )
 
-  show heading.where(level: 1): it => block(above: 1.7em, below: .62em)[
+  show heading.where(level: 1): it => block(above: 0.9em, below: .62em)[
     #box(baseline: 24%, width: .28em, height: .28em, fill: accent)
     #h(.62em)
     #text(size: 11.8pt, weight: "bold", fill: ink)[#it.body]
