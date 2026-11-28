@@ -1,0 +1,23 @@
+TITLE: Father's brain is sensitive to childcare experiences
+VENUE: Proc Natl Acad Sci USA, 2014, 111(27): 9792–9797；doi:10.1073/pnas.1402569111；PMCID: PMC4103311
+TYPE: journal article (open access)
+CITED: 399
+AUTHORS: Eyal Abraham, Talma Hendler, Irit Shapira-Lichter, Yaniv Kanat-Maymon, Orna Zagoory-Sharon, Ruth Feldman（Bar-Ilan University / Tel Aviv University）
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC4103311/
+FULL TEXT: PMC 全文已抓取（.tmp/father.txt，约 5.8 万字符，PNAS 正文 6 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Although contemporary socio-cultural changes dramatically increased fathers' involvement in childrearing, little is known about the brain basis of human fatherhood, its comparability with the maternal brain, and its sensitivity to caregiving experiences. We measured parental brain response to infant stimuli using functional MRI, oxytocin, and parenting behavior in three groups of parents (n = 89) raising their firstborn infant: heterosexual primary-caregiving mothers (PC-Mothers), heterosexual secondary-caregiving fathers (SC-Fathers), and primary-caregiving homosexual fathers (PC-Fathers) rearing infants without maternal involvement since birth. Results revealed that parenting implemented a global "parental caregiving" neural network, mainly consistent across parents, which integrated functioning of two systems: the emotional processing network including subcortical and paralimbic structures associated with vigilance, salience, reward, and motivation, and mentalizing network involving frontopolar-medial-prefrontal and temporo-parietal circuits implicated in social understanding and cognitive empathy. These networks work in concert to imbue infant care with emotional salience, attune with the infant state, and plan adequate parenting. PC-Mothers showed greater activation in emotion processing structures, correlated with oxytocin and parent-infant synchrony, whereas SC-Fathers displayed greater activation in cortical circuits, associated with oxytocin and parenting. PC-Fathers exhibited high amygdala activation similar to PC-Mothers, alongside high activation of superior temporal sulcus (STS) comparable to SC-Fathers, and functional connectivity between amygdala and STS. Among all fathers, time spent in direct childcare was linked with the degree of amygdala-STS connectivity. Findings underscore the common neural basis of maternal and paternal care, chart brain-hormone-behavior pathways that support parenthood, and specify mechanisms of brain malleability with caregiving experiences in human fathers.
+
+KEY NUMBERS（论文正文，出处层级：论文正文）:
+============================================================
+- 样本：89 名初为父母者，平均年龄 36.1 ± 4.34 岁；PC-Mothers 20 人、SC-Fathers 21 人、PC-Fathers 48 人；婴儿平均 11 ± 6.67 月龄。两名父亲因头动伪影被排除出脑分析。
+- 分组：PC-Fathers 中 23 名生物学父亲、23 名收养父亲；两组在催产素、育儿行为、脑区激活、男性气质/女性气质得分上均无差异。
+- 行为：亲子同步性组间差异 F(2,86) = 10.47，P = 0.0001；主要照护的母亲与父亲同步性高于次要照护父亲。催产素三组无差异 F(2,79) = 2.119，P > 0.1。
+- 共同网络：联结分析（自己与婴儿互动大于自己独处，且大于陌生亲子互动）得到情绪加工网络（双侧杏仁核、vACC、左岛叶/IFG、VTA）与心智化网络（双侧 STS、腹内侧前额叶、颞极、外侧额极）。随机效应 n = 87，P < 0.05 FDR 校正，簇 > 3×3×3。
+- 组间脑区：PC-Mothers 杏仁核激活高于 SC-Fathers，SC-Fathers 的 STS 激活高于 PC-Mothers；PC-Fathers 杏仁核与 STS 双高。杏仁核 F(2,84) = 4.775，P < 0.02；STS F(2,84) = 4.433，P < 0.02。
+- 脑—激素—行为相关：同步性对杏仁核只在 PC-Mothers 显著（r = 0.579，P < 0.01）；母亲催产素对 vACC 显著（r = 0.477，P < 0.05）。两组父亲的同步性对 STS 显著（SC-Fathers r = 0.667，P = 0.001；PC-Fathers r = 0.400，P = 0.005），催产素对 STS 亦显著（r = 0.603，P < 0.01；r = 0.337，P < 0.05）。
+- 关键可塑性结果：只有 PC-Fathers 在亲子互动时杏仁核与 STS 功能连接显著高于基线（左侧 t = 3.117，右侧 t = 2.806，P < 0.05 Bonferroni 校正）；全部父亲中，每周单独照护时长与杏仁核—STS 连接相关（r = 0.330，P = 0.005，n = 67）。
+- 路径模型拟合：χ²(10) = 10.66，P = 0.385，CFI = 0.99，NFI = 0.89，RMSEA = 0.03，TLI = 0.97；5000 次 bootstrap 的 95% 置信区间。主要照护角色经杏仁核影响同步性的间接效应在女性显著（β = 0.13，P < 0.05，95% CI = 0.05–0.39），男性不显著（β = −0.02）。STS 经催产素影响同步性的间接效应显著（β = 0.08，P < 0.05，95% CI = 0.03–0.25）。
+- 设计：两次到家访视（下午 4–8 点收唾液催产素，拍摄亲子互动，事后编码同步性）；数日后 3T 功能磁共振扫描。CIB 量表 42 项中的 8 项同步性分量表，评定者间信度 intraclass r = 0.95。

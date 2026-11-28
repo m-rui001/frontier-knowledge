@@ -1,0 +1,24 @@
+TITLE: The million-year wait for macroevolutionary bursts
+VENUE: Proc Natl Acad Sci USA, 2011, 108(38): 15908–15913；doi:10.1073/pnas.1014503108；PMCID: PMC3179053
+TYPE: journal article (open access)
+CITED: 400
+AUTHORS: Josef C. Uyeda, Thomas F. Hansen, Stevan J. Arnold, Jason Pienaar（Oregon State University / University of Oslo / University of Pretoria）
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC3179053/
+FULL TEXT: PMC 全文已抓取（.tmp/macroevolution.txt，约 5.2 万字符，PNAS 正文 6 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+We lack a comprehensive understanding of evolutionary pattern and process because short-term and long-term data have rarely been combined into a single analytical framework. Here we test alternative models of phenotypic evolution using a dataset of unprecedented size and temporal span (over 8,000 data points). The data are body-size measurements taken from historical studies, the fossil record, and among-species comparative data representing mammals, squamates, and birds. By analyzing this large dataset, we identify stochastic models that can explain evolutionary patterns on both short and long timescales and reveal a remarkably consistent pattern in the timing of divergence across taxonomic groups. Even though rapid, short-term evolution often occurs in intervals shorter than 1 Myr, the changes are constrained and do not accumulate over time. Over longer intervals (1–360 Myr), this pattern of bounded evolution yields to a pattern of increasing divergence with time. The best-fitting model to explain this pattern is a model that combines rare but substantial bursts of phenotypic change with bounded fluctuations on shorter timescales. We suggest that these rare bursts reflect permanent changes in adaptive zones, whereas the short-term fluctuations represent local variations in niche optima due to restricted environmental variation within a stable adaptive zone.
+
+KEY NUMBERS（论文正文，出处层级：论文正文）:
+============================================================
+- 数据规模：最终数据库 6053 条形态测量分歧数据，来自 169 项微观进化与古生物研究；另有 2627 条节点平均分歧估计，来自 37 棵时间校准系统树；合计超过 8000 个数据点。
+- 时间跨度：0.2 年至 357（摘要写 360）百万年；跨越 10^0 到 10^8 年量级。
+- 类群：哺乳动物、有鳞类、鸟类；灵长类只用第一臼齿长宽。爬行类用大陆与陆桥岛屿种群的体型分歧。
+- 核心图形："喇叭枪模式"（blunderbuss pattern）：分歧在约 1 百万年内无时间跨度效应（有界波动带），1–10 百万年以上转为随时间累积的发散。跨性状标准化方式、按世代或按年计时间都一致。
+- 四模型 AIC（全数据）：有界进化 BE −2940.53；布朗运动 BM −7877.97；单次跃迁 SB −9018.03；多次跃迁 MB −9142.54（最低，最佳）。三个含无界成分的模型估算同一量：中央带 1 个标准差约对应线性体型性状 10% 的差异。
+- 多次跃迁模型参数：最适值位移的期望等待时间 > 1000 万年（10^7.3976 年）；第一个百万年内 95% 预测区间宽度只增约 10%，5 百万年后区间翻倍。每次跃迁的体型跃迁幅度：祖先与后代种群均值比约 1.28。MB 优于 BM 主要因更好地解释 10^6–10^8 年区间分歧值的过度离散。
+- 分段回归：单一线性回归 AIC = 79520；单断点分段回归 AIC = 79059，断点在 10^4.82 年（约 66000 年）；按三个数据源分别回归 AIC = 79062，略差于单断点模型，说明斜率变化不是数据源人为产物。
+- 偏差检验：干扰介导的进化（引入、人为干扰、岛屿隔离）在短期田野与历史研究中比例偏高；古生物序列反而比系统发育数据分歧更快，与"化石不愿指定祖先—后代关系"导致的偏差预期相反。测量误差模拟设定种群内标准差 0.055。
+- 机制解释：有界带对应稳定适应区内局部最适值的短期变动，近似辛普森的适应区内辐射；长期发散对应罕见的适应区（生态位"主"最适值）永久改变。作者提到物种寿命常为 1–5 百万年、分类单元周期约 1 万年至 1 千万年，与观察到的累积速率形成提示性对应。全球气候变化在短于 1 百万年尺度上多产生有界分歧，气候主导假说得不到强支持。
+- 方法：对数转换性状，按维度 k 归一化（质量 k = 3、面积 k = 2、线性 k = 1）；极大似然拟合 BE/BM/SB/MB，R 的 nlm 与 nlminb；对最佳模型按研究做 2000 次 bootstrap。数据 deposited 于 Dryad，doi:10.5061/dryad.7d580。作者明言模型为现象学模型，未处理物种形成与灭绝，假设独立、共同参数、无自相关（这些假设被数据违反）。

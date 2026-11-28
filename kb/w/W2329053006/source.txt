@@ -1,0 +1,26 @@
+TITLE: Compass and Kitaev models – Theory and Physical Motivations
+VENUE: Rev. Mod. Phys.（综述；arXiv 1303.5922，元数据版本信息有冲突：OpenAlex 标 2015、页眉 2024-11、正文保留 2013 预印本号）
+TYPE: review (open access)
+CITED: 400
+AUTHORS: Zohar Nussinov, Jeroen van den Brink（Washington University / IFW Dresden / TU Dresden）
+URL: https://arxiv.org/abs/1303.5922
+FULL TEXT: arXiv PDF 已抓取并用 pypdf 提取（.tmp/compass.txt，56 万字符，111 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Compass models are theories of matter in which the couplings between internal spin (or other
+relevant field) components are inherently spatially (direction) dependent. A simple illustrative
+example is the 90-degree compass model on a square lattice in which only couplings of the form
+tau_i^x tau_j^x are associated with nearest neighbors separated along the x axis, while tau_i^y tau_j^y
+couplings appear for neighbors along the y axis. Such compass-type interactions appear in diverse
+physical systems including Mott insulators with strong spin-orbit coupling, transition metal oxides,
+and Josephson junction arrays. This review covers the theory and physical motivations of compass
+and Kitaev models.
+
+KEY NUMBERS / CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 模型：90° 罗盘模型（方格子，x 方向链结 τxτx、y 方向 τyτy）；更一般 compass 与 Kitaev 模型。
+- 中间对称性与后果：维数约化、平带、指数简并、临界温度序列。
+- 临界温度数据：0.4048J / 0.147±0.001J / 0.14612J（经典），量子约 0.0585J。
+- 现象：无序生序（order by disorder）、平带新定理。
+- 物理载体：强自旋轨道耦合的 Mott 绝缘体、过渡金属氧化物、约瑟夫森结阵列；基塔耶夫蜂窝模型与铱酸盐（iridates）对接。

@@ -1,0 +1,26 @@
+TITLE: Fröhlich Electron-Phonon Vertex from First Principles
+VENUE: Phys. Rev. Lett. 115, 185501 (2015)；arXiv 1510.06373
+TYPE: journal article (open access)
+CITED: 400
+AUTHORS: (详见原文；第一性原理电子-声子计算)
+URL: https://arxiv.org/abs/1510.06373
+FULL TEXT: arXiv PDF 已抓取并用 pypdf 提取（.tmp/frohlich.txt，3.6 万字符，10 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+The Fröhlich electron-phonon interaction, which dominates carrier scattering in polar materials at
+long wavelengths, is usually treated with model parameters. We present a first-principles approach
+to compute the Fröhlich vertex without empirical parameters, by separating the long-range part
+(computed from the Born effective charges and the dielectric tensor) from the short-range part
+(computed on a dense Brillouin-zone grid). An interpolation scheme combines the two. Applied to
+anatase TiO2, the method reveals strong anisotropy and gives carrier lifetimes and scattering rates
+in agreement with experiment.
+
+KEY NUMBERS / CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 方法：把 Fröhlich 电声顶点分解为长程部分（由玻恩有效电荷与介电张量解析给出）与短程部分
+  （在密集布里渊区网格上算），用四步插值方案合并；无需经验参数。
+- 应用：锐钛矿二氧化钛（anatase TiO2）。
+- 数字：512000 个波矢网格；能量分辨 10 meV；温度 20 K；声子能量阈值 90/40 meV；
+  载流子寿命 3–9 fs；三倍各向异性；标准插值方法高估约一个数量级。
+- 意义：第一性原理地处理极性材料里支配载流子散射的长程 Fröhlich 相互作用。
