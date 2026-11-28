@@ -1,0 +1,32 @@
+TITLE: Gaussian approximation of suprema of empirical processes（经验过程上确界的高斯逼近）
+VENUE: arXiv:1212.6885v6 [math.PR]，17 Aug 2014；Submitted to the Annals of Statistics；首次版本 2012 年 12 月，2014 年 4 月修订
+TYPE: preprint / mathematical statistics（theory，probability + nonparametric statistics）
+CITED: 398（馆藏标注）
+AUTHORS: Victor Chernozhukov（MIT）, Denis Chetverikov（UCLA）, Kengo Kato（University of Tokyo）
+URL: https://arxiv.org/abs/1212.6885
+FULL TEXT: .tmp/gaussian.txt（arXiv 排版全文，约 53 页正文 + 补充材料单独外置）。全文已获取，本篇为全文级笔记。补充材料（Appendix 与部分证明）在原文中明确外置，本篇不虚构其内容。
+
+ABSTRACT (原文摘要):
+This paper develops a new direct approach to approximating suprema of general empirical processes by a sequence of suprema of Gaussian processes, without taking the route of approximating whole empirical processes in the sup-norm. We prove an abstract approximation theorem applicable to a wide variety of statistical problems, such as construction of uniform confidence bands for functions. Notably, the bound in the main approximation theorem is non-asymptotic and the theorem allow for functions that index the empirical process to be unbounded and have entropy divergent with the sample size. The proof of the approximation theorem builds on a new coupling inequality for maxima of sums of random vectors, the proof of which depends on an effective use of Stein's method for normal approximation, and some new empirical process techniques. We study applications of this approximation theorem to local and series empirical processes arising in nonparametric estimation via kernel and series methods, where the classes of functions change with the sample size and are non-Donsker. Importantly, our new technique is able to prove the Gaussian approximation for the supremum type statistics under weak regularity conditions, especially concerning the bandwidth and the number of series functions, in those examples.
+
+KEY NUMBERS / KEY RESULTS (全部出自全文):
+- 目标关系 (1)：|Zn − ~Zn| = OP(rn)，rn → 0；其中 Zn = sup_{f∈Fn} Gnf，Gn f = n^(-1/2) Σ (f(Xi) − E f)。
+- 被绕开的老路线 (2)：‖Gn − Bn‖_{Fn} = sup|（Gn − Bn)f| = OP(rn)，即 sup 范数下逼近整条过程。
+- KMT 经典结果：S=[0,1]、均匀分布、示性函数类下 ‖Gn − Bn‖ = Oa.s.(n^(-1/2) log n)。
+- 主定理 Theorem 2.1：假设 (A1) 逐点可测、(A2) envelope F ∈ L^q, q ≥ 3、(A3) P-pre-Gaussian；(A4) 一致熵积分 J(1,F,F) < ∞（可随 n 发散）。对每个 ε∈(0,1]、γ∈(0,1)：P{|Z − ~Z| > K(q) Δn(ε,γ)} ≤ γ(1+δn) + C log n / n。
+- Δn 六项结构中含 n^(-1/2)、n^(-1/4) γ^(-1/2)、n^(-1/6) γ^(-1/3) 等幂次；第三项来自 n^(-1/6) 型三阶矩控制。
+- Corollary 2.2（VC 型）：误差上界三项 Kleod：b K_n /(γ^(1/2) n^(1/2−1/q)) + (bσ)^(1/2) K_n^(3/4)/(γ^(1/2) n^(1/4)) + (bσ² K_n²)^(1/3)/(γ^(1/3) n^(1/6))，K_n = c v (log n ∨ log(Ab/σ))；概率 ≤ C(γ + log n / n)。
+- Lemma 2.4：若 rn E[~Zn] = o(1)，则 Kolmogorov 距离 sup_t |P(Zn≤t) − P(~Zn≤t)| = o(1)；例子中 E[~Zn] = O(√log n)。
+- 核局部过程 Proposition 3.1（有界）：|Wn − ~Wn| = OP{(n h_n^d)^(-1/6) log n + (n h_n^d)^(-1/4) log^(5/4) n + (n h_n^d)^(-1/2) log^(3/2) n}。
+- Proposition 3.2（无界 envelope，q ≥ 4）：最后一项换成 (n^(1−2/q) h_n^d)^(-1/2) log^(3/2) n。
+- 核方法带宽条件：n h_n^d / log^c n → ∞（有界），n^(1−2/q) h_n^d / log^c n → ∞（无界）；与一致强相合的带宽条件本质一致。
+- 与 Rio / Giné–Nickl 比较：d=1,2,3  theirs 更优（率 (n h_n^d)^(-1/(2d)) √log n）；d ≥ 4 本文更优；与 Neumann bootstrap 比较 d ≤ 4 theirs 更优、d ≥ 5 本文更优。
+- 级数过程 Proposition 3.3：误差 n^(-1/6) ξ_n^(1/3) log n + n^(-1/4) ξ_n^(1/2) log^(5/4) n + n^(-1/2) ξ_n log^(3/2) n（有界）；无界时最后一项 n^(-1/2+1/q) ξ_n log^(3/2) n。傅里叶/样条/CDV 小波下 ξ_n = O(√K_n)。
+- Kolmogorov 收敛条件（级数）：K_n (log n)^c / n → 0（有界），K_n (log n)^c / n^(1−2/q) → 0（无界）；一致性至少需 K_n/n → 0。
+- 对照：Yurinskii coupling 需 K_n^5 / n → 0（即便最简单的 g(η)=η），Zaitsev 在指数矩下仍需 p_n = o(n^(1/5))；本文 Theorem 4.1 允许 p_n 指数级（log p_n = o(n^(1/4))，如 e^(n^α), α<1/4）。
+- Theorem 4.1（向量和最大值 coupling）：P(|Z − ~Z| > 2β^(-1) log p + 3δ) ≤ [ε + Cβδ^(-1){B1 + β(B2+B3)}]/(1−ε)，ε = √e · α (1+α)，α = β²δ² − 1；B1 是经验协方差最大值，B2/B3 是三阶矩项。Corollary 4.1 用 β = 2 δ^(-1) log(p∨n)。
+- 证明技术：F_β(x) = β^(-1) log Σ e^(β x_j) 光滑化 max（软最大，来自自旋玻璃自由能），max x ≤ F_β ≤ max x + β^(-1) log p；再用 Stein 可交换对（Stein's method）比较光滑化后的期望；Strassen 定理实现耦合。
+- Theorem 5.1（偏离不等式，源自 [5] Theorem 12）：概率 > 1 − t^(-q/2) 下 ‖Gn‖F ≤ (1+α) E‖Gn‖F + K(q)[(σ + n^(-1/2)‖M‖q)√t + α^(-1) n^(-1/2)‖M‖2 t]。
+- Theorem 5.2（极大不等式，推广 [65]）：仅需 F ∈ L2(P)，E‖Gn‖F ≲ J(δ,F,F)‖F‖_{P,2} + ‖M‖2 J²(δ,F,F)/(δ²√n)，δ = σ/‖F‖_{P,2}。
+- 历史背景：KMT (Komlós–Major–Tusnády)；Rio [57]（Haar 逼近 + Tusnády 二项耦合，要求一致有界、有界变差、连续正密度）；Giné–Nickl [31]；Chernozhukov–Chetverikov–Kato 配套文 [14] 提供乘子 bootstrap 计算临界值；[53] 是此前唯一直接逼近上确界分布的工作，但限于固定 Donsker 类。
+- 附录与部分证明外置 Supplemental Material [15]（因 page limitation）。AMS 分类 60F17, 62E17, 62G20。

@@ -1,0 +1,24 @@
+TITLE: Linear magnetoresistance caused by mobility fluctuations in the n-doped Cd3As2
+VENUE: Physical Review Letters 114, 117201 (2015)；DOI 10.1103/PhysRevLett.114.117201；arXiv:1412.4105v1 [cond-mat.str-el]，2014 年 12 月 12 日初稿；正文首页标注 2018 年 10 月 19 日（存档版本日期）
+TYPE: journal article / 凝聚态物理 · 实验（开放获取，arXiv 全文可下）
+CITED: 400
+AUTHORS: A. Narayanan, M. D. Watson, S. F. Blake, Y. L. Chen, D. Prabhakaran, B. Yan, N. Bruyant, L. Drigo, I. I. Mazin, C. Felser, T. Kong, P. C. Canfield, A. I. Coldea（牛津大学克拉伦登实验室 / 马普化学物理固体研究所 / 图卢兹强磁场国家实验室 / 美国海军研究实验室 / 艾姆斯实验室与爱荷华州立大学）
+URL: https://arxiv.org/abs/1412.4105
+FULL TEXT: arXiv 全文已抓取（.tmp/magneto.txt，约 2.5 万字符，正文约 5 至 6 页，含图 1 至图 3、表 1 与 33 条参考文献；补充材料不在该文本中）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Cd3As2 is a candidate three-dimensional Dirac semi-metal which has exceedingly high mobility and non-saturating linear magnetoresistance that may be relevant for future practical applications. We report magneto-transport and tunnel diode oscillation measurements on Cd3As2, in magnetic fields up to 65 T and temperatures between 1.5 K to 300 K. We find the non-saturating linear magnetoresistance persist up to 65 T and it is likely caused by disorder effects as it scales with the high mobility, rather than directly linked to Fermi surface changes even when approaching the quantum limit. From the observed quantum oscillations, we determine the bulk three-dimensional Fermi surface having signatures of Dirac behaviour with non-trivial Berry's phase shift, very light effective quasiparticle masses and clear deviations from the band-structure predictions. In very high fields we also detect signatures of large Zeeman spin-splitting (g ~ 16).
+
+KEY NUMBERS（正文，出处层级：论文正文、图注与表 1）:
+============================================================
+- 样品与结构：Cd3As2 单晶由固相反应与富镉熔液两种办法生长（生长窗口很窄）；X 射线衍射给出四方空间群 I41/acd，晶格常数 a = 12.6595(6) 埃、c = 25.4557(10) 埃，优先沿 (112) 面解理；能带计算用 Wien2K 加自旋轨道耦合。三个批次记为 a、b、c，多数测量取自载流子浓度最低的 a 批（Sa1、Sa2、Sa3 等）。
+- 测试条件：标准霍尔与电阻率构型，低频锁相；旋转磁场方向分离电阻率张量的对称分量 ρxx 与反对称分量 ρxy。低温 1.5 K、牛津稳态场至 18 T；图卢兹脉冲场至 65 T。霍尔数据至 18 T、75 K；隧道二极管振荡（TDO）用线圈中 LC 谐振频率变化测趋肤深度，δ 正比于 ρxx 的二分之一次方，空线圈磁响应已扣除，Sc2 测到 55 T。
+- 磁阻主结果：Sa2 在 4 K 至 300 K、磁场至 65 T 内呈线性且不饱和的横向磁阻，∆ρxx(B)/ρxx(0) 约 20000%；电阻与磁阻从 300 K 降到 4 K 均变化约 5 倍。量子振荡自低至 3 T 起可见，叠加在高线性本底上；特征频率随样品在 30 至 50 T 之间。
+- 费米面：SdH 频率随磁场偏离 (112) 面转动变化很小，Sa1 为 31(4) T（B 沿 [112]）与 45(4) T（垂直）；Sb1 为 42(4)、52(4) T；Sc1 为 67(4)、74(4) T；文献范围 20 至 90 T。由 F = ℏπkF²/(2πe) 得 kF 约 0.03 至 0.04 埃的负一次方；假定两个椭球口袋得 nSdH = 1.0(2)×10^18 cm^-3，与霍尔的 nHall = 1.8×10^18 cm^-3 相容。Lifshitz 转变：能带计算预言在费米能附近约 40 meV 由两个小椭球并成一个以 Γ 为中心的大椭球，表面实验直到 300 meV 都未看到，作者称这一分歧需进一步理解。
+- 有效质量与速度：用 Lifshitz-Kosevich 公式 T/sinh(2π²T meff/ℏeB) 从至 90 K 的振荡幅度取 meff，各批为 0.023 至 0.043 me，随 F 与载流子浓度增大；抛物线能带应不随掺杂变，狄拉克带应满足 meff = ℏkF/vF。由 1/meff 对 kF 的负一次方作线性拟合给 vF 约 4×10^6（文中未明确标注单位，与 ARPES 的 0.8 至 1.5×10^6 m/s 相比偏大，作者归因于轨道平均效应），拟合有非零截距，偏离完美狄拉克行为。
+- 自旋与贝里相位：高场自旋劈裂朗道能级给出 g ~ 16(4)（文献 15 至 3 等），n = 1 朗道能级约在 32 T。电导率直接拟合得 β = 0.84(8)π；低场（从 n = 4 起）指数图给 β = 0.8(1)π；高场受自旋劈裂影响，非线性扇形图分析给 β = 0.9(1)π。抛物线色散 β = 0，狄拉克点 β = π。
+- 两个迁移率：Dingle 温度 TD（Sa1 为 15.4(8) K）经 τq = ℏ/(2πkB TD) 得量子迁移率 µq 约 6000 cm²/Vs（表 1 中 Sa1 为 0.60(1)，Sb1 为 0.47(1)，Sc1 为 0.51(1)，量级为 10³ cm²/Vs），平均自由程 ℓq = vF τq 约 122(8) nm（表中各样 112 至 150 nm）。德鲁德模型用 nH = 1.8×10^18 cm^-3 与 ρxx0 = 42 µΩcm 得经典迁移率 µc = 80000 cm²/Vs（表 1 为 8.0(5)、3.4(3)、2.9(3)，量级 10⁴ cm²/Vs），µc/µq 最高达 13.3(4)（Sb1 为 7.1(4)，Sc1 为 5.7(4)），说明小角散射占主导；µq 对小角与大角散射都敏感，µc 只对改变电流路径的大角散射敏感。
+- 线性磁阻成因的证据链：交叉场 BL 之上建立线性行为，常规磁阻在低场为二次、高场饱和，判据 µc BL > 1；样品中 BL > 1 T，远低于 n = 1 能级所在的约 32 T，故阿布里科索夫的量子极限线性磁阻预言不适用。BL、磁阻增量与电阻率随温度按同一比例变化（ρ 正比于 µc 的负一次方）；200 K 以下所有磁阻曲线在 Kohler 图中塌缩到一条曲线，高温小偏离对应 200 K 德拜温度处的声子散射起始。蒙特卡洛模拟（高迁移率基质中嵌入增强散射岛）给出：当迁移率涨落比值 δµc/µc < 1 时 BL 跟随岛屿间距，大于 1 时跟随 δµc 的负一次方；两种情形下磁阻绝对值与 BL 都按 µc 的负一次方变化。
+- 无序来源：扫描隧道显微镜看到约 10 nm 的无序斑块、间距约 50 nm，归因于砷空位团簇，与富镉、窄生长窗口条件相符。取无序密度与 nSdH 相当、介电常数 ε = 16，估出经典迁移率约 30000 cm²/Vs，接近实测 µc；µq 对应的小角散射平均自由程 110 至 150 nm 与砷空位团簇分布尺度相近。至 65 T、进入量子极限附近，除大 g 因子造成的自旋劈裂外，未观测到新频率，也未观测到 Dingle 散射项的变化。
+- 文献脉络：阿布里科索夫量子极限模型 [21]；帕里什与利特尔伍德经典无序模型 [22]、[23]；赫林弱无序高迁移率模型 [24]；西蒙与哈尔佩林量子霍尔系统模型 [25]；同类实验体系包括 Ag2±δSe、Ag2±δTe、外延石墨、磷化铟锑化物、LaSb2、LaAgSb2。

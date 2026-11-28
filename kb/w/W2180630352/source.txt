@@ -1,0 +1,26 @@
+TITLE: Leftover Hashing Against Quantum Side Information
+VENUE: IEEE Transactions on Information Theory 57(8), 2011；DOI 10.1109/TIT.2011.2158473；arXiv:1002.2436v1 [quant-ph]，2010 年 2 月 12 日初稿；正文首页标注 2018 年 10 月 29 日（存档版本日期）
+TYPE: journal article / 量子密码与信息论 · 理论（开放获取，arXiv 全文可下）
+CITED: 400
+AUTHORS: Marco Tomamichel, Christian Schaffner, Adam Smith, Renato Renner（苏黎世联邦理工学院理论物理研究所 / 阿姆斯特丹数学与计算机科学中心 / 宾夕法尼亚州立大学）
+URL: https://arxiv.org/abs/1002.2436
+FULL TEXT: arXiv 全文已抓取（.tmp/hashing.txt，约 5.6 万字符，正文约 12 页含附录 A 至 C，共 29 条参考文献；作者邮箱在文本中被隐去）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+The Leftover Hash Lemma states that the output of a two-universal hash function applied to an input with sufficiently high entropy is almost uniformly random. In its standard formulation, the lemma refers to a notion of randomness that is (usually implicitly) defined with respect to classical side information. Here, we prove a (strictly) more general version of the Leftover Hash Lemma that is valid even if side information is represented by the state of a quantum system. Furthermore, our result applies to arbitrary delta-almost two-universal families of hash functions. The generalized Leftover Hash Lemma has applications in cryptography, e.g., for key agreement in the presence of an adversary who is not restricted to classical information processing.
+
+KEY NUMBERS（正文，出处层级：论文引理、定理、证明与附录）:
+============================================================
+- 经典剩余哈希引理（引理 1）：X、E 为随机变量，F 为定义域 X、值域含 ℓ 比特串的二普遍哈希族；对随机选取的 f，输出 Z = f(X) 在给定 E 条件下与均匀的统计距离 ∆ = (1/2)√(2^(ℓ − Hmin(X|E)))。固定联合分布后存在确定的 f；给定任意 ∆ > 0，可提取 ℓ = ⌊Hmin(X|E) − 2 log(1/(2∆))⌋ 比特（式 1，log 以 2 为底）。
+- 上界（式 4 至 6）：若 Z 给定 E 完全均匀且长 ℓ 比特，则 Hmin(Z|E) = ℓ；函数作用只能使最小熵下降，Hmin(Z|E) ≤ Hmin(X|E)，故 ℓ ≤ Hmin(X|E)。近似均匀情形用平滑最小熵：ℓ ≤ H^(2√∆)_min(X|E)；本文定理 6、7 说明该上界可达，差一个 log(1/∆) 量级的加性项。
+- 经典侧信息不够：文中举出反例文献 [7]（具体例子）与 [8]（一般讨论）——某些提取器在侧信息存于同等规模的量子器件时输出可部分被知，而同样的输出对同等规模的经典侧信息几乎均匀。论证中强调不存在以量子系统状态为条件的条件概率分布，因此把 E 隐式处理的办法在一般情形下不可行。
+- 量子设定：经典量子态（CQ 态）ρZE = Σ_z p_z |z⟩⟨z|_Z ⊗ ρ^z_E（式 2）。给定 E 均匀定义为 ρZE = ω_Z ⊗ ρ_E 的乘积形式，ω_Z = 1_Z/|Z|；∆ 接近均匀指存在 σ_E 使迹距离不超过 ∆。迹距离 (1/2)||ρ−τ||_1 对应区分优势：若区分者最大成功概率为 psucc，优势为 psucc − 1/2 = (1/4)||ρ−τ||_1。量子最小熵 Hmin(X|E) = −log pguess(X|E)（式 3），保持最优猜测概率的操作解释。
+- 二普遍与近似二普遍：卡特与韦格曼定义下，任意 x ≠ x′ 时碰撞概率 Pr[f(x)=f(x′)] ≤ δ := 1/|Z|；一般化后 δ 任意，称 δ 近似二普遍（式 7）。经典引理的 δ 版给出 ∆ = (1/2)√((2^ℓ δ − 1) + 2^(ℓ − Hmin(X|E)))。
+- 主结果（引理 2，一般剩余哈希引理）：X 随机变量、E 量子系统、F 为 δ 近似二普遍族，则对随机选取 f 平均，输出 Z 给定 E 的 ∆ = inf_{ε>0} [ (1/2)√((2^ℓ δ − 1) + 2^(ℓ − Hmin(X|E) + log(2/ε² + 1))) + ε ]。当 δ ≤ 2^(−ℓ)（即二普遍）时收紧为 ∆ = (1/2)√(2^(ℓ − Hmin(X|E)))（式 8）；文中说明把 δ = 2^(−ℓ) 直接代入前一公式较松，故需另证。技术版为定理 6、7，对平滑最小熵成立。
+- 证明链条（引理 3 至 5、定理 6 与 7）：定义 1 给出 Hmin(A|B)ρ = max_{σB} sup{λ : ρAB ≤ 2^(−λ) 1_A ⊗ σB}，平滑版在净化距离 P(ρ,τ) = √(1 − F̄(ρ,τ)²) 的 ε 球上取最大；P 在迹非增完全正映射下单调（式 9）。定义 2 的条件碰撞熵 ΓC(ρAB|σB) = tr[(ρAB(1_A ⊗ σB^(−1/2)))²]。引理 3（附录 C，主要技术贡献）给出存在 σB 使 ΓC(ρXB|σB) ≤ 2^(−Hmin(X|B))（式 10），以及存在 ε̄ 邻近的 CQ 态使 ΓC(ρ̄XB|ρ̄B) ≤ 2^(−Hmin(X|B) + log(2/ε̄² + 1))（式 11）。引理 4：∆(A|B)ρ ≤ (1/2)√(dA ΓC(ρAB|τB) − tr(ρB τB^(−1/2) ρB τB^(−1/2)))，取 τB = ρB 简化为式 13。引理 5：ΓC(ρFZE|ρF ⊗ τE) ≤ ΓC(ρXE|τE) + δ tr(ρE τE^(−1/2) ρE τE^(−1/2))，取 τE = ρE 得式 17。定理 6（二普遍）：∆(Z|FE)ρ ≤ ε + (1/2)√(2^(ℓ − H^ε_min(X|E)ρ))。定理 7（δ 近似二普遍）：∆(Z|FE)ρ ≤ ε + ε̄ + (1/2)√((2^ℓ δ − 1) + 2^(ℓ − H^ε_min(X|E)ρ + log(2/ε̄² + 1)))。两定理都以强提取器设定衡量：所选哈希函数的值 f 用后公开，故距离以 F 与 E 同时为条件（式 18 给出对 f 平均的 distance 上界）。
+- 短种子构造（第四节）：目标三参数为误差 e = ∆(Z|FE)、提取密钥长度 ℓ（尽量接近 H^ε_min(X|E)）、种子长度 s = log|F|；在量子密钥分发中 f 的选择须在双方之间传送，故 s 有实际代价。构造 1（式 21）：F = {fα}，fα(x) = x·α mod 2^ℓ，乘法在 GF(2^n) 中进行，|F| = 2^n，由 x ≠ x′ 时 α ↦ (x−x′)·α 为双射验证二普遍性。构造 2（式 22）：多项式族 fα(x1,…,xr) = Σ_{i=1}^r x_i α^(r−i)，因 r−1 次多项式至多 r−1 个零点，得 δ = (r−1)/|F|。引理 8（斯廷森）：两段拼接 f2∘f1 的碰撞参数相加，为 (δ1+δ2) 近似二普遍。
+- 定理 9（不计种子）：存在哈希族满足 s = n，e ≤ ε + (1/2)√(2^(ℓ − H^ε_min(X|E)ρ))，即 Renner 的结果。
+- 定理 10（短种子）：存在哈希族满足 s = 2⌊ℓ + log(n/ℓ) + log(1/ε²) − 1⌋，e ≤ 3ε + (1/2)√(2^(ℓ − H^ε_min(X|E)ρ + log(2/ε² + 1)))。做法：先把 n 比特串看作 r = ⌈n/k⌉ 个 k 比特分组，其中 k = ⌊ℓ + log(n/ℓ) + log(1/ε²)⌋，用有限域 GF(2^k) 上的多项式哈希压到 k 比特，再用式 21 的二普遍哈希从 k 比特压到 ℓ 比特；两段种子各 k 比特，合计 2k。多项式段 δ1 ≤ (r−1)/2^k ≤ n/(k 2^k) ≤ 4ℓε²/2^ℓ，二普遍段 δ2 ≤ 2^(−ℓ)，拼接后 δ1+δ2 ≤ (1+4ε²)/2^ℓ；代回定理 7 并取 ε̄ = ε，得上式。
+- 与后续工作的对照：文献 [19] 证明把带量子侧信息的经典源与 δ 偏掩码异或可得均匀串；文献 [22–24] 研究特雷维桑提取器，[23] 给出种子长 O(多对数 n) 即可生成 ℓ ≈ Hmin(X) − log dim(H_E) 的密钥（dim 为对手量子存储规模），[24] 推广到条件最小熵形式，得 ℓ ≈ H^ε_min(X|E)，可远大于前一式；本文指出该长度由式 6 知几乎最优，并称自己的结果可进一步改善这些提取器的性能。
+- 作者明确的适用警告：凡是提取发生在量子规律支配的场景，都应使用量子版引理 2 而非经典剩余哈希引理；若一个器件所需的种子须在其内部状态条件下随机，改用经典版等于隐含假定该器件不利用量子力学，此假定可能不成立。
