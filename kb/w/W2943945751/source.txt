@@ -1,0 +1,30 @@
+TITLE: Black Hole Ringdown: The Importance of Overtones
+VENUE: Physical Review X 9, 041060 (2019)；DOI 10.1103/PhysRevX.9.041060
+TYPE: journal article (open access)
+CITED: 400
+AUTHORS: Matthew Giesler, Maximiliano Isi, Mark A. Scheel, Saul A. Teukolsky（Caltech / MIT / LIGO / Cornell）
+URL: https://journals.aps.org/prx/abstract/10.1103/PhysRevX.9.041060
+FULL TEXT: APS PDF 已抓取并用 pypdf 提取（.tmp/ringdown.txt，6.2 万字符，13 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+It is possible to infer the mass and spin of the remnant black hole from binary black hole mergers
+by comparing the ringdown gravitational wave signal to results from studies of perturbed Kerr
+spacetimes. Typically, these studies are based on the fundamental quasinormal mode of the dominant
+l=m=2 harmonic. By modeling the ringdown of accurate numerical relativity simulations, we find,
+in agreement with previous findings, that the fundamental mode alone is insufficient to recover the
+true underlying mass and spin, unless the analysis is started very late in the ringdown. Including
+higher overtones associated with this l=m=2 harmonic resolves the discrepancy and allows accurate
+inference at early times, close to the peak of the ringdown.
+
+KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 问题：从双黑洞并合的振铃（ringdown）引力波信号推断遗留黑洞的质量与自旋。
+- 常规做法：用主导 l=m=2 谐波的基频准正则模（fundamental quasinormal mode）。
+- 发现：对精确数值相对论模拟的振铃建模，基频模单独不足以恢复真实质量与自旋，除非分析
+  取得极晚——这与先前发现一致。
+- 解法：纳入同一 l=m=2 谐波的更高泛音（overtones），消除偏差，在接近振铃峰值早期即可
+  精确推断。
+- 语境：振铃从非线性阶段过渡到可用阻尼正弦叠加描述的线性阶段，"从何时开始拟合"是争议点；
+  泛音让早期线性建模成立。
+- 意义：黑洞光谱学（black-hole spectroscopy）的关键方法改进，对 LIGO/Virgo 引力波参数估计重要。

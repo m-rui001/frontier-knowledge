@@ -1,0 +1,34 @@
+TITLE: A Characterization of the DNA Data Storage Channel
+VENUE: Scientific Reports 9, 9663 (2019)；DOI 10.1038/s41598-019-45832-6
+TYPE: journal article (open access)
+CITED: 400
+AUTHORS: (详见原文)
+URL: https://www.nature.com/articles/s41598-019-45832-6
+FULL TEXT: Nature Sci Rep HTML 全文已抓取（.tmp/dnastore.txt，7 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Owing to its longevity and enormous information density, DNA has emerged as a promising archival
+storage medium. However, due to technological constraints, data can only be written onto many short
+DNA molecules stored in an unordered way, and can only be read by sampling from this DNA pool.
+Moreover, imperfections in writing (synthesis), reading (sequencing), storage and handling,
+particularly amplification via PCR, lead to loss of DNA molecules and induce errors within molecules.
+To design DNA storage systems, a qualitative and quantitative understanding of errors and molecule
+loss is crucial. Here we characterize those error probabilities by analyzing data from our own
+experiments as well as from two other groups. We find that errors within molecules are mainly due
+to synthesis and sequencing, while imperfections in handling and storage lead to significant loss of
+sequences. The aim is to guide the design of future DNA data storage systems by providing a
+quantitative and qualitative understanding of the DNA data storage channel.
+
+KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- DNA 作为归档介质：寿命长、信息密度巨大。
+- 约束：只能写短链（难以合成显著长于常规长度的 DNA）；分子无序存放；只能采样读取（coupon
+  collector 问题，需要提高读取覆盖度）。
+- 信道模型：由采样分布 + 插入/删除/替换（insertion/deletion/substitution）的分布决定，
+  决定能存多少数据。
+- PCR 扩增：每轮每分子复制约 1.6–1.8 倍，比例依合成方法、PCR 步骤、存储衰减而变。
+- 错误来源：分子内错误主要来自合成与测序；操作与存储的缺陷导致序列大量丢失。
+- 具体：同聚物（homopolymer）长度超过六个时替换与删除错误率显著上升；高 GC 含量分子
+  丢失率高；现有纠错方案加 5–10 核苷酸可纠 2–3 个替换错误。
+- 方法：分析自己及两个其他组实验数据，给出 DNA 数据存储信道的定量刻画。

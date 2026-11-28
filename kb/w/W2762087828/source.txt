@@ -1,0 +1,29 @@
+TITLE: A quantum-dot heat engine operating close to the thermodynamic efficiency limits
+VENUE: Nature Nanotechnology 13, 920–924 (2018)；DOI 10.1038/s41565-018-0200-5；arXiv 1710.00742
+TYPE: journal article (open access)
+CITED: 399
+AUTHORS: Martin Josefsson, Artis Svilans, Adam M. Burke, Eric A. Hoffmann, Sofia Fahlvik, Claes Thelander, Martin Leijnse, Heiner Linke（Lund University）
+URL: https://arxiv.org/abs/1710.00742
+FULL TEXT: arXiv PDF 已抓取并用 pypdf 提取（.tmp/heatengine.txt，7.2 万字符，33 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Cyclical heat engines are a paradigm of classical thermodynamics but are impractical for
+miniaturization because they rely on moving parts. Particle-exchange (PE) heat engines use energy
+filtering to control a thermally driven particle flow between two reservoirs. Because they do not
+require moving parts and can be realized in solid-state materials, PE engines are suitable for
+low-power applications and miniaturization. Here we realize a PE heat engine based on a quantum dot
+and demonstrate that it operates close to thermodynamic efficiency limits. At maximum power, the
+efficiency agrees with the Curzon-Ahlborn efficiency; the overall maximum efficiency exceeds 70% of
+the Carnot efficiency.
+
+KEY NUMBERS（正文，出处层级：论文正文）:
+============================================================
+- 引擎类型：粒子交换（particle-exchange）热机，量子点（quantum dot）实现；无运动部件、
+  固态、适合小型化与低功率应用。
+- 极限：Carnot 效率 ηC=(TH−TC)/TH 是上限；实际通常在最大功率处优化效率，
+  接近较低的 Curzon-Ahlborn 效率 ηCA。
+- 结果：最大功率条件下电子效率符合 Curzon-Ahlborn；整体最高效率超过 Carnot 的 70%。
+- 参数：量子点充电能 4.9 meV，远大于最高电子温度 2 K 下的 kT=0.17 meV（无激发态输运）；
+  用高质量外延量子点 + 非侵入式测温技术实现。
+- 方法：测量电子热流确定电子效率。

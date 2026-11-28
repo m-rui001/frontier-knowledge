@@ -1,0 +1,32 @@
+TITLE: Four reasons to prefer Bayesian analyses over significance testing
+VENUE: Psychonomic Bulletin & Review 25, 207–218 (2018)；DOI 10.3758/s13423-017-1266-z
+TYPE: journal article (open access)
+CITED: 394
+AUTHORS: (详见原文；心理学方法学)
+URL: https://link.springer.com/article/10.3758/s13423-017-1266-z
+FULL TEXT: Springer HTML 全文已抓取（.tmp/bayes.txt，6.9 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Inference using significance testing and Bayes factors is compared and contrasted in five case
+studies based on real research. The first illustrates that the methods often agree, both in
+supporting H1 over H0 and the reverse. The next four show they often disagree. In these cases, the
+paper motivates the sensible evidential conclusion, then sees which approach matches. It is shown
+that a high-powered non-significant result is consistent with no evidence for H0 over H1 worth
+mentioning (which a Bayes factor can show); a low-powered non-significant result can be substantial
+evidence for H0 over H1; a high-powered significant result may amount to no evidence for H1 over
+H0; and different theories can be evidentially supported to different degrees by the same data (a
+fact p-values cannot reflect but Bayes factors can). It is argued that appropriate conclusions match
+Bayesian inferences, not significance testing, where they disagree.
+
+KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 主题：显著性检验（p 值）与贝叶斯因子（Bayes factor）的推断对比，用五个真实研究案例。
+- 案例一：两法常一致（都支持 H1 或都支持 H0）。
+- 案例二：高功效的不显著结果——贝叶斯因子显示几乎没有支持 H0 的证据（p 值会误读成
+  "没有效应"）。
+- 案例三：低功效的不显著结果——可能是支持 H0 的实质证据（贝叶斯能显示，p 值不能）。
+- 案例四：高功效的显著结果——可能并不构成支持 H1 的证据（与贝叶斯结论一致）。
+- 案例五：同一数据对不同理论有不同程度的支持——p 值反映不了，贝叶斯因子能。
+- 结论：两法分歧时，合理的证据结论与贝叶斯推断相符，而非显著性检验。
+- 语境：心理学可重复性危机背景下的统计方法争论。
