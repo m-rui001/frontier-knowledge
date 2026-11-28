@@ -1,0 +1,32 @@
+TITLE: Correlated electronic structure of La3Ni2O7 under pressure
+VENUE: arXiv 2306.07931 (2023)；Phys. Rev. B（正式发表）
+TYPE: journal article / preprint (open access)
+CITED: 282
+AUTHORS: Viktor Christiansson, Francesco Petocchi, Philipp Werner（Fribourg / Geneva）
+URL: https://arxiv.org/abs/2306.07931
+FULL TEXT: arXiv PDF 已抓取并用 pypdf 提取（.tmp/nickel.txt，4.8 万字符，20 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Recently, superconductivity with a Tc up to 78 K has been reported in bulk samples of the bilayer
+nickelate La3Ni2O7 at pressures above 14 GPa. Important theoretical tasks are the formulation of
+relevant low-energy models and the clarification of the normal state properties. Here, we study
+the correlated electronic structure of the high-pressure phase in a four-orbital low-energy
+subspace using different many-body approaches: GW, dynamical mean field theory (DMFT), extended
+DMFT (EDMFT) and GW+EDMFT, with realistic frequency-dependent interaction parameters. The
+non-local correlation and screening effects captured by GW+EDMFT result in an instability towards
+the formation of charge stripes, with the 3dz2 as the main active orbital. We also comment on the
+potential relevance of the rare-earth self-doping pocket, since hole doping suppresses the
+ordering tendency.
+
+KEY NUMBERS（正文，出处层级：论文正文）:
+============================================================
+- 实验背景：La3Ni2O7 体材料在 14 GPa 以上压强下 Tc 最高 78 K（引实验工作）。
+- 方法：四轨道低能子空间，多体方法 GW / DMFT / EDMFT / GW+EDMFT，频率依赖相互作用参数。
+- 结果：GW+EDMFT 捕捉到的非局域关联与屏蔽效应导致电荷条纹（charge stripes）不稳定性，
+  3dz2 为主导活跃轨道。
+- 参数：面内最近邻相互作用约 0.75 eV（dx2−y2-like 轨道），非局域分量较大，
+  长程 1/r 尾巴——需考虑非局域屏蔽。
+- 稀土自掺杂口袋：空穴掺杂抑制电荷条纹有序倾向，故该口袋可能相关。
+- 背景：镍基氧化物 20 多年前就被理论提出可能高温超导，2023 年因高压 78K  superconduc
+  成为凝聚态热点。

@@ -1,0 +1,35 @@
+TITLE: False Discovery Rate Control with E-values
+VENUE: Journal of the Royal Statistical Society: Series B 84(5), 1542–1572 (2022)；arXiv 2009.02824
+TYPE: journal article (open access)
+CITED: 286
+AUTHORS: (详见原文；统计方法学)
+URL: https://arxiv.org/abs/2009.02824
+FULL TEXT: arXiv PDF 已抓取并用 pypdf 提取（.tmp/evalues.txt，9.8 万字符，32 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+E-values have gained attention as potential alternatives to p-values as measures of uncertainty,
+significance and evidence. In brief, e-values are realized by random variables with expectation at
+most one under the null; examples include betting scores, (point null) Bayes factors, likelihood
+ratios and stopped supermartingales. We design a natural analog of the Benjamini-Hochberg (BH)
+procedure for false discovery rate (FDR) control that utilizes e-values, called the e-BH procedure,
+and compare it with the standard procedure for p-values. One of our central results is that,
+unlike the usual BH procedure, the e-BH procedure controls the FDR at the desired level—with no
+correction—for any dependence structure between the e-values. We illustrate that the new procedure
+is convenient in various settings of complicated dependence, structured and post-selection
+hypotheses, and multi-armed bandit problems. Moreover, the BH procedure is a special case of the
+e-BH procedure through calibration between p-values and e-values. Overall, the e-BH procedure is a
+novel, powerful and general tool for multiple testing under dependence, complementary to the BH
+procedure.
+
+KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- e-value 定义：原假设下期望不超过 1 的非负随机变量；包括投注分数、点零 Bayes 因子、
+  似然比、停时超鞅。
+- e-BH 过程：BH 过程用 e-values 的自然类比。核心结果：任意依赖结构下 e-BH 无需修正即
+  控制 FDR 在给定水平，而常规 BH 不行（依赖结构会影响其有效性）。
+- 转换：e-value e 可转 p-value p=1/e；p-value 经校准函数（calibrator）可转 e-value。
+  BH 过程是 e-BH 过程在校准下的特例。
+- 适用场景：复杂依赖、结构化与选择后假设（post-selection）、多臂老虎机问题。
+- 关键词：multiple testing, FDR, p-values, betting scores, supermartingales。
+- 定位：与 BH 互补的、依赖下多重检验的通用工具。

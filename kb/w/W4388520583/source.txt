@@ -1,0 +1,32 @@
+TITLE: Large effective magnetic fields from chiral phonons in rare-earth halides
+VENUE: Science 382, 698–702 (2023)；DOI 10.1126/science.adi6539
+TYPE: journal article
+CITED: 219
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2306.03852
+FULL TEXT: arXiv PDF 已抓取并用 pypdf 提取（.tmp/chiralphonon.txt，3.9 万字符，15 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Time-reversal symmetry (TRS) is pivotal for materials' optical, magnetic, topological and transport
+properties. Chiral phonons, characterized by atoms rotating unidirectionally around their
+equilibrium positions, generate dynamic lattice structures that break TRS. Here we report that
+coherent chiral phonons, driven by circularly polarized terahertz light pulses, can polarize the
+paramagnetic spins in CeF3 like a quasi-static magnetic field on the order of 1 Tesla. Through
+time-resolved Faraday rotation and Kerr ellipticity, we found the transient magnetization is only
+excited by pulses resonant with phonons, proportional to the phonon angular momentum, and growing
+with magnetic susceptibility at cryogenic temperatures, as expected from the spin-phonon coupling
+model. The time-dependent effective magnetic field quantitatively agrees with that calculated
+from phonon dynamics. Our results may open a new route to directly investigate mode-specific
+spin-phonon interactions.
+
+KEY NUMBERS（正文，出处层级：论文正文）:
+============================================================
+- 核心结果：圆偏振太赫兹脉冲驱动的相干手性声子，像准静态磁场一样极化 CeF3 中的顺磁自旋，
+  有效磁场约 1 Tesla 量级。
+- 材料：CeF3（稀土卤化物），顺磁自旋。
+- 测量：时间分辨 Faraday 旋转与 Kerr 椭圆率；瞬态磁化只由与声子共振的脉冲激发，
+  与声子角动量成正比，随低温磁化率增长，符合自旋-声子耦合模型。
+- 时间依赖有效磁场与声子动力学计算定量吻合。
+- 意义：直接研究模式选择性的自旋-声子相互作用的新路径；手性声子打破时间反演对称，
+  影响光学/磁学/拓扑/输运性质。

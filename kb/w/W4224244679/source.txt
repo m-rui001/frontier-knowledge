@@ -1,0 +1,32 @@
+TITLE: Global seasonal forecasts of marine heatwaves
+VENUE: Nature 608, 351–355 (2022)；DOI 10.1038/s41586-022-04573-9
+TYPE: journal article
+CITED: 297
+AUTHORS: (详见原文；多机构气候团队)
+URL: https://www.nature.com/articles/s41586-022-04573-9
+FULL TEXT: Nature HTML 全文已抓取（.tmp/marinehw.txt，5.9 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Marine heatwaves (MHWs)—periods of exceptionally warm ocean temperature lasting weeks to years—
+are widely recognized for their capacity to disrupt marine ecosystems. The substantial ecological
+and socioeconomic impacts present significant challenges to marine resource managers, who would
+benefit from forewarning of MHWs. Despite extensive research into the physical drivers, there has
+been no comprehensive global assessment of our ability to predict these events. Here we use a large
+multimodel ensemble of global climate forecasts to develop and assess MHW forecasts covering the
+world's oceans with lead times of up to a year. Using 30 years of retrospective forecasts, we show
+that the onset, intensity and duration of MHWs are often predictable, with skilful forecasts
+possible from 1 to 12 months in advance depending on region, season and the state of large-scale
+climate modes such as ENSO. We discuss considerations for setting decision thresholds based on
+the probability of a MHW occurring, empowering stakeholders to act based on their risk profile.
+
+KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 对象：海洋热浪（MHW），持续数周到数年的异常暖水期，破坏海洋生态（珊瑚白化等）。
+- 缺口：物理驱动研究很多，但全球性的"我们能否预测 MHW"评估此前没有。
+- 方法：大型多模式集合（multimodel ensemble）的全球气候预报；30 年回报（retrospective）预报。
+- 结果：MHW 的起始、强度、持续时间常常可预报；技巧（skill）随区域、季节、ENSO 等大尺度
+  气候模态状态变化，提前 1–12 个月不等。
+- 应用：按 MHW 发生概率设决策阈值，让利益相关方按自身风险偏好行动；指向业务化 MHW
+  预报系统。
+- 气候预报系统已常规用于 ENSO 预测与 NOAA 珊瑚白化展望，本文把这些系统扩展到全球 MHW 预测。
