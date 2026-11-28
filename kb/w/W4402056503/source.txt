@@ -1,0 +1,35 @@
+TITLE: Deep Learning for Time Series Anomaly Detection: A Survey
+VENUE: ACM Computing Surveys（2024 正式发表；arXiv 2211.05244，2022 预印本）
+TYPE: survey (open access)
+CITED: 1138
+AUTHORS: Zahra Zamanzadeh Darban, Geoffrey I. Webb, Shirui Pan, Charu C. Aggarwal, Mahsa Salehi（Monash / Griffith / IBM Watson）
+URL: https://arxiv.org/abs/2211.05244
+FULL TEXT: arXiv PDF v1 已抓取并用 pypdf 提取（.tmp/tsad_full.txt，16.8 万字符，42 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Time series anomaly detection has applications in many research fields, including manufacturing
+and healthcare. Anomalies indicate novel or unexpected events, such as production faults, system
+defects or heart fluttering, and are of particular interest. The large size and complex patterns of
+time series have led researchers to develop specialised deep learning models for detecting anomalous
+patterns. This survey provides a structured and comprehensive overview of state-of-the-art deep
+learning models for time series anomaly detection. It provides a taxonomy based on the factors that
+divide models into categories. Besides describing the basic technique for each category, advantages
+and limitations are discussed. It includes examples of deep anomaly detection across application
+domains, and summarises open issues and challenges in adopting deep anomaly detection models.
+
+FULL TEXT KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 异常类型：point（global/contextual）、subsequence（seasonal/trend/shapelet）、collective；
+  用 NeurIPS-TS 数据集图示。
+- 三大方法类别（main approaches）：forecasting-based（预测式）、reconstruction-based（重建式）、
+  hybrid（混合式）。
+- 网络架构：RNN/LSTM、CNN/TCN、AE/VAE、GAN、Transformer、GNN/GAT、HTM。
+- 学习范式：supervised / semi-supervised / unsupervised；因异常样本稀少，多数模型学正常数据的
+  表示，再找偏离正常者。
+- 数据：univariate（UTS）vs multivariate（MTS）；MTS 更难，近期模型多处理 MTS。
+- 公开数据集表：CalIt2（城市事件）、CAP（医疗健康，9.21 亿样本/108 实体/21 维）、CICIDS2017 等。
+- 章节安排：§2 时序定义与异常分类法；§3 深度模型如何用于时序；§4 公开数据集；§5 应用；
+  §6 开放问题与挑战。
+- 具体模型（表中举例）：LSTM-AD、SR-CNN、Donut/Buzz/Bagel（VAE）、EncDec-AD、Anomaly Transformer、
+  TranAD、CAE-M、MTAD-GAT、Numenta HTM 等。

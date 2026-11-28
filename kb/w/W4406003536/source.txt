@@ -1,0 +1,32 @@
+TITLE: Electronic structure formed by Y2O3-doping in lithium-rich layered cathode for high-voltage lithium-ion batteries
+VENUE: Nature Communications 15, 8686 (2024)；DOI 10.1038/s41467-024-52768-7
+TYPE: journal article (open access)
+CITED: 1199
+AUTHORS: (详见原文)
+URL: https://www.nature.com/articles/s41467-024-52768-7
+FULL TEXT: Nature Communications HTML 全文已抓取（.tmp/liy2o3.txt，6.3 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+High-capacity power battery can be attained by elevating the cut-off voltage of LiNi0.83Co0.12Mn0.05O2
+high-nickel material. Nevertheless, unstable lattice oxygen would be released during deep lithium
+extraction. To solve this, the electronic structure is reconstructed by substituting Li+ ions with
+Y3+ ions. The dopant within the Li layer transfers electrons to adjacent lattice oxygen; subsequently
+the accumulated electrons at the oxygen site transfer to highly-valent nickel under a reduction
+coupling mechanism. The strategy suppresses oxygen defects by regulating local electronic structure,
+and reduces the concentration of highly reactive Ni4+ species during charging, thus avoiding an
+unexpected phase transition. Strengthening coupling between lithium layers and transition-metal
+layers improves fast-charging performance and cycling stability under high voltage.
+
+FULL TEXT KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 材料：LiNi0.83Co0.12Mn0.05O2（NCM）高镍正极；提高截止电压可提升容量，但深度脱锂时晶格氧
+  不稳定会释放。
+- 方法：Y2O3 掺杂，Y3+ 取代 Li 层中的 Li+；掺杂量 1/1.5/2 wt% 得 NCM@Y-1/Y-2/Y-3。
+- 机制：Li 层 Y 掺杂把电子转移给相邻晶格氧；氧位积累的电子在还原耦合机制下转给高价镍；
+  抑制氧缺陷生成，降低充电态高活性 Ni4+ 浓度，避免意外相变；强化锂层与过渡金属层耦合。
+- 表征：XPS（Y 3d/O 1s/C 1s/Ni 2p）、XANES（Ni 边）、TOF-SIMS（200 循环后表面物种）、
+  DFT+U（(104) 晶面，U 值 Ni 6.7/Co 4.91/Mn 4.64 eV，PAW）。
+- 性能：LiYO2 包覆层高温下 210 mAh/g 可逆容量、100 循环后 84% 容量保持；快充性能与高压
+  循环稳定性提升。
+- 背景数据：常规截止电压 4.3 V 以下无氧气析出，约 4.7 V 时 O 2p 态接近费米 level 引发释氧。

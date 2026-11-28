@@ -1,0 +1,28 @@
+TITLE: Refractiveindex.info database of optical constants
+VENUE: Scientific Data 10, 261 (2023)；DOI 10.1038/s41597-023-02898-2
+TYPE: data descriptor (open access)
+CITED: 1010
+AUTHORS: (详见原文)
+URL: https://www.nature.com/articles/s41597-023-02898-2
+FULL TEXT: Nature Scientific Data HTML 全文已抓取（.tmp/refractive.txt，15.3 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+We introduce the refractiveindex.info database, a comprehensive open-source repository containing
+optical constants for a wide array of materials, and describe the underlying dataset. This
+collection, derived from meticulous compilation of data from peer-reviewed publications,
+manufacturers' datasheets and authoritative texts, aims to advance research in optics and photonics.
+The data is stored in a YAML-based format, ensuring integrity, consistency and ease of access.
+Each record carries detailed metadata, facilitating comprehensive understanding and efficient use.
+In this descriptor, we outline the data curation protocols and the file format for data records,
+and briefly demonstrate how the data can be organized in a user-friendly fashion akin to books
+in a traditional library.
+
+FULL TEXT KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 数据库：refractiveindex.info，开源，收录大量材料的光学常数（折射率 n、消光系数 k 等）。
+- 数据来源：同行评议文献、厂商数据表、权威书籍的细致汇编。
+- 存储格式：基于 YAML，保证完整性、一致性、易访问；每条记录带详细元数据。
+- 内容：数据策展协议（curation protocols）、记录文件格式；用类似传统图书馆书籍的方式组织数据，
+  便于用户友好地检索使用。
+- 目的：推进光学与光子学研究。

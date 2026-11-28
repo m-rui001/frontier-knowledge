@@ -1,0 +1,31 @@
+TITLE: Quantum repeaters: From quantum networks to the quantum internet
+VENUE: Reviews of Modern Physics 95, 045006 (2023)；DOI 10.1103/RevModPhys.95.045006
+TYPE: review (open access)
+CITED: 920
+AUTHORS: Koji Azuma, Sophia E. Economou, David Elkouss, Paul Hilaire, Liang Jiang, Hoi-Kwong Lo, Ilan Tzitrin（NTT / Virginia Tech / QuTech / UChicago / UHK / U Toronto）
+URL: https://arxiv.org/abs/2212.10820
+FULL TEXT: arXiv PDF v2 已抓取并用 pypdf 提取（.tmp/qrepeater.txt，42 万字符，75 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+A quantum internet is the holy grail of quantum information processing, enabling deployment of
+a broad range of quantum technologies and protocols on a global scale. However, numerous challenges
+exist before it can become a reality. Perhaps the most crucial is the realization of a quantum
+repeater, an essential component in long-distance transmission of quantum information. As the analog
+of a classical repeater, extender or booster, the quantum repeater overcomes loss and noise in the
+quantum channels comprising a network. Here we review the conceptual frameworks and architectures
+for quantum repeaters, as well as experimental progress towards their realization. We also discuss
+near-term proposals to overcome communication-rate limits set by point-to-point quantum
+communication, and overview how quantum repeaters fit within the broader challenge of designing
+and implementing a quantum internet.
+
+FULL TEXT KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 综述范围：量子中继器的概念框架、架构、实现进展；近期方案如何突破点对点量子通信的速率限制；
+  量子中继器在量子互联网整体蓝图中的位置。
+- 核心障碍：长距离传输中的损耗（loss）与噪声（noise）；量子不可克隆定理（no-cloning）
+  使经典中继的"放大-转发"策略失效——不能直接复制量子信号。
+- 目录：I Introduction；II Preliminaries（qubits、no-cloning theorem、entanglement 等）；
+  后续章节覆盖中继架构（如基于纠缠交换 entanglement swapping、量子存储器 quantum memory、
+  纠错 /  prophylaxis 等方案）与实验进展。
+- 定位：RMP 综述（75 页），面向研究者，强调概念框架与实验现状的对应。
