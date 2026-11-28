@@ -31,7 +31,7 @@
 
 = 数字与对照
 
-这篇最有价值的是它把多个模型放到同一张表里对照。
+这篇把多个模型放到同一张表里对照，这是它的贡献所在。
 
 几个里程碑数字。WizardCoder——在 StarCoder 基座上做指令微调——在 HumanEval 上拿到 pass\@1 57.3%，当时超过所有开源代码模型，也超过 Claude 和 Bard。Magicoder 提出 OSS-INSTRUCT 数据合成法，其 7B 版本 MagicoderS-CL-7B 用 7.5 万条合成指令数据、以 gpt-3.5-turbo-1106 作数据生成器，在 HumanEval Plus 上 pass\@1 达 66.5%，略胜 ChatGPT 的 65.9%——一个 7B 模型靠数据工艺赢了当时的标杆，这是"数据比规模更重要"的漂亮例证。还有工作（Zhou 等 2024）不用强化学习也不用人类偏好建模，就在 43% 的评测案例上达到或超过 GPT-4；对 Bard 是 58%，对 DaVinci003 是 65%。
 
