@@ -1,0 +1,26 @@
+TITLE: Certified randomness in quantum physics
+VENUE: Nature 546, 219–224 (2017)；DOI 10.1038/nature22999；arXiv 1708.00265
+TYPE: review (open access)
+CITED: 391
+AUTHORS: Antonio Acín, Lluis Masanes（ICFO / ICREA / UCL）
+URL: https://arxiv.org/abs/1708.00265
+FULL TEXT: arXiv PDF 已抓取并用 pypdf 提取（.tmp/randomness.txt，5.1 万字符，18 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+The concept of randomness plays an important role in many disciplines. On one hand, whether random
+processes exist is fundamental to our understanding of nature. On the other hand, randomness is a
+resource for cryptography, algorithms and simulations. Standard methods for generating randomness
+rely on assumptions about the devices that are difficult to meet in practice. However, quantum
+technologies allow new methods for generating certified randomness. These methods are known as
+device-independent because they do not rely on any modeling of the devices. Here we review the
+efforts and challenges in designing device-independent randomness generators.
+
+KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 随机性的双重角色：理解自然的基础问题；密码学/算法/模拟的资源。
+- 传统随机数生成的软肋：依赖对发生器件的建模假设，实践中难以满足。
+- 量子方案：设备无关（device-independent）的认证随机性生成器——不依赖对器件的任何建模，
+  仅从观测到的统计（如贝尔不等式违背）就能认证随机性。
+- 综述：梳理设备无关随机性的设计努力与挑战。
+- 意义：把随机性从"相信器件在产生随机"变成"可数学认证"，对密码学尤其重要。

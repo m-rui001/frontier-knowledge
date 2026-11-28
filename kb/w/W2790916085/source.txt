@@ -1,0 +1,26 @@
+TITLE: Suboptimality in perceptual decision making
+VENUE: Behavioral and Brain Sciences 41, e44 (2018)；DOI 10.1017/S0140525X17001893；PMC6110994
+TYPE: review / target article (open access)
+CITED: 396
+AUTHORS: (详见原文；认知科学团队)
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6110994/
+FULL TEXT: PMC HTML 全文已抓取（.tmp/decision.txt，21 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Human perceptual decisions are often described as optimal, but this view remains controversial. To
+elucidate the issue, we review the vast literature on suboptimalities in perceptual tasks and compile
+the proposed hypotheses about the origins of suboptimal behavior. Further, we argue that general
+claims about optimality are virtually meaningless and result in a false sense of progress. Instead,
+real progress can be achieved by building observer models that account for both optimal and
+suboptimal behavior. The field should focus on assessing the hypotheses about suboptimal behavior
+compiled here and stop chasing optimality.
+
+KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 主题：人类感知决策的"最优性"之争。
+- 立场：笼统地说"最优"或"次优"几乎无意义、制造虚假进步感；真正进步在于建立能同时解释
+  最优与次优行为的观察者模型。
+- 方法：综述感知任务中次优行为的大量文献，汇编关于次优行为起源的各种假说。
+- 主张：领域应专注于检验这些次优假说，停止追逐"最优"标签。
+- 语境：BBS 目标论文（附有同行评议与作者回应）；认知科学方法学反思。

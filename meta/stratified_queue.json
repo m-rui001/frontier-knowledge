@@ -1,36 +1,28 @@
 {
- "method": "小众线批5：放宽时间经典小众（轻核集团/Onsager猜想/重尾统计/P2RY12小胶质）",
+ "method": "小众线批6：放宽时间经典小众（LISA/感知决策次优/氮化硼SEIRA/认证随机性）",
  "source": "OpenAlex 自建 niche_pool（.tmp/scout_niche.py，10个非AI领域）",
  "queue": [
   {
-   "wid": "W2797607410"
+   "wid": "W2608898968"
   },
   {
-   "wid": "W2585552581"
+   "wid": "W2790916085"
   },
   {
-   "wid": "W2950526172"
+   "wid": "W2783659078"
   },
   {
-   "wid": "W2234493563"
+   "wid": "W2560581185"
   }
  ],
  "excluded": [
   {
-   "wid": "W4385984544",
-   "reason": "Wiley 403无全文"
+   "wid": "W2591123938",
+   "reason": "Wiley 403"
   },
   {
-   "wid": "W4388424601",
-   "reason": "Cell 403"
-  },
-  {
-   "wid": "W4388215071",
-   "reason": "Science 403"
-  },
-  {
-   "wid": "W4388863022",
-   "reason": "eLife 拦截页"
+   "wid": "W2960297026",
+   "reason": "Astro2020白皮书非研究论文，换超辐射研究论文"
   }
  ],
  "rules": [

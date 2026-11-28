@@ -1,0 +1,28 @@
+TITLE: Boron nitride nanoresonators for phonon-enhanced molecular vibrational spectroscopy at the strong coupling limit
+VENUE: Light: Science & Applications 7, 17172 (2018)；DOI 10.1038/lsa.2017.172
+TYPE: journal article (open access)
+CITED: 399
+AUTHORS: (详见原文；纳米光子/红外光谱团队)
+URL: https://www.nature.com/articles/lsa2017172
+FULL TEXT: Nature LSA HTML 全文已抓取（.tmp/bnnano.txt，5.9 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Enhanced light-matter interactions are the basis of surface-enhanced infrared absorption (SEIRA)
+spectroscopy, which conventionally relies on plasmonic materials focusing light to nanoscale spots.
+Phonon polariton nanoresonators made of polar crystals are an alternative, exhibiting quality factors
+far beyond plasmonic counterparts. The emergence of van der Waals crystals enables high-quality
+nanophotonic resonators based on phonon polaritons, as reported for hexagonal boron nitride (h-BN).
+Here we use phonon-polariton-resonant h-BN ribbons for SEIRA spectroscopy of small amounts of
+organic molecules in Fourier transform infrared spectroscopy. Strikingly, the interaction between
+phonon polaritons and molecular vibrations experimentally reaches the onset of the strong coupling
+regime, while numerical simulations predict vibrational coupling at the level of a few molecules.
+
+KEY NUMBERS（正文，出处层级：论文正文）:
+============================================================
+- 技术：表面增强红外吸收（SEIRA）光谱，传统用等离激元材料把光聚焦到纳米尺度。
+- 替代方案：极性晶体的声子极化激元纳米谐振器，品质因数（Q）远高于等离激元。
+- 材料：六方氮化硼（h-BN），范德华晶体；h-BN 纳米锥/棒此前已实现 Q 高达 283 的窄共振。
+- 结果：h-BN 天线 Q≈230，金天线 Q≈4——高出近两个数量级；实验中声子极化激元与分子振动
+  相互作用达到强耦合的起始；数值模拟预测可到几个分子的耦合水平。
+- 方法：傅里叶变换红外光谱（FTIR）测少量有机分子。

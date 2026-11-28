@@ -1,0 +1,28 @@
+TITLE: Black Hole Superradiance Signatures of Ultralight Vectors
+VENUE: Phys. Rev. D 96, 035011 (2017)；arXiv 1704.05081
+TYPE: journal article (open access)
+CITED: 390
+AUTHORS: Masha Baryakhtar, Robert Lasenby, Mae Teo（Perimeter / Stanford）
+URL: https://arxiv.org/abs/1704.05081
+FULL TEXT: arXiv PDF 已抓取并用 pypdf 提取（.tmp/superradiance.txt，12 万字符，26 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+The process of superradiance can extract angular momentum and energy from astrophysical black holes
+to populate gravitationally bound states with an exponentially large number of light bosons. We
+analytically calculate superradiant growth rates for vectors around rotating black holes in the regime
+where the vector Compton wavelength is much larger than the black hole size. Spin-1 bound states have
+superradiance times as short as a second around stellar black holes, growing up to a thousand times
+faster than their spin-0 counterparts. The fast rates allow us to use measurements of rapidly spinning
+black holes in X-ray binaries to exclude a wide range of masses for weakly-coupled spin-1 particles,
+5×10^-14 to 2×10^-11 eV; lighter masses in 6×10^-20 to 2×10^-17 eV start to be constrained by
+supermassive black hole spin measurements at lower confidence.
+
+KEY NUMBERS（正文，出处层级：论文正文）:
+============================================================
+- 机制：超辐射（superradiance）从旋转黑洞提取角动量与能量，布居引力束缚的轻玻色子态。
+- 计算：转动黑洞周围矢量场（spin-1）的超辐射增长率（康普顿波长远大于黑洞尺寸的 regime）。
+- 结果：spin-1 束缚态在恒星级黑洞周围超辐射时间可短至 1 秒，比 spin-0 快最多约千倍。
+- 约束：用 X 射线双星中快速旋转黑洞的测量，排除弱耦合 spin-1 粒子质量 5×10^-14 到
+  2×10^-11 eV；更轻的 6×10^-20 到 2×10^-17 eV 被超大质量黑洞自旋测量以较低置信度约束。
+- 意义：把黑洞当成"粒子物理探测器"，用自旋测量排除新粒子的参数空间。
