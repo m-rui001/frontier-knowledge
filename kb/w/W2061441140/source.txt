@@ -1,0 +1,25 @@
+TITLE: Synchrosqueezing-based Recovery of Instantaneous Frequency from Nonuniform Samples
+VENUE: arXiv:1006.2533v4 [math.NA]；2011 年 6 月 24 日初稿，2012 年 1 月 15 日修订；预印本
+TYPE: preprint / 数学与信号处理（开放获取）
+CITED: 397
+AUTHORS: Gaurav Thakur, Hau-Tieng Wu（Princeton University，应用与计算数学项目 / 数学系）
+URL: https://arxiv.org/abs/1006.2533
+FULL TEXT: arXiv 全文已抓取（.tmp/synchro.txt，约 5.1 万字符，正文约 19 页含图表与参考文献）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+We propose a new approach for studying the notion of the instantaneous frequency of a signal. We build on ideas from the Synchrosqueezing theory of Daubechies, Lu and Wu and consider a variant of Synchrosqueezing, based on the short-time Fourier transform, to precisely define the instantaneous frequencies of a multi-component AM-FM signal. We describe an algorithm to recover these instantaneous frequencies from the uniform or nonuniform samples of the signal and show that our method is robust to noise. We also consider an alternative approach based on the conventional, Hilbert transform-based notion of instantaneous frequency to compare to our new method. We use these methods on several test cases and apply our results to a signal analysis problem in electrocardiography.
+
+KEY NUMBERS（正文，出处层级：论文正文、定理与图注）:
+============================================================
+- 信号模型：Bε 类本征模态函数 f(t)=A(t)e^{2πiφ(t)}，要求 A 与 φ 无穷阶可导、A>0、φ'>0，且 ‖A'‖∞ ≤ ε‖φ'‖∞、‖φ''‖∞ ≤ ε‖φ'‖∞，ε ≪ 1；Bε,d 为若干分量的叠加，相邻分量瞬时频率间隔至少 d。Bε,d 不是向量空间。
+- 采样模型：采样时刻 tn = Tn + an，扰动幅值 ‖{an}‖∞ ≤ T/2；用间隔 tn+1−tn = T+an+1−an 加权构成冲激串。
+- 核心算子：修正短时傅里叶变换 Vg；瞬时频率信息 ω = ∂tVg / (2πi Vg)；分辨率 α、阈值 γ 下的同步挤压 S_{α,γ} 统计满足 |ξ−ω| < α/2 且 |Vg| ≥ γ 的频率测度；IFS 为 S 取正值的 αn 集合。
+- 定理 3.6：窗 g 的傅里叶支撑落在 [−d/2, d/2]，且 α ≥ 2(E1'+E2')/(E1+E2)+2E3 时，IFS 被压到至多 2K 个点上，分别贴近各分量的真实瞬时频率；阈值需满足 E1+E2 < γ ≤ 各分量邻域内 |Vg| 的下界。定理 3.9 把结论推广到幅值不超过 T 的采样噪声。
+- 不确定性权衡：α 有由误差项给出的下界；分量幅度变化快或频率摆动快时 γ 的下界抬高，导致多数时刻 S 为零，分量与噪声不可区分。
+- 对照方法：带限信号的最小二乘重构（sinc 基、权重取相邻采样间隔均值，采样率需高于奈奎斯特率）加希尔伯特瞬时频率 IFH；Bedrosian 定理要求幅度谱与载波谱不重叠，实际难验证，且对噪声与数值舍入敏感。
+- 数值实验：7 个测试例（调幅调频、啁啾、带限贝塞尔、含噪谐波、欠采样谐波、两分量、频率交叉两分量）。高斯窗 g(t)=e^{−0.1πt²}，默认 α=0.1、γ=10^{−8}；采样时刻 tn=Tn+T'an，an 为 [0,1] 均匀白噪声实现，多数例子同时给 T'=0 的均匀采样对照；时间区间 t∈[0,30]。
+- 图 5：f(t)=cos(10πt)，采样间隔 T=0.25，扰动系数 0.2；真实频率 5，采样率低于奈奎斯特率的一半；取 γ=6 时 IFS 仍给出好结果，带限重构无法恢复信号。
+- 图 6：两分量频率集合 {2−0.2 sin t, 3+0.04t}；IFS 成功分离，IFH 只给出均值附近的 2.5+0.02t−0.1 sin t 并出现伪奇点。
+- 图 7：频率曲线交叉的两分量信号；S_{α,γ} 在交叉点附近仍给出尖锐分离；作者注明该信号不属于 Bε,d，结果是数值观察而非定理覆盖。
+- 心电应用：健康 30 岁男性，导联 II 心电与真实呼吸同步记录 8 分钟；心电采样率 512 赫兹，呼吸 64 赫兹；t 属于 [0,480] 秒，共 589 个 R 峰。以 R 峰间隔加权构造冲激串求 IFS，与真实呼吸的 IFS 吻合；由 R 峰经带限重构求 IFH 则常常为负、无可解释性。图 9 叠加前 300 秒呼吸波形与估计频率。

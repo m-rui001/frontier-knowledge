@@ -1,0 +1,32 @@
+TITLE: Global modelling of the early Martian climate under a denser CO2 atmosphere: Water cycle and ice evolution
+VENUE: Icarus（投稿 Elsevier Science，预印本 2012-11-22）；arXiv:1207.3993v2 [astro-ph.EP]；文稿页脚标注 2024-11-27
+TYPE: journal article / preprint (open access)
+CITED: 380
+AUTHORS: R. Wordsworth, F. Forget, E. Millour, J. W. Head, J.-B. Madeleine, B. Charnay（法国皮埃尔与玛丽·居里大学 气象动力学实验室／美国布朗大学地质科学系）
+URL: https://arxiv.org/abs/1207.3993
+FULL TEXT: arXiv PDF 全文已抓取（.tmp/marsclimate.txt，约 8.6 万字符，正文 21 页，PDF 共 39 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+We discuss 3D global simulations of the early Martian climate that we have performed assuming a faint young Sun and denser CO2 atmosphere. We include a self-consistent representation of the water cycle, with atmosphere-surface interactions, atmospheric transport, and the radiative effects of CO2 and H2O gas and clouds taken into account. We find that for atmospheric pressures greater than a fraction of a bar, the adiabatic cooling effect causes temperatures in the southern highland valley network regions to fall significantly below the global average. Long-term climate evolution simulations indicate that in these circumstances, water ice is transported to the highlands from low-lying regions for a wide range of orbital obliquities, regardless of the extent of the Tharsis bulge. In addition, an extended water ice cap forms on the southern pole, approximately corresponding to the location of the Noachian/Hesperian era Dorsa Argentea Formation. Even for a multiple-bar CO2 atmosphere, conditions are too cold to allow long-term surface liquid water. Limited melting occurs on warm summer days in some locations, but only for surface albedo and thermal inertia conditions that may be unrealistic for water ice. Nonetheless, meteorite impacts and volcanism could potentially cause intense episodic melting under such conditions. Because ice migration to higher altitudes is a robust mechanism for recharging highland水源 after such events, we suggest that this globally sub-zero, 'icy highlands' scenario for the late Noachian climate may be sufficient to explain most of the fluvial geology without the need to invoke additional long-term warming mechanisms or an early warm, wet Mars.
+
+KEY NUMBERS（论文正文，出处层级：论文正文与表格）:
+============================================================
+- 科学背景：诺亚纪（约 35 亿年前以前）年轻太阳光度比今低约 25%；作者采用太阳辐照 441.1 W/m²，即今值的 75%，对应 38 亿年前标准太阳演化模型。地层学证据：河谷网络在诺亚纪—赫斯珀里亚纪之交（该文分析中约 35 亿年前）停止发育；年代约束来自撞击坑统计。
+- 模型：LMD Generic Climate Model，动力核心为 LMDZ 三维原始方程组有限差分，守恒位势涡度与总角动量；水平选择性超扩散，顶层线性阻尼消反射；边界层用 Mellor–Yamada 与 Galperin 方案；地表粗糙度 z0 = 1×10⁻² m。分辨率经度×纬度×高度 = 32×32×15（干大气对照文用 32×24×15），兼顾纬向水汽输送与长期演化的算力。
+- 辐射传输：HITRAN 2008 谱库；温度 100–350 K（6 点，步长 50）、气压 10⁻³ 至 10⁵ mbar（9 点，对数）、水汽体积混合比 10⁻⁷ 至 10⁻¹（7 点）的网格；相关 k 分布法，长波 32 波段、短波 36 波段、g 空间 16 点；含 CO₂ 碰撞诱导吸收，H₂O 线在 25 cm⁻¹ 截断，连续谱用 CKD 模型；晴空一维测试中 H₂O 连续谱对全球均温影响小于 1 K。两流方案处理 CO₂ 与 H₂O 云及瑞利散射。
+- 水循环：三种示踪物（CO₂ 冰、H₂O 冰、水汽），随大气平流、湍流与对流混合，参与升华／蒸发、凝结和地表交换；云粒子尺度由凝结量与云凝结核数密度决定，CO₂ 云的凝结核数取 10⁵ kg⁻¹ 全局常数；沉降用跨压强范围的斯托克斯定律版本；H₂O 降水按云水含量阈值 l0 = 0.001 kg/kg 参数化并考虑降水蒸发。
+- 地表：反照率岩石 0.2、液态水 0.07、CO₂／H₂O 冰 0.5；冰量低于 33 kg/m²（约 3.5 cm 均匀层）时按线性插值做部分覆盖；热惯量均一取 250 J m⁻² s⁻¹/² K⁻¹，土壤热扩散用 18 层模型；冰点 273 K，计入熔化潜热，未计径流。
+- 冰平衡加速算法：辐射弛豫时标 τr = cp ps/(σ g Te³)，代入 Te = 200 K、cp = 800 J/K/kg、ps = 1 bar、g = 3.72 m/s² 得约 1 个火星年；标准模式跑 1 个火星年约需 5 小时，而地表冰分布达稳态需数千年以上。改为每次正常跑 2 年、取第二年冰变化率乘多年步长外推；前 5 次迭代步长 100 年，后 15 次改为 10 年。总冰量设为 M = 4πR² qcovered（对应全球均匀 3.5 cm），偏保守（真实诺亚纪水量可能更大）。初值分「低地冰」（海拔低于 −4 km）与「极地冰」（纬度绝对值大于 80°）两类。
+- 地形：多数模拟用现今地形；另按公式 φmod = φ − (φ + 4000g) exp[−(χ/65°)^4.5]，χ = ([θ+100°]² + λ²)^0.5，把塔尔西斯隆起削去做对照。倾角取 25° 与 45°，偏心率为 0；CO₂ 分压扫描 0.008 至 2 bar。
+- 固定湿度试验：0.2 至 2 bar 范围，饱和水汽相对干 CO₂ 大气增温数 K 至约 20 K；全球年均温从未越过 273 K，但年均最高温在所有算例都超过 273 K。气压高于 2 bar 或低于 0.5 bar 时出现永久性 CO₂ 冰帽（大气坍塌），0.5 至 2 bar 间 CO₂ 冰为季节性。
+- 绝热冷却效应：0.008 与 0.2 bar 时温差主要随纬度变化；约 1 bar（近地球气压）时温度与海拔高度的相关占主导，实验室证据最密集的南部诺亚纪高地恰在全球最冷之列。0.2 bar 时只有高地小块区域曾超过 273 K；1 bar 时季节最高温仅在北方平原、阿拉伯高地部分地区与希腊、阿尔及尔盆地超过 273 K，绝对最高温则除塔尔西斯与南极外几乎全星球越线。
+- 自洽水循环结果：1 bar、25° 倾角下，从「低地冰」和「极地冰」两种初值出发收敛到相似终态——两极以及全星球最高海拔处（塔尔西斯、奥林匹斯山、埃律西昂山、希腊盆地周边诺亚纪地形）积冰；赤道大量积冰抬高行星反照率，末年（第 40 年）均温约 233 K，比等效 100% 湿度试验低数度。第 40 年末赤道与南方冰量仍在缓慢增加，代价是南纬约 40° 附近的沉积。45° 倾角下北极冰完全消失，北半球高倾角区均温约 235 K（即使北纬 5° 以北）。
+- 低压对照：0.008 与 0.04 bar 下冰迁移极慢、极地出现永久 CO₂ 冰帽，40 年后仍未精确收敛；冰主要在两极，塔尔西斯上较少，与 1 bar 由海拔主导的格局相反。0.008 bar 数年后接近季节性 CO₂ 蒸汽压平衡，0.04 bar 气压持续缓降。
+- 大气环流：1 bar 终态年平均环流为赤道西风急流，绝对纬度 40° 以上转东风；垂向速度因南北地形二分不对称，北纬约 20° 附近有强垂直切变，南北纬约 50° 有大片下沉区，解释了中纬度冰的迁出。季节降水：Ls 0°–180° 北方降雪较强，180°–360° 南方（尤其希腊盆地周边高地）降雪较弱。CO₂ 云在高空、随纬度变化小；H₂O 云低得多，北半球含量更大；H₂O 云粒子典型 2–10 µm。
+- 云的不确定性：取消 H₂O 云光学厚度后气候变化小于 5 K；变动凝结核与降水阈值的常规测试中均温总变化小于 1 K（如 10⁴ kg⁻¹、l0 = 0.001 时 233.2 K、反照率 0.45）；完全去掉降水阈值时云层极厚、反照率升至 0.76–0.79、均温降到 199.8–214.0 K 并通常触发 CO₂ 冰川，作者判定该组参数物理上不可靠。
+- 瞬时融化：1 bar、25° 倾角、40 年后，液态水零星出现，北半球更多；纬度 45° 倾角下绝大多数融化事件移到南半球。倾角降为 0 时赤道均温略升但缺季节变化，年最高温反而下降，年最大地表液态水净减少。把冰反照率由 0.5 降到 0.3，融化范围略扩；把热惯量由 250 提到 1000 J m⁻² s⁻¹/² K⁻¹，瞬时地表融化几乎完全停止。作者称后者代表潜在融化的下限，地表（区别于冰床底部）融化应限于冰盖边缘小区域。
+- 南极冰与地层对照：Dorsa Argentea Formation 为富挥发分的南极沉积，面积可能达火星表面的约 2%，形成于晚诺亚纪至早赫斯珀里亚纪。模拟在 0.2 至 1 bar、现今倾角下形成的南极水冰盖大体覆盖该地层分布区；1 bar 时冰盖纬度范围最大。
+- 外部加热机制：撞击产生蒸汽大气的假说引 Segura 等（直径 30–250 km 撞击体，可持续数千年），作者指出侵蚀量级存在约 10⁴ 倍争议、年轻大撞击坑 Lyot 缺少融化证据。火山硫化物的一维增温估计 27–70 K，尘埃 2–10 K，但 Tian 等（2010）认为硫酸盐气溶胶反温室使净效应转冷；作者强调该结论来自未含 CO₂ 云的一维模型。
+- 冰床底部融化：Dorsa Argentea Formation 的蛇形丘指示湿冰床；Fastook 等（2012）算出在诺亚纪—赫斯珀里亚纪地热通量 45–65 mW/m² 下，需要南极年均温 −50 至 −75 摄氏度才产生显著底部融化，与本文 1 bar 模拟区间大致吻合。
+- 结论与边界：仅含 CO₂ 与 H₂O（含 CO₂ 云）的早期火星不可能长期温暖湿润；即使稳态均温约 230 K，季节与日变化仍能造成局部融化，但强烈依赖地表反照率与热惯量假设。未纳入尘埃、火山排放；未直接在三维里模拟撞击；未耦合地下／水文方案。

@@ -1,0 +1,26 @@
+TITLE: The Structure of the Milky Way's Bar Outside the Bulge
+VENUE: Mon. Not. R. Astron. Soc. 000, 1–18 (2015)；arXiv:1504.01401v1 [astro-ph.GA]，2015 年 4 月 6 日；印刷版 2015 年 4 月 8 日
+TYPE: journal article (open access, arXiv 预印本)
+CITED: 400
+AUTHORS: Christopher Wegg, Ortwin Gerhard, Matthieu Portail（Max-Planck-Institut für Extraterrestrische Physik, Garching）
+URL: https://arxiv.org/abs/1504.01401
+FULL TEXT: arXiv 全文已抓取（.tmp/mwbar.txt，约 10 万字符，正文 18 页含图表与附录）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+While it is incontrovertible that the inner Galaxy contains a bar, its structure near the Galactic plane has remained uncertain, where extinction from intervening dust is greatest. We investigate here the Galactic bar outside the bulge, the long bar, using red clump giant (RCG) stars from UKIDSS, 2MASS, VVV, and GLIMPSE. We match and combine these surveys to investigate a wide area in latitude and longitude, |b| ≤ 9° and |l| ≤ 40°. We find: (i) The bar extends to l ~ 25° at |b| ~ 5° from the Galactic plane, and to l ~ 30° at lower latitudes. (ii) The long bar has an angle to the line-of-sight in the range (28−33)°, consistent with studies of the bulge at |l| < 10°. (iii) The scale-height of RCG stars smoothly transitions from the bulge to the thinner long bar. (iv) There is evidence for two scale heights in the long bar. We find a ~ 180 pc thin bar component reminiscent of the old thin disk near the sun, and a ~ 45 pc super-thin bar component which exists predominantly towards the bar end. (v) Constructing parametric models for the RC magnitude distributions, we find a bar half length of 5.0 ± 0.2 kpc for the 2-component bar, and 4.6 ± 0.3 kpc for the thin bar component alone. We conclude that the Milky Way contains a central box/peanut bulge which is the vertical extension of a longer, flatter bar, similar as seen in both external galaxies and N-body models.
+
+KEY NUMBERS（正文，出处层级：论文正文、表格与图注）:
+============================================================
+- 天区：|l| < 40°、|b| < 9°；近银面 |b| < 1.2° 用 1°×0.3° 视场，离银面用 2°×0.6° 视场；星计数用 0.1° 的高斯核平滑。
+- 数据：UKIDSS、2MASS、VVV 的 Ks 波段加 GLIMPSE 的 4.5 微米波段；逐星用 H−Ks 红化做消光改正，长波 H−[4.5µ] 做交叉检验，两法 Ks 消光差小于 0.05 星等，低消光处系统差约 0.07 星等；红团簇绝对星等标度 MKs,RC = −1.72，太阳距银心 R0 ≈ 8.3 kpc。
+- 红团簇拟合：每视场用高斯加指数背景做 χ² 拟合；判据包括红团簇检出大于 3σ、σRC < 0.6 星等；解析扩展到 l 约 20°、|b| 约 5°，在 l 大于约 30° 处条件变差。
+- 棒的延伸：|b| 约 5° 处延伸到 l 约 25°，更低纬度到 l 约 30°；图 5 中目视直棒至少到 l 约 22°，给出半长下界约 4.0 kpc。
+- 棒角争议：早期长棒研究给出约 45°，N 体与核球研究给出约 25−30°（Wegg & Gerhard 2013 为 27±2°）；本文参数拟合给出 28.4°（单分量）、29.1°（薄分量）、30.0°（超薄分量），计入金属丰度与星形成史的系统变化后取 α = 28−33°。
+- 垂直结构：红团簇数随银纬按单指数与双指数拟合；在 l = 20°、距离约 5.2 kpc 处，两个角尺度约 0.5° 与约 2°，对应约 45 pc 与约 180 pc；厚标高空前从核球到盒花生区增大，再沿长棒持续减小到棒端小于 1°。
+- 两分量趋势：约 180 pc 的薄棒密度向外下降，类比太阳附近老薄盘；约 45 pc 的超薄棒密度向外上升，集中在棒端，推测与约 10 亿年量级的年轻星有关。太阳位于银面之上约 25 pc，棒相对真实银面偏移不超过约 5 pc。
+- 表 1：约化 χ² 从纯 N 体模型的 2.06 降到单分量 1.58、双分量 1.54；双分量参数中薄分量 α=29.1°、z0=0.20 kpc、Rout=4.37 kpc，超薄分量 α=30.0°、z0=0.04 kpc、Rout=3.36 kpc。
+- 表 2：棒质量（10^9 太阳质量）为 N 体 11.0、薄棒 4.0、超薄棒 3.3、合计 18.1；四种半长定义 Ldrop / Lm=2 / Lprof / Lmod 在双分量模型中分别为 4.98 / 4.96 / 5.23 / 4.73 kpc；单分量为 5.50 / 5.44 / 5.65 / 4.87 kpc；纯 N 体为 4.19 / 4.03 / 4.21 kpc。
+- 半长结论：双分量取 5.0±0.2 kpc，只算薄分量取 4.6±0.3 kpc；把球状分布密度减半会把 5.0±0.2 改为 4.6±0.2 kpc。
+- 质量系统误差：从 Kroupa 改成 Salpeter 初始质量函数使长棒质量增大 1.43 倍；从 10 Gyr 老年族改成恒定星形成史使质量减半；总棒质量基准 1.8×10^10 太阳质量。
+- 动力学含义：共转半径须在 5.0±0.2 kpc 之外，图样速度上限约 (45±2) 千米每秒每千秒差距；盒状核球直径约 2.3 kpc，棒长约 8.8 kpc，比值约 0.26。
