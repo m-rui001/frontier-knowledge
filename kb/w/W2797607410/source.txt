@@ -1,0 +1,27 @@
+TITLE: Microscopic clustering in light nuclei
+VENUE: Reviews of Modern Physics 90, 035002 (2018)；DOI 10.1103/RevModPhys.90.035002；arXiv 1705.06192
+TYPE: review (open access)
+CITED: 400
+AUTHORS: Martin Freer, Hisashi Horiuchi, Yoshiko Kanada-En'yo, Dean Lee, Ulf-G. Meißner（Birmingham / Osaka / Kyoto / MSU / Bonn）
+URL: https://arxiv.org/abs/1705.06192
+FULL TEXT: arXiv PDF 已抓取并用 pypdf 提取（.tmp/nuclei.txt，26 万字符，50 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+We review recent experimental and theoretical progress in understanding the microscopic details of
+clustering in light nuclei. We discuss recent experimental results on alpha-conjugate systems,
+molecular structures in neutron-rich nuclei, and constraints for ab initio theory. We then examine
+nuclear clustering across a wide range of theoretical methods, including the resonating group and
+generator coordinate methods, antisymmetrized molecular dynamics, Tohsaki-Horiuchi-Schuck-Röpke
+wave function and container model, no-core shell model methods, continuum quantum Monte Carlo, and
+lattice effective field theory.
+
+KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 主题：轻核中的集团（clustering）结构——核子聚成 α 粒子等子结构的微观图像。
+- 实验进展：α-共轭体系（N-α 结构、链状结构）、富中子核中的分子结构、约束 ab initio 理论的关键测量。
+- 理论方法全景：共振群法/生成坐标法、反对称化分子动力学（AMD）、THSR 波函数与容器模型、
+  无核壳模型（no-core shell model）、连续量子蒙特卡洛、格点有效场论。
+- 核心问题：集团结构与平均场图像的统一——集团如何在不破坏反对称化的前提下从微观核子-核子
+  相互作用中涌现；12C 的 3α 结构里集团破碎效应。
+- 定位：RMP 综述（50 页），面向核结构研究者，覆盖实验与理论两端。

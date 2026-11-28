@@ -1,0 +1,27 @@
+TITLE: Mean Estimation and Regression Under Heavy-Tailed Distributions: A Survey
+VENUE: Foundations and Trends in Machine Learning 12(5), 386–588 (2019)；arXiv 1906.04280
+TYPE: survey (open access)
+CITED: 386
+AUTHORS: Gábor Lugosi, Shahar Mendelson（Pompeu Fabra / ICREA / Technion）
+URL: https://arxiv.org/abs/1906.04280
+FULL TEXT: arXiv PDF 已抓取并用 pypdf 提取（.tmp/heavytail.txt，10.3 万字符，52 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+We survey recent advances in mean estimation and regression function estimation. In particular, we
+describe sub-Gaussian mean estimators for possibly heavy-tailed data, both univariate and
+multivariate. We focus on estimators based on median-of-means techniques, but other methods such as
+the trimmed mean and Catoni's estimator are also reviewed. We give detailed proofs for the
+cornerstone results. We dedicate a section to statistical learning problems—in particular,
+regression function estimation—in the presence of possibly heavy-tailed data.
+
+KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 主题：重尾分布下的均值估计与回归函数估计。
+- 核心问题：经典样本均值在重尾数据下方差大、集中性差；如何构造具有亚高斯（sub-Gaussian）
+  集中性的均值估计器。
+- 方法：median-of-means（分块取中位数）为中心，兼及截尾均值（trimmed mean）、Catoni 估计器。
+- 覆盖：单变量与多变量设置；统计学习中的回归函数估计（重尾噪声/设计）。
+- 特点：给出核心结果的详细证明（综述兼教程）。
+- 关键词：mean estimation, heavy-tailed distributions, robustness, regression, statistical learning。
+- 定位：理论统计/学习理论的综述，数学门槛高。

@@ -1,0 +1,30 @@
+TITLE: Purinergic receptor P2RY12-dependent microglial closure of the injured blood–brain barrier
+VENUE: PNAS 113(4), 1074–1079 (2016)；DOI 10.1073/pnas.1521508113；PMC4743790
+TYPE: journal article (open access)
+CITED: 399
+AUTHORS: (详见原文；神经免疫团队)
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC4743790/
+FULL TEXT: PMC HTML 全文已抓取（.tmp/p2ry12.txt，6.2 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Microglia are integral functional elements of the central nervous system, but their contribution to
+the structural integrity of the neurovascular unit has not been assessed. We show that following
+blood–brain barrier (BBB) breakdown, P2RY12-mediated chemotaxis of microglial processes is required
+for rapid closure of the BBB. Mice treated with the P2RY12 inhibitor clopidogrel, as well as those
+in which P2RY12 was genetically ablated, exhibited significantly diminished movement of juxtavascular
+microglial processes and failed to close laser-induced openings of the BBB. Thus, microglial cells
+play a previously unrecognized protective role in maintaining BBB integrity following cerebrovascular
+damage. Because clopidogrel antagonizes the platelet P2Y12 receptor and is widely prescribed for
+coronary and cerebrovascular disease, the findings suggest caution in postincident continuation of
+P2RY12-targeted platelet inhibition.
+
+KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 对象：小胶质细胞（microglia）对血脑屏障（BBB）结构完整性的贡献。
+- 发现：BBB 破损后，P2RY12 介导的小胶质细胞突起趋化是快速封闭 BBB 所必需的。
+- 实验：激光诱导单毛细血管损伤（软膜下 80–150 µm）；光消融小胶质细胞使 BBB 渗漏无法封闭；
+  抑制 P2RY12 或基因敲除使突起运动减少、BBB 封闭延迟。
+- 药物关联：氯吡格雷（clopidogrel）是 P2Y12 拮抗剂、广泛用于冠心病与脑血管病；本研究提示
+  事件后继续 P2RY12 靶向的血小板抑制需谨慎。
+- 意义：揭示小胶质细胞在脑血管损伤后维持 BBB 的完整、此前未被认识的保护作用。
