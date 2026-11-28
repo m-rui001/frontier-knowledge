@@ -1,28 +1,33 @@
 {
- "method": "小众线批1：非AI前沿小众（放宽时间窗2020-2023，被引50-300，OA全文）",
+ "method": "小众线批2：非AI前沿小众（VO2超表面/Trem2泡沫巨噬细胞/火星核硅酸盐层）",
  "source": "OpenAlex 自建 niche_pool（.tmp/scout_niche.py，10个非AI领域）",
  "queue": [
   {
-   "wid": "W4388693699",
-   "field": "物理·镍基超导"
+   "wid": "W4388824151"
   },
   {
-   "wid": "W4224244679",
-   "field": "地球·海洋热浪"
+   "wid": "W4388020422"
   },
   {
-   "wid": "W4388520583",
-   "field": "物理·手性声子"
-  },
-  {
-   "wid": "W4205987659",
-   "field": "数学统计·E-values"
+   "wid": "W4387950067"
   }
  ],
  "excluded": [
   {
    "wid": "W4385984544",
-   "reason": "无合法全文（Wiley 403），按新规不写"
+   "reason": "Wiley 403无全文"
+  },
+  {
+   "wid": "W4388424601",
+   "reason": "Cell 403"
+  },
+  {
+   "wid": "W4388215071",
+   "reason": "Science 403"
+  },
+  {
+   "wid": "W4388863022",
+   "reason": "eLife 拦截页"
   }
  ],
  "rules": [

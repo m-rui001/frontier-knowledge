@@ -1,0 +1,31 @@
+TITLE: Evidence for a liquid silicate layer atop the Martian core
+VENUE: Nature 626, 717–722 (2024)；DOI 10.1038/s41586-023-06586-4
+TYPE: journal article
+CITED: 136
+AUTHORS: (详见原文；行星内部团队)
+URL: https://www.nature.com/articles/s41586-023-06586-4
+FULL TEXT: Nature HTML 全文已抓取（.tmp/silicate.txt，5.6 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Seismic recordings from the InSight mission suggested Mars's liquid core would need to be
+approximately 27% lighter than pure liquid iron, implying a considerable complement of light
+elements. Core compositions based on seismic and bulk geophysical constraints, however, require
+larger quantities of volatile elements (hydrogen, carbon, sulfur) than were cosmochemically
+available in the likely building blocks of Mars. Here we show that multiply diffracted P waves
+along a stratified core–mantle boundary region, combined with first-principles computations of the
+thermoelastic properties of liquid iron-rich alloys, require a fully molten silicate layer
+overlying a smaller, denser liquid core. Inverting differential body wave travel time data with
+particular sensitivity to the core–mantle boundary suggests a decreased core radius of 1,675 ± 30 km
+with increased density of 6.65 ± 0.1 g/cm3, relative to previous models, while the thickness and
+density of the molten silicate layer are 150 ± 15 km and 4.05 ± 0.05 g/cm3, respectively.
+
+KEY NUMBERS（正文，出处层级：论文正文）:
+============================================================
+- InSight 地震：火星液态核需比纯液态铁轻约 27%，暗示大量轻元素。
+- 矛盾：地震+地球物理约束所需挥发元素（H/C/S）超出火星建造块中宇宙化学可得的量。
+- 方法：核幔边界分层区的多次衍射 P 波 + 富铁液体热弹性性质的第一性原理计算。
+- 结果：完全熔融的硅酸盐层覆盖在更小更密的液态核之上。
+  核半径 1675±30 km（较此前模型减小），核密度 6.65±0.1 g/cm³（增大）；
+  熔融硅酸盐层厚 150±15 km、密度 4.05±0.05 g/cm³。
+- 意义：这组核性质调和了此前地震与宇宙化学的不一致。

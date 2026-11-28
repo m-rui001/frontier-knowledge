@@ -1,0 +1,33 @@
+TITLE: Trem2 promotes foamy macrophage lipid uptake and survival in atherosclerosis
+VENUE: Nature Cardiovascular Research 2, 1122–1135 (2023)；DOI 10.1038/s44161-023-00354-3
+TYPE: journal article (open access)
+CITED: 225
+AUTHORS: (详见原文)
+URL: https://www.nature.com/articles/s44161-023-00354-3
+FULL TEXT: Nature HTML 全文已抓取（.tmp/trem2.txt，11.2 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Atherosclerosis is driven by the expansion of cholesterol-loaded 'foamy' macrophages in the arterial
+intima. Factors regulating foamy macrophage differentiation and survival in plaque remain poorly
+understood. Here we show, using trajectory analysis of integrated single-cell RNA sequencing data
+and a genome-wide CRISPR screen, that triggering receptor expressed on myeloid cells 2 (Trem2) is
+associated with foamy macrophage specification. Loss of Trem2 led to a reduced ability of foamy
+macrophages to take up oxidized low-density lipoprotein (oxLDL). Myeloid-specific deletion of Trem2
+showed an attenuation of plaque progression, even when targeted in established atherosclerotic
+lesions, and was independent of changes in circulating cytokines, monocyte recruitment or
+cholesterol levels. Mechanistically, we link Trem2-deficient macrophages with a failure to
+upregulate cholesterol efflux molecules, resulting in impaired proliferation and survival. Overall,
+we identify Trem2 as a regulator of foamy macrophage differentiation and survival.
+
+KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 背景：动脉粥样硬化由动脉内膜中负载胆固醇的"泡沫"巨噬细胞扩张驱动；调控其分化与存活的
+  因素了解不足。
+- 方法：整合单细胞 RNA 测序数据的轨迹分析 + 全基因组 CRISPR 筛选。
+- 发现：Trem2（髓系细胞触发受体 2）与泡沫巨噬细胞特化相关；Trem2 缺失使泡沫巨噬细胞
+  摄取氧化低密度脂蛋白（oxLDL）能力下降。
+- 关键结果：髓系特异性敲除 Trem2 减缓斑块进展，即使在已形成的斑块中靶向也有效，且独立于
+  循环细胞因子、单核细胞募集或胆固醇水平的变化。
+- 机制：Trem2 缺失的巨噬细胞无法上调胆固醇外流分子，导致增殖与存活受损。
+- 定位：Trem2 是泡沫巨噬细胞分化与存活的调控因子。

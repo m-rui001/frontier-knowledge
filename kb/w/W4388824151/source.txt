@@ -1,0 +1,27 @@
+TITLE: Electrically tunable VO2–metal metasurface for mid-infrared switching, limiting and isolated transmission
+VENUE: Light: Science & Applications 12, 61 (2023)；arXiv 2303.09060
+TYPE: journal article (open access)
+CITED: 200
+AUTHORS: (详见原文)
+URL: https://arxiv.org/abs/2303.09060
+FULL TEXT: arXiv PDF 已抓取并用 pypdf 提取（.tmp/vo2meta.txt，6.2 万字符，27 页）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+We demonstrate an electrically controlled metal-VO2 metasurface for the mid-wave infrared that
+simultaneously functions as a tunable optical switch, an optical limiter with a tunable limiting
+threshold, and a nonlinear optical isolator with a tunable operating range. The tunability is
+achieved via Joule heating through the metal comprising the metasurface, resulting in an integrated
+optoelectronic device. As an optical switch, the device has an experimental transmission ratio of
+~100 when varying the bias current. Operating as an optical limiter, we demonstrated tunability of
+the limiting threshold from 20 mW to 180 mW of incident laser power. Similar degrees of tunability
+are also achieved for nonlinear optical isolation, which enables asymmetric (nonreciprocal)
+transmission.
+
+KEY NUMBERS（正文，出处层级：论文正文）:
+============================================================
+- 材料机制：VO2 在约 68°C 附近发生可逆的绝缘体-金属相变（IMT），电阻与光学性质剧变。
+- 器件：金属-VO2 超表面，中波红外；通过金属焦耳加热电控相变，做成集成光电器件。
+- 三种功能于一体：可调光开关（开关比 ~100）、可调限幅器（阈值 20–180 mW 入射激光功率）、
+  非线性光隔离器（非互易/非对称传输，工作范围可调）。
+- 意义：单一超表面同时实现开关/限幅/隔离三种功能，靠同一电控机制，集成度高。
