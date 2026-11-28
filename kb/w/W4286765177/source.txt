@@ -1,0 +1,28 @@
+TITLE: Declining tropical cyclone frequency under global warming
+VENUE: Nature Climate Change 13, 655–661 (2023)；DOI 10.1038/s41558-022-01388-4
+TYPE: journal article
+CITED: 299
+AUTHORS: (详见原文；气候归因团队)
+URL: https://www.nature.com/articles/s41558-022-01388-4
+FULL TEXT: Nature HTML 全文已抓取（.tmp/cyclone.txt，7.9 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Assessing the role of anthropogenic warming from temporally inhomogeneous historical data in the
+presence of large natural variability is difficult and has caused conflicting conclusions on
+detection and attribution of tropical cyclone (TC) trends. Here, using a reconstructed long-term
+proxy of annual TC numbers together with high-resolution climate model experiments, we show robust
+declining trends in the annual number of TCs at global and regional scales during the twentieth
+century. The Twentieth Century Reanalysis (20CR) dataset is used for reconstruction because,
+compared with other reanalyses, it assimilates only sea-level pressure fields rather than all
+available observations, making it less sensitive to the inhomogeneous observing system.
+
+KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 难题：历史观测在时间上不均匀、自然变率大，导致热带气旋（TC）趋势的检测与归因结论冲突。
+- 方法：重建的长期年 TC 数代理指标 + 高分辨率气候模式试验。
+- 关键数据源：20CR（Twentieth Century Reanalysis），只同化海平面气压场而非所有可用观测，
+  对观测系统的不均匀性不敏感——这是它相对其它再分析资料的优势。
+- 结论：二十世纪全球与区域尺度的年 TC 数呈稳健下降趋势。
+- 语境：论文 2023-11-20 在线发表；与"变暖导致 TC 更强/更频繁"的常见叙事形成对照——
+  频率下降与强度变化是两个不同问题。

@@ -1,0 +1,29 @@
+TITLE: Nonrandom Exposure to Exogenous Shocks
+VENUE: Econometrica 91(6), 2151–2185 (2023)；arXiv/PMC 10795685
+TYPE: journal article (open access)
+CITED: 293
+AUTHORS: (详见原文；计量经济学方法)
+URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC10795685/
+FULL TEXT: PMC HTML 全文已抓取（.tmp/shocks.txt，11 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+We develop a new approach to estimating causal effects of treatments or instruments that combine
+multiple sources of variation according to a known formula. Examples include treatments capturing
+spillovers in social or transportation networks and simulated instruments for policy eligibility.
+We show how exogenous shocks to some, but not all, determinants of such variables can be leveraged
+while avoiding omitted variables bias. Our solution involves specifying counterfactual shocks that
+may as well have been realized and adjusting for a summary measure of non-randomness in shock
+exposure: the average treatment (or instrument) across shock counterfactuals. We use this approach
+to address bias when estimating employment effects of transportation infrastructure.
+
+KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 问题：当处理变量/工具变量按已知公式组合多种变异来源时（如社会/交通网络中的溢出、
+  政策资格模拟工具），如何估计因果效应。
+- 洞见：只对部分（非全部）决定因素有外生冲击时也能用，同时避免遗漏变量偏误（OVB）。
+- 方法：设定"本来也可能实现"的反事实冲击，用一个汇总量校正冲击暴露的非随机性——
+  即跨冲击反事实的平均处理（或工具）值。
+- 应用：估计交通基础设施对就业的影响（中国市场准入增长），展示如何在实践中避免 OVB。
+- 关键词：exogenous shocks, omitted variables bias, spillovers, network, instruments。
+- 定位：计量经济学因果推断方法论文。

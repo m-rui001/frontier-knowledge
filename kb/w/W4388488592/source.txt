@@ -1,0 +1,31 @@
+TITLE: Preserved neural dynamics across animals performing similar behaviour
+VENUE: Nature 623, 301–307 (2023)；DOI 10.1038/s41586-023-06714-0
+TYPE: journal article
+CITED: 191
+AUTHORS: (详见原文；神经科学团队)
+URL: https://www.nature.com/articles/s41586-023-06714-0
+FULL TEXT: Nature HTML 全文已抓取（.tmp/neurodyn.txt，10.8 万字符）
+
+ABSTRACT（原文摘要，逐句来自正文）:
+============================================================
+Animals of the same species exhibit similar behaviours, shaped at the species level by selection
+pressures over evolutionary timescales. Yet it remains unclear how these common behavioural
+adaptations emerge from the idiosyncratic neural circuitry of each individual. The overall
+organization of neural circuits is preserved across individuals because of their common
+evolutionarily specified developmental programme. Such circuit-level organization may constrain
+neural activity, leading to low-dimensional latent dynamics across the neural population. Here we
+suggested that shared circuit-level constraints within a species would lead to suitably preserved
+latent dynamics across individuals. We analysed recordings of neural populations from monkey and
+mouse motor cortex to demonstrate that neural dynamics in individuals of the same species are
+surprisingly preserved when they perform similar behaviour.
+
+KEY CONTENT（正文，出处层级：论文正文）:
+============================================================
+- 问题：同种动物的相似行为如何从各自独特的神经回路中产生？
+- 假设：共同进化指定的发育程序使回路整体组织在同种个体间保守，约束神经活动形成
+  低维潜在动力学（low-dimensional latent dynamics）；同种的共享约束应导致个体间潜在动力学
+  被"适度保留"。
+- 方法：分析猴与鼠运动皮层的神经群体记录；比较执行相似行为的同种个体间的潜在动力学。
+- 结果：同种个体执行相似行为时，神经动力学的保留程度出人意料地高。
+- 稳健性：结果不依赖所假设的神经流形维度、对齐方法等（Extended Data 多图验证）。
+- 意义：行为共性可能源于回路层面的保守约束与低维动力学，而非每个个体独立学会。
